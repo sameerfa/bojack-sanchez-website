@@ -1492,19 +1492,77 @@ body {
 .progress-bar,
 #episode-page-content .progress-bar {
     width: 100%;
-    height: 6px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 3px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
     overflow: hidden;
     cursor: pointer;
+    position: relative;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.progress-fill,
-#episode-page-content .progress-fill {
+#progress-slider,
+#episode-page-content #progress-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
-    border-radius: 3px;
+    opacity: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    outline: none;
+}
+
+#progress-slider::-webkit-slider-thumb,
+#episode-page-content #progress-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--accent);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(45, 212, 191, 0.8);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+#progress-slider:hover::-webkit-slider-thumb,
+#episode-page-content #progress-slider:hover::-webkit-slider-thumb,
+.progress-bar:hover #progress-slider::-webkit-slider-thumb,
+#episode-page-content .progress-bar:hover #progress-slider::-webkit-slider-thumb {
+    opacity: 1;
+}
+
+#progress-slider::-moz-range-thumb,
+#episode-page-content #progress-slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--accent);
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px rgba(45, 212, 191, 0.8);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+#progress-slider:hover::-moz-range-thumb,
+#episode-page-content #progress-slider:hover::-moz-range-thumb {
+    opacity: 1;
+}
+
+#progress-fill,
+#episode-page-content #progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent) 0%, #3bb3aa 100%);
+    border-radius: 4px;
     transition: width 0.1s ease;
+    width: 0%;
+    box-shadow: 0 0 10px rgba(45, 212, 191, 0.5);
 }
 
 .time-display,

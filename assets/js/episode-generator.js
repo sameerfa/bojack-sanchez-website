@@ -322,9 +322,11 @@ class EpisodePageGenerator {
     
 
     return `
-      <div class="custom-audio-player">
-        <audio id="episode-audio" preload="metadata">
+      <div class="custom-audio-player" id="audio-player-container">
+        <audio id="episode-audio" preload="metadata" crossorigin="anonymous">
           <source src="${this.currentEpisode.audioUrl}" type="audio/mpeg">
+          <source src="${this.currentEpisode.audioUrl}" type="audio/mp3">
+          <source src="${this.currentEpisode.audioUrl}" type="audio/wav">
           <p>Your browser doesn't support audio playback. <a href="${this.currentEpisode.audioUrl}">Download the episode</a></p>
         </audio>
         
@@ -448,59 +450,203 @@ class EpisodePageGenerator {
   }
 }
 
+// Enhanced Audio Player with robust state management
+class EnhancedAudioPlayer {
+  constructor() {
+    this.audio = null;
+    this.isInitialized = false;
+    this.isPlaying = false;
+    this.isDragging = false;
+    this.currentTime = 0;
+    this.duration = 0;
+    
+    this.elements = {};
+    this.init();
+  }
+
+  init() {
+    // Get DOM elements
+    this.audio = document.getElementById('episode-audio');
+    this.elements = {
+      playPauseBtn: document.getElementById('play-pause-btn'),
+      progressSlider: document.getElementById('progress-slider'),
+      volumeSlider: document.getElementById('volume-slider'),
+      currentTimeDisplay: document.getElementById('current-time'),
+      totalTimeDisplay: document.getElementById('total-time'),
+      progressFill: document.getElementById('progress-fill'),
+      playIcon: document.querySelector('.play-icon'),
+      pauseIcon: document.querySelector('.pause-icon'),
+      volumeIcon: document.querySelector('.volume-icon')
+    };
+
+    if (!this.audio || !this.elements.playPauseBtn) {
+      console.warn('Audio player elements not found');
+      return;
+    }
+
+    this.setupEventListeners();
+    this.setInitialState();
+    this.isInitialized = true;
+  }
+
+  formatTime(seconds) {
+    if (isNaN(seconds) || !isFinite(seconds)) return '0:00';
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  }
+
+  updateProgress() {
+    if (this.isDragging || !this.audio || !this.audio.duration || isNaN(this.audio.duration)) return;
+    
+    const progress = (this.audio.currentTime / this.audio.duration) * 100;
+    this.elements.progressSlider.value = progress;
+    this.elements.progressFill.style.width = `${progress}%`;
+    this.elements.currentTimeDisplay.textContent = this.formatTime(this.audio.currentTime);
+  }
+
+  updateDuration() {
+    if (!this.audio || !this.audio.duration || isNaN(this.audio.duration)) return;
+    
+    this.duration = this.audio.duration;
+    this.elements.totalTimeDisplay.textContent = this.formatTime(this.duration);
+  }
+
+  resetProgress() {
+    this.elements.progressSlider.value = 0;
+    this.elements.progressFill.style.width = '0%';
+    this.elements.currentTimeDisplay.textContent = '0:00';
+    this.showPlayIcon();
+  }
+
+  showPlayIcon() {
+    this.elements.playIcon.style.display = 'inline';
+    this.elements.pauseIcon.style.display = 'none';
+    this.isPlaying = false;
+  }
+
+  showPauseIcon() {
+    this.elements.playIcon.style.display = 'none';
+    this.elements.pauseIcon.style.display = 'inline';
+    this.isPlaying = true;
+  }
+
+  setupEventListeners() {
+    // Play/Pause button
+    this.elements.playPauseBtn.addEventListener('click', () => {
+      if (this.audio.paused) {
+        this.audio.play().then(() => {
+          this.showPauseIcon();
+        }).catch(err => {
+          console.error('Play failed:', err);
+          this.showPlayIcon();
+        });
+      } else {
+        this.audio.pause();
+        this.showPlayIcon();
+      }
+    });
+
+    // Audio events
+    this.audio.addEventListener('loadedmetadata', () => {
+      this.updateDuration();
+    });
+
+    this.audio.addEventListener('durationchange', () => {
+      this.updateDuration();
+    });
+
+    this.audio.addEventListener('timeupdate', () => {
+      this.updateProgress();
+    });
+
+    this.audio.addEventListener('ended', () => {
+      this.resetProgress();
+    });
+
+    this.audio.addEventListener('pause', () => {
+      this.showPlayIcon();
+    });
+
+    this.audio.addEventListener('play', () => {
+      this.showPauseIcon();
+    });
+
+    this.audio.addEventListener('loadstart', () => {
+      this.resetProgress();
+      this.elements.totalTimeDisplay.textContent = '--:--';
+    });
+
+    this.audio.addEventListener('error', (e) => {
+      console.error('Audio error:', e);
+      this.resetProgress();
+      this.elements.totalTimeDisplay.textContent = 'Error';
+    });
+
+    // Progress slider events
+    this.elements.progressSlider.addEventListener('mousedown', () => {
+      this.isDragging = true;
+    });
+
+    this.elements.progressSlider.addEventListener('mouseup', () => {
+      this.isDragging = false;
+      if (this.audio.duration && !isNaN(this.audio.duration)) {
+        const time = (this.elements.progressSlider.value / 100) * this.audio.duration;
+        this.audio.currentTime = time;
+      }
+    });
+
+    this.elements.progressSlider.addEventListener('input', () => {
+      if (this.isDragging && this.audio.duration && !isNaN(this.audio.duration)) {
+        const progress = this.elements.progressSlider.value;
+        this.elements.progressFill.style.width = `${progress}%`;
+        
+        // Update time display while dragging
+        const time = (progress / 100) * this.audio.duration;
+        this.elements.currentTimeDisplay.textContent = this.formatTime(time);
+      }
+    });
+
+    // Volume slider
+    this.elements.volumeSlider.addEventListener('input', () => {
+      const volume = this.elements.volumeSlider.value / 100;
+      this.audio.volume = volume;
+      
+      // Update volume icon
+      if (volume === 0) {
+        this.elements.volumeIcon.className = 'fas fa-volume-mute';
+      } else if (volume < 0.5) {
+        this.elements.volumeIcon.className = 'fas fa-volume-down';
+      } else {
+        this.elements.volumeIcon.className = 'fas fa-volume-up';
+      }
+    });
+  }
+
+  setInitialState() {
+    // Set initial volume
+    this.audio.volume = 0.7;
+    this.elements.volumeSlider.value = 70;
+    
+    // Reset UI state
+    this.resetProgress();
+    
+    // Try to get duration immediately if available
+    if (this.audio.duration && !isNaN(this.audio.duration)) {
+      this.updateDuration();
+    }
+  }
+}
+
 // Initialize audio player functionality
 function initializeAudioPlayer() {
-  const audio = document.getElementById('episode-audio');
-  const playPauseBtn = document.getElementById('play-pause-btn');
-  const progressSlider = document.getElementById('progress-slider');
-  const volumeSlider = document.getElementById('volume-slider');
-  const currentTimeDisplay = document.getElementById('current-time');
-  const progressFill = document.getElementById('progress-fill');
-
-  if (!audio || !playPauseBtn) return;
-
-  // Play/Pause functionality
-  playPauseBtn.addEventListener('click', () => {
-    if (audio.paused) {
-      audio.play();
-      playPauseBtn.querySelector('.play-icon').style.display = 'none';
-      playPauseBtn.querySelector('.pause-icon').style.display = 'inline';
-    } else {
-      audio.pause();
-      playPauseBtn.querySelector('.play-icon').style.display = 'inline';
-      playPauseBtn.querySelector('.pause-icon').style.display = 'none';
-    }
-  });
-
-  // Progress bar functionality
-  audio.addEventListener('timeupdate', () => {
-    if (audio.duration) {
-      const progress = (audio.currentTime / audio.duration) * 100;
-      progressSlider.value = progress;
-      progressFill.style.width = progress + '%';
-      
-      // Update current time display
-      const minutes = Math.floor(audio.currentTime / 60);
-      const seconds = Math.floor(audio.currentTime % 60);
-      currentTimeDisplay.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-    }
-  });
-
-  // Progress slider functionality
-  progressSlider.addEventListener('input', () => {
-    if (audio.duration) {
-      const time = (progressSlider.value / 100) * audio.duration;
-      audio.currentTime = time;
-    }
-  });
-
-  // Volume control
-  volumeSlider.addEventListener('input', () => {
-    audio.volume = volumeSlider.value / 100;
-  });
-
-  // Set initial volume
-  audio.volume = 0.7;
+  // Clean up any existing player
+  if (window.audioPlayerInstance) {
+    window.audioPlayerInstance = null;
+  }
+  
+  // Create new enhanced audio player
+  window.audioPlayerInstance = new EnhancedAudioPlayer();
 }
 
 // Initialize when DOM loads
