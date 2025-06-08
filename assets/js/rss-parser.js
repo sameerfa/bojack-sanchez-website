@@ -196,6 +196,9 @@ class PodcastRSSParser {
       .substring(0, 50)
       .replace(/-$/, '');
     
+    // Extract episode timestamp from audio URL for JSON file lookup
+    const episodeTimestamp = this.extractEpisodeTimestamp(audioUrl);
+
     return {
       title: title,
       description: description,
@@ -207,8 +210,10 @@ class PodcastRSSParser {
       slug: slug,
       mediaUrl: audioUrl,
       audioUrl: audioUrl,
+      episodeTimestamp: episodeTimestamp,
       spotifyUrl: this.extractSpotifyUrl(description, link),
-      episodeNumber: this.extractEpisodeNumber(title, guid)
+      episodeNumber: this.extractEpisodeNumber(title, guid),
+      sources: null // Will be loaded separately
     };
   }
 
@@ -300,6 +305,9 @@ class PodcastRSSParser {
       .substring(0, 50)
       .replace(/-$/, '');
     
+    // Extract episode timestamp from audio URL for JSON file lookup
+    const episodeTimestamp = this.extractEpisodeTimestamp(enclosureUrl || mediaUrl);
+
     return {
       title: title,
       description: description,
@@ -311,9 +319,11 @@ class PodcastRSSParser {
       slug: slug,
       mediaUrl: mediaUrl,
       audioUrl: enclosureUrl,
+      episodeTimestamp: episodeTimestamp,
       // We'll add Spotify URL detection
       spotifyUrl: this.extractSpotifyUrl(description, getTextContent('link')),
-      episodeNumber: this.extractEpisodeNumber(title, guid)
+      episodeNumber: this.extractEpisodeNumber(title, guid),
+      sources: null // Will be loaded separately
     };
   }
 
@@ -405,6 +415,32 @@ class PodcastRSSParser {
     const guidMatch = guid.match(/episode[-_]?(\d+)|ep[-_]?(\d+)/i);
     if (guidMatch) {
       return parseInt(guidMatch[1] || guidMatch[2]);
+    }
+    
+    return null;
+  }
+
+  extractEpisodeTimestamp(audioUrl) {
+    if (!audioUrl) return null;
+    
+    // Extract timestamp pattern like "2025-06-08T12-32-27" from audio URL
+    const timestampMatch = audioUrl.match(/(\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2})/);
+    return timestampMatch ? timestampMatch[1] : null;
+  }
+
+  async loadEpisodeSources(episode) {
+    if (!episode.episodeTimestamp) return null;
+    
+    try {
+      const jsonUrl = `/assets/data/shows/news-in-a-nutshell/${episode.episodeTimestamp}.json`;
+      const response = await fetch(jsonUrl);
+      
+      if (response.ok) {
+        const sourceData = await response.json();
+        return sourceData.sources || [];
+      }
+    } catch (error) {
+      console.warn(`Could not load sources for episode ${episode.episodeTimestamp}:`, error);
     }
     
     return null;

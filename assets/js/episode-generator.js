@@ -80,6 +80,9 @@ class EpisodePageGenerator {
     // Extract audio URL from enclosure
     const audioUrl = getAttributeContent('enclosure', 'url');
     
+    // Extract episode timestamp from audio URL for source JSON lookup
+    const episodeTimestamp = this.extractEpisodeTimestamp(audioUrl);
+    
     // Generate slug
     const slug = title.toLowerCase()
       .replace(/[^a-z0-9\s-]/g, '')
@@ -96,14 +99,42 @@ class EpisodePageGenerator {
       link: getTextContent('link'),
       duration: this.formatDuration(duration),
       audioUrl,
+      episodeTimestamp,
       slug,
-      guid: getTextContent('guid') || Math.random().toString(36).substr(2, 9)
+      guid: getTextContent('guid') || Math.random().toString(36).substr(2, 9),
+      sources: null // Will be loaded separately
     };
 
     // Debug logging
     
     
     return episode;
+  }
+
+  extractEpisodeTimestamp(audioUrl) {
+    if (!audioUrl) return null;
+    
+    // Extract timestamp pattern like "2025-06-08T12-32-27" from audio URL
+    const timestampMatch = audioUrl.match(/(\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2})/);
+    return timestampMatch ? timestampMatch[1] : null;
+  }
+
+  async loadEpisodeSources(episode) {
+    if (!episode.episodeTimestamp) return null;
+    
+    try {
+      const jsonUrl = `/assets/data/shows/news-in-a-nutshell/${episode.episodeTimestamp}.json`;
+      const response = await fetch(jsonUrl);
+      
+      if (response.ok) {
+        const sourceData = await response.json();
+        return sourceData.sources || [];
+      }
+    } catch (error) {
+      console.warn(`Could not load sources for episode ${episode.episodeTimestamp}:`, error);
+    }
+    
+    return null;
   }
 
   formatDate(dateString) {
@@ -131,7 +162,7 @@ class EpisodePageGenerator {
     return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
   }
 
-  renderEpisodePage(episodeSlug) {
+  async renderEpisodePage(episodeSlug) {
     
     
     // Debug: log first few episodes and their audio URLs
@@ -156,7 +187,10 @@ class EpisodePageGenerator {
       return;
     }
 
-    
+    // Load episode sources
+    if (this.currentEpisode.episodeTimestamp) {
+      this.currentEpisode.sources = await this.loadEpisodeSources(this.currentEpisode);
+    }
 
     // Update page metadata
     this.updatePageMetadata();
@@ -250,6 +284,8 @@ class EpisodePageGenerator {
           <p>${this.currentEpisode.description}</p>
         </div>
 
+        ${this.renderEpisodeSources()}
+
         <div class="episode-actions">
           <div class="listen-buttons">
             <h4>Listen Everywhere</h4>
@@ -291,6 +327,38 @@ class EpisodePageGenerator {
         <div class="related-grid" id="related-episodes-grid">
           <!-- Related episodes will be populated -->
         </div>
+      </div>
+    `;
+  }
+
+  renderEpisodeSources() {
+    if (!this.currentEpisode.sources || this.currentEpisode.sources.length === 0) {
+      return ''; // No sources section if no sources available
+    }
+
+    const sourcesHtml = this.currentEpisode.sources.map(source => `
+      <div class="source-item">
+        <a href="${source.url}" target="_blank" rel="noopener noreferrer" class="source-link">
+          <div class="source-content">
+            <div class="source-title">${source.title}</div>
+            <div class="source-domain">${source.domain}</div>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    `).join('');
+
+    return `
+      <div class="episode-sources">
+        <h4><i class="fas fa-newspaper"></i> News Sources</h4>
+        <p class="sources-intro">This episode was compiled from the following news sources:</p>
+        <div class="sources-grid">
+          ${sourcesHtml}
+        </div>
+        <p class="sources-note">
+          <small><i class="fas fa-info-circle"></i> 
+          Sources are automatically collected and verified. Click any link to read the full article.</small>
+        </p>
       </div>
     `;
   }
@@ -420,8 +488,8 @@ class EpisodePageGenerator {
       await this.loadEpisodeData();
     }
     
-    // Render the episode page
-    this.renderEpisodePage(episodeSlug);
+    // Render the episode page (now async)
+    await this.renderEpisodePage(episodeSlug);
   }
 }
 
