@@ -76,7 +76,8 @@ class PodcastRSSParser {
         if (proxyUrl.includes('allorigins')) {
           fetchUrl = `${proxyUrl}${encodeURIComponent(this.rssUrl)}`;
         } else if (proxyUrl.includes('rss2json')) {
-          fetchUrl = `${proxyUrl}${encodeURIComponent(this.rssUrl)}`;
+          // Add count parameter to get more episodes (up to 100 without API key)
+          fetchUrl = `${proxyUrl}${encodeURIComponent(this.rssUrl)}&count=100`;
         } else if (proxyUrl.includes('codetabs')) {
           fetchUrl = `${proxyUrl}${encodeURIComponent(this.rssUrl)}`;
         } else if (proxyUrl.includes('corsproxy')) {
@@ -317,12 +318,12 @@ class PodcastRSSParser {
 
     container.classList.remove('loading');
     
-    const latestEpisodes = this.episodes.slice(0, 12); // Show 12 episodes initially
+    const latestEpisodes = this.episodes.slice(0, 6); // Show 6 episodes on homepage
     container.innerHTML = latestEpisodes.map(episode => this.createEpisodeCard(episode)).join('');
 
     // Setup load more button
     const loadMoreBtn = document.getElementById('load-more');
-    if (loadMoreBtn && this.episodes.length > 12) {
+    if (loadMoreBtn && this.episodes.length > 6) {
       loadMoreBtn.style.display = 'block';
       loadMoreBtn.addEventListener('click', () => this.loadMoreEpisodes());
     }
@@ -343,12 +344,12 @@ class PodcastRSSParser {
     const container = document.getElementById('all-episodes-grid');
     if (!container) return;
 
+    // Clear filtered episodes when rendering full page
+    this.filteredEpisodes = null;
     this.currentPage = page;
     const startIndex = (page - 1) * this.episodesPerPage;
     const endIndex = startIndex + this.episodesPerPage;
     const pageEpisodes = this.episodes.slice(startIndex, endIndex);
-
-    
 
     container.innerHTML = pageEpisodes.map(episode => this.createEpisodeCard(episode)).join('');
 
@@ -388,7 +389,7 @@ class PodcastRSSParser {
     if (!container) return;
 
     const currentCount = container.children.length;
-    const nextEpisodes = this.episodes.slice(currentCount, currentCount + 12);
+    const nextEpisodes = this.episodes.slice(currentCount, currentCount + 6);
     
     nextEpisodes.forEach(episode => {
       container.insertAdjacentHTML('beforeend', this.createEpisodeCard(episode));
@@ -407,17 +408,26 @@ class PodcastRSSParser {
       prevBtn.addEventListener('click', () => {
         if (this.currentPage > 1) {
           this.currentPage--;
-          this.renderPage(this.currentPage);
+          if (this.filteredEpisodes) {
+            this.renderFilteredPage(this.currentPage);
+          } else {
+            this.renderPage(this.currentPage);
+          }
         }
       });
     }
 
     if (nextBtn) {
       nextBtn.addEventListener('click', () => {
-        const totalPages = Math.ceil(this.episodes.length / this.episodesPerPage);
+        const episodes = this.filteredEpisodes || this.episodes;
+        const totalPages = Math.ceil(episodes.length / this.episodesPerPage);
         if (this.currentPage < totalPages) {
           this.currentPage++;
-          this.renderPage(this.currentPage);
+          if (this.filteredEpisodes) {
+            this.renderFilteredPage(this.currentPage);
+          } else {
+            this.renderPage(this.currentPage);
+          }
         }
       });
     }
@@ -458,18 +468,55 @@ class PodcastRSSParser {
 
   performSearch(query) {
     if (!query.trim()) {
+      this.currentPage = 1;
       this.renderPage(1);
       return;
     }
 
-    const filteredEpisodes = this.episodes.filter(episode =>
+    this.filteredEpisodes = this.episodes.filter(episode =>
       episode.title.toLowerCase().includes(query.toLowerCase()) ||
       episode.description.toLowerCase().includes(query.toLowerCase())
     );
 
+    // Render first page of search results
+    this.currentPage = 1;
+    this.renderFilteredPage(1);
+  }
+
+  renderFilteredPage(page) {
     const container = document.getElementById('all-episodes-grid');
-    if (container) {
-      container.innerHTML = filteredEpisodes.map(episode => this.createEpisodeCard(episode)).join('');
+    if (!container) return;
+
+    const episodes = this.filteredEpisodes || this.episodes;
+    this.currentPage = page;
+    const startIndex = (page - 1) * this.episodesPerPage;
+    const endIndex = startIndex + this.episodesPerPage;
+    const pageEpisodes = episodes.slice(startIndex, endIndex);
+
+    container.innerHTML = pageEpisodes.map(episode => this.createEpisodeCard(episode)).join('');
+
+    // Update pagination for filtered results
+    this.updateFilteredPaginationControls();
+  }
+
+  updateFilteredPaginationControls() {
+    const prevBtn = document.getElementById('prev-page');
+    const nextBtn = document.getElementById('next-page');
+    const pageInfo = document.getElementById('page-info');
+    
+    const episodes = this.filteredEpisodes || this.episodes;
+    const totalPages = Math.ceil(episodes.length / this.episodesPerPage);
+    
+    if (prevBtn) {
+      prevBtn.disabled = this.currentPage === 1;
+    }
+    
+    if (nextBtn) {
+      nextBtn.disabled = this.currentPage === totalPages;
+    }
+    
+    if (pageInfo) {
+      pageInfo.textContent = `Page ${this.currentPage} of ${totalPages}${this.filteredEpisodes ? ` (${episodes.length} results)` : ''}`;
     }
   }
 
@@ -489,23 +536,29 @@ class PodcastRSSParser {
   }
 
   applyFilter(filter) {
-    let filteredEpisodes = [...this.episodes];
+    // Clear search input when applying filter
+    const searchInput = document.getElementById('search-episodes');
+    if (searchInput) {
+      searchInput.value = '';
+    }
     
     switch (filter) {
       case 'recent':
-        filteredEpisodes = this.episodes.slice(0, 20);
+        this.filteredEpisodes = this.episodes.slice(0, 30);
         break;
       case 'popular':
         // For now, just show recent episodes
-        filteredEpisodes = this.episodes.slice(0, 15);
+        this.filteredEpisodes = this.episodes.slice(0, 20);
         break;
       default:
-        filteredEpisodes = this.episodes;
+        this.filteredEpisodes = null; // Show all episodes
     }
 
-    const container = document.getElementById('all-episodes-grid');
-    if (container) {
-      container.innerHTML = filteredEpisodes.map(episode => this.createEpisodeCard(episode)).join('');
+    this.currentPage = 1;
+    if (this.filteredEpisodes) {
+      this.renderFilteredPage(1);
+    } else {
+      this.renderPage(1);
     }
   }
 
@@ -624,9 +677,18 @@ class PodcastRSSParser {
     const episodes = [];
     for (let i = 0; i < 20; i++) {
       const baseEpisode = baseEpisodes[i % baseEpisodes.length];
+      
+      // Generate dates going back in time (1-2 days apart)
+      const daysAgo = i * (1 + Math.random()); // 1-2 days apart
+      const date = new Date();
+      date.setDate(date.getDate() - Math.floor(daysAgo));
+      const pubDate = date.toUTCString();
+      
       episodes.push({
         ...baseEpisode,
         title: `${baseEpisode.title} (Episode ${i + 1})`,
+        pubDate: pubDate,
+        formattedDate: this.formatDate(pubDate),
         guid: `mock-episode-${i + 1}`,
         slug: `episode-${i + 1}-${baseEpisode.title.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').substring(0, 30)}`,
         episodeNumber: i + 1,
