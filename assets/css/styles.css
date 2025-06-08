@@ -1588,6 +1588,102 @@ body {
     cursor: pointer;
 }
 
+/* Plyr Audio Player Custom Styling */
+.plyr-audio-container {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    border-radius: 16px;
+    border: 2px solid rgba(45, 212, 191, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.plyr--audio .plyr__controls {
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    padding: 1rem 0;
+}
+
+.plyr--audio .plyr__control--overlaid {
+    background: linear-gradient(135deg, var(--accent) 0%, #3bb3aa 100%);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(45, 212, 191, 0.3);
+}
+
+.plyr--audio .plyr__control--overlaid:hover {
+    background: linear-gradient(135deg, #3bb3aa 0%, var(--accent) 100%);
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(45, 212, 191, 0.4);
+}
+
+.plyr--audio .plyr__control.plyr__tab-focus,
+.plyr--audio .plyr__control:hover {
+    background: rgba(45, 212, 191, 0.2);
+    color: var(--accent);
+}
+
+.plyr--audio .plyr__control[aria-pressed=true] {
+    background: var(--accent);
+    color: white;
+}
+
+.plyr__progress__range {
+    color: var(--accent);
+}
+
+.plyr__progress__value {
+    background: linear-gradient(90deg, var(--accent) 0%, #3bb3aa 100%);
+    box-shadow: 0 0 10px rgba(45, 212, 191, 0.5);
+}
+
+.plyr__volume {
+    color: var(--accent);
+}
+
+.plyr__volume__value {
+    background: linear-gradient(90deg, var(--accent) 0%, #3bb3aa 100%);
+}
+
+.plyr--audio .plyr__time {
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.plyr__tooltip {
+    background: var(--background);
+    color: var(--text-color);
+    border: 1px solid rgba(45, 212, 191, 0.3);
+}
+
+/* Dark theme adjustments for Plyr */
+.plyr--audio .plyr__control svg {
+    fill: currentColor;
+}
+
+.plyr__progress input[type=range] {
+    color: var(--accent);
+}
+
+.plyr__volume input[type=range] {
+    color: var(--accent);
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .plyr-audio-container {
+        padding: 1rem;
+        margin: 1.5rem 0;
+    }
+    
+    .plyr--audio .plyr__controls {
+        padding: 0.5rem 0;
+    }
+}
+
 /* Utility Classes */
 .text-center { text-align: center; }
 .text-muted { color: var(--text-muted); }
