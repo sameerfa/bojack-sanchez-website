@@ -173,6 +173,21 @@ class PodcastRSSParser {
     // Try to extract audio URL from enclosure
     const audioUrl = item.enclosure?.link || null;
     
+    // Try to extract duration from description or other fields
+    let duration = '02:00'; // Default fallback
+    
+    // Look for duration patterns in description (many RSS feeds include this info)
+    const durationMatches = description.match(/(?:duration|length|runtime):\s*(\d{1,2}:\d{2}(?::\d{2})?)/i) ||
+                           description.match(/(\d{1,2}:\d{2}(?::\d{2})?)\s*(?:duration|long|minutes)/i) ||
+                           description.match(/\b(\d{1,2}:\d{2})\b/g);
+    
+    if (durationMatches && durationMatches[1]) {
+      duration = durationMatches[1];
+    } else if (item.duration) {
+      // Some RSS2JSON implementations might include duration
+      duration = item.duration;
+    }
+    
     // Generate episode slug for individual pages
     const slug = title.toLowerCase()
       .replace(/[^a-z0-9\s-]/g, '')
@@ -187,7 +202,7 @@ class PodcastRSSParser {
       pubDate: pubDate,
       formattedDate: this.formatDate(pubDate),
       link: link,
-      duration: '02:00', // Default duration as rss2json doesn't provide this
+      duration: this.formatDuration(duration),
       guid: guid,
       slug: slug,
       mediaUrl: audioUrl,
@@ -199,7 +214,20 @@ class PodcastRSSParser {
 
   parseEpisode(item) {
     const getTextContent = (selector) => {
-      const element = item.querySelector(selector);
+      let element = item.querySelector(selector);
+      if (!element && selector.includes('itunes')) {
+        // Try without namespace prefix
+        const selectorWithoutNS = selector.split(':')[1];
+        element = item.querySelector(selectorWithoutNS);
+      }
+      if (!element && selector.includes('itunes')) {
+        // Try with different namespace methods
+        const tagName = selector.split(':')[1];
+        element = Array.from(item.children).find(child => 
+          child.tagName.toLowerCase() === `itunes:${tagName}` || 
+          child.localName === tagName
+        );
+      }
       return element ? element.textContent.trim() : '';
     };
 
@@ -209,7 +237,37 @@ class PodcastRSSParser {
     };
 
     const pubDate = getTextContent('pubDate');
-    const duration = getTextContent('itunes\\:duration') || getTextContent('duration') || '00:02:00';
+    // Try multiple ways to get duration from iTunes namespace
+    let duration = '00:02:00'; // Default fallback
+    
+    // Try various methods to get iTunes duration
+    try {
+      // Method 1: Standard iTunes namespace
+      duration = getTextContent('itunes\\:duration');
+      
+      // Method 2: Direct search through all child elements
+      if (!duration || duration === '00:02:00') {
+        const durationElement = Array.from(item.children).find(child => 
+          child.tagName.toLowerCase() === 'itunes:duration' ||
+          child.localName === 'duration' ||
+          child.nodeName.toLowerCase() === 'itunes:duration'
+        );
+        if (durationElement) {
+          duration = durationElement.textContent.trim();
+        }
+      }
+      
+      // Method 3: Namespace methods
+      if (!duration || duration === '00:02:00') {
+        duration = item.getElementsByTagNameNS('http://www.itunes.com/dtds/podcast-1.0.dtd', 'duration')[0]?.textContent ||
+                   item.querySelector('[*|duration]')?.textContent ||
+                   getTextContent('duration') ||
+                   '00:02:00';
+      }
+    } catch (error) {
+      console.warn('Error parsing duration:', error);
+      duration = '00:02:00';
+    }
     const description = getTextContent('description');
     const title = getTextContent('title');
     const guid = getTextContent('guid') || Math.random().toString(36).substr(2, 9);
@@ -218,11 +276,20 @@ class PodcastRSSParser {
     const enclosureUrl = getAttributeContent('enclosure', 'url');
     const mediaUrl = getAttributeContent('media\\:content', 'url') || enclosureUrl;
     
-    // Debug logging for audio URLs
-    if (enclosureUrl) {
-      
+    // Debug logging for duration parsing
+    if (duration && duration !== '00:02:00') {
+      console.log(`✅ Found duration for "${title.substring(0, 50)}...": ${duration} → formatted: ${this.formatDuration(duration)}`);
     } else {
+      console.warn(`⚠️ No duration found for "${title.substring(0, 50)}...", using fallback`);
+      // Try to find any duration-related elements for debugging
+      const allElements = Array.from(item.children).map(el => `${el.tagName || el.nodeName}${el.localName ? `(${el.localName})` : ''}`);
+      console.log('Available elements:', allElements);
       
+      // Check if iTunes namespace elements exist
+      const itunesElements = allElements.filter(el => el.toLowerCase().includes('itunes') || el.toLowerCase().includes('duration'));
+      if (itunesElements.length > 0) {
+        console.log('iTunes/duration related elements:', itunesElements);
+      }
     }
     
     // Generate episode slug for individual pages
@@ -264,15 +331,46 @@ class PodcastRSSParser {
   }
 
   formatDuration(duration) {
+    if (!duration || duration === 'undefined' || duration === 'null') {
+      return '02:00';
+    }
+    
+    // If already in time format, return as is
     if (duration.includes(':')) {
+      // Ensure it's in MM:SS or HH:MM:SS format
+      const parts = duration.split(':');
+      if (parts.length === 2) {
+        return duration; // MM:SS format
+      } else if (parts.length === 3) {
+        // HH:MM:SS format - convert to MM:SS if under 1 hour
+        const hours = parseInt(parts[0]);
+        const minutes = parseInt(parts[1]);
+        const seconds = parseInt(parts[2]);
+        if (hours === 0) {
+          return `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }
+        return duration; // Keep HH:MM:SS for longer episodes
+      }
       return duration;
     }
+    
     // Convert seconds to MM:SS format
     const seconds = parseInt(duration);
-    if (isNaN(seconds)) return '02:00';
+    if (isNaN(seconds)) {
+      console.warn('Invalid duration format:', duration);
+      return '02:00';
+    }
     
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
+    
+    // For episodes over 60 minutes, use HH:MM:SS format
+    if (minutes >= 60) {
+      const hours = Math.floor(minutes / 60);
+      const remainingMinutes = minutes % 60;
+      return `${hours}:${remainingMinutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+    }
+    
     return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
   }
 
@@ -630,7 +728,7 @@ class PodcastRSSParser {
         pubDate: "Sun, 08 Jun 2025 01:27:13 GMT",
         formattedDate: "June 8, 2025",
         link: "https://bojacksanchez.com",
-        duration: "01:41",
+        duration: "00:01:41",
         guid: "mock-episode-1",
         audioUrl: "https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2025-06-08T01-25-50/podcast.mp3"
       },
@@ -640,7 +738,7 @@ class PodcastRSSParser {
         pubDate: "Sat, 07 Jun 2025 12:33:33 GMT",
         formattedDate: "June 7, 2025",
         link: "https://bojacksanchez.com",
-        duration: "01:53",
+        duration: "00:01:53",
         guid: "mock-episode-2",
         audioUrl: "https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2025-06-07T12-32-25/podcast.mp3"
       },
@@ -650,7 +748,7 @@ class PodcastRSSParser {
         pubDate: "Sat, 07 Jun 2025 01:18:40 GMT",
         formattedDate: "June 7, 2025",
         link: "https://bojacksanchez.com",
-        duration: "01:57",
+        duration: "00:01:57",
         guid: "mock-episode-3"
       },
       {
@@ -659,7 +757,7 @@ class PodcastRSSParser {
         pubDate: "Fri, 06 Jun 2025 12:36:36 GMT",
         formattedDate: "June 6, 2025",
         link: "https://bojacksanchez.com",
-        duration: "02:14",
+        duration: "00:02:14",
         guid: "mock-episode-4"
       },
       {
@@ -668,7 +766,7 @@ class PodcastRSSParser {
         pubDate: "Fri, 06 Jun 2025 01:19:44 GMT",
         formattedDate: "June 6, 2025",
         link: "https://bojacksanchez.com",
-        duration: "02:37",
+        duration: "00:02:37",
         guid: "mock-episode-5"
       }
     ];
