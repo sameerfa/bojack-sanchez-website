@@ -323,7 +323,7 @@ class EpisodePageGenerator {
 
     return `
       <div class="plyr-audio-container">
-        <audio id="episode-audio" controls crossorigin="anonymous" data-plyr-config='{"hideControls":false}'>
+        <audio id="episode-audio" controls preload="metadata" data-plyr-config='{"hideControls":false}'>
           <source src="${this.currentEpisode.audioUrl}" type="audio/mpeg">
           <source src="${this.currentEpisode.audioUrl}" type="audio/mp3">
           <source src="${this.currentEpisode.audioUrl}" type="audio/wav">
@@ -467,7 +467,8 @@ function initializeAudioPlayer() {
     },
     displayDuration: true,
     invertTime: false,
-    toggleInvert: false
+    toggleInvert: false,
+    crossorigin: null // Disable CORS requirements
   });
 
   // Add event listeners for analytics or custom behavior
