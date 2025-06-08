@@ -10,7 +10,9 @@ class PodcastRSSParser {
     this.rssUrl = this.showConfig.rssUrl;
     this.proxyUrls = [
       'https://api.allorigins.win/get?url=',
-      'https://cors-anywhere.herokuapp.com/',
+      'https://api.rss2json.com/v1/api.json?rss_url=',
+      'https://thingproxy.freeboard.io/fetch/',
+      'https://corsproxy.io/?',
       'https://api.codetabs.com/v1/proxy?quest='
     ];
     this.episodes = [];
@@ -35,7 +37,33 @@ class PodcastRSSParser {
   }
 
   async fetchEpisodes() {
-
+    
+    // First, try a direct fetch (might work on some servers)
+    try {
+      const directResponse = await fetch(`${this.rssUrl}?t=${Date.now()}`, {
+        method: 'GET',
+        mode: 'cors',
+        headers: {
+          'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+        }
+      });
+      
+      if (directResponse.ok) {
+        const xmlContent = await directResponse.text();
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlContent, 'text/xml');
+        
+        const items = xmlDoc.querySelectorAll('item');
+        if (items.length > 0) {
+          this.episodes = Array.from(items).map(item => this.parseEpisode(item));
+          localStorage.setItem('podcastEpisodes', JSON.stringify(this.episodes));
+          console.log('✅ Direct RSS fetch successful!');
+          return;
+        }
+      }
+    } catch (directError) {
+      console.warn('Direct fetch failed, trying proxies...', directError.message);
+    }
     
     // Try multiple proxy services
     for (let i = 0; i < this.proxyUrls.length; i++) {
@@ -47,7 +75,11 @@ class PodcastRSSParser {
         
         if (proxyUrl.includes('allorigins')) {
           fetchUrl = `${proxyUrl}${encodeURIComponent(this.rssUrl)}`;
+        } else if (proxyUrl.includes('rss2json')) {
+          fetchUrl = `${proxyUrl}${encodeURIComponent(this.rssUrl)}`;
         } else if (proxyUrl.includes('codetabs')) {
+          fetchUrl = `${proxyUrl}${encodeURIComponent(this.rssUrl)}`;
+        } else if (proxyUrl.includes('corsproxy')) {
           fetchUrl = `${proxyUrl}${encodeURIComponent(this.rssUrl)}`;
         } else {
           fetchUrl = `${proxyUrl}${this.rssUrl}`;
@@ -56,8 +88,10 @@ class PodcastRSSParser {
         const response = await fetch(fetchUrl, {
           method: 'GET',
           headers: {
-            'Accept': 'application/json, application/xml, text/xml, */*'
-          }
+            'Accept': 'application/json, application/xml, text/xml, */*',
+            'User-Agent': 'Mozilla/5.0 (compatible; RSS Reader)'
+          },
+          timeout: 10000 // 10 second timeout
         });
         
         if (!response.ok) {
@@ -68,6 +102,17 @@ class PodcastRSSParser {
         if (proxyUrl.includes('allorigins')) {
           const data = await response.json();
           xmlContent = data.contents;
+        } else if (proxyUrl.includes('rss2json')) {
+          // rss2json returns structured JSON, we need to convert it back to RSS-like structure
+          const data = await response.json();
+          if (data.status === 'ok' && data.items) {
+            // Convert rss2json format to our episode format directly
+            this.episodes = data.items.map(item => this.parseRSS2JSONEpisode(item));
+            localStorage.setItem('podcastEpisodes', JSON.stringify(this.episodes));
+            return; // Success with JSON data
+          } else {
+            throw new Error('RSS2JSON returned invalid data');
+          }
         } else {
           xmlContent = await response.text();
         }
@@ -99,14 +144,56 @@ class PodcastRSSParser {
         return; // Success, exit the loop
         
       } catch (error) {
-        console.warn(`❌ Proxy ${i + 1} failed:`, error.message);
+        console.warn(`❌ Proxy ${i + 1} (${this.proxyUrls[i]}) failed:`, error.message);
         if (i === this.proxyUrls.length - 1) {
           // Last proxy failed, use fallback
-          console.error('All proxies failed, using fallback data');
+          console.error('🚨 All RSS proxies failed! Using fallback mock data.');
+          console.error('📍 This might be due to:');
+          console.error('  - CORS proxy services being down');
+          console.error('  - Network connectivity issues'); 
+          console.error('  - RSS feed URL being inaccessible');
+          console.error(`  - RSS URL: ${this.rssUrl}`);
           this.episodes = this.getMockEpisodes();
+          // Store mock data as fallback
+          localStorage.setItem('podcastEpisodes', JSON.stringify(this.episodes));
         }
       }
     }
+  }
+
+  parseRSS2JSONEpisode(item) {
+    // Parse episode from rss2json format
+    const title = item.title || '';
+    const description = item.description || item.content || '';
+    const pubDate = item.pubDate || '';
+    const link = item.link || '';
+    const guid = item.guid || Math.random().toString(36).substr(2, 9);
+    
+    // Try to extract audio URL from enclosure
+    const audioUrl = item.enclosure?.link || null;
+    
+    // Generate episode slug for individual pages
+    const slug = title.toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .substring(0, 50)
+      .replace(/-$/, '');
+    
+    return {
+      title: title,
+      description: description,
+      pubDate: pubDate,
+      formattedDate: this.formatDate(pubDate),
+      link: link,
+      duration: '02:00', // Default duration as rss2json doesn't provide this
+      guid: guid,
+      slug: slug,
+      mediaUrl: audioUrl,
+      audioUrl: audioUrl,
+      spotifyUrl: this.extractSpotifyUrl(description, link),
+      episodeNumber: this.extractEpisodeNumber(title, guid)
+    };
   }
 
   parseEpisode(item) {
