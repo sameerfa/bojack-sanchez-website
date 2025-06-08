@@ -1,0 +1,55 @@
+# Site settings
+title: "News in a Nutshell"
+description: "Breaking down the biggest stories, twice a day"
+author: "Bojack Sanchez"
+email: "hello@bojacksanchez.com"
+baseurl: ""
+url: "https://bojacksanchez.com"
+
+# RSS Feed URL
+rss_feed_url: "https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections for dynamic episode pages
+collections:
+  episodes:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+
+# Include in processing  
+include:
+  - _pages
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "episodes"
+    values:
+      layout: "episode"
+      show_name: "News in a Nutshell"
+      show_slug: "news-in-a-nutshell"
+
+# Pagination
+paginate: 12
+paginate_path: "/page/:num/"
+
+# Podcast platform URLs
+spotify_url: "https://open.spotify.com/show/56qcPE9A13bq7wrEberN23?si=fa5743975e0c41a2"
+apple_podcasts_url: "https://podcasts.apple.com/us/podcast/news-in-a-nutshell/id1805652294"
+amazon_music_url: "https://music.amazon.com/podcasts/7fdb3b7b-808c-4cbb-a9e0-8e10ea93e7f8/news-in-a-nutshell" 

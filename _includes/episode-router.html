@@ -1,0 +1,149 @@
+<script>
+class ShowRouter {
+  constructor() {
+    this.currentShow = {
+      name: 'News in a Nutshell',
+      slug: 'news-in-a-nutshell',
+      rssUrl: 'https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss'
+    };
+    
+    this.init();
+  }
+
+  init() {
+    const path = window.location.pathname;
+    const hash = window.location.hash.substring(1); // Remove the #
+    const storedSlug = sessionStorage.getItem('episodeSlug');
+    console.log('Router - Current path:', path, 'Hash:', hash, 'Stored slug:', storedSlug);
+    
+    // Set global show config
+    window.currentShow = this.currentShow;
+    
+    // Route handling
+    if (this.isShowPage(path)) {
+      // Check for episode routing in order of priority
+      let episodeSlug = null;
+      
+      if (storedSlug) {
+        // 1. Priority: Episode slug from 404 redirect
+        episodeSlug = storedSlug;
+        sessionStorage.removeItem('episodeSlug'); // Clear after use
+        console.log('Router - Using stored episode slug:', episodeSlug);
+      } else if (hash && hash.length > 0) {
+        // 2. Hash-based routing
+        episodeSlug = hash;
+        console.log('Router - Using hash episode slug:', episodeSlug);
+      }
+      
+      if (episodeSlug) {
+        this.handleEpisodePageBySlug(episodeSlug);
+      } else {
+        this.handleShowPage();
+      }
+    } else if (this.isEpisodePage(path)) {
+      this.handleEpisodePage();
+    }
+  }
+
+  isShowPage(path) {
+    // Exact match for show page: /news-in-a-nutshell/ or /news-in-a-nutshell
+    return path === `/${this.currentShow.slug}/` || path === `/${this.currentShow.slug}`;
+  }
+
+  isEpisodePage(path) {
+    // Match episode pattern: /news-in-a-nutshell/episode-slug
+    const episodePattern = new RegExp(`^/${this.currentShow.slug}/([^/]+)/?$`);
+    return episodePattern.test(path);
+  }
+
+  handleShowPage() {
+    console.log('Router - Show page detected');
+    
+    // Show the show page content, hide episode page content
+    const showContent = document.getElementById('show-page-content');
+    const episodeContent = document.getElementById('episode-page-content');
+    
+    if (showContent) showContent.style.display = 'block';
+    if (episodeContent) episodeContent.style.display = 'none';
+    
+    // Update page title
+    document.title = `${this.currentShow.name} | All Episodes`;
+    
+    // Initialize RSS parser for show listing
+    if (typeof PodcastRSSParser !== 'undefined') {
+      window.rssParser = new PodcastRSSParser(this.currentShow);
+    }
+  }
+
+  handleEpisodePage() {
+    console.log('Router - Episode page detected');
+    
+    // Show the episode page content, hide show page content
+    const showContent = document.getElementById('show-page-content');
+    const episodeContent = document.getElementById('episode-page-content');
+    
+    if (showContent) showContent.style.display = 'none';
+    if (episodeContent) episodeContent.style.display = 'block';
+    
+    // Extract episode slug from URL
+    const path = window.location.pathname;
+    const episodePattern = new RegExp(`^/${this.currentShow.slug}/([^/]+)/?$`);
+    const match = path.match(episodePattern);
+    
+    if (match) {
+      const episodeSlug = match[1];
+      console.log('Router - Episode slug:', episodeSlug);
+      
+      // Initialize episode generator
+      if (typeof EpisodePageGenerator !== 'undefined') {
+        window.episodeGenerator = new EpisodePageGenerator();
+      }
+    }
+  }
+
+  handleEpisodePageBySlug(episodeSlug) {
+    console.log('🎯 Router - Loading episode:', episodeSlug);
+    
+    // Show the episode page content, hide show page content
+    const showContent = document.getElementById('show-page-content');
+    const episodeContent = document.getElementById('episode-page-content');
+    
+    if (showContent) showContent.style.display = 'none';
+    if (episodeContent) episodeContent.style.display = 'block';
+    
+    // Update URL to show the episode URL (for SEO and bookmarking)
+    const episodeUrl = `/${this.currentShow.slug}/${episodeSlug}`;
+    if (window.location.pathname !== episodeUrl) {
+      console.log('🔗 Router - Updating URL to:', episodeUrl);
+      window.history.replaceState({}, '', episodeUrl);
+    }
+    
+    // Initialize or reuse episode generator
+    if (typeof EpisodePageGenerator !== 'undefined') {
+      if (!window.episodeGenerator) {
+        window.episodeGenerator = new EpisodePageGenerator();
+      }
+      // Load and render the specific episode
+      window.episodeGenerator.loadAndRenderEpisode(episodeSlug);
+    } else {
+      console.error('❌ Router - EpisodePageGenerator not available!');
+    }
+  }
+}
+
+// Initialize router when DOM is ready
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('🚀 Router - DOM loaded, initializing...');
+  window.showRouter = new ShowRouter();
+});
+
+// Also check for stored episode slug on page load (fallback)
+window.addEventListener('load', function() {
+  const storedSlug = sessionStorage.getItem('episodeSlug');
+  if (storedSlug && window.showRouter) {
+    console.log('🔄 Router - Found stored slug after page load:', storedSlug);
+    window.showRouter.handleEpisodePageBySlug(storedSlug);
+    sessionStorage.removeItem('episodeSlug');
+  }
+});
+</script> 

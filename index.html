@@ -1,0 +1,64 @@
+---
+layout: default
+title: "Home"
+description: "News in a Nutshell - Breaking down the biggest stories, twice a day"
+---
+
+<section class="hero">
+    <div id="canvas-container"></div>
+    <div class="hero-content">
+        <h1 class="hero-title">News in a Nutshell</h1>
+        <p class="hero-subtitle">Breaking down the biggest stories, twice a day</p>
+        <p class="hero-description">{{ site.description }}</p>
+        <div class="hero-buttons">
+            <a href="#latest-episodes" class="btn btn-primary">
+                <i class="fas fa-play-circle"></i> Latest Episodes
+            </a>
+            <a href="https://open.spotify.com/show/56qcPE9A13bq7wrEberN23?si=fa5743975e0c41a2" class="btn btn-secondary" target="_blank">
+                <i class="fab fa-spotify"></i> Listen on Spotify
+            </a>
+            <a href="https://podcasts.apple.com/us/podcast/news-in-a-nutshell/id1805652294" class="btn btn-outline" target="_blank">
+                <i class="fab fa-apple"></i> Apple Podcasts
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="latest-episodes" class="episodes-section">
+    <div class="container">
+        <h2 class="section-title">Latest Episodes</h2>
+        <div id="episodes-grid" class="episodes-grid loading">
+            <div class="loading-spinner">Loading episodes...</div>
+        </div>
+        <div class="episodes-nav">
+            <button id="load-more" class="btn btn-outline" style="display: none;">Load More Episodes</button>
+        </div>
+    </div>
+</section>
+
+<section class="about-section">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About the Podcast</h2>
+                <p>I've always wanted to stay updated with the news and share it in a way that's easy and engaging, but juggling that with a full-time job isn't easy. So, I built News in a Nutshell Podcast - a simple way to break down the biggest stories, twice a day.</p>
+                <p>I source news from credible outlets, and AI helps edit and present it based on an algorithm I developed. It's my way of staying informed, and I hope it benefits you too.</p>
+                <p><strong>Stay updated. Stay entertained. Stay downloaded.</strong></p>
+            </div>
+            <div class="about-stats">
+                <div class="stat">
+                    <div class="stat-number" id="total-episodes">--</div>
+                    <div class="stat-label">Episodes</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">2x</div>
+                    <div class="stat-label">Daily</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">~2min</div>
+                    <div class="stat-label">Per Episode</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 

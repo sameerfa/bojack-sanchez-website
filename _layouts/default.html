@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    
+    <!-- Three.js and GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    
+    {% seo %}
+</head>
+<body class="{{ page.layout }}">
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="{{ '/' | relative_url }}" class="logo">
+                <span>bojack sanchez</span>
+            </a>
+            
+            <!-- Hamburger Menu Button -->
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <!-- Navigation Links -->
+            <div class="nav-links" id="nav-links">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="dropdown-toggle">Shows <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="{{ '/news-in-a-nutshell' | relative_url }}">News in a Nutshell</a>
+                        <!-- Future shows can be added here -->
+                    </div>
+                </div>
+                <a href="{{ '/about' | relative_url }}">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        {{ content }}
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>{{ site.title }}</h3>
+                    <p>{{ site.description }}</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Subscribe</h4>
+                    <div class="subscribe-links">
+                        <a href="https://open.spotify.com/show/56qcPE9A13bq7wrEberN23?si=fa5743975e0c41a2" target="_blank">
+                            <i class="fab fa-spotify"></i> Spotify
+                        </a>
+                        <a href="https://podcasts.apple.com/us/podcast/news-in-a-nutshell/id1805652294" target="_blank">
+                            <i class="fab fa-apple"></i> Apple Podcasts
+                        </a>
+                        <a href="https://music.amazon.com/podcasts/7fdb3b7b-808c-4cbb-a9e0-8e10ea93e7f8/news-in-a-nutshell" target="_blank">
+                            <i class="fab fa-amazon"></i> Amazon Music
+                        </a>
+                        <a href="{{ site.rss_feed_url }}" target="_blank">
+                            <i class="fas fa-rss"></i> RSS Feed
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ '/assets/js/app.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/rss-parser.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/episode-generator.js' | relative_url }}"></script>
+</body>
+</html> 
