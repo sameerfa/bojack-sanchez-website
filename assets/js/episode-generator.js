@@ -250,9 +250,9 @@ class EpisodePageGenerator {
       
       pageHeaderContainer.innerHTML = `
         <div class="episode-header">
-          <a href="/${showSlug}/" class="back-link">← Back to ${showName}</a>
           <h1>${this.currentEpisode.title}</h1>
         </div>
+        <a href="/${showSlug}/" class="back-link">← Back to ${showName}</a>
       `;
     }
 
@@ -283,8 +283,6 @@ class EpisodePageGenerator {
           <p>${this.currentEpisode.description}</p>
         </div>
 
-        ${this.renderEpisodeSources()}
-
         <div class="episode-actions">
           <div class="listen-buttons">
             <h4>Listen Everywhere</h4>
@@ -304,7 +302,8 @@ class EpisodePageGenerator {
           <div class="share-buttons">
             <h4>Share this Episode</h4>
                          <div class="social-share">
-               <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(this.currentEpisode.title)}&url=${encodeURIComponent(window.location.href)}&via=bojacksanchez" target="_blank" class="share-btn twitter">
+               <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(this.currentEpisode.title)}&url=${encodeURIComponent(window.location.href)}"
+                 target="_blank" class="share-btn twitter">
                  <i class="fab fa-twitter"></i> Twitter
                </a>
                <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}" target="_blank" class="share-btn facebook">
@@ -319,6 +318,9 @@ class EpisodePageGenerator {
              </div>
           </div>
         </div>
+
+        ${this.renderEpisodeSources()}
+
       </article>
 
       <div class="related-episodes">

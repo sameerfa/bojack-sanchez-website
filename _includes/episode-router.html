@@ -94,9 +94,12 @@ class ShowRouter {
       const episodeSlug = match[1];
       console.log('Router - Episode slug:', episodeSlug);
       
-      // Initialize episode generator
+      // Initialize or reuse episode generator and always call loadAndRenderEpisode
       if (typeof EpisodePageGenerator !== 'undefined') {
-        window.episodeGenerator = new EpisodePageGenerator();
+        if (!window.episodeGenerator) {
+          window.episodeGenerator = new EpisodePageGenerator();
+        }
+        window.episodeGenerator.loadAndRenderEpisode(episodeSlug);
       }
     }
   }

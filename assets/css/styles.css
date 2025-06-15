@@ -1690,4 +1690,60 @@ body {
 .mb-1 { margin-bottom: 0.5rem; }
 .mb-2 { margin-bottom: 1rem; }
 .mb-3 { margin-bottom: 1.5rem; }
-.hidden { display: none; } 
+.hidden { display: none; }
+
+#episode-page-content .platform-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+
+#episode-page-content .platform-buttons a {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  border: 1px solid var(--border-color);
+  min-width: 180px;
+  text-align: center;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-bottom: 0;
+}
+
+#episode-page-content .btn-spotify {
+  background: #1DB954;
+  color: white;
+  border: 1px solid #1DB954;
+}
+#episode-page-content .btn-spotify:hover {
+  background: #1ed760;
+}
+#episode-page-content .btn-apple {
+  background: #000;
+  color: white;
+  border: 1px solid #333;
+}
+#episode-page-content .btn-apple:hover {
+  background: #333;
+}
+#episode-page-content .btn-amazon {
+  background: #FF9900;
+  color: #000;
+  border: 1px solid #FF9900;
+}
+#episode-page-content .btn-amazon:hover {
+  background: #e6800e;
+  color: #000;
+}
+
+@media (max-width: 700px) {
+  #episode-page-content .platform-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  #episode-page-content .platform-buttons a {
+    min-width: unset;
+    width: 100%;
+  }
+} 
