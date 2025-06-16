@@ -1,0 +1,382 @@
+{
+  "episode_id": "2025-06-16T13-28-53",
+  "sources": [
+    {
+      "title": "Rennes : l'homme qui s'est immolé par le feu à la station-service E.Leclerc Cleunay est mort",
+      "url": "https://actu.fr/bretagne/rennes_35238/rennes-l-homme-qui-s-est-immole-par-le-feu-a-la-station-service-e-leclerc-cleunay-est-mort_62776609.html",
+      "domain": "actu.fr"
+    },
+    {
+      "title": "West Virginia in state of emergency amid deadly flash flooding, building collapse",
+      "url": "https://abcnews.go.com/US/west-virginia-state-emergency-amid-deadly-flash-flooding/story?id=122878798",
+      "domain": "abcnews.go.com"
+    },
+    {
+      "title": "Mulher é presa por ofensas homofóbicas em cafeteria de shopping em São Paulo",
+      "url": "https://jovempan.com.br/noticias/brasil/mulher-e-presa-por-ofensas-homofobicas-em-cafeteria-de-shopping-em-sao-paulo.html",
+      "domain": "jovempan.com.br"
+    },
+    {
+      "title": "学习手记丨“守护好中华民族的文化瑰宝和自然珍宝”--时政--人民网",
+      "url": "http://politics.people.com.cn/n1/2025/0616/c1001-40501597.html",
+      "domain": "politics.people.com.cn"
+    },
+    {
+      "title": "特稿丨循驼铃古道赴现代化新程：习近平主席推动深化中国－中亚合作的故事--国际--人民网",
+      "url": "http://world.people.com.cn/n1/2025/0616/c1002-40501454.html",
+      "domain": "world.people.com.cn"
+    },
+    {
+      "title": "スシローで「粋だと思われる注文」とは？ AIの回答をそのまま店舗で実践した結果…コレ大丈夫？",
+      "url": "https://rocketnews24.com/2025/06/16/2479000/",
+      "domain": "rocketnews24.com"
+    },
+    {
+      "title": "2025年“文化和自然遗产日”暨第十三届新疆非物质文化遗产周新疆主会场活动在喀什启幕",
+      "url": "https://xj.chinadaily.com.cn/a/202506/16/WS684f7cd6a3102053770382e9.html",
+      "domain": "xj.chinadaily.com.cn"
+    },
+    {
+      "title": "思想纵横｜作风问题核心是党同人民群众的关系问题",
+      "url": "http://www.dangjian.cn/djyl/2025/06/16/detail_202506167818422.html",
+      "domain": "dangjian.cn"
+    },
+    {
+      "title": "千代田区は自民、都民フが激戦 都議選情勢・毎日新聞調査／上",
+      "url": "https://mainichi.jp/articles/20250616/k00/00m/010/017000c",
+      "domain": "mainichi.jp"
+    },
+    {
+      "title": "梅雨の晴れ間 中国地方は今年初の猛暑日に 今週は真夏並みの暑さで熱中症に要警戒",
+      "url": "https://tenki.jp/forecaster/naomi_takata/2025/06/16/34145.html",
+      "domain": "tenki.jp"
+    },
+    {
+      "title": "La Corée du Sud trouve une réponse au plus gros problème posé par l’hydrogène : comment en produire beaucoup, de manière écologique et à bas coût",
+      "url": "https://media24.fr/2025/06/16/la-coree-du-sud-trouve-une-reponse-au-plus-gros-probleme-pose-par-lhydrogene-comment-en-produire-beaucoup-de-maniere-ecologique-et-a-bas-cout/",
+      "domain": "media24.fr"
+    },
+    {
+      "title": "中海油研究总院总工苏彦春：人工智能驱动油气行业全方位革新-北极星电力新闻网",
+      "url": "https://m.bjx.com.cn/mnews/20250616/1446444.shtml",
+      "domain": "m.bjx.com.cn"
+    },
+    {
+      "title": "China outpaces the West by several years in a promising economic sector: modular nuclear reactors.",
+      "url": "https://farmingdale-observer.com/2025/06/15/china-outpaces-the-west-by-several-years-in-a-promising-economic-sector-modular-nuclear-reactors/",
+      "domain": "farmingdale-observer.com"
+    },
+    {
+      "title": "Bancos passam a oferecer Pix Automático a partir desta segunda",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-06/bancos-passam-oferecer-pix-automatico-partir-desta-segunda",
+      "domain": "agenciabrasil.ebc.com.br"
+    },
+    {
+      "title": "Preço do café dobra e perspectiva de queda fica apenas para 2026",
+      "url": "https://economia.uol.com.br/noticias/redacao/2025/06/16/cafe.htm",
+      "domain": "economia.uol.com.br"
+    },
+    {
+      "title": "Empresas vencem nos tribunais exclusão do ISS do PIS e da Cofins",
+      "url": "https://valor.globo.com/legislacao/noticia/2025/06/16/empresas-vencem-nos-tribunais-exclusao-do-iss-do-pis-e-da-cofins.ghtml",
+      "domain": "valor.globo.com"
+    },
+    {
+      "title": "油价将 “指数级攀升”？摩根大通将“最坏情况”概率上调至17%",
+      "url": "https://finance.eastmoney.com/a/202506163431443238.html",
+      "domain": "finance.eastmoney.com"
+    },
+    {
+      "title": "高层最新部署：更大力度推动房地产市场止跌回稳",
+      "url": "http://www.fangchan.com/news/320/2025-06-16/7340235464131285912.html",
+      "domain": "fangchan.com"
+    },
+    {
+      "title": "話題株ピックアップ【夕刊】（2）：日本製鉄、三井ハイテク、ＨＩＳ",
+      "url": "https://kabutan.jp/news/marketnews/?b=n202506160740",
+      "domain": "kabutan.jp"
+    },
+    {
+      "title": "不確実性増すアルピーヌF1、ルノーCEOデ・メオが電撃退任",
+      "url": "https://formula1-data.com/article/alpine-f1-uncertainty-de-meo-steps-down",
+      "domain": "formula1-data.com"
+    },
+    {
+      "title": "Bitcoin traders are shorting BTC at its peak",
+      "url": "https://ambcrypto.com/bitcoin-traders-are-shorting-btc-at-its-peak-heres-why-thats-risky/",
+      "domain": "ambcrypto.com"
+    },
+    {
+      "title": "General Atomics teams with Saab on AEW, unveils new air-launched effect",
+      "url": "https://breakingdefense.com/2025/06/general-atomics-teams-with-saab-on-aew-unveils-new-air-launched-effect/",
+      "domain": "breakingdefense.com"
+    },
+    {
+      "title": "Trump administration offers details of how it would control US Steel",
+      "url": "https://apnews.com/article/trump-us-steel-nippon-steel-golden-share-463049c93d7ddedd334dbc34b84c771b",
+      "domain": "apnews.com"
+    },
+    {
+      "title": "Airbus Wins Order For 22 A350Fs & 55 A320 Family Aircraft",
+      "url": "https://simpleflying.com/airbus-wins-order-22-a350fs-55-a320/",
+      "domain": "simpleflying.com"
+    },
+    {
+      "title": "RBI rate cut effect: SBI gives big relief to borrowers; slashes lending rates by up to 50 bps",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-rate-cut-effect-sbi-gives-big-relief-to-borrowers-slashes-interest-rates-by-up-to-50-bps/articleshow/121881363.cms",
+      "domain": "timesofindia.indiatimes.com"
+    },
+    {
+      "title": "【2025走进绿色钢城】衡钢：力争成为超低排放改造和循环经济实践典范-中国钢铁新闻网",
+      "url": "http://www.csteelnews.com/xwzx/djbd/202506/t20250616_101051.html",
+      "domain": "csteelnews.com"
+    },
+    {
+      "title": "国家统计局公布5月份国民经济数据",
+      "url": "http://www.qstheory.cn/20250616/73d4ab666ea24855b89205e9663eb62f/c.html",
+      "domain": "qstheory.cn"
+    },
+    {
+      "title": "中国经济样本观察·县域样本篇丨面对石油资源枯竭，这座戈壁小城是如何走出困境的？-新华网",
+      "url": "http://www.xinhuanet.com/fortune/20250616/0d9cfb4adfd64cffa6a92b7ff3279115/c.html",
+      "domain": "xinhuanet.com"
+    },
+    {
+      "title": "光谷资本大厦 变身商业新标杆",
+      "url": "https://sw.wuhan.gov.cn/xwdt/mtbd/202506/t20250615_2595495.shtml",
+      "domain": "sw.wuhan.gov.cn"
+    },
+    {
+      "title": "ＮＴＴドコモ、 ＣＡＲＴＡＨＤにＴＯＢ 親会社の電通Ｇと提携",
+      "url": "https://jp.reuters.com/economy/industry/YEUEDP6EXFOG7DADX3XDFSRG7A-2025-06-16/",
+      "domain": "jp.reuters.com"
+    },
+    {
+      "title": "Finlândia cria bateria de areia de 13 metros para aquecer cidade",
+      "url": "https://olhardigital.com.br/2025/06/16/ciencia-e-espaco/finlandia-cria-bateria-de-areia-de-13-metros-para-aquecer-cidade/",
+      "domain": "olhardigital.com.br"
+    },
+    {
+      "title": "Agricultora se revolta contra energia eólica na Bahia",
+      "url": "https://www1.folha.uol.com.br/ambiente/2025/06/agricultora-cria-movimento-contra-energia-eolica-em-comunidade-quilombola-na-bahia.shtml",
+      "domain": "www1.folha.uol.com.br"
+    },
+    {
+      "title": "Une technique de démolition essayée pour la première fois au Québec",
+      "url": "https://ici.radio-canada.ca/nouvelle/2172453/destruction-silo-port-trois-rivieres",
+      "domain": "ici.radio-canada.ca"
+    },
+    {
+      "title": "Fantástico estreia quadro de humor feito por inteligência artificial e é detonado",
+      "url": "https://noticiasdatv.uol.com.br/noticia/televisao/fantastico-estreia-quadro-de-humor-feito-por-inteligencia-artificial-e-e-detonado-137775",
+      "domain": "noticiasdatv.uol.com.br"
+    },
+    {
+      "title": "Epex/Spot : journée rouge sur le marché de l'électricité. Les prix s'envolent ce 16 juin 2025.",
+      "url": "https://selectra.info/energie/actualites/marche/prix-electricite-16-juin-2025",
+      "domain": "selectra.info"
+    },
+    {
+      "title": "\" Un coup de maître en Allemagne \" : ce géant français de l’énergie prévoit d’économiser 300 000 tonnes de CO2 d’ici 2030 dans une opération inédite",
+      "url": "https://vivredemain.fr/2025/06/16/un-coup-de-maitre-en-allemagne-ce-geant-francais-de-lenergie-prevoit-deconomiser-300-000-tonnes-de-co2-dici-2030-dans-une-operation-inedite/",
+      "domain": "vivredemain.fr"
+    },
+    {
+      "title": "Une simple modification à 600 euros transforme radicalement la Tesla Model 3 d'origine",
+      "url": "https://rouleur-electrique.fr/une-simple-modification-a-600-euros-transforme-radicalement-la-tesla-model-3-dorigine/",
+      "domain": "rouleur-electrique.fr"
+    },
+    {
+      "title": "Lockheed dévoile le mystérieux SR-72 : ce jet hypersonique capable de voler à 7400 km/h redéfinit la suprématie aérienne américaine",
+      "url": "https://techguru.fr/2025/06/16/lockheed-devoile-le-mysterieux-sr-72-ce-jet-hypersonique-capable-de-voler-a-7400-km-h-redefinit-la-suprematie-aerienne-americaine/",
+      "domain": "techguru.fr"
+    },
+    {
+      "title": "华为“四芯片封装”技术新专利曝光：或可挑战台积电",
+      "url": "https://news.mydrivers.com/1/1054/1054100.htm",
+      "domain": "news.mydrivers.com"
+    },
+    {
+      "title": "【CDT报告汇】技术透明计划：苹果和谷歌应用商店部分VPN来自中国，存在安全隐患（外二篇）",
+      "url": "https://chinadigitaltimes.net/chinese/718871.html",
+      "domain": "chinadigitaltimes.net"
+    },
+    {
+      "title": "5月成功出海的中国手游：柠檬微趣《Gossip Harbor》（中文名《浪漫餐厅》）首次夺得收入榜亚军",
+      "url": "http://www.gamelook.com.cn/2025/06/572272/",
+      "domain": "gamelook.com.cn"
+    },
+    {
+      "title": "自分量産SFサバイバル『The Alters』ぐんぐん人気上昇、Steam同接1万8000人超え。“全員自分”なのにクセ者だらけ、トラブル多発過酷共同生活",
+      "url": "https://automaton-media.com/articles/newsjp/the-alters-20250616-344678/",
+      "domain": "automaton-media.com"
+    },
+    {
+      "title": "Appleが提唱した「AIの推論能力の限界」にAI専門家が反論",
+      "url": "https://gigazine.net/news/20250616-the-illusion-of-the-illusion-of-thinking/",
+      "domain": "gigazine.net"
+    },
+    {
+      "title": "AI alone cannot solve the productivity puzzle",
+      "url": "https://www.ft.com/content/55bc5876-254a-4daa-86f8-2cd0d939a866",
+      "domain": "ft.com"
+    },
+    {
+      "title": "Dune Awakening: Eighth Trial of Aql Puzzle Solutions",
+      "url": "https://beebom.com/dune-awakening-eighth-trial-of-aql-puzzle-solutions/",
+      "domain": "beebom.com"
+    },
+    {
+      "title": "Hisense ने लॉन्च किया AI फीचर्स से लैस Smart TV",
+      "url": "https://hindi.gadgets360.com/home-entertainment/hisense-launched-u7q-mini-led-tv-with-ai-features-know-price-and-other-specification-here-news-8682443",
+      "domain": "hindi.gadgets360.com"
+    },
+    {
+      "title": "Samsung Galaxy A56 5G Price Lowers Soon after Launch",
+      "url": "https://telecomtalk.info/samsung-galaxy-a56-5g-price-lowers-soon/995840/",
+      "domain": "telecomtalk.info"
+    },
+    {
+      "title": "SECが承認 トランプ・メディアがビットコイン財務戦略開始",
+      "url": "https://coinpost.jp/?p=625475",
+      "domain": "coinpost.jp"
+    },
+    {
+      "title": "Arqueólogos encontram pote romano intacto de 2.000 anos",
+      "url": "https://clickpetroleoegas.com.br/arqueologos-encontram-pote-romano-intacto-de-2-000-anos-na-irlanda-flpc96/",
+      "domain": "clickpetroleoegas.com.br"
+    },
+    {
+      "title": "Chine : un crâne quasi complet révèle un dinosaure à long cou jamais vu auparavant !",
+      "url": "https://sciencepost.fr/chine-un-crane-quasi-complet-revele-un-dinosaure-a-long-cou-jamais-vu-auparavant/",
+      "domain": "sciencepost.fr"
+    },
+    {
+      "title": "Science fiction ou réalité ? Une entreprise chinoise a développé la première voiture volante",
+      "url": "https://lautomobiliste.fr/16/06/2025/science-fiction-ou-realite-une-entreprise-chinoise-a-developpe-la-premiere-voiture-volante/",
+      "domain": "lautomobiliste.fr"
+    },
+    {
+      "title": "SpaceX Scripts History With 500th Falcon Mission; Elon Musk Congratulates Team",
+      "url": "https://in.mashable.com/science/95728/spacex-scripts-history-with-500th-falcon-mission-elon-musk-congratulates-team",
+      "domain": "in.mashable.com"
+    },
+    {
+      "title": "NASA’s Chandra Telescope Detects Distant X-Ray Jet, Faces Uncertain Future Amid Budget Cuts",
+      "url": "https://udaipurkiran.com/nasas-chandra-telescope-detects-distant-x-ray-jet-faces-uncertain-future-amid-budget-cuts/",
+      "domain": "udaipurkiran.com"
+    },
+    {
+      "title": "人類初の「太陽の南極画像」をESAが公開！明らかになった”混沌”とは？ (2/2)",
+      "url": "https://nazology.kusuguru.co.jp/archives/179597/2",
+      "domain": "nazology.kusuguru.co.jp"
+    },
+    {
+      "title": "Cosmic mystery, unknown phenomenon: this perfect floating circle in space is baffling scientists.",
+      "url": "https://thinkstewartville.com/2025/06/15/cosmic-mystery-unknown-phenomenon-this-perfect-floating-circle-in-space-is-baffling-scientists/",
+      "domain": "thinkstewartville.com"
+    },
+    {
+      "title": "La Chine défie les lois de la physique : cette technologie en acier inoxydable autrefois inimaginable bouleverse les experts du monde entier",
+      "url": "https://afriquenligne.fr/2025/06/16/la-chine-defie-les-lois-de-la-physique-cette-technologie-en-acier-inoxydable-autrefois-inimaginable-bouleverse-les-experts-du-monde-entier/",
+      "domain": "afriquenligne.fr"
+    },
+    {
+      "title": "प्लूटो का नया रहस्य, बौने ग्रह की धुंध ने वैज्ञानिकों को चौंकाया, 2015 में NASA ने किया था खुलासा",
+      "url": "https://zeenews.india.com/hindi/science/nasa-astronomers-discovers-new-climate-on-planet-pluto-upto-300-kilometres/2802792",
+      "domain": "zeenews.india.com"
+    },
+    {
+      "title": "いったい何が？アメリカの街灯の光が紫色に変化した理由",
+      "url": "https://karapaia.com/archives/517399.html",
+      "domain": "karapaia.com"
+    },
+    {
+      "title": "恋愛が終わりに近いことを示す3つの小さなサイン 上手く行っているフリや惰性を感じたら",
+      "url": "https://forbesjapan.com/articles/detail/79887",
+      "domain": "forbesjapan.com"
+    },
+    {
+      "title": "プライバシーに配慮した見守りにより介護従事者などの負荷軽減を実現する「ミリ波レーダ見守りシステム」を提供開始 : 富士通",
+      "url": "https://pr.fujitsu.com/jp/news/2025/06/16-01.html",
+      "domain": "pr.fujitsu.com"
+    },
+    {
+      "title": "Cher's Son Elijah Blue Allman Rushed to California Hospital as His Estranged Wife Recognizes His 'Inner Struggles' (Exclusive)",
+      "url": "https://ca.news.yahoo.com/chers-son-elijah-blue-allman-032606953.html",
+      "domain": "ca.news.yahoo.com"
+    },
+    {
+      "title": "Justin Bieber cuts off friend via text after 'lashing out'",
+      "url": "https://pagesix.com/2025/06/15/celebrity-news/justin-bieber-cuts-off-friend-via-text-after-lashing-out/",
+      "domain": "pagesix.com"
+    },
+    {
+      "title": "Conheça a história de Karla Moura, nova apresentadora do Bom Dia Ceará",
+      "url": "https://diariodonordeste.verdesmares.com.br/verso/conheca-a-historia-de-karla-moura-nova-apresentadora-do-bom-dia-ceara-1.3659814",
+      "domain": "diariodonordeste.verdesmares.com.br"
+    },
+    {
+      "title": "Adriane Galisteu cita motivo de incômodo da família de Senna com ela: 'Vou continuar sendo indigesta'",
+      "url": "https://extra.globo.com/famosos/noticia/2025/06/adriane-galisteu-cita-motivo-de-incomodo-da-familia-de-senna-com-ela-vou-continuar-sendo-indigesta.ghtml",
+      "domain": "extra.globo.com"
+    },
+    {
+      "title": "En Syrie, les \"dessous\" de la guerre : \"J’ai beaucoup de futures épouses qui viennent s’approvisionner en lingerie\"",
+      "url": "https://madame.lefigaro.fr/societe/en-syrie-les-dessous-de-la-guerre-j-ai-beaucoup-de-futures-epouses-qui-viennent-s-approvisionner-en-lingerie-20250616",
+      "domain": "madame.lefigaro.fr"
+    },
+    {
+      "title": "நடிகர் அஜித் மற்றும் ஷாலினியை நேரில் சந்தித்த முன்னணி நடிகர்.. யார் தெரியுமா!",
+      "url": "https://cineulagam.com/article/actor-sathish-meet-ajith-and-shalini-photo-is-here-1750065867",
+      "domain": "cineulagam.com"
+    },
+    {
+      "title": "明晚正式开播！中央八套又一年代剧来袭！阵容好强，王凯杨烁加盟",
+      "url": "https://m.163.com/dy/article/K26NNIE30552D1FK.html",
+      "domain": "m.163.com"
+    },
+    {
+      "title": "上智大卒・かとゆり、結婚を電撃発表 YouTubeで報告",
+      "url": "https://mdpr.jp/news/detail/4586025",
+      "domain": "mdpr.jp"
+    },
+    {
+      "title": "Mrs. GREEN APPLE×東京ディズニーリゾートのコラボグッズ発表！ミッキーたちがノリノリ",
+      "url": "https://natalie.mu/music/news/628245",
+      "domain": "natalie.mu"
+    },
+    {
+      "title": "‘The best’ - Meghan honours Harry in heartfelt Father’s Day message",
+      "url": "https://uk.news.yahoo.com/best-meghan-honours-harry-heartfelt-235218637.html",
+      "domain": "uk.news.yahoo.com"
+    },
+    {
+      "title": "Herzogin Meghan teilt zum Vatertag süße Familienaufnahmen",
+      "url": "https://web.de/magazine/unterhaltung/adel/britische-royals/herzogin-meghan-teilt-vatertag-liebevolle-familienbilder-41082962",
+      "domain": "web.de"
+    },
+    {
+      "title": "超级期待！ILLIT将今日携迷你三辑《BOMB》回归",
+      "url": "http://news.yule.com.cn/html/202506/357437.html",
+      "domain": "news.yule.com.cn"
+    },
+    {
+      "title": "『リロ＆スティッチ』が2週連続で1位！新作は3位に『フロントライン』、5位に『ドールハウス』がランクイン（2025年6月13日-6月15日）／ニュース",
+      "url": "http://www.kogyotsushin.com/archives/topics/t8/202506/16154244.php",
+      "domain": "kogyotsushin.com"
+    },
+    {
+      "title": "41岁吕一晒家中内景，又脏又乱装修破旧，没有老公生活痕迹引热议",
+      "url": "https://i.ifeng.com/c/8kEVWbJWqHK",
+      "domain": "i.ifeng.com"
+    },
+    {
+      "title": "SKE48 OFFICIAL WEB SITE｜SKE48 Mobile",
+      "url": "https://ske48.co.jp/news/detail/54539",
+      "domain": "ske48.co.jp"
+    }
+  ],
+  "generated_at": "2025-06-16T13:29:26Z",
+  "total_sources": 75
+}
