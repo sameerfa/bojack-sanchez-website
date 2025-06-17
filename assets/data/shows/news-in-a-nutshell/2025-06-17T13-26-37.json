@@ -1,0 +1,357 @@
+{
+  "episode_id": "2025-06-17T13-26-37",
+  "sources": [
+    {
+      "title": "Children of slain Minnesota lawmaker Melissa Hortman: 'We are devastated'",
+      "url": "https://abcnews.go.com/US/children-slain-minnesota-lawmaker-melissa-hortman-devastated/story?id=122915277",
+      "domain": "abcnews.go.com"
+    },
+    {
+      "title": "Carney is demanding power to suspend all federal laws",
+      "url": "https://nationalpost.com/opinion/jamie-sarkonak-mark-carney-is-demanding-power-to-suspend-all-federal-laws-what-will-he-use-it-for",
+      "domain": "nationalpost.com"
+    },
+    {
+      "title": "Chuva em Porto Alegre será excessiva, durará dias e trará problemas",
+      "url": "https://metsul.com/chuva-em-porto-alegre-sera-excessiva-durara-dias-e-trara-problemas/",
+      "domain": "metsul.com"
+    },
+    {
+      "title": "London-bound Air India flight 'cancelled last minute over technical issues'",
+      "url": "https://metro.co.uk/2025/06/17/london-bound-air-india-flight-cancelled-last-minute-technical-issues-23434989/",
+      "domain": "metro.co.uk"
+    },
+    {
+      "title": "Israel-Iran conflict: Indian students evacuated out of Tehran, 110 cross border to Armenia; Embassy urges nationals to move to ‘safe location’ outside city",
+      "url": "https://indianexpress.com/article/india/indian-nationals-embassy-safe-locartion-tehran-israel-iran-mea-10071223/",
+      "domain": "indianexpress.com"
+    },
+    {
+      "title": "Medicaid cuts, other details from Senate committee’s tax bill text",
+      "url": "https://edition.cnn.com/2025/06/16/politics/medicaid-cuts-senate-tax-bill",
+      "domain": "edition.cnn.com"
+    },
+    {
+      "title": "Police pursuit ends in Gardiner takedown; 1 suspect injured",
+      "url": "https://toronto.citynews.ca/2025/06/17/toronto-gardiner-expressway-police-carjacking-suspects-injured/",
+      "domain": "toronto.citynews.ca"
+    },
+    {
+      "title": "Free Admission to National Parks Included in New Canada Strong Pass",
+      "url": "https://vocm.com/2025/06/17/ottawas-new-canada-strong-pass-includes-free-admission-to-national-parks/",
+      "domain": "vocm.com"
+    },
+    {
+      "title": "De demandeuse d’asile à enseignante en classe d’accueil",
+      "url": "https://ici.radio-canada.ca/nouvelle/2169853/demandeuse-asile-enseignante-classe-accueil",
+      "domain": "ici.radio-canada.ca"
+    },
+    {
+      "title": "Japan, U.S. fail to reach tariff deal at Ishiba-Trump summit",
+      "url": "https://english.kyodonews.net/news/2025/06/9510f16b39e7-update3-japan-us-still-far-from-tariff-deal-after-ishiba-trump-summit.html",
+      "domain": "english.kyodonews.net"
+    },
+    {
+      "title": "Bilionário que reclamou do Bolsa Família paga salários baixos e foi alvo de várias ações trabalhistas",
+      "url": "https://iclnoticias.com.br/bilionario-bolsa-familia-paga-salarios-baixos/",
+      "domain": "iclnoticias.com.br"
+    },
+    {
+      "title": "防沙治沙，荒漠里播撒希望的种子（守望·特别策划） --新闻报道-中国共产党新闻网",
+      "url": "http://cpc.people.com.cn/n1/2025/0617/c64387-40502063.html",
+      "domain": "cpc.people.com.cn"
+    },
+    {
+      "title": "今日17日 6月として記録的な暑さ 真夏日・猛暑日地点は今年最多 今夜もムシムシ",
+      "url": "https://tenki.jp/forecaster/deskpart/2025/06/17/34161.html",
+      "domain": "tenki.jp"
+    },
+    {
+      "title": "Imposto de Renda: Câmara aprova urgência da nova tabela",
+      "url": "https://www1.folha.uol.com.br/mercado/2025/06/camara-aprova-urgencia-de-atualizacao-da-tabela-do-imposto-de-renda-de-2025.shtml",
+      "domain": "www1.folha.uol.com.br"
+    },
+    {
+      "title": "\"C’est toujours les mêmes cibles\" : Rachida Dati charge \"Complément d’Enquête\" et \"Cash Investigation\"",
+      "url": "https://tvmag.lefigaro.fr/programme-tv/actu-tele/c-est-toujours-les-memes-cibles-rachida-dati-charge-complement-d-enquete-et-cash-investigation-20250617",
+      "domain": "tvmag.lefigaro.fr"
+    },
+    {
+      "title": "＜1分で解説＞東京都議選 自民議席増か 国民民主は苦戦候補多く",
+      "url": "https://mainichi.jp/articles/20250617/k00/00m/010/099000c",
+      "domain": "mainichi.jp"
+    },
+    {
+      "title": "【速報】国民民主党の支持率が電話・ネット調査ともに下落！自民・内閣支持率は回復！2025年6月電話×ネット意識調査",
+      "url": "https://go2senkyo.com/articles/2025/06/17/114522.html",
+      "domain": "go2senkyo.com"
+    },
+    {
+      "title": "中東情勢の緊迫化でビットコインが一時急落 トランプ氏「すぐにテヘランから退避を」",
+      "url": "https://jp.cointelegraph.com/news/bitcoin-dips-reports-trump-summon-national-security-council",
+      "domain": "jp.cointelegraph.com"
+    },
+    {
+      "title": "Oil Futures and US Futures Drop After Trump's Warning",
+      "url": "https://markets.businessinsider.com/news/commodities/oil-futures-sp500-nasdaq-israel-iran-trump-tehran-evacuation-warning-2025-6",
+      "domain": "markets.businessinsider.com"
+    },
+    {
+      "title": "The Room FX: ANA's New No-Recline Boeing 787 Business Class Suite",
+      "url": "https://onemileatatime.com/news/ana-787-business-class-the-room-fx/",
+      "domain": "onemileatatime.com"
+    },
+    {
+      "title": "Kampfabstimmung Thyssenkrupp um Miguel Lopez, Doppelstimme von Aufsichtsratschef Russwurm droht",
+      "url": "https://rp-online.de/wirtschaft/kampfabstimmung-thyssenkrupp-um-miguel-lopez-doppelstimme-von-aufsichtsratschef-russwurm-droht_aid-129384821",
+      "domain": "rp-online.de"
+    },
+    {
+      "title": "Gasly est 'triste' et voit 'de l'inquiétude' chez Alpine F1 sans Luca de Meo",
+      "url": "https://motorsport.nextgen-auto.com/fr/formule-1/gasly-est-triste-et-voit-de-l-inquietude-chez-alpine-f1-sans-luca-de-meo,200345.html",
+      "domain": "motorsport.nextgen-auto.com"
+    },
+    {
+      "title": "Mahindra Upcoming Cars 5 New Cars Spied Testing Bolero XUV700 Automobile News",
+      "url": "https://tamil.abplive.com/auto/mahindra-upcoming-cars-5-new-cars-spied-testing-bolero-xuv700-ev-automobile-news-226244",
+      "domain": "tamil.abplive.com"
+    },
+    {
+      "title": "Senate expected to pass crypto bill without addressing Trump's investments",
+      "url": "https://apnews.com/article/crypto-stablecoins-trump-senate-383b502d3d80169f8f4739055dada0cb",
+      "domain": "apnews.com"
+    },
+    {
+      "title": "Taxação do agro vai aumentar preço da comida? Economista diz que não",
+      "url": "https://economia.uol.com.br/noticias/redacao/2025/06/17/lca-alimentos.htm",
+      "domain": "economia.uol.com.br"
+    },
+    {
+      "title": "Dogecoin – Here’s what’s in store for memecoin after Bitcoin’s latest price bounce",
+      "url": "https://ambcrypto.com/dogecoin-heres-whats-in-store-for-memecoin-after-bitcoins-latest-price-bounce/",
+      "domain": "ambcrypto.com"
+    },
+    {
+      "title": "DAX - Tagesausblick: DAX nach Bärkeil-Auflösung stabil. Flaggenbildung zum Abwärtstrend",
+      "url": "https://stock3.com/news/dax-tagesausblick-dax-nach-baerkeilaufloesung-stabil-flaggenbildung-zum-abwaertstrend-16448310",
+      "domain": "stock3.com"
+    },
+    {
+      "title": "Ce fromage vendu chez Lidl est rappelé dans toute la France: il peut provoquer de la fièvre",
+      "url": "https://rmc.bfmtv.com/conso/alimentation/rappels-de-lots/ce-fromage-vendu-chez-lidl-est-rappele-dans-toute-la-france-il-peut-provoquer-de-la-fievre_AN-202506170318.html",
+      "domain": "rmc.bfmtv.com"
+    },
+    {
+      "title": "Pierre Gasly veut \"comprendre\" les effets du départ de Luca de Meo",
+      "url": "https://fr.motorsport.com/f1/news/gasly-comprendre-effets-demission-de-meo/10733628/",
+      "domain": "fr.motorsport.com"
+    },
+    {
+      "title": "Razorpay acquires majority stake in POP with $30 Mn investment",
+      "url": "https://entrackr.com/news/razorpay-acquires-majority-stake-in-pop-with-30-mn-investment-9370234",
+      "domain": "entrackr.com"
+    },
+    {
+      "title": "牛市早报｜国家统计局：5月份国民经济运行总体平稳、稳中有进",
+      "url": "https://finance.eastmoney.com/a/202506173432241890.html",
+      "domain": "finance.eastmoney.com"
+    },
+    {
+      "title": "活力中国调研行｜坚持创新引领 京车智驾领跑赛道",
+      "url": "http://bj.chinadaily.com.cn/a/202506/17/WS6850c40ba3102053770386c0.html",
+      "domain": "bj.chinadaily.com.cn"
+    },
+    {
+      "title": "実質金利は極めて低水準、見通し実現していけば利上げ＝日銀総裁",
+      "url": "https://jp.reuters.com/economy/bank-of-japan/UWYSHLR4DZMQVGVDUSJJLLZW44-2025-06-17/",
+      "domain": "jp.reuters.com"
+    },
+    {
+      "title": "新米ピンチ 天敵イネカメムシ暑さで急増「空っぽの稲穂に」 コメ3週連続値下がりも…",
+      "url": "https://topics.smt.docomo.ne.jp/article/tvasahinews/business/tvasahinews-900027538",
+      "domain": "topics.smt.docomo.ne.jp"
+    },
+    {
+      "title": "トヨタ新「ハリアー」発売！ メッキ仕上げのエアロがスゴい“ラグジュアリー仕様”に注目！ “光るグリル”がめちゃカッコいい「モデリスタバージョン」とは？",
+      "url": "https://kuruma-news.jp/post/918928",
+      "domain": "kuruma-news.jp"
+    },
+    {
+      "title": "review of a smart video doorbell with AI • Mezha.Media",
+      "url": "https://mezha.media/en/reviews/ajax-doorbell-oglyad-rozumnogo-videodzvinka-z-shi-302479/",
+      "domain": "mezha.media"
+    },
+    {
+      "title": "\" Ce sang artificiel va tout changer \" : cette avancée médicale incroyable qui imite le corps humain pour révolutionner les machines du futur",
+      "url": "https://hellobiz.fr/2025/06/17/ce-sang-artificiel-va-tout-changer-cette-avancee-medicale-incroyable-qui-imite-le-corps-humain-pour-revolutionner-les-machines-du-futur/",
+      "domain": "hellobiz.fr"
+    },
+    {
+      "title": "トランプG7早期離脱で地政学リスク拡大懸念も、ビットコインは10万ドル台で推移",
+      "url": "https://coinpost.jp/?p=625766",
+      "domain": "coinpost.jp"
+    },
+    {
+      "title": "Samsung Encourages Galaxy Users to Activate Latest Anti-Theft Features to Help Tackle Phone Theft",
+      "url": "https://news.samsung.com/za/samsung-encourages-galaxy-users-to-activate-latest-anti-theft-features-to-help-tackle-phone-theft",
+      "domain": "news.samsung.com"
+    },
+    {
+      "title": "Cientistas detectam ondas de rádio misteriosas sob o solo da Antártida",
+      "url": "https://noticias.r7.com/internacional/cientistas-detectam-ondas-de-radio-misteriosas-sob-o-solo-da-antartida-17062025/",
+      "domain": "noticias.r7.com"
+    },
+    {
+      "title": "17 juin 2025 : le prix de l'électricité Epex / Spot poursuit son envolée",
+      "url": "https://selectra.info/energie/actualites/marche/prix-electricite-17-juin-2025",
+      "domain": "selectra.info"
+    },
+    {
+      "title": "『シャドウバース ワールズビヨンド』、Steamだけで同接「6万人」超えのロケットスタート。一方“毎日1パック配布”による変化には賛否も",
+      "url": "https://automaton-media.com/articles/newsjp/shadowverse-worlds-beyond-20250617-344805/",
+      "domain": "automaton-media.com"
+    },
+    {
+      "title": "服役中で刑務所にいながらにしてソフトウェアエンジニアとして入社した人が自身の経験を語る",
+      "url": "https://gigazine.net/news/20250617-software-programmer-in-prison/",
+      "domain": "gigazine.net"
+    },
+    {
+      "title": "All New GTA Online Vehicles In Money Fronts Update And Prices Revealed",
+      "url": "https://rockstarintel.com/gta-online-money-fronts-vehicles-prices-day-one/",
+      "domain": "rockstarintel.com"
+    },
+    {
+      "title": "Quelle est la véritable consommation d'une requête ChatGPT ? Le PDG d'OpenAI répond !",
+      "url": "https://sciencepost.fr/quelle-est-la-veritable-consommation-dune-requete-chatgpt-le-pdg-dopenai-repond/",
+      "domain": "sciencepost.fr"
+    },
+    {
+      "title": "iQOO Z10 Lite 5G कल होगा भारत में लॉन्च; दमदार बैटरी, AI फीचर्स और कीमत सिर्फ ₹10,000!",
+      "url": "https://hindi.latestly.com/technology/iqoo-z10-lite-5g-will-be-launched-in-india-tomorrow-powerful-battery-ai-features-and-price-only-10000-2659073.html",
+      "domain": "hindi.latestly.com"
+    },
+    {
+      "title": "₹9623 की छूट के साथ मिल रहा Samsung का धांसू 5G फोन, कीमत सुनकर चौंक जाएंगे!",
+      "url": "https://cgsandesh.com/Home/NewsDetails/100663",
+      "domain": "cgsandesh.com"
+    },
+    {
+      "title": "FBC: Firebreak Review (PS5)",
+      "url": "https://www.pushsquare.com/reviews/ps5/fbc-firebreak",
+      "domain": "pushsquare.com"
+    },
+    {
+      "title": "Short-lived eclipsing binary pulsar spotted in Milky Way",
+      "url": "https://physicsworld.com/a/short-lived-eclipsing-binary-pulsar-spotted-in-milky-way/",
+      "domain": "physicsworld.com"
+    },
+    {
+      "title": "Bericht legt volle Tragweite offen",
+      "url": "https://orf.at/stories/3396566/",
+      "domain": "orf.at"
+    },
+    {
+      "title": "\" Ce que ce satellite a vu glace le sang \" : une technologie chinoise secrète captée en orbite inquiète les experts",
+      "url": "https://afriquenligne.fr/2025/06/17/ce-que-ce-satellite-a-vu-glace-le-sang-une-technologie-chinoise-secrete-captee-en-orbite-inquiete-les-experts/",
+      "domain": "afriquenligne.fr"
+    },
+    {
+      "title": "This moon in the solar system continues to surprise scientists with the discovery of alternating water forms on its surface.",
+      "url": "https://farmingdale-observer.com/2025/06/16/this-moon-in-the-solar-system-continues-to-surprise-scientists-with-the-discovery-of-alternating-water-forms-on-its-surface/",
+      "domain": "farmingdale-observer.com"
+    },
+    {
+      "title": "Moon’s volcanic history trapped in tiny glass beads: A valuable clue for NASA",
+      "url": "https://timesofindia.indiatimes.com/science/moons-volcanic-history-trapped-in-tiny-glass-beads-a-valuable-clue-for-nasa/articleshow/121904188.cms",
+      "domain": "timesofindia.indiatimes.com"
+    },
+    {
+      "title": "中国で急増中の「なんちゃって出勤」ビジネスとは？周囲の目が気になる若者がたどり着く場所だった (2/2)",
+      "url": "https://nazology.kusuguru.co.jp/archives/179677/2",
+      "domain": "nazology.kusuguru.co.jp"
+    },
+    {
+      "title": "NASA alert asteroid size of a stadium will come near earth 22 june",
+      "url": "https://zeenews.india.com/hindi/science/nasa-alert-asteroid-size-of-a-stadium-will-come-near-earth-22-june/2804221",
+      "domain": "zeenews.india.com"
+    },
+    {
+      "title": "'Lilo & Stitch' Actor David Hekili Kenui Bell Dies",
+      "url": "https://deadline.com/2025/06/lilo-and-stitch-actor-david-hekili-kenui-bell-dead-1236435349/",
+      "domain": "deadline.com"
+    },
+    {
+      "title": "Carsten Maschmeyer: \"Habe mich gegen diese Todesspirale entschieden\"",
+      "url": "https://web.de/magazine/unterhaltung/stars/carsten-maschmeyer-todesspirale-entschieden-41086976",
+      "domain": "web.de"
+    },
+    {
+      "title": "Fortnite accueille un nouveau mode battle royale",
+      "url": "https://gamewave.fr/fortnite/fortnite-accueille-un-nouveau-mode-battle-royale/",
+      "domain": "gamewave.fr"
+    },
+    {
+      "title": "निरहुआ ने आम्रपाली संग कंबल में आधी रात रोमांस की हदें की पार, वीडियो देख छुट जाएगा पसीना",
+      "url": "https://bhiwanihalchal.com/entertainment-news/bhojpuri-dance-video-nirahua-crosses-the-limits-of-midnight/cid16912412.htm",
+      "domain": "bhiwanihalchal.com"
+    },
+    {
+      "title": "何洁回应假唱争议后秒删，强调没有假唱，解释被误会假唱的原因",
+      "url": "https://i.ifeng.com/c/8kGEeFq9nEW",
+      "domain": "i.ifeng.com"
+    },
+    {
+      "title": "4-5月大剧招商:从《蛮好》《折腰》《藏海传》,看见IP商业价值",
+      "url": "https://lmtw.com/mzw/content/detail/id/243420/keyword_id/-1",
+      "domain": "lmtw.com"
+    },
+    {
+      "title": "謎解きで会場を探し出せ 映画『近畿地方のある場所について』“近畿地方のある場所”でプレミア上映開催",
+      "url": "https://horror2.jp/73543",
+      "domain": "horror2.jp"
+    },
+    {
+      "title": "Three Beatles' sons collaborate on new song 'Rip Off'",
+      "url": "https://ew.com/three-beatles-sons-collaborate-on-new-song-rip-off-11755903",
+      "domain": "ew.com"
+    },
+    {
+      "title": "Jason Isaacs reveals 'very low' 'White Lotus' salary",
+      "url": "https://pagesix.com/2025/06/16/entertainment/jason-isaacs-reveals-very-low-white-lotus-salary/",
+      "domain": "pagesix.com"
+    },
+    {
+      "title": "Cardi B Shares First Photos of Her Daughter Blossom's Face and New Family Snaps: 'It Is You Miss Blossom Belles'",
+      "url": "https://uk.news.yahoo.com/cardi-b-shares-first-photos-014530365.html",
+      "domain": "uk.news.yahoo.com"
+    },
+    {
+      "title": "Nívea Stelmann anuncia que vai ser avó; relembre outras famosas que foram jovens vovós",
+      "url": "https://oglobo.globo.com/cultura/noticia/2025/06/17/nivea-stelmann-anuncia-que-vai-ser-avo-relembre-outras-famosas-que-foram-jovens-vovos.ghtml",
+      "domain": "oglobo.globo.com"
+    },
+    {
+      "title": "प्रयागराज महाकुंभ फेम मोनालिसा का पहला म्यूजिक वीडियो ‘सादगी’ रिलीज, दिखा दिलकश अंदाज, मुंबई तक के सफ़र को बताया महाकाल की कृपा",
+      "url": "https://mpbreakingnews.in/madhya-pradesh/bhopal/prayagraj-mahakumbh-fame-monalisa-first-music-video-saadgi-released-showed-charming-style-journey-to-mumbai-blessing-mahakal-11-774680",
+      "domain": "mpbreakingnews.in"
+    },
+    {
+      "title": "5 Ups & 4 Downs from WWE Raw (16 June - Results & Review)",
+      "url": "https://whatculture.com/wwe/5-ups-4-downs-from-wwe-raw-16-june-results-review",
+      "domain": "whatculture.com"
+    },
+    {
+      "title": "何洁回应假唱争议后秒删，强调没有假唱，解释被误会假唱的原因",
+      "url": "https://ent.ifeng.com/c/8kGEeFq9nEW",
+      "domain": "ent.ifeng.com"
+    },
+    {
+      "title": "音乐话剧《受到召唤·敦煌》兰州站两场开票即售罄！",
+      "url": "http://gansu.gscn.com.cn/system/2025/06/17/013340589.shtml",
+      "domain": "gansu.gscn.com.cn"
+    }
+  ],
+  "generated_at": "2025-06-17T13:28:02Z",
+  "total_sources": 70
+}
