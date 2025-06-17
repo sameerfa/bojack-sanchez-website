@@ -1,0 +1,357 @@
+{
+  "episode_id": "2025-06-17T02-11-09",
+  "sources": [
+    {
+      "title": "Fachin defende contenção do Judiciário e diz que STF não pode invadir 'seara do legislador'",
+      "url": "https://oglobo.globo.com/politica/noticia/2025/06/16/fachin-defende-contencao-do-judiciario-e-diz-que-stf-nao-pode-invadir-seara-do-legislador.ghtml",
+      "domain": "oglobo.globo.com"
+    },
+    {
+      "title": "Eduardo dá indireta a Tarcísio e critica direita permitida",
+      "url": "https://www1.folha.uol.com.br/poder/2025/06/em-indireta-a-tarcisio-eduardo-bolsonaro-critica-apoio-a-candidatos-da-direita-permitida.shtml",
+      "domain": "www1.folha.uol.com.br"
+    },
+    {
+      "title": "Israel-Iran conflict: India starts evacuating students from Iran; 100 reach Armenia border",
+      "url": "https://timesofindia.indiatimes.com/india/israel-iran-conflict-india-starts-evacuating-students-from-iran-100-reach-armenia-border/articleshow/121894115.cms",
+      "domain": "timesofindia.indiatimes.com"
+    },
+    {
+      "title": "Grande mudança do tempo começa com tempestades de granizo",
+      "url": "https://metsul.com/grande-mudanca-do-tempo-comeca-com-tempestades-de-granizo/",
+      "domain": "metsul.com"
+    },
+    {
+      "title": "Fachin defende autocontenção do Judiciário",
+      "url": "https://revistaoeste.com/politica/fachin-defende-autocontencao-do-judiciario/",
+      "domain": "revistaoeste.com"
+    },
+    {
+      "title": "习近平抵达阿斯塔纳出席第二届中国—中亚峰会",
+      "url": "http://cn.chinadiplomacy.org.cn/2025-06/17/content_117931293.shtml",
+      "domain": "cn.chinadiplomacy.org.cn"
+    },
+    {
+      "title": "学习进行时丨乘风破浪、勇毅前行--习近平主席推动中国同中亚五国友好合作的故事--时政--人民网",
+      "url": "http://politics.people.com.cn/n1/2025/0616/c1001-40501827.html",
+      "domain": "politics.people.com.cn"
+    },
+    {
+      "title": "高速道路SAトイレに貼られた注意喚起に驚き→「そんな人いる？！」専門家に聞いてみた｜まいどなニュース",
+      "url": "https://maidonanews.jp/article/15780224",
+      "domain": "maidonanews.jp"
+    },
+    {
+      "title": "Wildfire Near Churchill Falls Draws Aerial Response",
+      "url": "https://vocm.com/2025/06/16/wildfire-near-churchill-falls-draws-aerial-response/",
+      "domain": "vocm.com"
+    },
+    {
+      "title": "Crianças sobem no teto de carro para fugir de ataque de pitbull",
+      "url": "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/criancas-sobem-no-teto-de-carro-para-fugir-de-ataque-de-pitbull-1.3660731",
+      "domain": "diariodonordeste.verdesmares.com.br"
+    },
+    {
+      "title": "The cracks in the OpenAI-Microsoft relationship are reportedly widening",
+      "url": "https://techcrunch.com/2025/06/16/the-cracks-in-the-openai-microsoft-relationship-are-reportedly-widening/",
+      "domain": "techcrunch.com"
+    },
+    {
+      "title": "Second patient death reported with gene therapy for muscular dystrophy",
+      "url": "https://apnews.com/article/sarepta-muscular-dystophy-duchennes-gene-therapy-255d04aa3db9bd171c9bf006328ba5d3",
+      "domain": "apnews.com"
+    },
+    {
+      "title": "Leonard Lauder, who globalized family cosmetic business, dies at age 92",
+      "url": "https://abcnews.go.com/Business/wireStory/leonard-lauder-philanthropist-globalized-family-cosmetic-business-dies-122897539",
+      "domain": "abcnews.go.com"
+    },
+    {
+      "title": "Canada Increases New Brunswick's Immigration Quota By Almost 3 Times",
+      "url": "https://immigrationnewscanada.ca/canada-new-brunswick-immigration-2025/",
+      "domain": "immigrationnewscanada.ca"
+    },
+    {
+      "title": "‘No space for Bezos’: Venice locals protest billionaire’s wedding plans",
+      "url": "https://globalnews.ca/news/11244290/jeff-bezos-wedding-venice-protest/",
+      "domain": "globalnews.ca"
+    },
+    {
+      "title": "Audi apresenta a nova geração do Q3; veja o que muda",
+      "url": "https://motor1.uol.com.br/news/762904/audi-apresenta-nova-geracao-q3/",
+      "domain": "motor1.uol.com.br"
+    },
+    {
+      "title": "Bitcoin And HYPE Lead Fresh Crypto Rally Toward New Highs",
+      "url": "https://cointelegraph.com/news/price-predictions-6-16-spx-dxy-btc-eth-xrp-bnb-sol-doge-ada-hype",
+      "domain": "cointelegraph.com"
+    },
+    {
+      "title": "Massive Achievement for Ripple as XRP Price Finally Awakens",
+      "url": "https://cryptopotato.com/massive-achievement-for-ripple-as-xrp-price-finally-awakens/",
+      "domain": "cryptopotato.com"
+    },
+    {
+      "title": "ビットコイン初期採用者、「BTCは再び100倍の上昇サイクルに入る可能性」",
+      "url": "https://jp.cointelegraph.com/news/early-bitcoin-adopter-says-btc-could-have-another-100x-cycle",
+      "domain": "jp.cointelegraph.com"
+    },
+    {
+      "title": "Embraer fecha novas vendas para Japão e Portugal, e ação dispara na B3",
+      "url": "https://economia.uol.com.br/colunas/graciliano-rocha/2025/06/16/embraer-fecha-novas-vendas-para-japao-e-portugal-e-acao-dispara-na-b3.htm",
+      "domain": "economia.uol.com.br"
+    },
+    {
+      "title": "Trabalhadores podem ter mais de R$ 3 mil para sacar nessa semana",
+      "url": "https://terrabrasilnoticias.com/2025/06/trabalhadores-podem-ter-mais-de-r-3-mil-para-sacar-nessa-semana/",
+      "domain": "terrabrasilnoticias.com"
+    },
+    {
+      "title": "Itaú traz para dentro de casa seu CVC, que nasce com R$ 500 milhões de capital comprometido",
+      "url": "https://neofeed.com.br/startups/itau-traz-para-dentro-de-casa-seu-cvc-que-nasce-com-r-500-milhoes-de-capital-comprometido/",
+      "domain": "neofeed.com.br"
+    },
+    {
+      "title": "6 dangerously common MOT failures - and how to avoid them",
+      "url": "https://uk.news.yahoo.com/mot-test-failure-advisory-161918913.html",
+      "domain": "uk.news.yahoo.com"
+    },
+    {
+      "title": "SILBER und das 50 $ Projektionsziel",
+      "url": "https://stock3.com/news/silber-und-das-50-projektionsziel-16447380",
+      "domain": "stock3.com"
+    },
+    {
+      "title": "河北：推进清洁能源项目建设 助力绿色低碳发展",
+      "url": "http://www.xinhuanet.com/photo/20250616/7296e38a66624b11bc8d0fd60b76a5fb/c.html",
+      "domain": "xinhuanet.com"
+    },
+    {
+      "title": "三菱商事、米シェール資産買収へ交渉中 80億ドルで＝関係筋",
+      "url": "https://jp.reuters.com/markets/commodities/TNKBA5FHYFPWLDCMHO6FPPMJGA-2025-06-16/",
+      "domain": "jp.reuters.com"
+    },
+    {
+      "title": "１７日の東京株式市場見通し＝堅調な展開か 速報",
+      "url": "https://kabushiki.jp/news/701397",
+      "domain": "kabushiki.jp"
+    },
+    {
+      "title": "Warner Bros Discovery CEO David Zaslav Pay to Drop After Company Split",
+      "url": "https://variety.com/2025/tv/news/warner-bros-discovery-david-zaslav-225-million-stock-options-pay-cut-split-1236433497/",
+      "domain": "variety.com"
+    },
+    {
+      "title": "Review: The Legend of Zelda: Tears of the Kingdom - Nintendo Switch 2 Edition",
+      "url": "https://mynintendonews.com/2025/06/16/review-the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-2-edition/",
+      "domain": "mynintendonews.com"
+    },
+    {
+      "title": "Bitcoin e Ethereum: entenda as diferenças entre as duas maiores criptomoedas",
+      "url": "https://istoedinheiro.com.br/bitcoin-e-ethereum-entenda-as-diferencas-entre-as-duas-maiores-criptomoedas",
+      "domain": "istoedinheiro.com.br"
+    },
+    {
+      "title": "Voici les armes autonomes mortelles qui terrifient l'armée américaine",
+      "url": "https://sciencepost.fr/elles-nont-ni-pilote-ni-remords-voici-les-armes-autonomes-mortelles-qui-terrifient-larmee-americaine/",
+      "domain": "sciencepost.fr"
+    },
+    {
+      "title": "HPの取締役会を説得してPalmを12億ドルで買収させたのちわずか49日で事業がダメになるのを見届けたCTOの記録",
+      "url": "https://gigazine.net/news/20250616-phil-mckinney-hp-palm/",
+      "domain": "gigazine.net"
+    },
+    {
+      "title": "Mario Kart World player gets to the bottom of how coins work",
+      "url": "https://nintendoeverything.com/mario-kart-world-how-coins-work/",
+      "domain": "nintendoeverything.com"
+    },
+    {
+      "title": "Nintendo's Crackdown On Switch 2 Piracy Has Already Begun",
+      "url": "https://kotaku.com/switch-2-piracy-nintendo-mig-ban-roms-mario-kart-1851784610",
+      "domain": "kotaku.com"
+    },
+    {
+      "title": "Reddit user surprised when 1960s computer panel emerged from collapsed family garage",
+      "url": "https://arstechnica.com/gadgets/2025/06/reddit-user-surprised-when-1960s-computer-panel-emerged-from-collapsed-family-garage/",
+      "domain": "arstechnica.com"
+    },
+    {
+      "title": "Tinder unveils major update that changes how users date",
+      "url": "https://ca.style.yahoo.com/tinder-unveils-major-changes-users-230100098.html",
+      "domain": "ca.style.yahoo.com"
+    },
+    {
+      "title": "A Dell quer ser a “fábrica de IA” do mundo. O mercado ainda precisa ser convencido",
+      "url": "https://braziljournal.com/a-dell-quer-ser-a-fabrica-de-ia-do-mundo-o-mercado-ainda-precisa-ser-convencido/",
+      "domain": "braziljournal.com"
+    },
+    {
+      "title": "Google revela motivo para falha que derrubou internet no mundo",
+      "url": "https://olhardigital.com.br/2025/06/16/internet-e-redes-sociais/google-revela-motivo-para-falha-que-derrubou-internet-no-mundo/",
+      "domain": "olhardigital.com.br"
+    },
+    {
+      "title": "Após ameaçar taxar iPhone, Trump cria seu próprio smartphone",
+      "url": "https://noticias.uol.com.br/colunas/jamil-chade/2025/06/16/apos-ameacar-taxar-iphone-trump-cria-seu-proprio-smartphone.htm",
+      "domain": "noticias.uol.com.br"
+    },
+    {
+      "title": "Programmation de l'énergie: l'Assemblée n'entend pas être court-circuitée",
+      "url": "https://actu.orange.fr/politique/programmation-de-l-energie-l-assemblee-n-entend-pas-etre-court-circuitee-CNT000002jbcTe.html",
+      "domain": "actu.orange.fr"
+    },
+    {
+      "title": "Microsoft 365 is DOWN: Hundreds of users report problems",
+      "url": "https://www.dailymail.co.uk/news/article-14818641/Microsoft-outage-Outlook-Teams.html",
+      "domain": "dailymail.co.uk"
+    },
+    {
+      "title": "Here's One Reason To Buy A Lucid Air Over A Tesla Or Rivian",
+      "url": "https://insideevs.com/news/762899/lucid-air-android-auto-carplay/",
+      "domain": "insideevs.com"
+    },
+    {
+      "title": "Samsung से लेकर Huawei तक 10 हजार में आने वाली बेस्ट स्मार्टवॉच, यहां डिस्काउंट पर खरीदें",
+      "url": "https://hindi.gadgets360.com/wearable/best-smartwatch-under-10000-in-india-2025-samsung-galaxy-watch-fe-noise-pro-6-max-and-huawei-watch-fit-3-news-8511118",
+      "domain": "hindi.gadgets360.com"
+    },
+    {
+      "title": "Borderlands 4 Standard Edition Price Set at $70 After All",
+      "url": "https://in.ign.com/borderlands-4/234160/news/borderlands-4-standard-edition-price-set-at-70-after-all",
+      "domain": "in.ign.com"
+    },
+    {
+      "title": "外盘头条：美英签署贸易协议 特朗普税收方案公布 新一代AI芯片刺激AMD股价大涨 特朗普集团推出智能手机",
+      "url": "https://finance.sina.com.cn/world/2025-06-17/doc-infaincu9068855.shtml",
+      "domain": "finance.sina.com.cn"
+    },
+    {
+      "title": "『Poly Bridge』90％オフの「101円」で買える破格セール実施中。人気の‟橋づくり”シミュレーションゲーム:Steam",
+      "url": "https://news.denfaminicogamer.jp/news/250617g",
+      "domain": "news.denfaminicogamer.jp"
+    },
+    {
+      "title": "Best Canadian sunscreen brands to buy in 2025",
+      "url": "https://canoe.com/buy-canadian/best-canadian-sunscreen-brands",
+      "domain": "canoe.com"
+    },
+    {
+      "title": "Steam libera promoção do Festival de Pesca com ofertas de até 90% de desconto",
+      "url": "https://gameplayscassi.com.br/noticias/steam-libera-promocao-do-festival-de-pesca-com-ofertas-de-ate-90-de-desconto/102224/",
+      "domain": "gameplayscassi.com.br"
+    },
+    {
+      "title": "After Five Decades, Scientists Solve The Strange Zone Deep Inside Earth Finally Explained",
+      "url": "https://dailygalaxy.com/2025/06/after-five-decades-scientists-solve-the-strange-zone-deep-inside-earth-finally-explained/",
+      "domain": "dailygalaxy.com"
+    },
+    {
+      "title": "Scientists release a statement after identifying a strange object in space emitting signals to Earth every 44 minutes.",
+      "url": "https://farmingdale-observer.com/2025/06/16/scientists-release-a-statement-after-identifying-a-strange-object-in-space-emitting-signals-to-earth-every-44-minutes/",
+      "domain": "farmingdale-observer.com"
+    },
+    {
+      "title": "Half Duck, Half Beaver: Scientists Finally Crack 100-Million-Year-Old Secret of Platypus Evolution",
+      "url": "https://indiandefencereview.com/scientists-finally-crack-secret-platypus/",
+      "domain": "indiandefencereview.com"
+    },
+    {
+      "title": "どこを見ても銀河だらけ！ 満月サイズの空に詰まった26万の銀河と京個の星【今日の宇宙画像】",
+      "url": "https://sorae.info/newslink/sapod-heic1909",
+      "domain": "sorae.info"
+    },
+    {
+      "title": "4.5 billion years ago, Jupiter was 2.5 times its current size, scientists discover.",
+      "url": "https://thinkstewartville.com/2025/06/16/4-5-billion-years-ago-jupiter-was-2-5-times-its-current-size-scientists-discover/",
+      "domain": "thinkstewartville.com"
+    },
+    {
+      "title": "Gorge Canada Day Picnic set to celebrate 25 years with expanded line-up",
+      "url": "https://cheknews.ca/gorge-canada-day-picnic-set-to-celebrate-25-years-with-expanded-line-up-1261356/",
+      "domain": "cheknews.ca"
+    },
+    {
+      "title": "Gastar dinheiro pode sim te fazer feliz",
+      "url": "https://editalconcursosbrasil.com.br/noticias/2025/06/segundo-a-ciencia-essa-e-a-maneira-mais-inteligente-e-feliz-de-gastar-dinheiro/",
+      "domain": "editalconcursosbrasil.com.br"
+    },
+    {
+      "title": "Museomics highlights the importance of scientific museum collections",
+      "url": "https://phys.org/news/2025-06-museomics-highlights-importance-scientific-museum.html",
+      "domain": "phys.org"
+    },
+    {
+      "title": "A look at the first artificial solar eclipses created by two European satellites",
+      "url": "https://kitchener.citynews.ca/2025/06/16/artificial-solar-eclipse-european-satellites/",
+      "domain": "kitchener.citynews.ca"
+    },
+    {
+      "title": "Região pode ter temporais e ventos de até 50 km/h nesta terça-feira",
+      "url": "https://ahoradosul.com.br/conteudos/2025/06/16/regiao-pode-ter-temporais-e-ventos-de-ate-50-km-h-nesta-terca-feira/",
+      "domain": "ahoradosul.com.br"
+    },
+    {
+      "title": "Qu'est-ce que l'arnaque aux cartes Pokemon, qui prend de plus en plus d'ampleur?",
+      "url": "https://rmc.bfmtv.com/conso/arnaques/qu-est-ce-que-l-arnaque-aux-cartes-pokemon-qui-prend-de-plus-en-plus-d-ampleur_AN-202506160693.html",
+      "domain": "rmc.bfmtv.com"
+    },
+    {
+      "title": "情到深处 返璞归真 --文旅·体育--人民网",
+      "url": "http://ent.people.com.cn/n1/2025/0617/c1012-40501957.html",
+      "domain": "ent.people.com.cn"
+    },
+    {
+      "title": "WWE Planning To Put 'A Lot Of Spotlight' On SmackDown Star",
+      "url": "https://wrestletalk.com/news/wwe-planning-spotlight-smackdown-star-giulia/",
+      "domain": "wrestletalk.com"
+    },
+    {
+      "title": "Coronation Street confirms teen tragedy in unexpected and disturbing drugs story",
+      "url": "https://metro.co.uk/2025/06/16/coronation-street-confirms-teen-tragedy-unexpected-drugs-story-police-summoned-23425631/",
+      "domain": "metro.co.uk"
+    },
+    {
+      "title": "Amrapali Nirhua Song : निरहुआ और आम्रपाली दुबे के 5 सुपरहिट गाने, अब तक मिल चुके करोड़ों व्यूज, तीसरा यूपी बिहार का सबसे फेवरेट",
+      "url": "https://thebikanernews.in/entertainment/amrapali-nirhua-song-5-superhit-songs-of-nirhua-and/cid16909337.htm",
+      "domain": "thebikanernews.in"
+    },
+    {
+      "title": "魔童高中毕业引热议，遗传父母高颜值，走路姿势成焦点",
+      "url": "https://yule.360.com/detail/4196488",
+      "domain": "yule.360.com"
+    },
+    {
+      "title": "'The Pitt' Season 2 Begins Production In L.A.; Photo & Release Date",
+      "url": "https://deadline.com/2025/06/the-pitt-season-2-production-begins-release-date-1236435200/",
+      "domain": "deadline.com"
+    },
+    {
+      "title": "Plusieurs nouveautés cet automne à la radio de Radio-Canada",
+      "url": "https://ici.radio-canada.ca/nouvelle/2172707/nouvelles-emissions-ici-premiere-ici-musique-automne",
+      "domain": "ici.radio-canada.ca"
+    },
+    {
+      "title": "Sofia Richie, Elliot Grainge Slam Speculation He's Cheating on Her and More Mean Comments",
+      "url": "https://toofab.com/2025/06/16/sofia-richie-elliot-grainge-cheating-rumors/",
+      "domain": "toofab.com"
+    },
+    {
+      "title": "Pedro Pascal Reacts to Lookalike Contest Winner George Gountas",
+      "url": "https://tvline.com/news/pedro-pascal-lookalike-contest-winner-reaction-gountas-1235464010/",
+      "domain": "tvline.com"
+    },
+    {
+      "title": "Apresentadora da Globo é demitida após desrespeitar normas",
+      "url": "https://gente.ig.com.br/colunas/gabriel-de-oliveira/2025-06-16/apresentadora-da-globo-e-demitida-apos-desrespeitar-normas.html",
+      "domain": "gente.ig.com.br"
+    },
+    {
+      "title": "曝崩牙驹第二任妻子建安娜去世！女儿透露细节，颜值背景不输明星",
+      "url": "https://m.163.com/dy/article/K283CC9P0537B1I5.html?clickfrom=subscribe",
+      "domain": "m.163.com"
+    }
+  ],
+  "generated_at": "2025-06-17T02:12:43Z",
+  "total_sources": 70
+}
