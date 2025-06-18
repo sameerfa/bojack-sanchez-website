@@ -1,0 +1,352 @@
+{
+  "episode_id": "2025-06-18T02-10-26",
+  "sources": [
+    {
+      "title": "共赏丝路美景 共促相互了解（侨界关注）",
+      "url": "http://world.people.com.cn/n1/2025/0618/c1002-40502923.html",
+      "domain": "world.people.com.cn"
+    },
+    {
+      "title": "第二届中国-中亚峰会成果清单 --时政--人民网",
+      "url": "http://politics.people.com.cn/n1/2025/0618/c1001-40502840.html",
+      "domain": "politics.people.com.cn"
+    },
+    {
+      "title": "全国的に気温上昇 猛暑日の予想も 熱中症対策の徹底を",
+      "url": "https://www3.nhk.or.jp/news/html/20250618/k10014837751000.html",
+      "domain": "www3.nhk.or.jp"
+    },
+    {
+      "title": "Man who fell from moving vehicle in Calgary dies from injuries",
+      "url": "https://calgary.citynews.ca/2025/06/17/calgary-man-falls-from-vehicle-dead/",
+      "domain": "calgary.citynews.ca"
+    },
+    {
+      "title": "Rios sobem com chuva excessiva e haverá enchente no estado",
+      "url": "https://metsul.com/rios-sobem-com-chuva-excessiva-e-havera-enchente-no-estado/",
+      "domain": "metsul.com"
+    },
+    {
+      "title": "Zema ironiza férias de Haddad: '7 dias sem imposto'",
+      "url": "https://revistaoeste.com/politica/zema-ironiza-ferias-de-haddad-7-dias-sem-imposto/",
+      "domain": "revistaoeste.com"
+    },
+    {
+      "title": "习近平出席第二届中国—中亚峰会并作主旨发言",
+      "url": "http://www.chinaql.org/n1/2025/0618/c419641-40502982.html",
+      "domain": "chinaql.org"
+    },
+    {
+      "title": "习近平出席第二届中国-中亚峰会并作主旨发言-新华网",
+      "url": "http://www.news.cn/politics/leaders/20250617/36cd4b798dfd4d048998481967d88a9e/c.html",
+      "domain": "news.cn"
+    },
+    {
+      "title": "Severe thunderstorm warning issued for city of Calgary on Tuesday",
+      "url": "https://globalnews.ca/news/11246572/severe-thunderstorm-warning-issued-for-city-of-calgary-on-tuesday/",
+      "domain": "globalnews.ca"
+    },
+    {
+      "title": "OpenAI weighs “nuclear option” of antitrust complaint against Microsoft",
+      "url": "https://arstechnica.com/ai/2025/06/openai-weighs-nuclear-option-of-antitrust-complaint-against-microsoft/",
+      "domain": "arstechnica.com"
+    },
+    {
+      "title": "Fiasco SAAQclic : une auditrice interne fond en larmes et se vide le cœur",
+      "url": "https://ici.radio-canada.ca/nouvelle/2173174/commission-gallant-saaqclic-nadia-briere",
+      "domain": "ici.radio-canada.ca"
+    },
+    {
+      "title": "As estrangeiras que venceram leilão para explorar petróleo na Amazônia",
+      "url": "https://economia.uol.com.br/noticias/redacao/2025/06/17/petroleiras.htm",
+      "domain": "economia.uol.com.br"
+    },
+    {
+      "title": "Sondages : un projet de loi budgétaire très impopulaire",
+      "url": "https://richardhetu.com/2025/06/17/sondages-un-projet-de-loi-tres-impopulaire/",
+      "domain": "richardhetu.com"
+    },
+    {
+      "title": "O novo 2º mais rico do mundo já foi titulado, e tem mais de R$ 1.4 trilhão na conta",
+      "url": "https://monitordomercado.com.br/noticias/271596-o-novo-2o-mais-rico-do-mundo-ja-foi-titulado-e-tem-mais-de-r-1-4-trilhao-na-conta/",
+      "domain": "monitordomercado.com.br"
+    },
+    {
+      "title": "過去の傾向が繰り返されれば、ビットコインは本日の調整後に25%上昇か",
+      "url": "https://jp.cointelegraph.com/news/25-bitcoin-price-rally-set-to-follow-today-s-correction-if-history-repeats",
+      "domain": "jp.cointelegraph.com"
+    },
+    {
+      "title": "新型「日産リーフ」最上級は600万円級？ 600km航続距離と北米テスラ対応で\"充電不安\"に終止符か!!",
+      "url": "https://bestcarweb.jp/newcar/1248651",
+      "domain": "bestcarweb.jp"
+    },
+    {
+      "title": "ＮＹ外為市場＝ドル上昇、中東緊迫化で安全買い",
+      "url": "https://jp.reuters.com/markets/us/3KR4ZDXP2FMOJDEFNHVOJVMBOQ-2025-06-17/",
+      "domain": "jp.reuters.com"
+    },
+    {
+      "title": "FDA to offer faster drug reviews to companies promoting 'national priorities'",
+      "url": "https://abcnews.go.com/Business/wireStory/fda-offer-faster-drug-reviews-companies-promoting-national-122938730",
+      "domain": "abcnews.go.com"
+    },
+    {
+      "title": "FDA to offer faster drug reviews to companies promoting ‘national priorities’",
+      "url": "https://apnews.com/article/fda-drugs-makary-trump-accelerated-approval-752146d97521b1644c9b10f2c6361f33",
+      "domain": "apnews.com"
+    },
+    {
+      "title": "JetBlue to cut routes and park planes as it tries to stem losses",
+      "url": "https://thepointsguy.com/news/jetblue-cuts-routes-parks-planes/",
+      "domain": "thepointsguy.com"
+    },
+    {
+      "title": "The $250 EV Tax May Be Dead, But There's Something Else Brewing",
+      "url": "https://insideevs.com/news/763016/senate-kills-the-250-dollar-ev-fee/",
+      "domain": "insideevs.com"
+    },
+    {
+      "title": "Is BNB ready for a bullish breakout? 2 reasons why price shows strength",
+      "url": "https://ambcrypto.com/is-bnb-ready-for-a-bullish-breakout-2-reasons-why-price-shows-strength/",
+      "domain": "ambcrypto.com"
+    },
+    {
+      "title": "B.C. Premier David Eby says BC Ferries contract will not change",
+      "url": "https://vancouver.citynews.ca/2025/06/17/b-c-premier-wont-step-in-on-question-of-bc-ferries-china-deal/",
+      "domain": "vancouver.citynews.ca"
+    },
+    {
+      "title": "Prêmio acumula e vai a R$ 130 milhões; veja resultado",
+      "url": "https://noticias.uol.com.br/ultimas-noticias/2025/06/17/mega-sena-concurso-2877-sorteio-17-de-junho.htm",
+      "domain": "noticias.uol.com.br"
+    },
+    {
+      "title": "Embraer e Portugal acertam compra de 11 aviões",
+      "url": "https://www1.folha.uol.com.br/mercado/2025/06/embraer-e-portugal-firmam-contrato-para-compra-de-11-avioes-kc-390.shtml",
+      "domain": "www1.folha.uol.com.br"
+    },
+    {
+      "title": "Toyota Hilux Champ é registrada novamente no Brasil",
+      "url": "https://motor1.uol.com.br/news/763033/toyota-registrou-hilux-barata-brasil/",
+      "domain": "motor1.uol.com.br"
+    },
+    {
+      "title": "Werbung bei Meta: Dein Currywurst-Angebot im Whatsapp-Status",
+      "url": "https://taz.de/Werbung-bei-Meta/!6091520/",
+      "domain": "taz.de"
+    },
+    {
+      "title": "１８日の東京株式市場見通し＝反落後も軟調か 速報",
+      "url": "https://kabushiki.jp/news/701532",
+      "domain": "kabushiki.jp"
+    },
+    {
+      "title": "O que se sabe sobre usina nuclear iraniana de Ford...",
+      "url": "https://veja.abril.com.br/mundo/o-que-se-sabe-sobre-usina-nuclear-iraniana-de-fordow-que-esta-na-mira-de-israel/",
+      "domain": "veja.abril.com.br"
+    },
+    {
+      "title": "Un doctorant propose de faire exploser une bombe nucléaire sous l’océan (mais c'est pour la bonne cause)",
+      "url": "https://sciencepost.fr/un-doctorant-propose-de-faire-exploser-une-bombe-nucleaire-sous-locean-mais-cest-pour-la-bonne-cause/",
+      "domain": "sciencepost.fr"
+    },
+    {
+      "title": "La course à l’immensité aérienne atteint son sommet : découvrez WindRunner, cet avion colossal 12 fois plus grand qu’un Boeing 747 qui redéfinit les cieux",
+      "url": "https://hellobiz.fr/2025/06/17/la-course-a-limmensite-aerienne-atteint-son-sommet-decouvrez-windrunner-cet-avion-colossal-12-fois-plus-grand-quun-boeing-747-qui-redefinit-les-cieux/",
+      "domain": "hellobiz.fr"
+    },
+    {
+      "title": "以色列袭击伊朗：世界是否濒临爆发核辐射事件？",
+      "url": "https://chinese.aljazeera.net/news/2025/6/17/%E4%BB%A5%E8%89%B2%E5%88%97%E8%A2%AD%E5%87%BB%E4%BC%8A%E6%9C%97%E4%B8%96%E7%95%8C%E6%98%AF%E5%90%A6%E6%BF%92%E4%B8%B4%E7%88%86%E5%8F%91%E6%A0%B8%E8%BE%90%E5%B0%84%E4%BA%8B%E4%BB%B6",
+      "domain": "chinese.aljazeera.net"
+    },
+    {
+      "title": "The Battlefield X Mass Effect Crossover Gives Me The Ick",
+      "url": "https://kotaku.com/battlefield-2042-mass-effect-cosmetics-gun-armor-dlc-1851784693",
+      "domain": "kotaku.com"
+    },
+    {
+      "title": "Over 2,800 Nintendo Switch consoles stolen from delivery truck",
+      "url": "https://nintendoeverything.com/nintendo-switch-consoles-stolen-heist-delivery-truck/",
+      "domain": "nintendoeverything.com"
+    },
+    {
+      "title": "Microsoft Confirms First-Party Next-Generation Xbox Consoles, Announces Deal With AMD and Promises Full Backwards Compatibility With Your Existing Xbox Library",
+      "url": "https://sea.ign.com/xbox-ally/229266/news/microsoft-confirms-first-party-next-generation-xbox-consoles-announces-deal-with-amd-and-promises-fu",
+      "domain": "sea.ign.com"
+    },
+    {
+      "title": "O navio-sonda que custa US$ 1 milhão por dia para operar e se manter parado sobre um poço a 2 km de profundidade, mesmo em meio a tempestades",
+      "url": "https://clickpetroleoegas.com.br/o-navio-sonda-que-custa-us-1-milhao-por-dia-para-operar-e-se-manter-parado-sobre-um-poco-a-2-km-de-profundidade-mesmo-em-meio-a-tempestades-btl96/",
+      "domain": "clickpetroleoegas.com.br"
+    },
+    {
+      "title": "Congresso derruba veto de Lula a trechos de marco das eólicas offshore",
+      "url": "https://valor.globo.com/politica/noticia/2025/06/17/congresso-derruba-veto-de-lula-a-trechos-de-marco-das-elicas-offshore.ghtml",
+      "domain": "valor.globo.com"
+    },
+    {
+      "title": "La Norvège lance un projet phare de captage et stockage de CO2 à grande échelle",
+      "url": "https://actu.orange.fr/societe/environnement/la-norvege-lance-un-projet-phare-de-captage-et-stockage-de-co2-a-grande-echelle-CNT000002jcZ6R.html",
+      "domain": "actu.orange.fr"
+    },
+    {
+      "title": "La Chine en état d’alerte général : ce nouveau radar JY-27V prêt à détecter les chasseurs furtifs américains de cinquième génération",
+      "url": "https://techguru.fr/2025/06/17/la-chine-en-etat-dalerte-general-ce-nouveau-radar-jy-27v-pret-a-detecter-les-chasseurs-furtifs-americains-de-cinquieme-generation/",
+      "domain": "techguru.fr"
+    },
+    {
+      "title": "亚马逊CEO：AI将致企业员工规模缩减，未来几年岗位结构迎重大调整",
+      "url": "https://finance.sina.com.cn/tob/2025-06-18/doc-infamrar9320377.shtml",
+      "domain": "finance.sina.com.cn"
+    },
+    {
+      "title": "iPhone 17 Pro不仅仅是换了个外观：配置大升级",
+      "url": "https://news.mydrivers.com/1/1054/1054376.htm",
+      "domain": "news.mydrivers.com"
+    },
+    {
+      "title": "なぜ私はiPhoneを机に置くとき、いつも画面を伏せるのか",
+      "url": "https://japan.cnet.com/article/35234382/",
+      "domain": "japan.cnet.com"
+    },
+    {
+      "title": "The 42\" LG Evo C4 4K OLED TV Drops to the Lowest Price Ever: Doubles as a Gaming Monitor",
+      "url": "https://www.ign.com/articles/42-lg-evo-c4-4k-oled-tv-doubles-as-a-gaming-monitor",
+      "domain": "ign.com"
+    },
+    {
+      "title": "CarPlay’s ‘next generation’ is already looking better than we thought",
+      "url": "https://9to5mac.com/2025/06/17/carplays-next-generation-is-already-looking-better-than-we-thought/",
+      "domain": "9to5mac.com"
+    },
+    {
+      "title": "Samsung Galaxy M36 5G, to launch in India soon: Here’s what we know so far",
+      "url": "https://timesofindia.indiatimes.com/technology/mobiles-tabs/samsung-galaxy-m36-5g-to-launch-in-india-soon-heres-what-we-know-so-far/articleshow/121917285.cms",
+      "domain": "timesofindia.indiatimes.com"
+    },
+    {
+      "title": "Sony Launches Bravia 8 II QD-OLED TV Series in India, Know Prices, Features",
+      "url": "https://hindi.gadgets360.com/home-entertainment/sony-launches-bravia-8-ii-qd-oled-tv-series-in-india-know-prices-features-news-8693130",
+      "domain": "hindi.gadgets360.com"
+    },
+    {
+      "title": "Thick clay layers on Mars may have been stable place for ancient life",
+      "url": "https://phys.org/news/2025-06-thick-clay-layers-mars-stable.html",
+      "domain": "phys.org"
+    },
+    {
+      "title": "Quem são os maiores influenciadores do mundo e quanto eles faturam?",
+      "url": "https://gauchazh.clicrbs.com.br/tecnologia/noticia/2025/06/quem-sao-os-maiores-influenciadores-do-mundo-e-quanto-eles-faturam-confira-o-ranking-da-forbes-cmc0w2vqv00ry016repwb7rdq.html",
+      "domain": "gauchazh.clicrbs.com.br"
+    },
+    {
+      "title": "Mal zufrieden, mal nicht: Was das über die Beziehung aussagt",
+      "url": "https://web.de/magazine/liebe-partnerschaft/zufrieden-beziehung-aussagt-41088606",
+      "domain": "web.de"
+    },
+    {
+      "title": "Scientists Discover Key Rule Shaping Life on Earth - It Could Change Biodiversity Forever!",
+      "url": "https://indiandefencereview.com/scientists-rule-life-on-earth-biodiversity/",
+      "domain": "indiandefencereview.com"
+    },
+    {
+      "title": "Charting Quantum Frontiers: The Fourth Guiding Principle of IYQ 2025",
+      "url": "https://kalkinemedia.com/news/world-news/charting-quantum-frontiers-the-fourth-guiding-principle-of-iyq-2025",
+      "domain": "kalkinemedia.com"
+    },
+    {
+      "title": "イヌとトコジラミは「家畜」でウマは「非家畜」 新たな論文が物議",
+      "url": "https://natgeo.nikkeibp.co.jp/atcl/news/25/052200273/",
+      "domain": "natgeo.nikkeibp.co.jp"
+    },
+    {
+      "title": "2025年6月15日の火星の風景：砕けたばかりの岩？【今日の宇宙画像】",
+      "url": "https://sorae.info/newslink/sapod-perseverance-sol1536",
+      "domain": "sorae.info"
+    },
+    {
+      "title": "BSMat : le rapport accablant sur la pollution du site",
+      "url": "https://jhm.fr/bsmat-le-rapport-accablant-sur-la-pollution-du-site/",
+      "domain": "jhm.fr"
+    },
+    {
+      "title": "Is Earth Disintegrating From Within? Massive Anomaly Over South America Alarms NASA",
+      "url": "https://zeenews.india.com/world/nasa-investigates-spreading-south-atlantic-anomaly-what-s-causing-this-mysterious-magnetic-weak-spot-on-earth-2917455.html",
+      "domain": "zeenews.india.com"
+    },
+    {
+      "title": "Tyler Perry Sued For Sexual Assault By 'The Oval' Actor",
+      "url": "https://deadline.com/2025/06/tyler-perry-sued-sexual-assault-1236436169/",
+      "domain": "deadline.com"
+    },
+    {
+      "title": "Pixar’s ‘Elio’ Shines With Sci-Fi Sincerity and Heart",
+      "url": "https://gizmodo.com/elio-review-pixar-disney-2000616739",
+      "domain": "gizmodo.com"
+    },
+    {
+      "title": "Why Midjourney Made a Perfect Target for Hollywood's First AI Lawsuit",
+      "url": "https://variety.com/2025/film/news/hollywood-artificial-intelligence-copyright-ai-fight-1236434389/",
+      "domain": "variety.com"
+    },
+    {
+      "title": "Demi Lovato Keeps Flaunting Her Curves in Bikinis During Her Honeymoon with Husband Jutes",
+      "url": "https://people.com/demi-lovato-bikinis-honeymoon-husband-jutes-photos-11756424",
+      "domain": "people.com"
+    },
+    {
+      "title": "\"Je voulais vous le présenter\" : Lyna Khoudri réagit à l’officialisation de son couple avec Karim Benzema",
+      "url": "https://tvmag.lefigaro.fr/programme-tv/actu-tele/je-voulais-vous-le-presenter-lyna-khoudri-reagit-a-l-officialisation-de-son-couple-avec-karim-benzema-20250617",
+      "domain": "tvmag.lefigaro.fr"
+    },
+    {
+      "title": "『あんぱん』嵩たちは飢餓状態に やなせ先生本人はどんな「飢え」を体験していたのか",
+      "url": "https://magmix.jp/post/303860",
+      "domain": "magmix.jp"
+    },
+    {
+      "title": "「FNS歌謡祭」にミセス、香取慎吾、ビーバー、M!LK、東方神起、TREASURE、NiziUら15組",
+      "url": "https://natalie.mu/music/news/628453",
+      "domain": "natalie.mu"
+    },
+    {
+      "title": "Bill Goldberg's segment with Gunther from RAW called \"insulting\" by WWE Hall of Famer due to the \"lack of logic\"",
+      "url": "https://nodq.com/news/bill-goldbergs-segment-with-gunther-from-raw-called-insulting-by-wwe-hall-of-famer-due-to-the-lack-of-logic/",
+      "domain": "nodq.com"
+    },
+    {
+      "title": "Gustavo Villani está namorando jornalista da Globo, diz site",
+      "url": "https://noataque.com.br/futebol/noticia/2025/06/17/gustavo-villani-esta-namorando-jornalista-da-globo-diz-site/",
+      "domain": "noataque.com.br"
+    },
+    {
+      "title": "Monty Python star, 82, taken to hospital after unexpected health scare",
+      "url": "https://metro.co.uk/2025/06/17/monty-python-star-82-taken-hospital-unexpected-health-scare-23438842/",
+      "domain": "metro.co.uk"
+    },
+    {
+      "title": "青春版歌剧《洪湖赤卫队》启动创排 新新演绎经典声声不息",
+      "url": "http://news.cnhubei.com/content/2025-06/18/content_19263851.html",
+      "domain": "news.cnhubei.com"
+    },
+    {
+      "title": "电影行业亟须增加非票房收入",
+      "url": "http://www.stcn.com/article/detail/2096693.html",
+      "domain": "stcn.com"
+    },
+    {
+      "title": "People in Toronto are confused why Taste of Little Italy had barely any Italian food",
+      "url": "https://dailyhive.com/toronto/taste-of-little-italy-toronto-italian-food",
+      "domain": "dailyhive.com"
+    },
+    {
+      "title": "6/18の運勢【法演の「今日の運勢」MITSURI占いで開運！】",
+      "url": "https://lee.hpplus.jp/column/3246783/",
+      "domain": "lee.hpplus.jp"
+    }
+  ],
+  "generated_at": "2025-06-18T02:11:10Z",
+  "total_sources": 69
+}
