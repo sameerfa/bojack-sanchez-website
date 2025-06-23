@@ -1,0 +1,362 @@
+{
+  "episode_id": "2025-06-23T02-04-05",
+  "sources": [
+    {
+      "title": "登顶热销、好评如潮，却被迫改名、导演被封：《捞女游戏》究竟惹了谁？",
+      "url": "https://game.sohu.com/a/906792725_204728?scm=10004.56208_15-300008.0.0.1101.topic:56208:110063.0.9.a2_3X426",
+      "domain": "game.sohu.com"
+    },
+    {
+      "title": "Parlamento do Irã solicita fechamento do estreito de Ormuz, trecho responsável por 20% do tráfego de petróleo",
+      "url": "https://jovempan.com.br/noticias/economia/parlamento-do-ira-solicita-fechamento-do-estreito-de-ormuz-trecho-responsavel-pelo-transito-de-20-do-trafego-de-petroleo.html",
+      "domain": "jovempan.com.br"
+    },
+    {
+      "title": "Son of a Critch to Debut on Netflix in U.S. This Week",
+      "url": "https://vocm.com/2025/06/22/272921/",
+      "domain": "vocm.com"
+    },
+    {
+      "title": "Une IA autonome a résolu une équation physique sans intervention humaine : le seuil d’indépendance approche",
+      "url": "https://dailygeekshow.com/une-ia-autonome-a-resolu-une-equation-physique-sans-intervention-humaine-le-seuil-dindependance-approche/",
+      "domain": "dailygeekshow.com"
+    },
+    {
+      "title": "Margaret Cho disses 'mean girl' Ellen DeGeneres in scathing interview",
+      "url": "https://pagesix.com/2025/06/22/celebrity-news/margaret-cho-disses-mean-girl-ellen-degeneres-in-scathing-interview/",
+      "domain": "pagesix.com"
+    },
+    {
+      "title": "The $14 Billion AI Google Killer",
+      "url": "https://gizmodo.com/the-14-billion-ai-google-killer-2000618755",
+      "domain": "gizmodo.com"
+    },
+    {
+      "title": "Aeroporto Internacional de Guarulhos teve novamente espaço aéreo fechado por presença de drones",
+      "url": "https://oglobo.globo.com/brasil/sao-paulo/noticia/2025/06/22/guarulhos-teve-espaco-aereo-fechado-por-presenca-de-drones-novamente.ghtml",
+      "domain": "oglobo.globo.com"
+    },
+    {
+      "title": "Sakurai sees AI as a potential solution for improving development efficiency as costs soar (update)",
+      "url": "https://mynintendonews.com/2025/06/22/sakurai-sees-ai-as-a-potential-solution-for-improving-development-efficiency-as-costs-soar/",
+      "domain": "mynintendonews.com"
+    },
+    {
+      "title": "La plus grande batterie à sable du monde activée : cette prouesse technologique invisible bouleverse le paysage énergétique – zoom sur son fonctionnement",
+      "url": "https://newsly.fr/2025/06/22/la-plus-grande-batterie-a-sable-du-monde-activee-cette-prouesse-technologique-invisible-bouleverse-le-paysage-energetique-zoom-sur-son-fonctionnement/",
+      "domain": "newsly.fr"
+    },
+    {
+      "title": "保险业加速拥抱人工智能",
+      "url": "https://finance.eastmoney.com/a/202506233437082020.html",
+      "domain": "finance.eastmoney.com"
+    },
+    {
+      "title": "प्‍लेन क्रैश के बाद एयर इंडिया का एक और बड़ा ऐलान, 19 रूट पर कम कर दीं उड़ानें, इन 3 पर सेवा बंद",
+      "url": "https://navbharattimes.indiatimes.com/business/business-news/air-india-big-announcement-reduces-flights-on-19-routes-temporarily-suspends-services-on-3-routes/articleshow/122008185.cms",
+      "domain": "navbharattimes.indiatimes.com"
+    },
+    {
+      "title": "28 Years Later Alpha Zombie Actor on Prosthetic Penis and Train Injury",
+      "url": "https://variety.com/2025/film/global/28-years-later-alpha-zombie-actor-prosthetic-penis-1236436227/",
+      "domain": "variety.com"
+    },
+    {
+      "title": "Cancelled Batman Arkham Game Concept Art Reveals Old Bruce Wayne, Villains, and More",
+      "url": "https://comicbook.com/gaming/news/cancelled-batman-arkham-damian-wayne-game-bruce-wayne-concept-art/",
+      "domain": "comicbook.com"
+    },
+    {
+      "title": "Smash Bros. director Masahiro Sakurai on game development, AI",
+      "url": "https://nintendoeverything.com/smash-bros-director-masahiro-sakurai-generative-ai/",
+      "domain": "nintendoeverything.com"
+    },
+    {
+      "title": "Tesla estreia serviço de robotáxis nos EUA com tarifa fixa",
+      "url": "https://olhardigital.com.br/2025/06/22/carros-e-tecnologia/tesla-estreia-servico-de-robotaxis-nos-eua-com-tarifa-fixa/",
+      "domain": "olhardigital.com.br"
+    },
+    {
+      "title": "Oppo Find X9 Pro के लॉन्च से पहले लीक हुए प्रमुख स्पेसिफिकेशन",
+      "url": "https://jantaserishta.com/business/oppo-find-x9-pro-key-specifications-leaked-ahead-of-launch-4100275",
+      "domain": "jantaserishta.com"
+    },
+    {
+      "title": "LinkedIn CEO says AI writing is not as popular as he expected it to be",
+      "url": "https://t2online.in/tech/tech-news/linkedin-ceo-says-ai-writing-is-not-as-popular-as-he-expected-it-to-be/1504488",
+      "domain": "t2online.in"
+    },
+    {
+      "title": "Air fryer que custa R$ 220 pode ser a próxima na sua cozinha",
+      "url": "https://monitordomercado.com.br/noticias/273194-air-fryer-que-custa-r-220-pode-ser-a-proxima-na-sua-cozinha/",
+      "domain": "monitordomercado.com.br"
+    },
+    {
+      "title": "加速创新 移动AI开启智能互联新时代-经济参考网 _ 新华社《经济参考报》官方网站",
+      "url": "http://jjckb.xinhuanet.com/20250623/757a0019485b4c6db802aec2fa8eb560/c.html",
+      "domain": "jjckb.xinhuanet.com"
+    },
+    {
+      "title": "Former WWE star claims that he asked for his release so he \"could do something f*cking meaningful\" with his life",
+      "url": "https://nodq.com/news/former-wwe-star-claims-that-he-asked-for-his-release-so-he-could-do-something-fcking-meaningful-with-his-life/",
+      "domain": "nodq.com"
+    },
+    {
+      "title": "Les barbes sont-elles vraiment sales ? Ce qu'en disent les scientifiques",
+      "url": "https://actu.fr/societe/les-barbes-sont-elles-vraiment-sales-ce-qu-en-disent-les-scientifiques_62795014.html",
+      "domain": "actu.fr"
+    },
+    {
+      "title": "O nome feminino mais bonito, de acordo com a ciência",
+      "url": "https://concursosnobrasil.com/artigo/o-nome-feminino-mais-bonito-acordo-com-a-ciencia/",
+      "domain": "concursosnobrasil.com"
+    },
+    {
+      "title": "Polícia já trabalha com linha principal de investigação sobre queda de balão em SC",
+      "url": "https://istoe.com.br/policia-ja-trabalha-com-linha-principal-de-investigacao-sobre-queda-de-balao-em-sc",
+      "domain": "istoe.com.br"
+    },
+    {
+      "title": "Preço do petróleo dispara após ataques dos EUA ao Irã",
+      "url": "https://www1.folha.uol.com.br/mercado/2025/06/preco-do-petroleo-dispara-apos-ataques-dos-eua-ao-ira.shtml",
+      "domain": "www1.folha.uol.com.br"
+    },
+    {
+      "title": "So schnell knacken Hacker dein Passwort - und was du dagegen tun kannst",
+      "url": "https://t3n.de/news/so-schuetzt-du-deine-passwoerter-vor-hackern-1686514/",
+      "domain": "t3n.de"
+    },
+    {
+      "title": "Suspect shot and killed after shooting at church in Michigan, police say",
+      "url": "https://apnews.com/article/wayne-michigan-church-shooting-e207650364395f08c1a31937c4240331",
+      "domain": "apnews.com"
+    },
+    {
+      "title": "No local, all 3 Pahalgam attackers from Pakistan, concludes NIA after arresting 2 for ‘sheltering’ terrorists",
+      "url": "https://indianexpress.com/article/india/three-pahalgam-attackers-pakistan-sketches-jammu-kashmir-police-nia-probe-10081949/",
+      "domain": "indianexpress.com"
+    },
+    {
+      "title": "Kelsey Parker announces her baby has died",
+      "url": "https://uk.news.yahoo.com/kelsey-parker-announces-her-baby-203722061.html",
+      "domain": "uk.news.yahoo.com"
+    },
+    {
+      "title": "权谋剧天花板！《藏海传》开播2天收视登顶，把宫斗剧甩出十条街",
+      "url": "https://yule.360.com/detail/4213695",
+      "domain": "yule.360.com"
+    },
+    {
+      "title": "Des télescopes ont capté la première lumière de l’univers... depuis la Terre !",
+      "url": "https://sciencepost.fr/on-pensait-que-cetait-impossible-des-telescopes-ont-capte-la-premiere-lumiere-de-lunivers-depuis-la-terre/",
+      "domain": "sciencepost.fr"
+    },
+    {
+      "title": "A Usina Nuclear de Angra 3 é uma obra de R$ 20 bilhões que está parada há 40 anos e nunca gerou 1 watt de energia",
+      "url": "https://clickpetroleoegas.com.br/a-usina-nuclear-de-angra-3-e-uma-obra-de-r-20-bilhoes-que-esta-parada-ha-40-anos-e-nunca-gerou-1-watt-de-energia-btl96/",
+      "domain": "clickpetroleoegas.com.br"
+    },
+    {
+      "title": "Esta é a maior ameaça das IAs à economia, segundo o vencedor do prêmio Nobel",
+      "url": "https://revistaforum.com.br/ciencia-e-tecnologia/2025/6/22/esta-maior-ameaa-das-ias-economia-segundo-vencedor-do-prmio-nobel-181947.html",
+      "domain": "revistaforum.com.br"
+    },
+    {
+      "title": "Grüner Wasserstoff: Noch keine tragfähige Energiequelle",
+      "url": "https://taz.de/Gruener-Wasserstoff/!6095644/",
+      "domain": "taz.de"
+    },
+    {
+      "title": "\" On les transporte dans le ciel \" : cet avion gigantesque bouleverse l’industrie éolienne en transportant les immenses pales par voie aérienne",
+      "url": "https://vivredemain.fr/2025/06/22/on-les-transporte-dans-le-ciel-cet-avion-gigantesque-bouleverse-lindustrie-eolienne-en-transportant-les-immenses-pales-par-voie-aerienne/",
+      "domain": "vivredemain.fr"
+    },
+    {
+      "title": "\" Ils vont changer la guerre \" : Anduril, la start-up de l’inventeur de l’Oculus, inquiète les géants de la défense en Europe",
+      "url": "https://techguru.fr/2025/06/22/ils-vont-changer-la-guerre-anduril-la-start-up-de-linventeur-de-loculus-inquiete-les-geants-de-la-defense-en-europe/",
+      "domain": "techguru.fr"
+    },
+    {
+      "title": "Oppo Find X9 Pro important specifications leaked ahead of launch",
+      "url": "https://kalingatv.com/technology/oppo-find-x9-pro-important-specifications-leaked-ahead-of-launch-might-offer-samsung-isocell-hp5-sensor/",
+      "domain": "kalingatv.com"
+    },
+    {
+      "title": "These sushi restaurants in Toronto are on a roll",
+      "url": "https://nowtoronto.com/summerguide/the-best-sushi-restaurants-in-toronto/",
+      "domain": "nowtoronto.com"
+    },
+    {
+      "title": "Bitcoin: Amid U.S.- Iran conflict, can BTC hold $100K, if so, what next?",
+      "url": "https://ambcrypto.com/bitcoin-amid-u-s-iran-conflict-can-btc-hold-100k-if-so-what-next/",
+      "domain": "ambcrypto.com"
+    },
+    {
+      "title": "Le site des impôts prévoit cette nouvelle obligation pour les propriétaires, elle annonce une mauvaise nouvelle",
+      "url": "https://droit-finances.commentcamarche.com/vie-pratique/actualite-juridique-et-financiere/5661-site-impot-valeurs-locatives/",
+      "domain": "droit-finances.commentcamarche.com"
+    },
+    {
+      "title": "GT-R生産も……期待のスーパースポーツLFA IIが爆誕!?",
+      "url": "https://bestcarweb.jp/news/scoop/1229053",
+      "domain": "bestcarweb.jp"
+    },
+    {
+      "title": "Security guard kills Michigan church gunman, preventing 'large-scale mass shooting': Police",
+      "url": "https://abcnews.go.com/US/security-guard-kills-gunman-thwarts-attack-michigan-church/story?id=123100085",
+      "domain": "abcnews.go.com"
+    },
+    {
+      "title": "Un conducteur éjecté et grièvement blessé dans une violente embardée à Drummondville",
+      "url": "https://vingt55.ca/un-conducteur-ejecte-et-grievement-blesse-dans-une-violente-embardee-a-drummondville/",
+      "domain": "vingt55.ca"
+    },
+    {
+      "title": "1 man dead in 'targeted' stabbing at North York shelter; suspect arrested",
+      "url": "https://toronto.citynews.ca/2025/06/22/police-investigating-targeted-stabbing-in-north-york-that-sent-2-people-to-hospital/",
+      "domain": "toronto.citynews.ca"
+    },
+    {
+      "title": "WWE monitoring Iran situation with two Saudi Arabia shows set for next weekend",
+      "url": "https://nypost.com/2025/06/22/sports/wwe-monitoring-iran-situation-with-two-saudi-arabia-shows-set-for-next-weekend/",
+      "domain": "nypost.com"
+    },
+    {
+      "title": "Backstage Update On WWE's Trip To Saudi Arabia For SmackDown & Night Of Champions After U.S. Attacks Iran",
+      "url": "https://wrestlingheadlines.com/backstage-update-on-wwes-trip-to-saudi-arabia-for-smackdown-night-of-champions-after-u-s-attacks-iran/",
+      "domain": "wrestlingheadlines.com"
+    },
+    {
+      "title": "Ana Maria Braga revela que investigou marido após primeira ficada",
+      "url": "https://gente.ig.com.br/celebridades/2025-06-22/ana-maria-braga-revela-que-investigou-marido-apos-primeira-ficada.html",
+      "domain": "gente.ig.com.br"
+    },
+    {
+      "title": "Morre cantor de forró Gisley Ribeiro, após passar mal em apresentação",
+      "url": "https://diariodonordeste.verdesmares.com.br/entretenimento/e-hit/morre-cantor-de-forro-gisley-ribeiro-apos-passa-mal-em-apresentacao-1.3662593",
+      "domain": "diariodonordeste.verdesmares.com.br"
+    },
+    {
+      "title": "\"Je n’en peux plus de ces mecs\" : vague de soutien à une candidate de \"Mariés au premier regard\" après sa rupture",
+      "url": "https://tvmag.lefigaro.fr/programme-tv/people/je-n-en-peux-plus-de-ces-mecs-vague-de-soutien-a-une-candidate-de-maries-au-premier-regard-apres-sa-rupture-20250622",
+      "domain": "tvmag.lefigaro.fr"
+    },
+    {
+      "title": "Karisma Kapoor looks visibly heartbroken as she returns to Mumbai with children, Saif Ali Khan and Kareena Kapoor Khan after attending Sunjay Kapur's prayer meet",
+      "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/karisma-kapoor-looks-visibly-heartbroken-as-she-returns-to-mumbai-with-children-saif-ali-khan-and-kareena-kapoor-khan-after-attending-sunjay-kapurs-prayer-meet/articleshow/122010305.cms",
+      "domain": "timesofindia.indiatimes.com"
+    },
+    {
+      "title": "《天堂电影院》放映结束后，托纳多雷走上电影大师班的舞台“我心中的天堂电影院就是这里”-新华网",
+      "url": "http://www.xinhuanet.com/ent/20250623/c3e6774df6554cc4a9bad8dd09ac9150/c.html",
+      "domain": "xinhuanet.com"
+    },
+    {
+      "title": "恋に落ちた上司は極道の若頭…A.B.C-Z戸塚祥太×紺野彩夏のW主演ドラマ、7月スタート（コメントあり）",
+      "url": "https://natalie.mu/eiga/news/629133",
+      "domain": "natalie.mu"
+    },
+    {
+      "title": "アムロのガンダムが「2号機」ってどういうこと？ 実はけっこう多様な「RX-78」型",
+      "url": "https://magmix.jp/post/304377",
+      "domain": "magmix.jp"
+    },
+    {
+      "title": "テキサス州知事、ビットコインを州の準備資産に加える法案に署名",
+      "url": "https://jp.cointelegraph.com/news/texas-creates-bitcoin-reserve-with-public-funds",
+      "domain": "jp.cointelegraph.com"
+    },
+    {
+      "title": "证券公司分类评价新规重塑行业定位 突出净资产收益率指标 震慑重大违法违规行为",
+      "url": "https://paper.cnstock.com/html/2025-06/23/content_2084010.htm",
+      "domain": "paper.cnstock.com"
+    },
+    {
+      "title": "超最強に爽快な洗顔料はどれだ！ 有名メーカー8種類を比べたら桁違いにスースーするやつがいた!!",
+      "url": "https://rocketnews24.com/2025/06/23/2478789/",
+      "domain": "rocketnews24.com"
+    },
+    {
+      "title": "Vento forte pode causar rápida subida do Guaíba e grande ondulação",
+      "url": "https://metsul.com/vento-forte-pode-causar-rapida-subida-do-guaiba-e-grande-ondulacao/",
+      "domain": "metsul.com"
+    },
+    {
+      "title": "共筑中国－中亚命运共同体——《弘扬“中国－中亚精神”：区域合作的成就、机遇与展望》智库报告解析",
+      "url": "http://www.81.cn/ss_208539/16392730.html",
+      "domain": "81.cn"
+    },
+    {
+      "title": "【東京都議選2025】4名が当選した江東区の選挙結果 投票率は豊洲小が54.37％！",
+      "url": "https://toyosu.tokyo/news/election-tokyo-2025-report/",
+      "domain": "toyosu.tokyo"
+    },
+    {
+      "title": "'FBI International' Co-Creator Derek Haas Stumped by CBS Cancellation",
+      "url": "https://tvline.com/interviews/fbi-international-creator-reaction-cancellation-derek-haas-1235466044/",
+      "domain": "tvline.com"
+    },
+    {
+      "title": "A pergunta que derrubou participante do Quem Quer Ser um Milionário? após chute",
+      "url": "https://noticiasdatv.uol.com.br/noticia/televisao/a-pergunta-que-derrubou-participante-do-quem-quer-ser-um-milionario-apos-chute-138014",
+      "domain": "noticiasdatv.uol.com.br"
+    },
+    {
+      "title": "Médica explica diagnóstico de Silvia Abravanel: 'Condição grave'",
+      "url": "https://caras.com.br/bem-estar/medica-explica-diagnostico-de-silvia-abravanel-condicao-grave.phtml",
+      "domain": "caras.com.br"
+    },
+    {
+      "title": "Luzes caindo do céu: Meteoros serão cada vez mais comuns em MS",
+      "url": "https://midiamax.uol.com.br/cotidiano/2025/luzes-caindo-do-ceu-meteoros-serao-cada-vez-mais-comuns-em-ms/",
+      "domain": "midiamax.uol.com.br"
+    },
+    {
+      "title": "CarExpert Choice winner: Best EV - Small SUV",
+      "url": "https://7news.com.au/motoring/carexpert-choice-winner-best-ev-small-suv-c-19123933",
+      "domain": "7news.com.au"
+    },
+    {
+      "title": "Trump Policy Threatens Residential Solar Industry",
+      "url": "https://oilprice.com/Alternative-Energy/Solar-Energy/Trump-Policy-Threatens-Residential-Solar-Industry.html",
+      "domain": "oilprice.com"
+    },
+    {
+      "title": "就寝前のセックスや自慰行為は客観的な睡眠の質を向上させることが判明",
+      "url": "https://gigazine.net/news/20250622-sexual-activity-improves-sleep-quality/",
+      "domain": "gigazine.net"
+    },
+    {
+      "title": "ステランティス、伊マセラティ売却を検討＝関係者",
+      "url": "https://jp.reuters.com/economy/industry/4PRQ3PDJJNPDRJINEQGV4HITFE-2025-06-22/",
+      "domain": "jp.reuters.com"
+    },
+    {
+      "title": "There's a hidden rule that all life on Earth must follow, research claims",
+      "url": "https://bgr.com/science/theres-a-hidden-rule-that-all-life-on-earth-must-follow-research-claims/",
+      "domain": "bgr.com"
+    },
+    {
+      "title": "80 की उम्र में कमाल, हफ्तेभर में चुपचाप छाप डाले ₹3400000000000,रईसी में मस्क से बस एक कदम पीछे...फिर भी गुमनाम ?",
+      "url": "https://zeenews.india.com/hindi/business/80-year-old-man-earn-rs-3400000000000-in-a-week-now-one-step-behind-elon-musk-in-billionaire-list/2811970",
+      "domain": "zeenews.india.com"
+    },
+    {
+      "title": "CEO की बड़ी कार्रवाई, पंचायतों को नोटिस",
+      "url": "https://dainikyashonnati.com/ceos-major-action-to-robbery-panchayat-secretaries-sitting-on-the-chair/",
+      "domain": "dainikyashonnati.com"
+    },
+    {
+      "title": "美国加入战斗 将如何影响原油、黄金和美股价格？",
+      "url": "https://wap.eastmoney.com/a/202506233437092616.html",
+      "domain": "wap.eastmoney.com"
+    },
+    {
+      "title": "最大直径水下盾构隧道完成黄河段掘进 --新闻报道-中国共产党新闻网",
+      "url": "http://cpc.people.com.cn/n1/2025/0623/c64387-40506518.html",
+      "domain": "cpc.people.com.cn"
+    }
+  ],
+  "generated_at": "2025-06-23T02:04:43Z",
+  "total_sources": 71
+}
