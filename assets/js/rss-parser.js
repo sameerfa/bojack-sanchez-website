@@ -193,7 +193,6 @@ class PodcastRSSParser {
       .replace(/[^a-z0-9\s-]/g, '')
       .replace(/\s+/g, '-')
       .replace(/-+/g, '-')
-      .substring(0, 50)
       .replace(/-$/, '');
     
     // Extract episode timestamp from audio URL for JSON file lookup
