@@ -1,0 +1,182 @@
+{
+  "episode_id": "2025-07-29T13-08-21",
+  "sources": [
+    {
+      "title": "'O pior cenário de fome está em curso na Faixa de Gaza': relatório alerta para mortes em massa iminentes",
+      "url": "https://oglobo.globo.com/mundo/noticia/2025/07/29/o-pior-cenario-de-fome-esta-em-curso-na-faixa-de-gaza-relatorio-alerta-para-mortes-em-massa-iminentes.ghtml",
+      "domain": "oglobo.globo.com"
+    },
+    {
+      "title": "Manhattan shooting suspect claimed to have CTE, mentioned NFL in note, sources say",
+      "url": "https://abcnews.go.com/US/midtown-shooting-suspect-left-note-mentioning-nfl-cte/story?id=124163966",
+      "domain": "abcnews.go.com"
+    },
+    {
+      "title": "Tributes paid to police officer after gunman kills four in shooting at Manhattan skyscraper - US politics live",
+      "url": "https://www.theguardian.com/us-news/live/2025/jul/29/four-killed-shooting-manhattan-new-york-donald-trump-us-politics-latest-news-updates",
+      "domain": "theguardian.com"
+    },
+    {
+      "title": "Bihar Chunav 2025 LIVE: बिहार में बड़ी लापरवाही, कहीं ‘डॉग बाबू’ तो कहीं ‘सोनालिका ट्रैक्टर’ नाम से बन रहे हैं सर्टिफिकेट",
+      "url": "https://hindi.news18.com/news/bihar/patna-bihar-chunav-2025-news-live-in-hindi-sir-voter-list-hearing-in-supreme-court-tejaswi-yadav-chirag-paswan-cm-nitish-kumar-tej-pratap-rjd-bjp-livenews-9452168.html",
+      "domain": "hindi.news18.com"
+    },
+    {
+      "title": "Food crisis experts say 'worst-case scenario of famine' is happening in Gaza",
+      "url": "https://apnews.com/article/mideast-wars-gaza-famine-israel-warning-d14ca629a68f7bdefe9c2fcc67d62224",
+      "domain": "apnews.com"
+    },
+    {
+      "title": "EU to spend 17 billion euros to upgrade roads for war",
+      "url": "https://biz.liga.net/en/all/transport/novosti/eu-roads-railroads-and-bridges-are-being-modernized-to-allow-troops-to-be-deployed-in-a-matter-of-hours",
+      "domain": "biz.liga.net"
+    },
+    {
+      "title": "Sicherheitsalarm: Will Iran belgische Politikerin entführen?",
+      "url": "https://web.de/magazine/politik/sicherheitsalarm-iran-belgische-politikerin-entfuehren-41227732",
+      "domain": "web.de"
+    },
+    {
+      "title": "Medvedev l-a amenințat pe Trump cu un război direct: „Se joacă de-a ultimatumul. Rusia nu este nici Israel, nici Iran”",
+      "url": "https://stirileprotv.ro/stiri/international/medvedev-l-a-amenintat-pe-trump-cu-un-razboi-direct-zse-joaca-de-a-ultimatumul-cu-rusia-nu-este-nici-israel-nici-iran.html",
+      "domain": "stirileprotv.ro"
+    },
+    {
+      "title": "'For first time in history ... ': Priyanka slams PM Modi on Trump 'announcing' ceasefire; asks govt to take responsibility",
+      "url": "https://timesofindia.indiatimes.com/india/for-first-time-in-history-priyanka-slams-pm-modi-on-trump-announcing-ceasefire-asks-govt-to-take-responsibility/articleshow/122972946.cms",
+      "domain": "timesofindia.indiatimes.com"
+    },
+    {
+      "title": "解放军和武警部队官兵、民兵投入防汛抢险救灾-新华网",
+      "url": "http://www.xinhuanet.com/photo/20250729/740fb6a83be643838a42023f6c3d3bc4/c.html",
+      "domain": "xinhuanet.com"
+    },
+    {
+      "title": "रूस इजरायल या ईरान नहीं है... डोनाल्ड ट्रंप के अल्टीमेटम पर भड़के पूर्व रूसी राष्ट्रपति मेदवेदेव, दे डाली युद्ध की धमकी",
+      "url": "https://navbharattimes.indiatimes.com/world/rest-of-europe/russia-is-not-israel-or-iran-former-russian-president-medvedev-warns-trump-could-drag-us-into-war/articleshow/122970496.cms",
+      "domain": "navbharattimes.indiatimes.com"
+    },
+    {
+      "title": "シンガポール、テロの脅威「依然高い」 内務省報告書",
+      "url": "https://jp.reuters.com/world/security/B6ANUEQOMNOWLHPNHCG6LYGOXQ-2025-07-29/",
+      "domain": "jp.reuters.com"
+    },
+    {
+      "title": "Jair Bolsonaro vai à motociata em Brasília",
+      "url": "https://revistaoeste.com/politica/jair-bolsonaro-vai-a-motociata-em-brasilia/",
+      "domain": "revistaoeste.com"
+    },
+    {
+      "title": "解放军和武警部队官兵、民兵投入防汛抢险救灾-新华网",
+      "url": "http://www.news.cn/photo/20250729/740fb6a83be643838a42023f6c3d3bc4/c.html",
+      "domain": "news.cn"
+    },
+    {
+      "title": "தங்க முலாம் பூசப்பட்ட T-56 துப்பாக்கி விவகாரம் - துமிந்த திசாநாயக்க விடுவிப்பு!",
+      "url": "https://yarl.com/forum3/topic/304174-%E0%AE%A4%E0%AE%99%E0%AF%8D%E0%AE%95-%E0%AE%AE%E0%AF%81%E0%AE%B2%E0%AE%BE%E0%AE%AE%E0%AF%8D-%E0%AE%AA%E0%AF%82%E0%AE%9A%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AF%8D%E0%AE%9F-t-56-%E0%AE%A4%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BF-%E0%AE%B5%E0%AE%BF%E0%AE%B5%E0%AE%95%E0%AE%BE%E0%AE%B0%E0%AE%AE%E0%AF%8D-%E0%AE%A4%E0%AF%81%E0%AE%AE%E0%AE%BF%E0%AE%A8%E0%AF%8D%E0%AE%A4-%E0%AE%A4%E0%AE%BF%E0%AE%9A%E0%AE%BE%E0%AE%A8%E0%AE%BE%E0%AE%AF%E0%AE%95%E0%AF%8D%E0%AE%95-%E0%AE%B5%E0%AE%BF%E0%AE%9F%E0%AF%81%E0%AE%B5%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81/",
+      "domain": "yarl.com"
+    },
+    {
+      "title": "'We’ve not identified Dragonfly as a target'",
+      "url": "https://ambcrypto.com/weve-not-identified-dragonfly-as-a-target-doj-reverses-course/",
+      "domain": "ambcrypto.com"
+    },
+    {
+      "title": "Marine Atlantic to Issue Rebates for Crossings Booked Beyond August 1 Rate Cut",
+      "url": "https://vocm.com/2025/07/29/marine-atlantic-to-issue-rebates-for-crossings-booked-beyond-august-1st-rate-cut/",
+      "domain": "vocm.com"
+    },
+    {
+      "title": "Donald Trump cuts ribbon on new golf course on final day of Scotland visit",
+      "url": "https://news.stv.tv/politics/trump-in-scotland-donald-trump-to-open-new-golf-course-in-aberdeenshire",
+      "domain": "news.stv.tv"
+    },
+    {
+      "title": "Rally Stalls for Bitcoin, Ethereum, and XRP-Analysts Split on What’s Next",
+      "url": "https://decrypt.co/332240/rally-stalls-for-bitcoin-ethereum-and-xrp-analysts-split-on-whats-next",
+      "domain": "decrypt.co"
+    },
+    {
+      "title": "há um país se tornando o \"paraíso\" dos elétricos",
+      "url": "https://olhardigital.com.br/2025/07/29/carros-e-tecnologia/nem-china-nem-noruega-nem-eua-ha-um-pais-se-tornando-o-paraiso-dos-carros-eletricos/",
+      "domain": "olhardigital.com.br"
+    },
+    {
+      "title": "NOVO NORDISK senkt die Prognose für 2025 - Aktie stürzt ab!",
+      "url": "https://stock3.com/news/novo-nordisk-senkt-die-prognose-fuer-2025-aktie-stuerzt-ab-16550044",
+      "domain": "stock3.com"
+    },
+    {
+      "title": "Espagne: la croissance du PIB a atteint 0,7% au deuxième trimestre",
+      "url": "https://actu.orange.fr/economie/espagne-la-croissance-du-pib-a-atteint-0-7-au-deuxieme-trimestre-CNT000002jMveh.html",
+      "domain": "actu.orange.fr"
+    },
+    {
+      "title": "【中国那些事儿】美媒：以中式美学和特色脱颖而出 中国消费者愈发青睐本土奢侈品牌",
+      "url": "https://cn.chinadaily.com.cn/a/202507/29/WS688881f2a310a07bb590acc2.html",
+      "domain": "cn.chinadaily.com.cn"
+    },
+    {
+      "title": "日経平均寄与度ランキング（大引け）～日経平均は3日続落、東エレクやソフトバンクGが2銘柄で約66円分押し下げ(フィスコ)",
+      "url": "https://finance.yahoo.co.jp/news/detail/f6c020d5904e3381416eaf74db253c2ff9036469",
+      "domain": "finance.yahoo.co.jp"
+    },
+    {
+      "title": "話題株ピックアップ【夕刊】（2）：ベルテクス、清水建、ＣＩＪ",
+      "url": "https://kabutan.jp/news/marketnews/?b=n202507290845",
+      "domain": "kabutan.jp"
+    },
+    {
+      "title": "Bitcoin : Ce milliardaire conseille d’ajouter 15 % de BTC et d’or à votre portefeuille",
+      "url": "https://journalducoin.com/economie/bitcoin-milliardaire-conseill-btc-or-portefeuille/",
+      "domain": "journalducoin.com"
+    },
+    {
+      "title": "\" Je ne prends presque rien \" : le salaire étonnamment bas d’Elon Musk dévoilé malgré sa fortune colossale",
+      "url": "https://bmw-actu.com/2025/07/29/je-ne-prends-presque-rien-le-salaire-etonnamment-bas-delon-musk-devoile-malgre-sa-fortune-colossale/",
+      "domain": "bmw-actu.com"
+    },
+    {
+      "title": "最新！朱华荣任党委书记、董事长，中国长安汽车集团正式挂牌，雷军发文祝贺",
+      "url": "http://www.stcn.com/article/detail/2793935.html",
+      "domain": "stcn.com"
+    },
+    {
+      "title": "Tesla, Ionity et des voitures qui bloquent tout : le chaos aux bornes de recharge expliqué",
+      "url": "https://rouleur-electrique.fr/comment-se-comporte-laffluence-aux-bornes-electriques-sur-autoroute-cet-ete/",
+      "domain": "rouleur-electrique.fr"
+    },
+    {
+      "title": "Amazon launches Echo Show 5 third generation with new features at Rs 10,999",
+      "url": "https://indianexpress.com/article/technology/amazon-launches-echo-show-5-third-generation-with-new-features-at-rs-10999-10157316/",
+      "domain": "indianexpress.com"
+    },
+    {
+      "title": "Ce matériau pourrait être à l'origine d'une révolution en matière de production d'hydrogène vert !",
+      "url": "https://sciencepost.fr/ce-materiau-pourrait-etre-a-lorigine-dune-revolution-en-matiere-de-production-dhydrogene-vert/",
+      "domain": "sciencepost.fr"
+    },
+    {
+      "title": "In the infrared, the quest for distant worlds delivers its first results",
+      "url": "https://nouvelles.umontreal.ca/en/article/2025/07/29/in-the-infrared-the-quest-for-distant-worlds-delivers-its-first-results/",
+      "domain": "nouvelles.umontreal.ca"
+    },
+    {
+      "title": "Silica from meteorites may hold key to controlling industrial heat",
+      "url": "https://interestingengineering.com/science/physicists-find-heat-proof-material-in-1724-meteorite",
+      "domain": "interestingengineering.com"
+    },
+    {
+      "title": "Researchers create 'virtual scientists' to solve complex biological problems",
+      "url": "https://phys.org/news/2025-07-virtual-scientists-complex-biological-problems.html",
+      "domain": "phys.org"
+    },
+    {
+      "title": "Sete novos asteroides próximos da Terra: uma descoberta impressionante do Observatório Vera C. Rubin",
+      "url": "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/ednardo-rodrigues/sete-novos-asteroides-proximos-da-terra-uma-descoberta-impressionante-do-observatorio-vera-c-rubin-1.3674810",
+      "domain": "diariodonordeste.verdesmares.com.br"
+    }
+  ],
+  "generated_at": "2025-07-29T13:09:31Z",
+  "total_sources": 35
+}
