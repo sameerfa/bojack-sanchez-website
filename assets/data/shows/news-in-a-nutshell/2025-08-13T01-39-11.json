@@ -1,0 +1,182 @@
+{
+  "episode_id": "2025-08-13T01-39-11",
+  "sources": [
+    {
+      "title": "Russia 'responsible for hacking highly sensitive US court records'",
+      "url": "https://metro.co.uk/2025/08/12/russia-responsible-hacking-highly-sensitive-us-court-records-23896842/",
+      "domain": "metro.co.uk"
+    },
+    {
+      "title": "Texas Democrats to return after governor ends special session that included redistricting, sources say",
+      "url": "https://abcnews.go.com/Politics/texas-democrats-return-after-governor-ends-special-session/story?id=124592449",
+      "domain": "abcnews.go.com"
+    },
+    {
+      "title": "Cowichan title lands encompasses B.C. mansions",
+      "url": "https://globalnews.ca/news/11332097/cowichan-title-lands-encompasses-b-c-mansions/",
+      "domain": "globalnews.ca"
+    },
+    {
+      "title": "ロシアはウクライナ戦争に勝利とハンガリー首相、米ロ会談控え",
+      "url": "https://jp.reuters.com/world/ukraine/VOD3GQJDDZM4NM2H35H2GLOEQE-2025-08-13/",
+      "domain": "jp.reuters.com"
+    },
+    {
+      "title": "Justiça determina suspensão de perfis de Hytalo Santos em redes sociais e afastamento de adolescentes, diz MP",
+      "url": "https://oglobo.globo.com/brasil/noticia/2025/08/12/justica-determina-suspensao-de-perfis-de-hytalo-santos-em-redes-sociais-diz-mp.ghtml",
+      "domain": "oglobo.globo.com"
+    },
+    {
+      "title": "Putin is the one 'being tested' in his summit with Trump, Bolton says",
+      "url": "https://sg.news.yahoo.com/putin-one-being-tested-summit-220204900.html",
+      "domain": "sg.news.yahoo.com"
+    },
+    {
+      "title": "White House lands on Trump-Putin summit location as officials scramble to prepare for historic Alaska meeting",
+      "url": "https://www.cnn.com/2025/08/12/politics/trump-putin-meeting-plan-location",
+      "domain": "cnn.com"
+    },
+    {
+      "title": "Mexico expels cartel figures wanted by US authorities in deal with Trump",
+      "url": "https://apnews.com/article/cartels-trump-administration-bondi-justice-department-712bdb8f99522ee72ec357492cfa393b",
+      "domain": "apnews.com"
+    },
+    {
+      "title": "Canada's Express Entry To Require Upfront Medical Effective August 21",
+      "url": "https://immigrationnewscanada.ca/canada-express-entry-upfront-medical-2025/",
+      "domain": "immigrationnewscanada.ca"
+    },
+    {
+      "title": "Foz do Amazonas: Petrobras e Ibama fazem acordo para teste",
+      "url": "https://www1.folha.uol.com.br/ambiente/2025/08/petrobras-e-ibama-chegam-a-acordo-sobre-teste-crucial-para-exploracao-de-petroleo-na-foz-do-amazonas.shtml",
+      "domain": "www1.folha.uol.com.br"
+    },
+    {
+      "title": "Lula diz que pacote de ajuda de R$ 30 bi a afetados por tarifaço é 'só o começo'",
+      "url": "https://valor.globo.com/brasil/noticia/2025/08/12/lula-diz-que-assinara-nesta-quarta-mp-do-plano-de-contingencia-com-linha-de-credito-de-r-30-bi.ghtml",
+      "domain": "valor.globo.com"
+    },
+    {
+      "title": "Jeremy Clarkson joins backlash as JD Vance holidays in the Cotswolds",
+      "url": "https://news.sky.com/story/jeremy-clarkson-joins-backlash-as-jd-vance-holidays-in-the-cotswolds-13410674",
+      "domain": "news.sky.com"
+    },
+    {
+      "title": "Macron admits France’s repressive violence in Cameroon’s war for independence",
+      "url": "https://wtop.com/world/2025/08/macron-admits-frances-repressive-violence-in-cameroons-war-for-independence/",
+      "domain": "wtop.com"
+    },
+    {
+      "title": "Telemarketing não é mais obrigado a usar o prefixo 0303 em ligações, decide Anatel",
+      "url": "https://istoedinheiro.com.br/anatel-revoga-obrigatoriedade-do-uso-do-prefixo-0303-em-ligacoes",
+      "domain": "istoedinheiro.com.br"
+    },
+    {
+      "title": "Anatel revoga obrigatoriedade do uso do prefixo 0303 em ligações",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-08/anatel-revoga-obrigatoriedade-do-uso-do-prefixo-0303-em-ligacoes",
+      "domain": "agenciabrasil.ebc.com.br"
+    },
+    {
+      "title": "Deu briga! Elon Musk e Sam Altman trocam acusações no X",
+      "url": "https://olhardigital.com.br/2025/08/12/pro/deu-briga-elon-musk-e-sam-altman-trocam-acusacoes-no-x/",
+      "domain": "olhardigital.com.br"
+    },
+    {
+      "title": "Por que a Perplexity fez uma oferta pelo Chrome",
+      "url": "https://braziljournal.com/por-que-a-perplexity-fez-uma-oferta-pelo-chrome/",
+      "domain": "braziljournal.com"
+    },
+    {
+      "title": "Faça um curso técnico de casa ou presencial sem gastar R$ 1 real: mais de 4,6 mil vagas em mecânica, metalurgia, administração, química e mais, no Instituto Federal (IFES), uma das melhores universida",
+      "url": "https://clickpetroleoegas.com.br/faca-um-curso-tecnico-de-casa-ou-presencial-sem-gastar-r-1-real-mais-de-46-mil-vagas-em-mecanica-metalurgia-administracao-quimica-e-mais-no-instituto-federal-a-melhor-universidade-do-brasil-fcmo87/",
+      "domain": "clickpetroleoegas.com.br"
+    },
+    {
+      "title": "Segmento PCD tem três opções de SUVs esportivos disponíveis com isenção; veja quais são",
+      "url": "https://mundodoautomovelparapcd.com.br/segmento-pcd-tem-tres-opcoes-de-suvs-esportivos-disponiveis-com-isencao/",
+      "domain": "mundodoautomovelparapcd.com.br"
+    },
+    {
+      "title": "Receita flexibiliza o pagamento de Simples Nacional e MEI",
+      "url": "https://revistaoeste.com/economia/receita-flexibiliza-o-pagamento-de-simples-nacional-e-mei/",
+      "domain": "revistaoeste.com"
+    },
+    {
+      "title": "All about Stripe's plan to build ‘Tempo’ blockchain with Paradigm",
+      "url": "https://ambcrypto.com/all-about-stripes-plan-to-build-tempo-payments-blockchain/",
+      "domain": "ambcrypto.com"
+    },
+    {
+      "title": "Hear Me Out, Tom Hanks Starred In The Mad Max Of \"Dad Movies\"",
+      "url": "https://screenrant.com/tom-hanks-greyhound-action-dad-movie/",
+      "domain": "screenrant.com"
+    },
+    {
+      "title": "VW Tera é lançado na Argentina com motor proibido no Brasil",
+      "url": "https://motor1.uol.com.br/news/768822/vw-lanca-tera-argentina-motoraspirado/",
+      "domain": "motor1.uol.com.br"
+    },
+    {
+      "title": "１３日の東京株式市場見通し＝買い先行後も堅調な展開か 速報",
+      "url": "https://kabushiki.jp/news/710602",
+      "domain": "kabushiki.jp"
+    },
+    {
+      "title": "Un navire s’est échoué près de Verchères",
+      "url": "https://ici.radio-canada.ca/nouvelle/2185084/navire-echoue-vercheres-fleuve",
+      "domain": "ici.radio-canada.ca"
+    },
+    {
+      "title": "Everything Important From The Assassin's Creed Shadows AMA",
+      "url": "https://kotaku.com/10-things-assasins-creed-shadows-dev-ama-ubisoft-parkour-isu-lore-2000617244",
+      "domain": "kotaku.com"
+    },
+    {
+      "title": "iOS 26 will add two brand new apps to your iPhone’s Home Screen",
+      "url": "https://9to5mac.com/2025/08/12/ios-26-will-add-two-brand-new-apps-to-your-iphones-home-screen/",
+      "domain": "9to5mac.com"
+    },
+    {
+      "title": "Amazon quietly dropped a ton of really good Apple deals - save $100s on AirPods, MacBooks, iPads and more",
+      "url": "https://ca.style.yahoo.com/amazon-quietly-dropped-a-ton-of-really-good-apple-deals--save-100s-on-airpods-macbooks-ipads-and-more-195930178.html",
+      "domain": "ca.style.yahoo.com"
+    },
+    {
+      "title": "Microsoft Issues Bold Warning: Stop Using Google Chrome On Windows And Switch To Edge For Safer, Faster, And More Trusted Browsing Experience",
+      "url": "https://wccftech.com/microsoft-issues-bold-warning-stop-using-google-chrome-on-windows-and-switch-to-edge/",
+      "domain": "wccftech.com"
+    },
+    {
+      "title": "August 2025 Patch Tuesday fixes a Windows Kerberos Zero-Day",
+      "url": "https://securityaffairs.com/181077/hacking/august-2025-patch-tuesday-fixes-a-windows-kerberos-zero-day.html",
+      "domain": "securityaffairs.com"
+    },
+    {
+      "title": "Saiba quando o Cometa Halley se aproxima da terra de novo",
+      "url": "https://ultimosegundo.ig.com.br/ciencia/2025-08-12/cometa-halley-se-aproxima-da-terra-de-novo--saiba-quando.html",
+      "domain": "ultimosegundo.ig.com.br"
+    },
+    {
+      "title": "台風11号が石垣島など八重山地方に接近中 13日昼過ぎにかけて高波に警戒",
+      "url": "https://tenki.jp/forecaster/a_aoyama/2025/08/13/35184.html",
+      "domain": "tenki.jp"
+    },
+    {
+      "title": "Space Force officials take secrecy to new heights ahead of key rocket launch",
+      "url": "https://arstechnica.com/space/2025/08/space-force-officials-take-secrecy-to-new-heights-ahead-of-key-rocket-launch/",
+      "domain": "arstechnica.com"
+    },
+    {
+      "title": "Keep your eyes on the skies: Annual Perseid meteor shower set to peak tonight",
+      "url": "https://cheknews.ca/keep-your-eyes-on-the-skies-annual-perseid-meteor-shower-set-to-peak-tonight-1271954/",
+      "domain": "cheknews.ca"
+    },
+    {
+      "title": "A cor que pode indicar menos inteligência, segundo pesquisadores",
+      "url": "https://capitalist.com.br/a-cor-que-segundo-a-psicologia-e-mais-associada-a-pessoas-com-baixa-inteligencia/",
+      "domain": "capitalist.com.br"
+    }
+  ],
+  "generated_at": "2025-08-13T01:40:00Z",
+  "total_sources": 35
+}
