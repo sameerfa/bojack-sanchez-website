@@ -91,10 +91,21 @@ async function loadShowImages() {
           }
         }
 
-        if (imageUrl) {
-          const imgElement = document.getElementById(show.id);
-          if (imgElement) {
+        // Create fallback image (same as show pages)
+        const fallbackImage = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2Y5ZmFmYiIgcng9IjgiLz48cGF0aCBkPSJNNTAgMzBjLTMuMzEzIDAtNiAyLjY4Ny02IDZ2OGMwIDMuMzEzIDIuNjg3IDYgNiA2czYtMi42ODcgNi02di04YzAtMy4zMTMtMi42ODctNi02LTZ6bTAgMjBjLTIuMjA3IDAtNC0xLjc5My00LTB2LThjMC0yLjIwNyAxLjc5My00IDQtNHM0IDEuNzkzIDQgNHY4YzAgMi4yMDctMS43OTMgNC00IDR6bTAtMTJjLTEuMTA0IDAtMiAuODk2LTIgMnY4YzAgMS4xMDQuODk2IDIgMiAyczItLjg5NiAyLTJ2LThjMC0xLjEwNC0uODk2LTItMi0yek00MCA1MGg0djhoLTR2LTh6bTE2IDBoNHY4aC00di04eiIgZmlsbD0iIzI1NjNlYiIvPjwvc3ZnPg==';
+        
+        const imgElement = document.getElementById(show.id);
+        if (imgElement) {
+          if (imageUrl) {
             imgElement.src = imageUrl;
+            imgElement.style.display = 'block';
+            imgElement.onerror = () => {
+              // If RSS image fails, use fallback
+              imgElement.src = fallbackImage;
+            };
+          } else {
+            // No image found in RSS, use fallback immediately
+            imgElement.src = fallbackImage;
             imgElement.style.display = 'block';
           }
         }

@@ -67,6 +67,9 @@ class ShowsManager {
         this.episodes = Array.from(items).map(item => this.parseEpisode(item));
         this.episodes.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate)); // Newest first
 
+        // Load and display show image
+        this.loadShowImage(xmlDoc);
+
         this.renderEpisodes();
         
         // Check for deep link after episodes are loaded
@@ -809,6 +812,56 @@ class ShowsManager {
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
+  }
+
+  loadShowImage(xmlDoc) {
+    let imageUrl = '';
+    
+    // Try to get image from itunes:image
+    const itunesImage = xmlDoc.querySelector('itunes\\:image, [name="itunes:image"]');
+    if (itunesImage) {
+      imageUrl = itunesImage.getAttribute('href') || itunesImage.textContent;
+    }
+    
+    // If not found, try channel > image > url
+    if (!imageUrl) {
+      const channelImage = xmlDoc.querySelector('channel image url');
+      if (channelImage) {
+        imageUrl = channelImage.textContent;
+      }
+    }
+    
+    // If still not found, try image tag directly
+    if (!imageUrl) {
+      const imageTag = xmlDoc.querySelector('image');
+      if (imageTag) {
+        const urlTag = imageTag.querySelector('url');
+        if (urlTag) {
+          imageUrl = urlTag.textContent;
+        }
+      }
+    }
+    
+    // Get the header image element
+    const headerImage = document.getElementById('show-header-image');
+    if (!headerImage) return;
+    
+    // Create fallback image (simple SVG placeholder with microphone icon)
+    const fallbackImage = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2Y5ZmFmYiIgcng9IjgiLz48cGF0aCBkPSJNNTAgMzBjLTMuMzEzIDAtNiAyLjY4Ny02IDZ2OGMwIDMuMzEzIDIuNjg3IDYgNiA2czYtMi42ODcgNi02di04YzAtMy4zMTMtMi42ODctNi02LTZ6bTAgMjBjLTIuMjA3IDAtNC0xLjc5My00LTB2LThjMC0yLjIwNyAxLjc5My00IDQtNHM0IDEuNzkzIDQgNHY4YzAgMi4yMDctMS43OTMgNC00IDR6bTAtMTJjLTEuMTA0IDAtMiAuODk2LTIgMnY4YzAgMS4xMDQuODk2IDIgMiAyczItLjg5NiAyLTJ2LThjMC0xLjEwNC0uODk2LTItMi0yek00MCA1MGg0djhoLTR2LTh6bTE2IDBoNHY4aC00di04eiIgZmlsbD0iIzI1NjNlYiIvPjwvc3ZnPg==';
+    
+    // Display the image if found, otherwise use fallback
+    if (imageUrl) {
+      headerImage.src = imageUrl;
+      headerImage.style.display = 'block';
+      headerImage.onerror = () => {
+        // If RSS image fails, use fallback
+        headerImage.src = fallbackImage;
+      };
+    } else {
+      // No image found in RSS, use fallback immediately
+      headerImage.src = fallbackImage;
+      headerImage.style.display = 'block';
+    }
   }
 }
 
