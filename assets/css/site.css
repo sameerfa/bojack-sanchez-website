@@ -18,11 +18,60 @@
   padding: 0;
 }
 
+/* Edge Wave Container */
+#edge-wave-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+#edge-wave-container canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+/* Ensure content appears above waves - preserve existing positioning */
+.main-nav {
+  z-index: 100 !important;
+  /* Keep position: fixed from styles.css */
+}
+
+.main-content {
+  position: relative;
+  z-index: 10;
+}
+
+.main-footer {
+  position: relative;
+  z-index: 10;
+}
+
+/* Prevent body scroll issues */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body {
   font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
   color: var(--text-primary);
   background-color: var(--bg-primary);
+  position: relative;
 }
 
 /* Home Page */
