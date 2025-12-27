@@ -122,21 +122,28 @@ class EpisodePageGenerator {
     if (!episode.episodeTimestamp) return null;
     
     try {
-      // Use the new Backblaze B2 path format
+      // Use the new Backblaze B2 path format with CORS proxy
       const jsonUrl = `https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/${episode.episodeTimestamp}/assets/polished_script.json`;
-      const response = await fetch(jsonUrl);
+      const proxyUrl = 'https://api.allorigins.win/get?url=';
+      
+      const response = await fetch(`${proxyUrl}${encodeURIComponent(jsonUrl)}`);
       
       if (response.ok) {
-        const sourceData = await response.json();
-        // Extract sources array and ensure each source has a url
-        const sources = sourceData.sources || [];
-        // Map sources to include domain extracted from URL
-        return sources.map(source => ({
-          title: source.title || '',
-          url: source.url || '',
-          category: source.category || '',
-          domain: this.extractDomainFromUrl(source.url || '')
-        })).filter(source => source.url); // Only include sources with valid URLs
+        const proxyData = await response.json();
+        
+        if (proxyData.contents) {
+          // Parse the JSON content from the proxy response
+          const sourceData = JSON.parse(proxyData.contents);
+          // Extract sources array and ensure each source has a url
+          const sources = sourceData.sources || [];
+          // Map sources to include domain extracted from URL
+          return sources.map(source => ({
+            title: source.title || '',
+            url: source.url || '',
+            category: source.category || '',
+            domain: this.extractDomainFromUrl(source.url || '')
+          })).filter(source => source.url); // Only include sources with valid URLs
+        }
       }
     } catch (error) {
       console.warn(`Could not load sources for episode ${episode.episodeTimestamp}:`, error);

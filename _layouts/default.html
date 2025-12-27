@@ -12,7 +12,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-DNXRBX5JWW');
     </script>
     
@@ -30,6 +29,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{ '/assets/css/episode-sources.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
     
     <!-- Three.js and GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -57,15 +57,13 @@
             
             <!-- Navigation Links -->
             <div class="nav-links" id="nav-links">
-                <a href="{{ '/' | relative_url }}">Home</a>
                 <div class="nav-dropdown">
                     <a href="#" class="dropdown-toggle">Shows <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown-menu">
                         <a href="{{ '/news-in-a-nutshell' | relative_url }}">News in a Nutshell</a>
-                        <!-- Future shows can be added here -->
+                        <a href="{{ '/kurz-und-klar' | relative_url }}">Kurz & Klar</a>
                     </div>
                 </div>
-                <a href="{{ '/about' | relative_url }}">About</a>
             </div>
         </div>
     </nav>
@@ -104,7 +102,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. All rights reserved.</p>
+                <p>&copy; {{ 'now' | date: "%Y" }} Bojack Sanchez | Made with ❤️ from 🇩🇪 | <a href="mailto:hello@bojacksanchez.com">hello@bojacksanchez.com</a></p>
             </div>
         </div>
     </footer>
@@ -112,5 +110,6 @@
     <script src="{{ '/assets/js/app.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/rss-parser.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/episode-generator.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/shows.js' | relative_url }}"></script>
 </body>
-</html> 
+</html>

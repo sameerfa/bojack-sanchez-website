@@ -717,8 +717,6 @@ body {
 
 .footer-bottom {
     text-align: center;
-    padding-top: 2rem;
-    border-top: 1px solid var(--border-color);
     color: var(--text-muted);
     font-size: 0.875rem;
 }
@@ -1071,14 +1069,14 @@ body {
     padding: 0 1rem;
 }
 
-.episode-content .episode-title,
+/* .episode-content .episode-title,
 #episode-page-content .episode-content .episode-title {
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
     line-height: 1.2;
     text-align: center;
-}
+} */
 
 .episode-info,
 #episode-page-content .episode-info {

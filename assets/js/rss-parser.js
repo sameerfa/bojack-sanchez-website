@@ -37,34 +37,7 @@ class PodcastRSSParser {
   }
 
   async fetchEpisodes() {
-    
-    // First, try a direct fetch (might work on some servers)
-    try {
-      const directResponse = await fetch(`${this.rssUrl}?t=${Date.now()}`, {
-        method: 'GET',
-        mode: 'cors',
-        headers: {
-          'Accept': 'application/rss+xml, application/xml, text/xml, */*'
-        }
-      });
-      
-      if (directResponse.ok) {
-        const xmlContent = await directResponse.text();
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(xmlContent, 'text/xml');
-        
-        const items = xmlDoc.querySelectorAll('item');
-        if (items.length > 0) {
-          this.episodes = Array.from(items).map(item => this.parseEpisode(item));
-          localStorage.setItem('podcastEpisodes', JSON.stringify(this.episodes));
-          console.log('✅ Direct RSS fetch successful!');
-          return;
-        }
-      }
-    } catch (directError) {
-      console.warn('Direct fetch failed, trying proxies...', directError.message);
-    }
-    
+    // Skip direct fetch to avoid CORS issues - always use proxy
     // Try multiple proxy services
     for (let i = 0; i < this.proxyUrls.length; i++) {
       try {
