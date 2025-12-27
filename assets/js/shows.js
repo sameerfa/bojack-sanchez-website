@@ -26,6 +26,20 @@ class ShowsManager {
     this.loadEpisodes();
     this.setupPlayer();
     this.handleDeepLink();
+    
+    // Ensure player is hidden on initial load (no episode selected)
+    setTimeout(() => {
+      this.ensurePlayerHidden();
+    }, 100);
+  }
+  
+  ensurePlayerHidden() {
+    const playerBar = document.getElementById('player-bar');
+    if (playerBar && !this.currentEpisode) {
+      playerBar.style.display = 'none';
+      playerBar.setAttribute('style', 'display: none !important;');
+      console.log('Ensured player is hidden on initial load');
+    }
   }
 
   getRssUrl(showSlug) {
@@ -139,12 +153,33 @@ class ShowsManager {
     const container = document.getElementById('episodes-list');
     if (!container) return;
 
+    // Preserve the player-bar element if it exists and is currently visible
+    const existingPlayerBar = document.getElementById('player-bar');
+    let playerBarHTML = '';
+    let shouldPreservePlayer = false;
+    
+    if (existingPlayerBar) {
+      // Only preserve if player is currently visible (has an episode playing)
+      const isVisible = existingPlayerBar.style.display !== 'none' && 
+                       window.getComputedStyle(existingPlayerBar).display !== 'none' &&
+                       this.currentEpisode !== null;
+      
+      if (isVisible) {
+        playerBarHTML = existingPlayerBar.outerHTML;
+        shouldPreservePlayer = true;
+      }
+    }
+
     if (this.episodes.length === 0) {
       container.innerHTML = '<div class="no-episodes">No episodes found.</div>';
+      // Re-append player if it was preserved
+      if (shouldPreservePlayer && playerBarHTML) {
+        container.insertAdjacentHTML('beforeend', playerBarHTML);
+      }
       return;
     }
 
-    container.innerHTML = this.episodes.map(episode => `
+    const episodesHTML = this.episodes.map(episode => `
       <article class="episode-item" id="${episode.id}" data-episode-id="${episode.id}" data-episode-slug="${episode.slug}" role="listitem">
         <div class="episode-content">
           <h3 class="episode-title">${this.escapeHtml(episode.title)}</h3>
@@ -158,6 +193,55 @@ class ShowsManager {
         </button>
       </article>
     `).join('');
+
+    // Set innerHTML - don't include player-bar, it should be hidden by default
+    container.innerHTML = episodesHTML;
+    
+    // Ensure player-bar exists but is hidden at the end of the list
+    let playerBar = document.getElementById('player-bar');
+    if (!playerBar) {
+      // Create player bar if it doesn't exist
+      playerBar = this.createPlayerBar();
+      if (playerBar) {
+        container.appendChild(playerBar);
+      }
+    } else {
+      // Force hide existing player - only show if there's a current episode
+      if (!this.currentEpisode) {
+        playerBar.style.display = 'none';
+        playerBar.setAttribute('style', 'display: none !important;');
+      }
+      // Move to end of list if not already there
+      if (playerBar.parentElement !== container) {
+        playerBar.remove();
+        container.appendChild(playerBar);
+        // Ensure it stays hidden if no episode
+        if (!this.currentEpisode) {
+          playerBar.style.display = 'none';
+          playerBar.setAttribute('style', 'display: none !important;');
+        }
+      } else {
+        // Even if already in container, ensure it's hidden if no episode
+        if (!this.currentEpisode) {
+          playerBar.style.display = 'none';
+          playerBar.setAttribute('style', 'display: none !important;');
+        }
+      }
+    }
+    
+    // Only show player if it was visible before (episode was playing)
+    if (shouldPreservePlayer && this.currentEpisode && playerBar) {
+      // Find the episode that was playing and insert player after it
+      const currentEpisodeElement = container.querySelector(`[data-episode-id="${this.currentEpisode.id}"]`);
+      if (currentEpisodeElement) {
+        playerBar.remove();
+        currentEpisodeElement.insertAdjacentElement('afterend', playerBar);
+        // Show the player
+        playerBar.style.display = 'block';
+        // Re-setup player buttons
+        this.setupPlayer();
+      }
+    }
 
     // Attach event listeners - make entire row clickable
     container.querySelectorAll('.episode-item').forEach(item => {
@@ -203,7 +287,14 @@ class ShowsManager {
     }
     
     // Insert player after the episode item first
-    this.insertPlayerAfterEpisode(episodeElement);
+    const inserted = this.insertPlayerAfterEpisode(episodeElement);
+    if (!inserted) {
+      console.error('Failed to insert player');
+      return;
+    }
+    
+    // Setup player buttons after insertion
+    this.setupPlayer();
     
     // Then update player content
     this.updatePlayer();
@@ -212,11 +303,10 @@ class ShowsManager {
     this.loadSources();
     this.updateUrl(episode.slug);
 
-    // Scroll to player after a short delay to ensure it's rendered
+    // Scroll to episode title (not player) after a short delay to ensure it's rendered
     setTimeout(() => {
-      const playerBar = document.getElementById('player-bar');
-      if (playerBar && playerBar.style.display !== 'none') {
-        playerBar.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      if (episodeElement) {
+        episodeElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     }, 100);
   }
@@ -224,14 +314,22 @@ class ShowsManager {
   insertPlayerAfterEpisode(episodeElement) {
     if (!episodeElement) {
       console.warn('No episode element provided for player insertion');
-      return;
+      return false;
     }
     
-    const playerBar = document.getElementById('player-bar');
+    let playerBar = document.getElementById('player-bar');
+    
+    // Create player bar if it doesn't exist
     if (!playerBar) {
-      console.warn('Player bar element not found');
-      return;
+      console.warn('Player bar not found, creating it...');
+      playerBar = this.createPlayerBar();
+      if (!playerBar) {
+        console.error('Failed to create player bar');
+        return false;
+      }
     }
+    
+    console.log('Inserting player after episode element');
     
     // Remove player from current location if it exists
     const currentParent = playerBar.parentElement;
@@ -240,10 +338,22 @@ class ShowsManager {
     }
     
     // Insert player after the episode element
-    episodeElement.insertAdjacentElement('afterend', playerBar);
+    try {
+      episodeElement.insertAdjacentElement('afterend', playerBar);
+      console.log('Player inserted successfully');
+    } catch (error) {
+      console.error('Error inserting player:', error);
+      return false;
+    }
     
-    // Ensure player is visible
+    // Force player to be visible - remove inline style and set display
+    playerBar.removeAttribute('style');
     playerBar.style.display = 'block';
+    playerBar.style.visibility = 'visible';
+    playerBar.style.opacity = '1';
+    
+    console.log('Player bar display set to block, computed style:', window.getComputedStyle(playerBar).display);
+    return true;
   }
 
   updatePlayer() {
@@ -254,23 +364,40 @@ class ShowsManager {
 
     const playerBar = document.getElementById('player-bar');
     if (!playerBar) {
-      console.warn('Player bar element not found');
+      console.error('Player bar element not found in updatePlayer');
       return;
     }
 
-    // Always show the player bar
+    console.log('Updating player with episode:', this.currentEpisode.title);
+
+    // Force show the player bar - remove any inline styles that might hide it
+    playerBar.removeAttribute('style');
     playerBar.style.display = 'block';
+    playerBar.style.visibility = 'visible';
+    playerBar.style.opacity = '1';
+    
+    // Also show the sources container parent
+    const sourcesContainer = document.getElementById('episode-sources');
+    if (sourcesContainer) {
+      sourcesContainer.style.display = 'none'; // Will be shown by loadSources if sources exist
+    }
 
     // Update title with fallback
     const playerTitle = document.getElementById('player-title');
     if (playerTitle) {
       playerTitle.textContent = this.currentEpisode.title || 'Untitled Episode';
+      console.log('Player title updated:', playerTitle.textContent);
+    } else {
+      console.warn('Player title element not found');
     }
 
     // Update date with fallback
     const playerDate = document.getElementById('player-date');
     if (playerDate) {
       playerDate.textContent = this.currentEpisode.formattedDate || 'Date not available';
+      console.log('Player date updated:', playerDate.textContent);
+    } else {
+      console.warn('Player date element not found');
     }
 
     // Update audio with fallback
@@ -279,12 +406,17 @@ class ShowsManager {
       if (this.currentEpisode.audioUrl) {
         audioElement.src = this.currentEpisode.audioUrl;
         audioElement.load();
+        console.log('Audio source set:', this.currentEpisode.audioUrl);
       } else {
         // Clear audio source if not available
         audioElement.src = '';
         console.warn('No audio URL available for episode');
       }
+    } else {
+      console.warn('Audio element not found');
     }
+    
+    console.log('Player update complete. Display:', window.getComputedStyle(playerBar).display);
   }
 
   async loadSources() {
@@ -322,9 +454,13 @@ class ShowsManager {
           
           if (sources.length > 0) {
             this.renderSources(sources);
+            sourcesContainer.removeAttribute('style');
             sourcesContainer.style.display = 'block';
+            sourcesContainer.style.visibility = 'visible';
+            console.log('Sources displayed, count:', sources.length);
           } else {
             sourcesContainer.style.display = 'none';
+            console.log('No sources to display');
           }
         } else {
           sourcesContainer.style.display = 'none';
@@ -375,43 +511,123 @@ class ShowsManager {
   }
 
   setupPlayer() {
+    // Setup copy link button
     const copyBtn = document.getElementById('copy-link-btn');
     if (copyBtn) {
-      copyBtn.addEventListener('click', () => this.copyEpisodeLink());
+      // Remove existing listeners to avoid duplicates
+      copyBtn.replaceWith(copyBtn.cloneNode(true));
+      const newCopyBtn = document.getElementById('copy-link-btn');
+      newCopyBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.copyEpisodeLink();
+      });
     }
     
+    // Setup close button
     const closeBtn = document.getElementById('close-player-btn');
     if (closeBtn) {
-      closeBtn.addEventListener('click', () => this.closePlayer());
+      // Remove existing listeners to avoid duplicates
+      closeBtn.replaceWith(closeBtn.cloneNode(true));
+      const newCloseBtn = document.getElementById('close-player-btn');
+      newCloseBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        console.log('Close button clicked');
+        this.closePlayer();
+      });
+      console.log('Close button event listener attached');
+    } else {
+      console.warn('Close button not found in setupPlayer');
     }
+  }
+  
+  createPlayerBar() {
+    const playerBar = document.createElement('div');
+    playerBar.id = 'player-bar';
+    playerBar.className = 'player-bar';
+    playerBar.setAttribute('aria-label', 'Episode player');
+    playerBar.style.display = 'none'; // Start hidden
+    
+    playerBar.innerHTML = `
+      <button id="close-player-btn" class="btn-close-player" aria-label="Close player">
+        <i class="fas fa-times" aria-hidden="true"></i>
+      </button>
+      <div class="player-content">
+        <div class="player-info">
+          <p id="player-title" class="player-title"></p>
+          <p id="player-date" class="player-date"></p>
+        </div>
+        <div class="player-controls">
+          <audio id="episode-audio" controls preload="metadata" aria-label="Episode audio player">
+            <p>Your browser doesn't support audio playback.</p>
+          </audio>
+          <button id="copy-link-btn" class="btn-copy-link" aria-label="Copy episode link">
+            <span class="btn-text">Copy Link</span>
+            <i class="fas fa-link btn-icon" aria-hidden="true"></i>  
+          </button>
+        </div>
+      </div>
+      <div id="episode-sources" class="episode-sources" style="display: none;"></div>
+    `;
+    
+    // Re-attach event listeners
+    this.setupPlayer();
+    
+    return playerBar;
   }
 
   closePlayer() {
+    console.log('closePlayer called');
+    
     const playerBar = document.getElementById('player-bar');
     const audioElement = document.getElementById('episode-audio');
+    const sourcesContainer = document.getElementById('episode-sources');
     
+    // Pause and clear audio first
+    if (audioElement) {
+      audioElement.pause();
+      audioElement.src = '';
+      audioElement.load();
+    }
+    
+    // Hide sources
+    if (sourcesContainer) {
+      sourcesContainer.style.display = 'none';
+    }
+    
+    // Hide player bar
     if (playerBar) {
+      // Force hide with multiple methods
       playerBar.style.display = 'none';
-      // Move player back to original location (end of episodes list)
+      playerBar.style.visibility = 'hidden';
+      playerBar.setAttribute('style', 'display: none !important;');
+      
+      // Move player back to end of episodes list (hidden)
       const episodesList = document.getElementById('episodes-list');
       if (episodesList && playerBar.parentElement !== episodesList) {
         playerBar.remove();
         episodesList.appendChild(playerBar);
+        // Ensure it stays hidden
+        playerBar.style.display = 'none';
       }
+      
+      console.log('Player bar hidden');
     }
     
-    if (audioElement) {
-      audioElement.pause();
-      audioElement.src = '';
-    }
-    
+    // Clear current episode
     this.currentEpisode = null;
     
-    // Reset URL to show page (remove episode slug)
-    let showPath = window.location.pathname.split('/').filter(p => p)[0];
-    if (!showPath) showPath = '';
-    showPath = '/' + showPath;
-    window.history.pushState(null, '', showPath);
+    // Reset URL to show page (remove episode slug) - only if URL has a slug
+    const pathParts = window.location.pathname.split('/').filter(p => p);
+    if (pathParts.length > 1 && pathParts[0] === this.showSlug) {
+      // Has episode slug, remove it
+      const showPath = '/' + pathParts[0];
+      window.history.pushState(null, '', showPath);
+      console.log('URL reset to:', showPath);
+    }
+    
+    console.log('Player closed successfully');
   }
 
   copyEpisodeLink() {
@@ -476,6 +692,25 @@ class ShowsManager {
   }
 
   handleDeepLink() {
+    // Check for episode slug from sessionStorage (from 404 redirect)
+    const storedSlug = sessionStorage.getItem('episodeSlug');
+    if (storedSlug) {
+      console.log('Found stored episode slug from 404 redirect:', storedSlug);
+      sessionStorage.removeItem('episodeSlug');
+      sessionStorage.removeItem('showPath');
+      
+      // Wait for episodes to load, then find and play
+      const checkEpisode = () => {
+        if (this.episodes.length > 0) {
+          this.findAndPlayEpisodeBySlug(storedSlug);
+        } else {
+          setTimeout(checkEpisode, 100);
+        }
+      };
+      checkEpisode();
+      return;
+    }
+    
     // Check for episode slug in URL path
     const pathParts = window.location.pathname.split('/').filter(p => p);
     if (pathParts.length >= 2) {
@@ -530,6 +765,25 @@ class ShowsManager {
   }
 
   checkDeepLink() {
+    // First check for stored slug from 404 redirect
+    const storedSlug = sessionStorage.getItem('episodeSlug');
+    if (storedSlug) {
+      console.log('checkDeepLink - Found stored episode slug:', storedSlug);
+      sessionStorage.removeItem('episodeSlug');
+      sessionStorage.removeItem('showPath');
+      
+      // Wait for episodes to load
+      const checkEpisode = () => {
+        if (this.episodes.length > 0) {
+          this.findAndPlayEpisodeBySlug(storedSlug);
+        } else {
+          setTimeout(checkEpisode, 100);
+        }
+      };
+      checkEpisode();
+      return;
+    }
+    
     // Check for episode slug in URL path
     const pathParts = window.location.pathname.split('/').filter(p => p);
     if (pathParts.length >= 2) {

@@ -39,21 +39,31 @@ document.addEventListener('DOMContentLoaded', function() {
     const path = window.location.pathname;
     console.log('404 Handler - Path:', path);
     
-    // Check if this looks like an episode URL
-    const episodePattern = /^\/news-in-a-nutshell\/([^/]+)\/?$/;
-    const match = path.match(episodePattern);
+    // Check if this looks like an episode URL for either show
+    const newsPattern = /^\/news-in-a-nutshell\/([^/]+)\/?$/;
+    const kurzPattern = /^\/kurz-und-klar\/([^/]+)\/?$/;
     
-    if (match) {
-        const episodeSlug = match[1];
-        console.log('404 Handler - Detected episode slug:', episodeSlug);
+    const newsMatch = path.match(newsPattern);
+    const kurzMatch = path.match(kurzPattern);
+    
+    let episodeSlug = null;
+    let showPath = null;
+    
+    if (newsMatch) {
+        episodeSlug = newsMatch[1];
+        showPath = '/news-in-a-nutshell/';
+    } else if (kurzMatch) {
+        episodeSlug = kurzMatch[1];
+        showPath = '/kurz-und-klar/';
+    }
+    
+    if (episodeSlug && showPath) {
+        console.log('404 Handler - Detected episode slug:', episodeSlug, 'for show:', showPath);
         
-        // Store the episode slug for the destination page
+        // Store the episode slug and show path for the destination page
         sessionStorage.setItem('episodeSlug', episodeSlug);
+        sessionStorage.setItem('showPath', showPath);
         console.log('404 Handler - Stored episode slug in sessionStorage:', episodeSlug);
-        
-        // Verify storage
-        const verification = sessionStorage.getItem('episodeSlug');
-        console.log('404 Handler - Verified stored slug:', verification);
         
         // Hide 404 content and show loading
         const notFoundContent = document.getElementById('404-content');
@@ -69,11 +79,11 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
         }
         
-        // Redirect to the news-in-a-nutshell page
-        console.log('404 Handler - Redirecting to news page with stored slug');
+        // Redirect to the show page - JavaScript will handle the episode routing
+        console.log('404 Handler - Redirecting to show page:', showPath);
         setTimeout(() => {
-            window.location.href = '/news-in-a-nutshell/';
-        }, 1000);
+            window.location.href = showPath;
+        }, 100);
     }
 });
 </script>
