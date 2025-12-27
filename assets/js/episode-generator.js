@@ -122,18 +122,37 @@ class EpisodePageGenerator {
     if (!episode.episodeTimestamp) return null;
     
     try {
-      const jsonUrl = `/assets/data/shows/news-in-a-nutshell/${episode.episodeTimestamp}.json`;
+      // Use the new Backblaze B2 path format
+      const jsonUrl = `https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/${episode.episodeTimestamp}/assets/polished_script.json`;
       const response = await fetch(jsonUrl);
       
       if (response.ok) {
         const sourceData = await response.json();
-        return sourceData.sources || [];
+        // Extract sources array and ensure each source has a url
+        const sources = sourceData.sources || [];
+        // Map sources to include domain extracted from URL
+        return sources.map(source => ({
+          title: source.title || '',
+          url: source.url || '',
+          category: source.category || '',
+          domain: this.extractDomainFromUrl(source.url || '')
+        })).filter(source => source.url); // Only include sources with valid URLs
       }
     } catch (error) {
       console.warn(`Could not load sources for episode ${episode.episodeTimestamp}:`, error);
     }
     
     return null;
+  }
+
+  extractDomainFromUrl(url) {
+    if (!url) return '';
+    try {
+      const urlObj = new URL(url);
+      return urlObj.hostname.replace('www.', '');
+    } catch {
+      return url;
+    }
   }
 
   formatDate(dateString) {
