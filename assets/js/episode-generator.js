@@ -15,7 +15,7 @@ class EpisodePageGenerator {
       this.showConfig = {
         name: 'News in a Nutshell',
         slug: 'news-in-a-nutshell',
-        rssUrl: 'https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss'
+        rssUrl: '/assets/rss/news-in-a-nutshell.rss'
       };
     }
     
@@ -42,20 +42,33 @@ class EpisodePageGenerator {
 
     // If no cached data, fetch from RSS
     try {
-      const rssUrl = 'https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss';
-      const proxyUrl = 'https://api.allorigins.win/get?url=';
+      const rssUrl = this.showConfig ? this.showConfig.rssUrl : '/assets/rss/news-in-a-nutshell.rss';
       
-      const response = await fetch(`${proxyUrl}${encodeURIComponent(rssUrl)}`);
-      const data = await response.json();
+      const response = await fetch(rssUrl, {
+        method: 'GET',
+        headers: {
+          'Accept': 'application/xml, text/xml, */*'
+        }
+      });
       
-      if (data.contents) {
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(data.contents, 'text/xml');
-        const items = xmlDoc.querySelectorAll('item');
-        
-        this.episodes = Array.from(items).map(item => this.parseEpisode(item));
-        localStorage.setItem('podcastEpisodes', JSON.stringify(this.episodes));
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
+      
+      const xmlContent = await response.text();
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlContent, 'text/xml');
+      
+      // Check for parsing errors
+      const parserError = xmlDoc.querySelector('parsererror');
+      if (parserError) {
+        throw new Error('XML parsing error');
+      }
+      
+      const items = xmlDoc.querySelectorAll('item');
+      
+      this.episodes = Array.from(items).map(item => this.parseEpisode(item));
+      localStorage.setItem('podcastEpisodes', JSON.stringify(this.episodes));
     } catch (error) {
       console.error('Failed to load episode data:', error);
     }
@@ -122,7 +135,7 @@ class EpisodePageGenerator {
     if (!episode.episodeTimestamp) return null;
     
     try {
-      // Use the new Backblaze B2 path format with CORS proxy
+      // Try to load sources from Backblaze B2 (still need proxy for external JSON)
       const jsonUrl = `https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/${episode.episodeTimestamp}/assets/polished_script.json`;
       const proxyUrl = 'https://api.allorigins.win/get?url=';
       

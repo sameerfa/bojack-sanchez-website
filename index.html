@@ -48,23 +48,31 @@ async function loadShowImages() {
   const shows = [
     {
       id: 'show-image-news',
-      rssUrl: 'https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss'
+      rssUrl: '/assets/rss/news-in-a-nutshell.rss'
     },
     {
       id: 'show-image-kurz',
-      rssUrl: 'https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss'
+      rssUrl: '/assets/rss/kurz-und-klar.rss'
     }
   ];
 
   for (const show of shows) {
     try {
-      const proxyUrl = 'https://api.allorigins.win/get?url=';
-      const response = await fetch(`${proxyUrl}${encodeURIComponent(show.rssUrl)}`);
-      const data = await response.json();
+      // Fetch from local RSS file (no CORS issues)
+      const response = await fetch(show.rssUrl, {
+        method: 'GET',
+        headers: {
+          'Accept': 'application/xml, text/xml, */*'
+        }
+      });
 
-      if (data.contents) {
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(data.contents, 'text/xml');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const xmlContent = await response.text();
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlContent, 'text/xml');
         
         // Try to get image from itunes:image or image/url
         let imageUrl = null;

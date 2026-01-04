@@ -4,17 +4,10 @@ class PodcastRSSParser {
     this.showConfig = showConfig || {
       name: 'News in a Nutshell',
       slug: 'news-in-a-nutshell', 
-      rssUrl: 'https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss'
+      rssUrl: '/assets/rss/news-in-a-nutshell.rss'
     };
     
     this.rssUrl = this.showConfig.rssUrl;
-    this.proxyUrls = [
-      'https://api.allorigins.win/get?url=',
-      'https://api.rss2json.com/v1/api.json?rss_url=',
-      'https://thingproxy.freeboard.io/fetch/',
-      'https://corsproxy.io/?',
-      'https://api.codetabs.com/v1/proxy?quest='
-    ];
     this.episodes = [];
     this.currentPage = 1;
     this.episodesPerPage = 9;
@@ -37,101 +30,54 @@ class PodcastRSSParser {
   }
 
   async fetchEpisodes() {
-    // Skip direct fetch to avoid CORS issues - always use proxy
-    // Try multiple proxy services
-    for (let i = 0; i < this.proxyUrls.length; i++) {
-      try {
-
-        
-        const proxyUrl = this.proxyUrls[i];
-        let fetchUrl;
-        
-        if (proxyUrl.includes('allorigins')) {
-          fetchUrl = `${proxyUrl}${encodeURIComponent(this.rssUrl)}`;
-        } else if (proxyUrl.includes('rss2json')) {
-          // Add count parameter to get more episodes (up to 100 without API key)
-          fetchUrl = `${proxyUrl}${encodeURIComponent(this.rssUrl)}&count=100`;
-        } else if (proxyUrl.includes('codetabs')) {
-          fetchUrl = `${proxyUrl}${encodeURIComponent(this.rssUrl)}`;
-        } else if (proxyUrl.includes('corsproxy')) {
-          fetchUrl = `${proxyUrl}${encodeURIComponent(this.rssUrl)}`;
-        } else {
-          fetchUrl = `${proxyUrl}${this.rssUrl}`;
+    try {
+      // Fetch from local RSS file (no CORS issues)
+      const response = await fetch(this.rssUrl, {
+        method: 'GET',
+        headers: {
+          'Accept': 'application/xml, text/xml, */*'
         }
-        
-        const response = await fetch(fetchUrl, {
-          method: 'GET',
-          headers: {
-            'Accept': 'application/json, application/xml, text/xml, */*',
-            'User-Agent': 'Mozilla/5.0 (compatible; RSS Reader)'
-          },
-          timeout: 10000 // 10 second timeout
-        });
-        
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        
-        let xmlContent;
-        if (proxyUrl.includes('allorigins')) {
-          const data = await response.json();
-          xmlContent = data.contents;
-        } else if (proxyUrl.includes('rss2json')) {
-          // rss2json returns structured JSON, we need to convert it back to RSS-like structure
-          const data = await response.json();
-          if (data.status === 'ok' && data.items) {
-            // Convert rss2json format to our episode format directly
-            this.episodes = data.items.map(item => this.parseRSS2JSONEpisode(item));
-            localStorage.setItem('podcastEpisodes', JSON.stringify(this.episodes));
-            return; // Success with JSON data
-          } else {
-            throw new Error('RSS2JSON returned invalid data');
-          }
-        } else {
-          xmlContent = await response.text();
-        }
-        
-        if (!xmlContent) {
-          throw new Error('No content received');
-        }
-
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(xmlContent, 'text/xml');
-        
-        // Check for parsing errors
-        const parserError = xmlDoc.querySelector('parsererror');
-        if (parserError) {
-          throw new Error('XML parsing error');
-        }
-        
-        const items = xmlDoc.querySelectorAll('item');
-        if (items.length === 0) {
-          throw new Error('No episodes found in RSS feed');
-        }
-        
-        this.episodes = Array.from(items).map(item => this.parseEpisode(item));
-  
-        
-        // Save episodes to localStorage for episode pages
-        localStorage.setItem('podcastEpisodes', JSON.stringify(this.episodes));
-        
-        return; // Success, exit the loop
-        
-      } catch (error) {
-        console.warn(`❌ Proxy ${i + 1} (${this.proxyUrls[i]}) failed:`, error.message);
-        if (i === this.proxyUrls.length - 1) {
-          // Last proxy failed, use fallback
-          console.error('🚨 All RSS proxies failed! Using fallback mock data.');
-          console.error('📍 This might be due to:');
-          console.error('  - CORS proxy services being down');
-          console.error('  - Network connectivity issues'); 
-          console.error('  - RSS feed URL being inaccessible');
-          console.error(`  - RSS URL: ${this.rssUrl}`);
-          this.episodes = this.getMockEpisodes();
-          // Store mock data as fallback
-          localStorage.setItem('podcastEpisodes', JSON.stringify(this.episodes));
-        }
+      });
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
+      
+      const xmlContent = await response.text();
+      
+      if (!xmlContent) {
+        throw new Error('No content received');
+      }
+
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlContent, 'text/xml');
+      
+      // Check for parsing errors
+      const parserError = xmlDoc.querySelector('parsererror');
+      if (parserError) {
+        throw new Error('XML parsing error');
+      }
+      
+      const items = xmlDoc.querySelectorAll('item');
+      if (items.length === 0) {
+        throw new Error('No episodes found in RSS feed');
+      }
+      
+      this.episodes = Array.from(items).map(item => this.parseEpisode(item));
+      
+      // Save episodes to localStorage for episode pages
+      localStorage.setItem('podcastEpisodes', JSON.stringify(this.episodes));
+      
+    } catch (error) {
+      console.error('🚨 Failed to fetch RSS feed:', error.message);
+      console.error(`📍 RSS URL: ${this.rssUrl}`);
+      console.error('📍 This might be due to:');
+      console.error('  - RSS feed file not found');
+      console.error('  - Network connectivity issues');
+      console.error('  - Invalid XML format');
+      // Use fallback mock data
+      this.episodes = this.getMockEpisodes();
+      localStorage.setItem('podcastEpisodes', JSON.stringify(this.episodes));
     }
   }
 

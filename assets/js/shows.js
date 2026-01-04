@@ -44,8 +44,8 @@ class ShowsManager {
 
   getRssUrl(showSlug) {
     const urls = {
-      'news-in-a-nutshell': 'https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss',
-      'kurz-und-klar': 'https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss'
+      'news-in-a-nutshell': '/assets/rss/news-in-a-nutshell.rss',
+      'kurz-und-klar': '/assets/rss/kurz-und-klar.rss'
     };
     return urls[showSlug] || null;
   }
@@ -55,26 +55,40 @@ class ShowsManager {
     if (!container) return;
 
     try {
-      const proxyUrl = 'https://api.allorigins.win/get?url=';
-      const response = await fetch(`${proxyUrl}${encodeURIComponent(this.rssUrl)}`);
-      const data = await response.json();
+      // Fetch from local RSS file (no CORS issues)
+      const response = await fetch(this.rssUrl, {
+        method: 'GET',
+        headers: {
+          'Accept': 'application/xml, text/xml, */*'
+        }
+      });
 
-      if (data.contents) {
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(data.contents, 'text/xml');
-        const items = xmlDoc.querySelectorAll('item');
-
-        this.episodes = Array.from(items).map(item => this.parseEpisode(item));
-        this.episodes.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate)); // Newest first
-
-        // Load and display show image
-        this.loadShowImage(xmlDoc);
-
-        this.renderEpisodes();
-        
-        // Check for deep link after episodes are loaded
-        this.checkDeepLink();
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
+
+      const xmlContent = await response.text();
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlContent, 'text/xml');
+      
+      // Check for parsing errors
+      const parserError = xmlDoc.querySelector('parsererror');
+      if (parserError) {
+        throw new Error('XML parsing error');
+      }
+      
+      const items = xmlDoc.querySelectorAll('item');
+
+      this.episodes = Array.from(items).map(item => this.parseEpisode(item));
+      this.episodes.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate)); // Newest first
+
+      // Load and display show image
+      this.loadShowImage(xmlDoc);
+
+      this.renderEpisodes();
+      
+      // Check for deep link after episodes are loaded
+      this.checkDeepLink();
     } catch (error) {
       console.error('Failed to load episodes:', error);
       container.innerHTML = '<div class="error">Failed to load episodes. Please try again later.</div>';
@@ -443,6 +457,7 @@ class ShowsManager {
     if (!sourcesContainer) return;
 
     try {
+      // Try to load sources from Backblaze B2 (still need proxy for external JSON)
       const jsonUrl = `https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/${this.showSlug}/${this.currentEpisode.episodeTimestamp}/assets/polished_script.json`;
       const proxyUrl = 'https://api.allorigins.win/get?url=';
       
