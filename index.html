@@ -73,53 +73,137 @@ async function loadShowImages() {
       const xmlContent = await response.text();
       const parser = new DOMParser();
       const xmlDoc = parser.parseFromString(xmlContent, 'text/xml');
-        
-        // Try to get image from itunes:image or image/url
-        let imageUrl = null;
-        
-        // Method 1: itunes:image
-        const itunesImage = xmlDoc.querySelector('itunes\\:image, [name="itunes:image"]');
-        if (itunesImage) {
-          imageUrl = itunesImage.getAttribute('href') || itunesImage.textContent;
-        }
-        
-        // Method 2: image/url
-        if (!imageUrl) {
-          const imageElement = xmlDoc.querySelector('image url, image > url');
-          if (imageElement) {
-            imageUrl = imageElement.textContent;
+      
+      // Check for parsing errors
+      const parserError = xmlDoc.querySelector('parsererror');
+      if (parserError) {
+        throw new Error('XML parsing error');
+      }
+      
+      // Try to get image from itunes:image or image/url
+      let imageUrl = null;
+      
+      // Method 1: itunes:image using namespace (most reliable for iTunes feeds)
+      try {
+        const itunesImages = xmlDoc.getElementsByTagNameNS('http://www.itunes.com/dtds/podcast-1.0.dtd', 'image');
+        if (itunesImages.length > 0) {
+          const href = itunesImages[0].getAttribute('href');
+          if (href) {
+            imageUrl = href;
+            console.log(`Found iTunes image via namespace: ${imageUrl}`);
           }
         }
-        
-        // Method 3: channel > image > url
-        if (!imageUrl) {
-          const channelImage = xmlDoc.querySelector('channel image url');
-          if (channelImage) {
-            imageUrl = channelImage.textContent;
+      } catch (e) {
+        console.warn('Namespace method failed, trying alternatives:', e);
+      }
+      
+      // Method 2: Try querySelector for itunes:image (works in some browsers)
+      if (!imageUrl) {
+        try {
+          // Try different selector patterns
+          const selectors = [
+            'itunes\\:image',
+            '*[local-name()="image" and namespace-uri()="http://www.itunes.com/dtds/podcast-1.0.dtd"]',
+            'channel > itunes\\:image'
+          ];
+          
+          for (const selector of selectors) {
+            const itunesImage = xmlDoc.querySelector(selector);
+            if (itunesImage) {
+              imageUrl = itunesImage.getAttribute('href') || itunesImage.textContent;
+              if (imageUrl) {
+                console.log(`Found iTunes image via selector "${selector}": ${imageUrl}`);
+                break;
+              }
+            }
           }
+        } catch (e) {
+          console.warn('QuerySelector method failed:', e);
         }
-
-        // Create fallback image (same as show pages)
-        const fallbackImage = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2Y5ZmFmYiIgcng9IjgiLz48cGF0aCBkPSJNNTAgMzBjLTMuMzEzIDAtNiAyLjY4Ny02IDZ2OGMwIDMuMzEzIDIuNjg3IDYgNiA2czYtMi42ODcgNi02di04YzAtMy4zMTMtMi42ODctNi02LTZ6bTAgMjBjLTIuMjA3IDAtNC0xLjc5My00LTB2LThjMC0yLjIwNyAxLjc5My00IDQtNHM0IDEuNzkzIDQgNHY4YzAgMi4yMDctMS43OTMgNC00IDR6bTAtMTJjLTEuMTA0IDAtMiAuODk2LTIgMnY4YzAgMS4xMDQuODk2IDIgMiAyczItLjg5NiAyLTJ2LThjMC0xLjEwNC0uODk2LTItMi0yek00MCA1MGg0djhoLTR2LTh6bTE2IDBoNHY4aC00di04eiIgZmlsbD0iIzI1NjNlYiIvPjwvc3ZnPg==';
-        
-        const imgElement = document.getElementById(show.id);
-        if (imgElement) {
-          if (imageUrl) {
-            imgElement.src = imageUrl;
-            imgElement.style.display = 'block';
-            imgElement.onerror = () => {
-              // If RSS image fails, use fallback
-              imgElement.src = fallbackImage;
-            };
-          } else {
-            // No image found in RSS, use fallback immediately
-            imgElement.src = fallbackImage;
-            imgElement.style.display = 'block';
+      }
+      
+      // Method 3: Standard RSS image/url element (fallback)
+      if (!imageUrl) {
+        const imageElement = xmlDoc.querySelector('image url');
+        if (imageElement) {
+          imageUrl = imageElement.textContent.trim();
+          console.log(`Found RSS image/url: ${imageUrl}`);
+        }
+      }
+      
+      // Method 4: channel > image > url (another fallback)
+      if (!imageUrl) {
+        const channelImage = xmlDoc.querySelector('channel image url');
+        if (channelImage) {
+          imageUrl = channelImage.textContent.trim();
+          console.log(`Found channel image/url: ${imageUrl}`);
+        }
+      }
+      
+      // Method 5: Search all elements for itunes:image (last resort)
+      if (!imageUrl) {
+        const allElements = xmlDoc.getElementsByTagName('*');
+        for (let i = 0; i < allElements.length; i++) {
+          const el = allElements[i];
+          if (el.localName === 'image' && el.namespaceURI === 'http://www.itunes.com/dtds/podcast-1.0.dtd') {
+            imageUrl = el.getAttribute('href');
+            if (imageUrl) {
+              console.log(`Found iTunes image via element search: ${imageUrl}`);
+              break;
+            }
           }
         }
       }
+      
+      // Method 6: Direct regex search in XML string as absolute fallback
+      if (!imageUrl) {
+        // Look for itunes:image href pattern
+        const itunesImageMatch = xmlContent.match(/<itunes:image[^>]*href=["']([^"']+)["']/i);
+        if (itunesImageMatch && itunesImageMatch[1]) {
+          imageUrl = itunesImageMatch[1];
+          console.log(`Found iTunes image via regex: ${imageUrl}`);
+        } else {
+          // Look for <image><url> pattern
+          const imageUrlMatch = xmlContent.match(/<image[^>]*>[\s\S]*?<url>([^<]+)<\/url>/i);
+          if (imageUrlMatch && imageUrlMatch[1]) {
+            imageUrl = imageUrlMatch[1].trim();
+            console.log(`Found RSS image via regex: ${imageUrl}`);
+          }
+        }
+      }
+
+      // Create fallback image (same as show pages)
+      const fallbackImage = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2Y5ZmFmYiIgcng9IjgiLz48cGF0aCBkPSJNNTAgMzBjLTMuMzEzIDAtNiAyLjY4Ny02IDZ2OGMwIDMuMzEzIDIuNjg3IDYgNiA2czYtMi42ODcgNi02di04YzAtMy4zMTMtMi42ODctNi02LTZ6bTAgMjBjLTIuMjA3IDAtNC0xLjc5My00LTB2LThjMC0yLjIwNyAxLjc5My00IDQtNHM0IDEuNzkzIDQgNHY4YzAgMi4yMDctMS43OTMgNC00IDR6bTAtMTJjLTEuMTA0IDAtMiAuODk2LTIgMnY4YzAgMS4xMDQuODk2IDIgMiAyczItLjg5NiAyLTJ2LThjMC0xLjEwNC0uODk2LTItMi0yek00MCA1MGg0djhoLTR2LTh6bTE2IDBoNHY4aC00di04eiIgZmlsbD0iIzI1NjNlYiIvPjwvc3ZnPg==';
+      
+      const imgElement = document.getElementById(show.id);
+      if (imgElement) {
+        if (imageUrl) {
+          console.log(`Found image URL for ${show.id}:`, imageUrl);
+          imgElement.src = imageUrl;
+          imgElement.style.display = 'block';
+          imgElement.onerror = () => {
+            console.warn(`Failed to load image from ${imageUrl}, using fallback`);
+            // If RSS image fails, use fallback
+            imgElement.src = fallbackImage;
+          };
+        } else {
+          console.warn(`No image URL found in RSS for ${show.id}, using fallback`);
+          // No image found in RSS, use fallback immediately
+          imgElement.src = fallbackImage;
+          imgElement.style.display = 'block';
+        }
+      } else {
+        console.error(`Image element not found: ${show.id}`);
+      }
     } catch (error) {
-      console.warn(`Failed to load image for ${show.id}:`, error);
+      console.error(`Failed to load image for ${show.id}:`, error);
+      // Set fallback image even on error
+      const imgElement = document.getElementById(show.id);
+      if (imgElement) {
+        const fallbackImage = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2Y5ZmFmYiIgcng9IjgiLz48cGF0aCBkPSJNNTAgMzBjLTMuMzEzIDAtNiAyLjY4Ny02IDZ2OGMwIDMuMzEzIDIuNjg3IDYgNiA2czYtMi42ODcgNi02di04YzAtMy4zMTMtMi42ODctNi02LTZ6bTAgMjBjLTIuMjA3IDAtNC0xLjc5My00LTB2LThjMC0yLjIwNyAxLjc5My00IDQtNHM0IDEuNzkzIDQgNHY4YzAgMi4yMDctMS43OTMgNC00IDR6bTAtMTJjLTEuMTA0IDAtMiAuODk2LTIgMnY4YzAgMS4xMDQuODk2IDIgMiAyczItLjg5NiAyLTJ2LThjMC0xLjEwNC0uODk2LTItMi0yek00MCA1MGg0djhoLTR2LTh6bTE2IDBoNHY4aC00di04eiIgZmlsbD0iIzI1NjNlYiIvPjwvc3ZnPg==';
+        imgElement.src = fallbackImage;
+        imgElement.style.display = 'block';
+      }
     }
   }
 }
