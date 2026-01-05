@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                    <item>
+                                        <item>
+      <title>
+        <![CDATA[Nigeria's Tax Reform, U.S.-China Tech Tensions & Clean Energy Growth]]>
+      </title>
+      <description>
+        <![CDATA[As we kick off 2026, we discuss Nigeria's controversial tax reforms under President Bola Ahmed Tinubu, which could impact small businesses and the economy. We'll also explore the resilience of the clean energy sector amidst political challenges, as solar and battery storage lead new power additions. Plus, we delve into rising tensions in the U.S.-China tech landscape with Trump's executive order blocking a semiconductor acquisition, and the optimistic market outlook with the S&P 500 climbing 16.4%. Finally, we'll look at the Philippines' booming electronics exports projected to reach 9 billion. Tune in for insights that matter. - https://bojacksanchez.com/news-in-a-nutshell/nigeria-s-tax-reform-u-s-china-tech-tensions-clean-energy-growth]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Mon, 05 Jan 2026 05:13:30 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-05T05-13-03-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-01-05T05-13-03/podcast.mp3" length="6157449" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[As we kick off 2026, we discuss Nigeria's controversial tax reforms under President Bola Ahmed Tinubu, which could impact small businesses and the economy. We'll also explore the resilience of the clean energy sector amidst political challenges, as solar and battery storage lead new power additions. Plus, we delve into rising tensions in the U.S.-China tech landscape with Trump's executive order blocking a semiconductor acquisition, and the optimistic market outlook with the S&P 500 climbing 16.4%. Finally, we'll look at the Philippines' booming electronics exports projected to reach 9 billion. Tune in for insights that matter. - https://bojacksanchez.com/news-in-a-nutshell/nigeria-s-tax-reform-u-s-china-tech-tensions-clean-energy-growth]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:06:24</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Myanmar's Census Controversy & US-China Tech Rivalry Insights]]>
       </title>
