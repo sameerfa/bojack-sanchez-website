@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                        <item>
+                                            <item>
+      <title>
+        <![CDATA[U.S. Arrests Maduro, Bitcoin Resilience & Ukraine's Economic Moves]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we delve into significant global developments: the U.S. operation that led to the arrest of Nicolás Maduro in Venezuela, which has vast oil reserves poised for revival. We'll also explore Bitcoin's surprising stability amidst this geopolitical upheaval, along with President Zelenskyy's strategic appointment of Chrystia Freeland to bolster Ukraine's economic resilience. Additionally, we discuss Nigeria's controversial new tax laws and their implications for local businesses and the economy. Gain insights into how these interconnected stories reflect broader global dynamics and what they mean for the future. - https://bojacksanchez.com/news-in-a-nutshell/u-s-arrests-maduro-bitcoin-resilience-ukraine-s-economic-moves]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 06 Jan 2026 05:12:37 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-06T05-12-08-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-01-06T05-12-08/podcast.mp3" length="5363713" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we delve into significant global developments: the U.S. operation that led to the arrest of Nicolás Maduro in Venezuela, which has vast oil reserves poised for revival. We'll also explore Bitcoin's surprising stability amidst this geopolitical upheaval, along with President Zelenskyy's strategic appointment of Chrystia Freeland to bolster Ukraine's economic resilience. Additionally, we discuss Nigeria's controversial new tax laws and their implications for local businesses and the economy. Gain insights into how these interconnected stories reflect broader global dynamics and what they mean for the future. - https://bojacksanchez.com/news-in-a-nutshell/u-s-arrests-maduro-bitcoin-resilience-ukraine-s-economic-moves]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:35</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Nigeria's Tax Reform, U.S.-China Tech Tensions & Clean Energy Growth]]>
       </title>
