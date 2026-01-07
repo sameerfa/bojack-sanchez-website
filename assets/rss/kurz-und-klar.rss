@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                            <item>
+                                                <item>
+      <title>
+        <![CDATA[Ukraine-Konflikt, EU-Maßnahmen gegen KI-Bilder & Klimaschutz in Hamburg]]>
+      </title>
+      <description>
+        <![CDATA[Heute berichten wir über den Ukraine-Krieg und die Angriffe auf russische Ölanlagen. Außerdem geht es um die EU und den KI-Dienst Grok, der sexualisierte Bilder erstellt. Weiterhin warnen Volksbanken vor Problemen bei der Kreditvergabe wegen Nachhaltigkeitsregeln. Die NIS2-Richtlinie fordert Unternehmen zur Registrierung ihrer Cybersicherheitsmaßnahmen auf. Abschließend zieht der Hamburger Senat eine positive Bilanz zum Klimaschutz. - https://bojacksanchez.com/kurz-und-klar/ukraine-konflikt-eu-ma-nahmen-gegen-ki-bilder-klimaschutz-in-hamburg]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 07 Jan 2026 05:21:10 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-07T05-21-01-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-01-07T05-21-01/podcastDE.mp3" length="2117187" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Heute berichten wir über den Ukraine-Krieg und die Angriffe auf russische Ölanlagen. Außerdem geht es um die EU und den KI-Dienst Grok, der sexualisierte Bilder erstellt. Weiterhin warnen Volksbanken vor Problemen bei der Kreditvergabe wegen Nachhaltigkeitsregeln. Die NIS2-Richtlinie fordert Unternehmen zur Registrierung ihrer Cybersicherheitsmaßnahmen auf. Abschließend zieht der Hamburger Senat eine positive Bilanz zum Klimaschutz. - https://bojacksanchez.com/kurz-und-klar/ukraine-konflikt-eu-ma-nahmen-gegen-ki-bilder-klimaschutz-in-hamburg]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:12</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Taiwan Cyberangriffe, Venezuela Öl-Kontrolle & Klimapolitik Deutschland]]>
       </title>
