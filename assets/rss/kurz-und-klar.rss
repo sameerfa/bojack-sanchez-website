@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                <item>
+                                                    <item>
+      <title>
+        <![CDATA[Stromausfall in Berlin & Kadyrow-Absetzung]]>
+      </title>
+      <description>
+        <![CDATA[Heute berichten wir über einen langen Stromausfall in Berlin und die Ermittlungen der Bundesanwaltschaft. Außerdem geht es um die Forderung von Präsident Selenskyj zur Absetzung von Ramsan Kadyrow. Zudem sehen wir einen Rekord von Start-ups in Deutschland und einen Rückgang der CO₂-Emissionen. Diese Themen sind wichtig für die aktuelle Situation in Deutschland. - https://bojacksanchez.com/kurz-und-klar/stromausfall-in-berlin-kadyrow-absetzung]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 08 Jan 2026 05:15:41 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-08T05-15-31-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-01-08T05-15-31/podcastDE.mp3" length="1867458" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Heute berichten wir über einen langen Stromausfall in Berlin und die Ermittlungen der Bundesanwaltschaft. Außerdem geht es um die Forderung von Präsident Selenskyj zur Absetzung von Ramsan Kadyrow. Zudem sehen wir einen Rekord von Start-ups in Deutschland und einen Rückgang der CO₂-Emissionen. Diese Themen sind wichtig für die aktuelle Situation in Deutschland. - https://bojacksanchez.com/kurz-und-klar/stromausfall-in-berlin-kadyrow-absetzung]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:56</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Ukraine-Konflikt, EU-Maßnahmen gegen KI-Bilder & Klimaschutz in Hamburg]]>
       </title>
