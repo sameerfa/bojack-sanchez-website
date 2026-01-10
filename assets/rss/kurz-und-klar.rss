@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                        <item>
+                                                            <item>
+      <title>
+        <![CDATA[Pressefreiheit in Gefahr & Krise der deutschen Wirtschaft]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge geht es um die Gefahren für die Pressefreiheit in Deutschland durch Sanktionen der US-Regierung. Wir sprechen auch über die Probleme der deutschen Wirtschaft, die viele Arbeitsplätze verliert. Zudem schauen wir auf die Kritik an der Plattform X von Elon Musk wegen der Verbreitung von fake Inhalten. Ein Brandanschlag in Berlin zeigt die Herausforderungen für die Infrastruktur. Diese Themen sind wichtig für unsere Gesellschaft. - https://bojacksanchez.com/kurz-und-klar/pressefreiheit-in-gefahr-krise-der-deutschen-wirtschaft]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sat, 10 Jan 2026 05:08:51 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-10T05-08-34-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-01-10T05-08-34/podcastDE.mp3" length="1361840" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge geht es um die Gefahren für die Pressefreiheit in Deutschland durch Sanktionen der US-Regierung. Wir sprechen auch über die Probleme der deutschen Wirtschaft, die viele Arbeitsplätze verliert. Zudem schauen wir auf die Kritik an der Plattform X von Elon Musk wegen der Verbreitung von fake Inhalten. Ein Brandanschlag in Berlin zeigt die Herausforderungen für die Infrastruktur. Diese Themen sind wichtig für unsere Gesellschaft. - https://bojacksanchez.com/kurz-und-klar/pressefreiheit-in-gefahr-krise-der-deutschen-wirtschaft]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:25</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[EU-Untersuchungen gegen Elon Musks Plattform X & Start-up-Rekord in Deutschland]]>
       </title>
