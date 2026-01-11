@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                            <item>
+                                                                <item>
+      <title>
+        <![CDATA[Japan's Semiconductor Strategy, Pope's Human Rights Warning, and Nvidia's Tech Shift]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we explore Japan's potential export restrictions on semiconductor materials, following comments by Prime Minister Sanae Takaichi regarding Taiwan, which could impact China's semiconductor industry. We also discuss Pope Leo XIV's urgent call for dialogue amid rising military interventions worldwide, highlighting serious human rights violations. Additionally, Nvidia tightens its sales terms for AI chips to Chinese customers, reflecting geopolitical tensions. Innovations from Backboard.io aim to enhance AI memory capabilities, while POSTECH reveals a breakthrough lithium battery with four times the energy capacity of current models. Tune in for insights on how these developments could reshape technology, global relations, and humanitarian efforts. - https://bojacksanchez.com/news-in-a-nutshell/japan-s-semiconductor-strategy-pope-s-human-rights-warning-and-nvidia-s-tech-shift]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sun, 11 Jan 2026 05:09:24 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-11T05-09-00-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-01-11T05-09-00/podcast.mp3" length="6105395" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we explore Japan's potential export restrictions on semiconductor materials, following comments by Prime Minister Sanae Takaichi regarding Taiwan, which could impact China's semiconductor industry. We also discuss Pope Leo XIV's urgent call for dialogue amid rising military interventions worldwide, highlighting serious human rights violations. Additionally, Nvidia tightens its sales terms for AI chips to Chinese customers, reflecting geopolitical tensions. Innovations from Backboard.io aim to enhance AI memory capabilities, while POSTECH reveals a breakthrough lithium battery with four times the energy capacity of current models. Tune in for insights on how these developments could reshape technology, global relations, and humanitarian efforts. - https://bojacksanchez.com/news-in-a-nutshell/japan-s-semiconductor-strategy-pope-s-human-rights-warning-and-nvidia-s-tech-shift]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:06:21</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[U.S. Invades Venezuela & Cyprus Political Scandal Amid Global Tensions]]>
       </title>
