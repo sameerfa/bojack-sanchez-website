@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                <item>
+                                                                    <item>
+      <title>
+        <![CDATA[Trump Maduro entführt, Straßenhunde in Äthiopien und Gig-Worker in Indien]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge von Kurz & Klar berichten wir über die aktuellen politischen Ereignisse rund um Trump und Maduro in Venezuela. Zudem geht es um die Lage der Straßenhunde in Äthiopien und die Arbeitskämpfe der Gig-Worker in Indien. Wir beleuchten auch den Einsatz von Künstlicher Intelligenz durch die EU-Cyberagentur und die damit verbundenen Fragen zur Transparenz. Bleiben Sie informiert über diese wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/trump-maduro-entf-hrt-stra-enhunde-in-thiopien-und-gig-worker-in-indien]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Mon, 12 Jan 2026 05:13:38 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-12T05-13-30-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-01-12T05-13-30/podcastDE.mp3" length="1434041" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge von Kurz & Klar berichten wir über die aktuellen politischen Ereignisse rund um Trump und Maduro in Venezuela. Zudem geht es um die Lage der Straßenhunde in Äthiopien und die Arbeitskämpfe der Gig-Worker in Indien. Wir beleuchten auch den Einsatz von Künstlicher Intelligenz durch die EU-Cyberagentur und die damit verbundenen Fragen zur Transparenz. Bleiben Sie informiert über diese wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/trump-maduro-entf-hrt-stra-enhunde-in-thiopien-und-gig-worker-in-indien]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:29</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Kritik an Corona-Verfahren & Zensur in Deutschland]]>
       </title>

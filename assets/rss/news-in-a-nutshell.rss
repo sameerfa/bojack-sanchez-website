@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                <item>
+                                                                    <item>
+      <title>
+        <![CDATA[Sudan Crisis & U.S. Military Moves Amid China-Japan Tensions]]>
+      </title>
+      <description>
+        <![CDATA[Today's episode covers key global developments including Sudan's escalating humanitarian crisis now termed the world's largest displacement situation, with over 29,000 cholera cases reported. We also explore rising tensions between China and Japan amid U.S. military operations in Venezuela, which complicate international dynamics. Nvidia's CEO cautions against decoupling from China, highlighting the interdependence in AI, while the U.S. Federal Reserve faces internal strife that could threaten its independence. Tune in for deep insights on how these events might shape our world. - https://bojacksanchez.com/news-in-a-nutshell/sudan-crisis-u-s-military-moves-amid-china-japan-tensions]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Mon, 12 Jan 2026 05:12:57 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-12T05-12-27-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-01-12T05-12-27/podcast.mp3" length="5037256" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Today's episode covers key global developments including Sudan's escalating humanitarian crisis now termed the world's largest displacement situation, with over 29,000 cholera cases reported. We also explore rising tensions between China and Japan amid U.S. military operations in Venezuela, which complicate international dynamics. Nvidia's CEO cautions against decoupling from China, highlighting the interdependence in AI, while the U.S. Federal Reserve faces internal strife that could threaten its independence. Tune in for deep insights on how these events might shape our world. - https://bojacksanchez.com/news-in-a-nutshell/sudan-crisis-u-s-military-moves-amid-china-japan-tensions]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:14</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Japan's Semiconductor Strategy, Pope's Human Rights Warning, and Nvidia's Tech Shift]]>
       </title>
