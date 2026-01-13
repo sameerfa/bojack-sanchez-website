@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                    <item>
+                                                                        <item>
+      <title>
+        <![CDATA[Elon Musk, hohe Mieten in Österreich und Windkraft in NRW]]>
+      </title>
+      <description>
+        <![CDATA[Wir besprechen den Streit zwischen Elon Musk und der britischen Regierung über seine KI Grok. Zudem geht es um die hohen Mietpreise in Österreich, die seit 2015 stark gestiegen sind. Schließlich schauen wir uns den Boom der Windkraft in Nordrhein-Westfalen an. Dort wurden 259 neue Windräder in Betrieb genommen. Diese Themen zeigen wichtige Entwicklungen in Technologie und Wohnungsmarkt auf. - https://bojacksanchez.com/kurz-und-klar/elon-musk-hohe-mieten-in-sterreich-und-windkraft-in-nrw]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 13 Jan 2026 05:16:42 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-13T05-16-32-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-01-13T05-16-32/podcastDE.mp3" length="1431292" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Wir besprechen den Streit zwischen Elon Musk und der britischen Regierung über seine KI Grok. Zudem geht es um die hohen Mietpreise in Österreich, die seit 2015 stark gestiegen sind. Schließlich schauen wir uns den Boom der Windkraft in Nordrhein-Westfalen an. Dort wurden 259 neue Windräder in Betrieb genommen. Diese Themen zeigen wichtige Entwicklungen in Technologie und Wohnungsmarkt auf. - https://bojacksanchez.com/kurz-und-klar/elon-musk-hohe-mieten-in-sterreich-und-windkraft-in-nrw]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:29</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Trump Maduro entführt, Straßenhunde in Äthiopien und Gig-Worker in Indien]]>
       </title>
