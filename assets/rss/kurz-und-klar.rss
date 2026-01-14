@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                        <item>
+                                                                            <item>
+      <title>
+        <![CDATA[Iran-Proteste, Mietmarkt München & OpenAI ChatGPT Health]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge geht es um die Proteste im Iran und die Kritik der Piratenpartei. Außerdem sprechen wir über die Situation auf dem Münchener Mietmarkt. Zusätzlich gibt es Neuigkeiten zu OpenAI und deren neuer Funktion ChatGPT Health. Wir betrachten auch die Klimakrise und ihre Auswirkungen. Bleibe informiert über diese wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/iran-proteste-mietmarkt-m-nchen-openai-chatgpt-health]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 14 Jan 2026 05:19:49 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-14T05-19-38-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-01-14T05-19-38/podcastDE.mp3" length="1948099" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge geht es um die Proteste im Iran und die Kritik der Piratenpartei. Außerdem sprechen wir über die Situation auf dem Münchener Mietmarkt. Zusätzlich gibt es Neuigkeiten zu OpenAI und deren neuer Funktion ChatGPT Health. Wir betrachten auch die Klimakrise und ihre Auswirkungen. Bleibe informiert über diese wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/iran-proteste-mietmarkt-m-nchen-openai-chatgpt-health]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:01</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Elon Musk, hohe Mieten in Österreich und Windkraft in NRW]]>
       </title>
