@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                            <item>
+                                                                                <item>
+      <title>
+        <![CDATA[Gaza Crisis, Fed Investigation, and Nvidia-China Tensions]]>
+      </title>
+      <description>
+        <![CDATA[Today’s episode delves into the escalating crisis in Gaza, where over 1.1 million people urgently need aid amid stalled peace efforts. We also explore the investigation into Fed Chair Jerome Powell, launched by the Trump administration, and its implications for financial markets. Additionally, we cover Nvidia's licensing updates regarding chip sales to China and the resulting market reactions. Finally, we take a look at China’s advancements in AI technology and recent breakthroughs in nuclear energy. Gain insights into how these interconnected stories shape our global landscape and financial future. - https://bojacksanchez.com/news-in-a-nutshell/gaza-crisis-fed-investigation-and-nvidia-china-tensions]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 15 Jan 2026 05:17:47 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-15T05-17-23-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-01-15T05-17-23/podcast.mp3" length="5788380" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Today’s episode delves into the escalating crisis in Gaza, where over 1.1 million people urgently need aid amid stalled peace efforts. We also explore the investigation into Fed Chair Jerome Powell, launched by the Trump administration, and its implications for financial markets. Additionally, we cover Nvidia's licensing updates regarding chip sales to China and the resulting market reactions. Finally, we take a look at China’s advancements in AI technology and recent breakthroughs in nuclear energy. Gain insights into how these interconnected stories shape our global landscape and financial future. - https://bojacksanchez.com/news-in-a-nutshell/gaza-crisis-fed-investigation-and-nvidia-china-tensions]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:06:01</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[US Tech Export Controls & Fed Confrontation Amid Global Power Shifts]]>
       </title>

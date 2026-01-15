@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                            <item>
+                                                                                <item>
+      <title>
+        <![CDATA[Iran-Proteste, Deepfake-Gesetze & Klimawandel 2025]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge geht es um die massiven Proteste im Iran und die brutale Unterdrückung durch die Regierung. Experten fordern in Deutschland strengere Gesetze gegen sexualisierte Deepfakes. Zudem zeigt der EU-Klimadienst, dass 2025 das drittheißeste Jahr war. Cybersecurity-Experten warnen vor Schwachstellen in Microsoft PowerPoint. Auch die Veränderungen durch Künstliche Intelligenz in den Medien werden thematisiert. Achten Sie auf diese wichtigen Entwicklungen. - https://bojacksanchez.com/kurz-und-klar/iran-proteste-deepfake-gesetze-klimawandel-2025]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 15 Jan 2026 05:18:30 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-15T05-18-20-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-01-15T05-18-20/podcastDE.mp3" length="2174772" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge geht es um die massiven Proteste im Iran und die brutale Unterdrückung durch die Regierung. Experten fordern in Deutschland strengere Gesetze gegen sexualisierte Deepfakes. Zudem zeigt der EU-Klimadienst, dass 2025 das drittheißeste Jahr war. Cybersecurity-Experten warnen vor Schwachstellen in Microsoft PowerPoint. Auch die Veränderungen durch Künstliche Intelligenz in den Medien werden thematisiert. Achten Sie auf diese wichtigen Entwicklungen. - https://bojacksanchez.com/kurz-und-klar/iran-proteste-deepfake-gesetze-klimawandel-2025]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:15</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Iran-Proteste, Mietmarkt München & OpenAI ChatGPT Health]]>
       </title>
