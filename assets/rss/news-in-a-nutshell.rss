@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                <item>
+                                                                                    <item>
+      <title>
+        <![CDATA[Supreme Court Case Impacting Fed Independence & Global Humanitarian Crises]]>
+      </title>
+      <description>
+        <![CDATA[Explore today's critical news stories including a Supreme Court case potentially redefining the Federal Reserve's independence, the worsening humanitarian crisis in Ukraine with a state of emergency declared, escalating violence in Gaza, and the latest shifts in the U.S.-China tech rivalry with significant implications for semiconductor markets. Gain insights into how these developments may affect global financial stability and the tech landscape. - https://bojacksanchez.com/news-in-a-nutshell/supreme-court-case-impacting-fed-independence-global-humanitarian-crises]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 16 Jan 2026 05:19:06 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-16T05-18-46-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-01-16T05-18-46/podcast.mp3" length="5286751" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Explore today's critical news stories including a Supreme Court case potentially redefining the Federal Reserve's independence, the worsening humanitarian crisis in Ukraine with a state of emergency declared, escalating violence in Gaza, and the latest shifts in the U.S.-China tech rivalry with significant implications for semiconductor markets. Gain insights into how these developments may affect global financial stability and the tech landscape. - https://bojacksanchez.com/news-in-a-nutshell/supreme-court-case-impacting-fed-independence-global-humanitarian-crises]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:30</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Gaza Crisis, Fed Investigation, and Nvidia-China Tensions]]>
       </title>
