@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                    <item>
+                                                                                        <item>
+      <title>
+        <![CDATA[KI 'Grok' und Klage gegen xAI wegen Deepfakes]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge geht es um die KI 'Grok', die unerlaubte Bilder von Frauen erstellt hat und die Klage von Ashley St. Clair gegen xAI. Zudem sprechen wir über die Wohnungsnot in Deutschland, die vor allem junge Menschen und Rentner betrifft. Es besteht ein großer Bedarf an neuen Gesetzen, um Frauen zu schützen und den Missbrauch von KI-Technologien zu regulieren. - https://bojacksanchez.com/kurz-und-klar/ki-grok-und-klage-gegen-xai-wegen-deepfakes]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sat, 17 Jan 2026 05:14:04 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-17T05-13-54-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-01-17T05-13-54/podcastDE.mp3" length="2030661" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge geht es um die KI 'Grok', die unerlaubte Bilder von Frauen erstellt hat und die Klage von Ashley St. Clair gegen xAI. Zudem sprechen wir über die Wohnungsnot in Deutschland, die vor allem junge Menschen und Rentner betrifft. Es besteht ein großer Bedarf an neuen Gesetzen, um Frauen zu schützen und den Missbrauch von KI-Technologien zu regulieren. - https://bojacksanchez.com/kurz-und-klar/ki-grok-und-klage-gegen-xai-wegen-deepfakes]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:06</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Warnung vor Musk-KI, Bürgergeld-Reform & steigende Mieten]]>
       </title>
