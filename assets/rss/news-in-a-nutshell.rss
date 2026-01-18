@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                        <item>
+                                                                                            <item>
+      <title>
+        <![CDATA[Trump's JPMorgan Lawsuit & Uganda's Election Results]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we dive into Donald Trump's upcoming lawsuit against JPMorgan Chase, where he claims his financial relationship was unjustly terminated amidst political tensions. We also explore Yoweri Museveni's controversial election victory in Uganda, marked by allegations of ballot stuffing and violence. Additionally, we discuss Israel's recent approval of new settlements in the West Bank, China's ban on Nvidia's AI chips, and India's proposed changes in renewable energy regulations. Tune in for insights on how these stories interconnect and what they mean for power dynamics globally. - https://bojacksanchez.com/news-in-a-nutshell/trump-s-jpmorgan-lawsuit-uganda-s-election-results]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sun, 18 Jan 2026 05:02:56 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-18T05-02-15-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-01-18T05-02-15/podcast.mp3" length="5695812" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we dive into Donald Trump's upcoming lawsuit against JPMorgan Chase, where he claims his financial relationship was unjustly terminated amidst political tensions. We also explore Yoweri Museveni's controversial election victory in Uganda, marked by allegations of ballot stuffing and violence. Additionally, we discuss Israel's recent approval of new settlements in the West Bank, China's ban on Nvidia's AI chips, and India's proposed changes in renewable energy regulations. Tune in for insights on how these stories interconnect and what they mean for power dynamics globally. - https://bojacksanchez.com/news-in-a-nutshell/trump-s-jpmorgan-lawsuit-uganda-s-election-results]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:55</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[US Tariffs on Nvidia, Trump vs. Fed, and UK Property Market Decline]]>
       </title>

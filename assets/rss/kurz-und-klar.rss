@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                        <item>
+                                                                                            <item>
+      <title>
+        <![CDATA[Iran-Proteste, Trumps Strafzölle und deutsche Inflation]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge geht es um die brutalen Proteste im Iran und die Auswirkungen auf die Menschenrechte. Wir berichten über die neuen Strafzölle von Trump gegen Deutschland und wie sie die Beziehungen belasten könnten. Außerdem schauen wir auf die Inflation in Deutschland, die auf 1,8 Prozent gesunken ist. Ein weiteres Thema ist das NIS2-Gesetz, das IT-Sicherheitsstandards für Unternehmen festlegt. Schließlich sprechen wir über die Nutzung von Künstlicher Intelligenz an Universitäten und deren mögliche Folgen für das kritische Denken. - https://bojacksanchez.com/kurz-und-klar/iran-proteste-trumps-strafz-lle-und-deutsche-inflation]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sun, 18 Jan 2026 05:03:41 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-18T05-03-32-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-01-18T05-03-32/podcastDE.mp3" length="1754768" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge geht es um die brutalen Proteste im Iran und die Auswirkungen auf die Menschenrechte. Wir berichten über die neuen Strafzölle von Trump gegen Deutschland und wie sie die Beziehungen belasten könnten. Außerdem schauen wir auf die Inflation in Deutschland, die auf 1,8 Prozent gesunken ist. Ein weiteres Thema ist das NIS2-Gesetz, das IT-Sicherheitsstandards für Unternehmen festlegt. Schließlich sprechen wir über die Nutzung von Künstlicher Intelligenz an Universitäten und deren mögliche Folgen für das kritische Denken. - https://bojacksanchez.com/kurz-und-klar/iran-proteste-trumps-strafz-lle-und-deutsche-inflation]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:49</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[KI 'Grok' und Klage gegen xAI wegen Deepfakes]]>
       </title>
