@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                <item>
+                                                                                                    <item>
+      <title>
+        <![CDATA[NATO-Gespräche über Trump & steigende Mieten in Deutschland]]>
+      </title>
+      <description>
+        <![CDATA[Diese Episode behandelt die aktuellen Spannungen zwischen der NATO und den USA und die Auswirkungen von Trumps Zolldrohungen. Außerdem schauen wir auf steigende Mieten in Deutschland und den Streit in der Gaming-Industrie über Künstliche Intelligenz. Zudem berichten wir über ein neues Zentrum für Epidermolysis bullosa in Groningen, das die Forschung voranbringen soll. - https://bojacksanchez.com/kurz-und-klar/nato-gespr-che-ber-trump-steigende-mieten-in-deutschland]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 20 Jan 2026 05:23:24 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-20T05-23-16-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-01-20T05-23-16/podcastDE.mp3" length="1437034" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Diese Episode behandelt die aktuellen Spannungen zwischen der NATO und den USA und die Auswirkungen von Trumps Zolldrohungen. Außerdem schauen wir auf steigende Mieten in Deutschland und den Streit in der Gaming-Industrie über Künstliche Intelligenz. Zudem berichten wir über ein neues Zentrum für Epidermolysis bullosa in Groningen, das die Forschung voranbringen soll. - https://bojacksanchez.com/kurz-und-klar/nato-gespr-che-ber-trump-steigende-mieten-in-deutschland]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:29</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Handelskonflikt EU-USA & Mietpreise in Deutschland steigen]]>
       </title>
