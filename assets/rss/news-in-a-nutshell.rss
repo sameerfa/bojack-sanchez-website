@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                <item>
+                                                                                                                    <item>
+      <title>
+        <![CDATA[Gaza Humanitarian Crisis, US Housing Instability, and China's AI Chip Advancements]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we unpack critical stories including the urgent humanitarian calls from UN agencies in Gaza as reconstruction talks unfold, the heart-wrenching tale of a family facing housing instability in the U.S., and Nigeria's soaring borrowing rates amidst economic recovery efforts. We also explore China's breakthrough with an all-analogue AI chip that could change the tech landscape and the rapid rise of WOW Exchange in the cryptocurrency market. Tune in for insightful analysis and implications for the future. - https://bojacksanchez.com/news-in-a-nutshell/gaza-humanitarian-crisis-us-housing-instability-and-china-s-ai-chip-advancements]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sat, 24 Jan 2026 05:09:20 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-24T05-08-59-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-01-24T05-08-59/podcast.mp3" length="4547638" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we unpack critical stories including the urgent humanitarian calls from UN agencies in Gaza as reconstruction talks unfold, the heart-wrenching tale of a family facing housing instability in the U.S., and Nigeria's soaring borrowing rates amidst economic recovery efforts. We also explore China's breakthrough with an all-analogue AI chip that could change the tech landscape and the rapid rise of WOW Exchange in the cryptocurrency market. Tune in for insightful analysis and implications for the future. - https://bojacksanchez.com/news-in-a-nutshell/gaza-humanitarian-crisis-us-housing-instability-and-china-s-ai-chip-advancements]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:04:44</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Supreme Court Case on Fed Independence & Trump's Davos Diplomacy]]>
       </title>
