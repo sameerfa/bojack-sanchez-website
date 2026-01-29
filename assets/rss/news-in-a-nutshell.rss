@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                    <item>
+                                                                                                                                        <item>
+      <title>
+        <![CDATA[Ukraine Drone Strike, Gaza Ceasefire, and Nvidia's Growth]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we discuss a tragic drone strike in Ukraine that killed five individuals and how it highlights the ongoing risks faced by civilians. We also explore news of the Rafah crossing in Gaza potentially reopening to provide critical aid for thousands in need. The Federal Reserve has opted to keep interest rates steady amid political pressures, while Nvidia's stock rises as it invests heavily in AI infrastructure. Additionally, we consider the implications of the new AI assistant, Moltbot, which raises security concerns. Finally, Uzbekistan is set to begin construction of its first small modular reactor to meet electricity demands. Tune in for insights on these significant developments and their broader implications. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-drone-strike-gaza-ceasefire-and-nvidia-s-growth]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 29 Jan 2026 05:37:47 GMT</pubDate>
+      <guid isPermaLink="false">2026-01-29T05-37-24-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-01-29T05-37-24/podcast.mp3" length="6276569" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we discuss a tragic drone strike in Ukraine that killed five individuals and how it highlights the ongoing risks faced by civilians. We also explore news of the Rafah crossing in Gaza potentially reopening to provide critical aid for thousands in need. The Federal Reserve has opted to keep interest rates steady amid political pressures, while Nvidia's stock rises as it invests heavily in AI infrastructure. Additionally, we consider the implications of the new AI assistant, Moltbot, which raises security concerns. Finally, Uzbekistan is set to begin construction of its first small modular reactor to meet electricity demands. Tune in for insights on these significant developments and their broader implications. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-drone-strike-gaza-ceasefire-and-nvidia-s-growth]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:06:32</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Ukraine Crisis, Fed Rate Decision & Israel-Hamas Conflict Updates]]>
       </title>
