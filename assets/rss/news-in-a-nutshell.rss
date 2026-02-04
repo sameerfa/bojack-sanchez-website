@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                            <item>
+                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Ukraine Air Strikes, African Remittances, and AI Market Disruptions]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we explore key global stories including the resumption of Russian air strikes on Ukraine, which have devastated energy infrastructure and reignited U.S. support calls. We also delve into the vital role of diaspora remittances in Africa, underlining their impact on education and healthcare in countries like Zimbabwe and Nigeria. The situation at the Rafah border crossing in Gaza reveals the dire humanitarian crisis, while Anthropic's new AI tools have sent shockwaves through the tech market, triggering the 'SaaSpocalypse'. Finally, Apple’s Xcode update is set to revolutionize app development by streamlining coding processes. Tune in for insights on how these interconnected stories shape our global landscape. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-air-strikes-african-remittances-and-ai-market-disruptions]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 04 Feb 2026 05:38:09 GMT</pubDate>
+      <guid isPermaLink="false">2026-02-04T05-37-41-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-02-04T05-37-41/podcast.mp3" length="5582317" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we explore key global stories including the resumption of Russian air strikes on Ukraine, which have devastated energy infrastructure and reignited U.S. support calls. We also delve into the vital role of diaspora remittances in Africa, underlining their impact on education and healthcare in countries like Zimbabwe and Nigeria. The situation at the Rafah border crossing in Gaza reveals the dire humanitarian crisis, while Anthropic's new AI tools have sent shockwaves through the tech market, triggering the 'SaaSpocalypse'. Finally, Apple’s Xcode update is set to revolutionize app development by streamlining coding processes. Tune in for insights on how these interconnected stories shape our global landscape. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-air-strikes-african-remittances-and-ai-market-disruptions]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:48</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Pakistan Sanitation Crisis & Ukraine Negotiation Resumption]]>
       </title>
