@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                        <item>
+                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[UK Labour Leadership Challenge & US-Russia Military Dialogue]]>
+      </title>
+      <description>
+        <![CDATA[In today's episode, we delve into the unfolding political crisis in the UK as Labour MPs challenge Sir Keir Starmer's leadership amid the Mandelson scandal. Then, we explore a significant shift in U.S.-Russia relations with the reestablishment of military dialogue for the first time in over four years. We also discuss the impact of AI on Salesforce and traditional software companies, as well as alarming predictions from the North American Electric Reliability Corporation regarding potential energy shortages by 2028. This episode offers key insights into how these interconnected issues shape our global landscape and what implications they hold for the future. - https://bojacksanchez.com/news-in-a-nutshell/uk-labour-leadership-challenge-us-russia-military-dialogue]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sat, 07 Feb 2026 05:27:37 GMT</pubDate>
+      <guid isPermaLink="false">2026-02-07T05-27-08-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-02-07T05-27-08/podcast.mp3" length="5309210" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In today's episode, we delve into the unfolding political crisis in the UK as Labour MPs challenge Sir Keir Starmer's leadership amid the Mandelson scandal. Then, we explore a significant shift in U.S.-Russia relations with the reestablishment of military dialogue for the first time in over four years. We also discuss the impact of AI on Salesforce and traditional software companies, as well as alarming predictions from the North American Electric Reliability Corporation regarding potential energy shortages by 2028. This episode offers key insights into how these interconnected issues shape our global landscape and what implications they hold for the future. - https://bojacksanchez.com/news-in-a-nutshell/uk-labour-leadership-challenge-us-russia-military-dialogue]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:31</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Gaza Ceasefire Crisis, U.S. AI Policy Shifts & Bitcoin Volatility]]>
       </title>
