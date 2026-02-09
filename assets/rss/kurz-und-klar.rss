@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                            <item>
+                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[EU-Zensurvorwürfe, SPD-Reformen & Bitcoin-Verluste]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge sprechen wir über die Vorwürfe gegen die EU-Kommission zur Zensur, die Pläne der SPD für soziale Reformen und die Probleme auf dem Bitcoin-Markt. Wir betrachten auch die Risiken von KI im Unterricht und was das für Schüler:innen bedeutet. Bleib informiert über die wichtigsten Entwicklungen. - https://bojacksanchez.com/kurz-und-klar/eu-zensurvorw-rfe-spd-reformen-bitcoin-verluste]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Mon, 09 Feb 2026 05:43:18 GMT</pubDate>
+      <guid isPermaLink="false">2026-02-09T05-43-09-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-02-09T05-43-09/podcastDE.mp3" length="2045594" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge sprechen wir über die Vorwürfe gegen die EU-Kommission zur Zensur, die Pläne der SPD für soziale Reformen und die Probleme auf dem Bitcoin-Markt. Wir betrachten auch die Risiken von KI im Unterricht und was das für Schüler:innen bedeutet. Bleib informiert über die wichtigsten Entwicklungen. - https://bojacksanchez.com/kurz-und-klar/eu-zensurvorw-rfe-spd-reformen-bitcoin-verluste]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:07</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[EU-Gentechnik-Pläne, TikTok-Regulierung & Mietpreise in München]]>
       </title>
