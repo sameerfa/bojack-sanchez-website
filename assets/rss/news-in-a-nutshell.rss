@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                <item>
+                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[India's Diplomacy, Syrian Ceasefire, and AI Disruption in Tech]]>
+      </title>
+      <description>
+        <![CDATA[Explore India's unique diplomacy in the Russia-Ukraine conflict, where its reliance on Russian crude oil has surged to over 35%. We also dive into the fragile ceasefire in Rojava, Syria, as the Kurdish-led SDF is set to integrate into the Syrian military, potentially reshaping regional dynamics. In West Africa, learn about the PAOLAO initiative aiming to double local dairy production by 2030, addressing food security challenges. Plus, insights into the March 2026 FOMC meeting and its implications for crypto markets, alongside the turmoil in the software industry due to AI advancements. Finally, discover groundbreaking AI tools from Japan’s Tohoku University that could revolutionize hydrogen storage research. - https://bojacksanchez.com/news-in-a-nutshell/india-s-diplomacy-syrian-ceasefire-and-ai-disruption-in-tech]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 10 Feb 2026 06:02:21 GMT</pubDate>
+      <guid isPermaLink="false">2026-02-10T06-01-50-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-02-10T06-01-50/podcast.mp3" length="5576531" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Explore India's unique diplomacy in the Russia-Ukraine conflict, where its reliance on Russian crude oil has surged to over 35%. We also dive into the fragile ceasefire in Rojava, Syria, as the Kurdish-led SDF is set to integrate into the Syrian military, potentially reshaping regional dynamics. In West Africa, learn about the PAOLAO initiative aiming to double local dairy production by 2030, addressing food security challenges. Plus, insights into the March 2026 FOMC meeting and its implications for crypto markets, alongside the turmoil in the software industry due to AI advancements. Finally, discover groundbreaking AI tools from Japan’s Tohoku University that could revolutionize hydrogen storage research. - https://bojacksanchez.com/news-in-a-nutshell/india-s-diplomacy-syrian-ceasefire-and-ai-disruption-in-tech]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:48</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[India's Budget Inequality & U.S. Export Restrictions on Technology]]>
       </title>

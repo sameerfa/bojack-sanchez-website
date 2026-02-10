@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                <item>
+                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[Energiewende, Nebenkosten und Cyberangriffe in Deutschland]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Episode sprechen wir über wichtige Themen in Deutschland. Ministerin Katherina Reiche plant eine Reform der erneuerbaren Energien. In Nordrhein-Westfalen steigen die Nebenkosten schneller als die Mieten. Zudem gibt es einen Cyberangriff auf Signal-Konten von Politikern und Soldaten. Auch die Klimaziele Deutschlands stehen auf der Kippe. Es ist wichtig, diese Entwicklungen zu beobachten. - https://bojacksanchez.com/kurz-und-klar/energiewende-nebenkosten-und-cyberangriffe-in-deutschland]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 10 Feb 2026 06:03:18 GMT</pubDate>
+      <guid isPermaLink="false">2026-02-10T06-02-56-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-02-10T06-02-56/podcastDE.mp3" length="2022657" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Episode sprechen wir über wichtige Themen in Deutschland. Ministerin Katherina Reiche plant eine Reform der erneuerbaren Energien. In Nordrhein-Westfalen steigen die Nebenkosten schneller als die Mieten. Zudem gibt es einen Cyberangriff auf Signal-Konten von Politikern und Soldaten. Auch die Klimaziele Deutschlands stehen auf der Kippe. Es ist wichtig, diese Entwicklungen zu beobachten. - https://bojacksanchez.com/kurz-und-klar/energiewende-nebenkosten-und-cyberangriffe-in-deutschland]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:06</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[EU-Zensurvorwürfe, SPD-Reformen & Bitcoin-Verluste]]>
       </title>
