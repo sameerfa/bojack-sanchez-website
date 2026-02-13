@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                            <item>
+                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Ukraine Conflict Casualties, Nexperia Investigation & Renewable Energy Breakthroughs]]>
+      </title>
+      <description>
+        <![CDATA[Today's episode examines the tragic toll of the Ukraine conflict with a drone strike in Kharkiv resulting in civilian casualties. We also discuss Nexperia's ongoing investigation amid claims of mismanagement and its implications for the semiconductor industry. Lastly, we explore new advancements in renewable energy with the development of pyrimidone, a material that captures solar energy more efficiently. Gain insights into the humanitarian crisis, its geopolitical ramifications, and the economic impacts of inflation and interest rates. Stay informed as these stories unfold. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-conflict-casualties-nexperia-investigation-renewable-energy-breakthroughs]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 13 Feb 2026 06:01:35 GMT</pubDate>
+      <guid isPermaLink="false">2026-02-13T06-01-11-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-02-13T06-01-11/podcast.mp3" length="5159028" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Today's episode examines the tragic toll of the Ukraine conflict with a drone strike in Kharkiv resulting in civilian casualties. We also discuss Nexperia's ongoing investigation amid claims of mismanagement and its implications for the semiconductor industry. Lastly, we explore new advancements in renewable energy with the development of pyrimidone, a material that captures solar energy more efficiently. Gain insights into the humanitarian crisis, its geopolitical ramifications, and the economic impacts of inflation and interest rates. Stay informed as these stories unfold. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-conflict-casualties-nexperia-investigation-renewable-energy-breakthroughs]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:22</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Maryland Healthcare Initiative & Global Semiconductor Tensions]]>
       </title>

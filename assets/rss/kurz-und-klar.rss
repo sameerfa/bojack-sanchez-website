@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                            <item>
+                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Weltraumkonflikte & EU-Streit um Schulden]]>
+      </title>
+      <description>
+        <![CDATA[Wir sprechen über die aktuellen Konflikte im Weltraum und die Uneinigkeit zwischen Bundeskanzler Merz und Präsident Macron über gemeinsame Schulden in der EU. Außerdem schauen wir auf die Entwicklung der Arbeitslosenhilfe in den USA und die Auszeichnung Deutschlands für eine KI-Plattform. Digitalisierung könnte auch in der Verwaltung helfen. - https://bojacksanchez.com/kurz-und-klar/weltraumkonflikte-eu-streit-um-schulden]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 13 Feb 2026 06:02:17 GMT</pubDate>
+      <guid isPermaLink="false">2026-02-13T06-02-08-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-02-13T06-02-08/podcastDE.mp3" length="1791403" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Wir sprechen über die aktuellen Konflikte im Weltraum und die Uneinigkeit zwischen Bundeskanzler Merz und Präsident Macron über gemeinsame Schulden in der EU. Außerdem schauen wir auf die Entwicklung der Arbeitslosenhilfe in den USA und die Auszeichnung Deutschlands für eine KI-Plattform. Digitalisierung könnte auch in der Verwaltung helfen. - https://bojacksanchez.com/kurz-und-klar/weltraumkonflikte-eu-streit-um-schulden]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:51</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Wohnraumkrise in der Ukraine & Proteste im Iran]]>
       </title>
