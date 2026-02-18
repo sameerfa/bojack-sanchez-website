@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[Ukraine Peace Talks, Unilever & Google Cloud Partnership, and UK's Climate Goals]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we explore the recent U.S.-brokered peace talks between Russia and Ukraine, highlighting their low expectations amidst ongoing conflict. We dive into how European technology is still fueling Russian drones and the implications for sanctions. Additionally, we examine President Zelenskyy's challenge of holding elections during wartime, Unilever's strategic partnership with Google Cloud to enhance digital transformation, and SurrealDB's funding success in the AI database market. Finally, we discuss the UK’s struggle to meet its 2030 climate targets and the required investment to close the significant gap. Tune in for in-depth insights and analysis on these critical issues. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-peace-talks-unilever-google-cloud-partnership-and-uk-s-climate-goals]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 18 Feb 2026 06:05:11 GMT</pubDate>
+      <guid isPermaLink="false">2026-02-18T06-04-41-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-02-18T06-04-41/podcast.mp3" length="5454047" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we explore the recent U.S.-brokered peace talks between Russia and Ukraine, highlighting their low expectations amidst ongoing conflict. We dive into how European technology is still fueling Russian drones and the implications for sanctions. Additionally, we examine President Zelenskyy's challenge of holding elections during wartime, Unilever's strategic partnership with Google Cloud to enhance digital transformation, and SurrealDB's funding success in the AI database market. Finally, we discuss the UK’s struggle to meet its 2030 climate targets and the required investment to close the significant gap. Tune in for in-depth insights and analysis on these critical issues. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-peace-talks-unilever-google-cloud-partnership-and-uk-s-climate-goals]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:40</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Ukraine Conflict Update, US-Iran Nuclear Talks, and India's Israel Visit]]>
       </title>
