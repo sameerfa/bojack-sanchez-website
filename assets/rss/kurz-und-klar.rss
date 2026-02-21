@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Ukraine-Konflikt & Windkraft-Kritik von Felix Banaszak]]>
+      </title>
+      <description>
+        <![CDATA[Heute geht es um wichtige Themen in Politik, Energie und Glücksspiel. Die Ukraine kämpft seit vier Jahren gegen Russland. Felix Banaszak von den Grünen kritisiert die CDU wegen ihrer Anträge, die den Windkraft-Ausbau behindern könnten. Ein Crash in der Kryptowelt hat das Vertrauen von Spielern erschüttert. Außerdem gab es einen Hackerangriff bei Clinical Diagnostics, der Daten von 850.000 Personen stahl. Abschließend fordert die Biogas-Branche Unterstützung für Biogas als wichtige Energiequelle. - https://bojacksanchez.com/kurz-und-klar/ukraine-konflikt-windkraft-kritik-von-felix-banaszak]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sat, 21 Feb 2026 05:39:45 GMT</pubDate>
+      <guid isPermaLink="false">2026-02-21T05-39-35-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-02-21T05-39-35/podcastDE.mp3" length="1697126" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Heute geht es um wichtige Themen in Politik, Energie und Glücksspiel. Die Ukraine kämpft seit vier Jahren gegen Russland. Felix Banaszak von den Grünen kritisiert die CDU wegen ihrer Anträge, die den Windkraft-Ausbau behindern könnten. Ein Crash in der Kryptowelt hat das Vertrauen von Spielern erschüttert. Außerdem gab es einen Hackerangriff bei Clinical Diagnostics, der Daten von 850.000 Personen stahl. Abschließend fordert die Biogas-Branche Unterstützung für Biogas als wichtige Energiequelle. - https://bojacksanchez.com/kurz-und-klar/ukraine-konflikt-windkraft-kritik-von-felix-banaszak]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:46</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Nahostkonflikt, Netzpaket & IT-Störung bei der Deutschen Bahn]]>
       </title>
