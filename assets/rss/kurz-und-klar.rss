@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[Zollpolitik der USA und Mietpreise in Berlin]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge geht es um die Zollpolitik zwischen der EU und den USA und die aktuelle Mietpreissituation in Berlin. Die EU fordert mehr Verlässlichkeit von den USA. Zudem gibt es besorgniserregende Zahlen zu Mietverträgen in Berlin. Eine Studie zeigt, dass Künstliche Intelligenz oft die Arbeitslast erhöht. Außerdem gibt es kritische Vorwürfe gegen das Fraunhofer Institut bezüglich Stromkosten. Bleiben Sie informiert über diese wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/zollpolitik-der-usa-und-mietpreise-in-berlin]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Mon, 23 Feb 2026 05:47:28 GMT</pubDate>
+      <guid isPermaLink="false">2026-02-23T05-47-19-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-02-23T05-47-19/podcastDE.mp3" length="1918624" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge geht es um die Zollpolitik zwischen der EU und den USA und die aktuelle Mietpreissituation in Berlin. Die EU fordert mehr Verlässlichkeit von den USA. Zudem gibt es besorgniserregende Zahlen zu Mietverträgen in Berlin. Eine Studie zeigt, dass Künstliche Intelligenz oft die Arbeitslast erhöht. Außerdem gibt es kritische Vorwürfe gegen das Fraunhofer Institut bezüglich Stromkosten. Bleiben Sie informiert über diese wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/zollpolitik-der-usa-und-mietpreise-in-berlin]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:59</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Ukraine-Konflikt & Windenergie-Forderungen in Deutschland]]>
       </title>
