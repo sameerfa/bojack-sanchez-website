@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[Ukrainische Krise, EU-Handelsstreit & Cyberangriffe in Deutschland]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Episode sprechen wir über den Ukraine-Krieg und seine Auswirkungen auf Deutschland. Wir berichten über den Handelsstreit zwischen der EU und den USA. Zudem geht es um die Gefahren von Cyberangriffen für Unternehmen. Auch die Batteriespeicherkapazität in Deutschland wird behandelt. Bleiben Sie informiert über wichtige Themen aus Politik und Wirtschaft. - https://bojacksanchez.com/kurz-und-klar/ukrainische-krise-eu-handelsstreit-cyberangriffe-in-deutschland]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 24 Feb 2026 05:52:40 GMT</pubDate>
+      <guid isPermaLink="false">2026-02-24T05-52-31-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-02-24T05-52-31/podcastDE.mp3" length="1628271" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Episode sprechen wir über den Ukraine-Krieg und seine Auswirkungen auf Deutschland. Wir berichten über den Handelsstreit zwischen der EU und den USA. Zudem geht es um die Gefahren von Cyberangriffen für Unternehmen. Auch die Batteriespeicherkapazität in Deutschland wird behandelt. Bleiben Sie informiert über wichtige Themen aus Politik und Wirtschaft. - https://bojacksanchez.com/kurz-und-klar/ukrainische-krise-eu-handelsstreit-cyberangriffe-in-deutschland]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:41</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Zollpolitik der USA und Mietpreise in Berlin]]>
       </title>
