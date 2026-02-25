@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Ukraine Conflict, BRICS+ Expansion & AI Innovations]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we explore the ongoing war in Ukraine, now in its fifth year, highlighting the staggering humanitarian toll and geopolitical implications. We delve into the significant expansion of BRICS+, now including powerhouse nations like Saudi Arabia and Iran, which control over 42% of global oil production and offer alternatives to Western financial systems. Additionally, we discuss Anthropic's launch of Claude Code, a mobile coding assistant that could transform how software engineers work. Lastly, we cover a groundbreaking achievement in hydrogen energy by the Karlsruhe Institute of Technology, marking a significant step toward sustainable solutions. Tune in for insights on how these developments could reshape our world. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-conflict-brics-expansion-ai-innovations]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 25 Feb 2026 05:58:44 GMT</pubDate>
+      <guid isPermaLink="false">2026-02-25T05-58-19-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-02-25T05-58-19/podcast.mp3" length="5521232" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we explore the ongoing war in Ukraine, now in its fifth year, highlighting the staggering humanitarian toll and geopolitical implications. We delve into the significant expansion of BRICS+, now including powerhouse nations like Saudi Arabia and Iran, which control over 42% of global oil production and offer alternatives to Western financial systems. Additionally, we discuss Anthropic's launch of Claude Code, a mobile coding assistant that could transform how software engineers work. Lastly, we cover a groundbreaking achievement in hydrogen energy by the Karlsruhe Institute of Technology, marking a significant step toward sustainable solutions. Tune in for insights on how these developments could reshape our world. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-conflict-brics-expansion-ai-innovations]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:45</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Ukraine War Impact, AI Investment in India, and China-Japan Tensions]]>
       </title>
