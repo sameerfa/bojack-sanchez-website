@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[Ukraine-Konflikt, Eon-Investitionen & Deepfakes]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge geht es um den Ukraine-Konflikt und die Hoffnungen auf neue Gespräche mit Russland. Außerdem berichten wir über die Situation der Hilfsorganisationen in den Palästinensergebieten und Eons Pläne für große Investitionen in den Netzausbau. Zudem warnen wir vor Betrug durch Deepfakes in sozialen Medien. Zuletzt beleuchtet Katja Müller die sozialen Dimensionen der Energiewende. Alle Themen einfach erklärt. - https://bojacksanchez.com/kurz-und-klar/ukraine-konflikt-eon-investitionen-deepfakes]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 26 Feb 2026 06:05:17 GMT</pubDate>
+      <guid isPermaLink="false">2026-02-26T06-05-07-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-02-26T06-05-07/podcastDE.mp3" length="1885190" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge geht es um den Ukraine-Konflikt und die Hoffnungen auf neue Gespräche mit Russland. Außerdem berichten wir über die Situation der Hilfsorganisationen in den Palästinensergebieten und Eons Pläne für große Investitionen in den Netzausbau. Zudem warnen wir vor Betrug durch Deepfakes in sozialen Medien. Zuletzt beleuchtet Katja Müller die sozialen Dimensionen der Energiewende. Alle Themen einfach erklärt. - https://bojacksanchez.com/kurz-und-klar/ukraine-konflikt-eon-investitionen-deepfakes]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:57</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[EU-Unterstützung für Ukraine & Digital Independence Day 2026]]>
       </title>
