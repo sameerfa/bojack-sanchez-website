@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Nahost-Konflikt & neues Asylgesetz in Deutschland]]>
+      </title>
+      <description>
+        <![CDATA[Im heutigen Podcast sprechen wir über den Krieg zwischen Israel und dem Iran. Dieser Konflikt könnte die Weltwirtschaft belasten. Außerdem behandeln wir das neue Asylgesetz in Deutschland, das Konflikte innerhalb der Koalition auslöst. Wir diskutieren auch die steigenden Kupferpreise und die Risiken der KI für die Datensicherheit. Abschließend geht es um die Bewertung der Stromnetzbetreiber, bei der Dänemark vorne liegt. Diese Themen bleiben wichtig für uns. - https://bojacksanchez.com/kurz-und-klar/nahost-konflikt-neues-asylgesetz-in-deutschland]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sun, 01 Mar 2026 05:32:37 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-01T05-32-28-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-03-01T05-32-28/podcastDE.mp3" length="1927476" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Im heutigen Podcast sprechen wir über den Krieg zwischen Israel und dem Iran. Dieser Konflikt könnte die Weltwirtschaft belasten. Außerdem behandeln wir das neue Asylgesetz in Deutschland, das Konflikte innerhalb der Koalition auslöst. Wir diskutieren auch die steigenden Kupferpreise und die Risiken der KI für die Datensicherheit. Abschließend geht es um die Bewertung der Stromnetzbetreiber, bei der Dänemark vorne liegt. Diese Themen bleiben wichtig für uns. - https://bojacksanchez.com/kurz-und-klar/nahost-konflikt-neues-asylgesetz-in-deutschland]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:00</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Ukrainische Offensive & Korruptionsskandal im Kraftwerksbau]]>
       </title>
