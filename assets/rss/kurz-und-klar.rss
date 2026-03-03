@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[Iran-Krieg, Gaspreise & Solarparks auf Moorböden]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge sprechen wir über die aktuellen Entwicklungen zum Iran-Krieg und dessen Auswirkungen auf die EU. Wir berichten über den Anstieg der Gaspreise und eine neue Studie zu Solarparks auf Moorböden in Deutschland. Diese Themen sind wichtig für die Wirtschaft und die Umwelt. - https://bojacksanchez.com/kurz-und-klar/iran-krieg-gaspreise-solarparks-auf-moorb-den]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 03 Mar 2026 05:49:03 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-03T05-48-54-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-03-03T05-48-54/podcastDE.mp3" length="1585531" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge sprechen wir über die aktuellen Entwicklungen zum Iran-Krieg und dessen Auswirkungen auf die EU. Wir berichten über den Anstieg der Gaspreise und eine neue Studie zu Solarparks auf Moorböden in Deutschland. Diese Themen sind wichtig für die Wirtschaft und die Umwelt. - https://bojacksanchez.com/kurz-und-klar/iran-krieg-gaspreise-solarparks-auf-moorb-den]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:39</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Belgien beschlagnahmt russischen Öltanker & Heizungsgesetz in Deutschland]]>
       </title>
