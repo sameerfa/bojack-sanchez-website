@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[Lufthansa Rückholflüge & steigende Ölpreise im Iran]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge erfahren Sie, wie die Abhängigkeit von fossilen Brennstoffen in Deutschland gefährlich ist. Wir berichten über die Rückholflüge von Lufthansa aus dem Iran, die am 4. März stattfinden. Außerdem geht es um die Mietenentwicklung in Berlin, wo die Neuvertragsmieten stark gestiegen sind. Die Themen sind wichtig für unser tägliches Leben und zeigen aktuelle Herausforderungen. - https://bojacksanchez.com/kurz-und-klar/lufthansa-r-ckholfl-ge-steigende-lpreise-im-iran]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 04 Mar 2026 05:51:58 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-04T05-51-49-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-03-04T05-51-49/podcastDE.mp3" length="1758449" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge erfahren Sie, wie die Abhängigkeit von fossilen Brennstoffen in Deutschland gefährlich ist. Wir berichten über die Rückholflüge von Lufthansa aus dem Iran, die am 4. März stattfinden. Außerdem geht es um die Mietenentwicklung in Berlin, wo die Neuvertragsmieten stark gestiegen sind. Die Themen sind wichtig für unser tägliches Leben und zeigen aktuelle Herausforderungen. - https://bojacksanchez.com/kurz-und-klar/lufthansa-r-ckholfl-ge-steigende-lpreise-im-iran]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:49</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Iran-Krieg, Gaspreise & Solarparks auf Moorböden]]>
       </title>
