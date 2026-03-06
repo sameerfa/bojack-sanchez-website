@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[Iran-Konflikt, digitale Gewalt & Pflegebedürftigkeit in Deutschland]]>
+      </title>
+      <description>
+        <![CDATA[Heute sprechen wir über den Iran und die steigenden Ölpreise, die digitale Gewalt und die neuen Gesetze gegen Belästigung. Außerdem betrachten wir die Probleme in der Pflege, wo viele Menschen Sozialhilfe brauchen. Wir berichten auch über die zunehmenden Cyberangriffe in Deutschland und die positive Nachricht von E.ON, das die 2 Millionste Erneuerbare-Energien-Anlage angeschlossen hat. - https://bojacksanchez.com/kurz-und-klar/iran-konflikt-digitale-gewalt-pflegebed-rftigkeit-in-deutschland]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 06 Mar 2026 05:54:29 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-06T05-54-18-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-03-06T05-54-18/podcastDE.mp3" length="2051467" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Heute sprechen wir über den Iran und die steigenden Ölpreise, die digitale Gewalt und die neuen Gesetze gegen Belästigung. Außerdem betrachten wir die Probleme in der Pflege, wo viele Menschen Sozialhilfe brauchen. Wir berichten auch über die zunehmenden Cyberangriffe in Deutschland und die positive Nachricht von E.ON, das die 2 Millionste Erneuerbare-Energien-Anlage angeschlossen hat. - https://bojacksanchez.com/kurz-und-klar/iran-konflikt-digitale-gewalt-pflegebed-rftigkeit-in-deutschland]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:08</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Israelische Angriffe auf Iran & Künstliche Intelligenz in Baden-Württemberg]]>
       </title>
