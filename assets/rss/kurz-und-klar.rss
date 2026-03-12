@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[EU gegen Meta & Lage im Nahen Osten]]>
+      </title>
+      <description>
+        <![CDATA[Die heutige Episode behandelt wichtige Nachrichten über die EU und Meta sowie die angespannte Lage im Nahen Osten. Die EU startet ein Verfahren gegen Meta, der Zugang zur WhatsApp Business API wurde gesperrt. Im Nahen Osten droht einem britischen Tourist eine Gefängnisstrafe. Außerdem gibt es Angriffe auf Handelsschiffe. Die Internationale Energieagentur plant, Ölreserven freizugeben, um die Preise zu stabilisieren. Die Inflation in den USA bleibt bei 2,4 Prozent, während sie in Deutschland auf 1,9 Prozent gesunken ist. - https://bojacksanchez.com/kurz-und-klar/eu-gegen-meta-lage-im-nahen-osten]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 12 Mar 2026 05:53:31 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-12T05-53-23-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-03-12T05-53-23/podcastDE.mp3" length="1313876" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Die heutige Episode behandelt wichtige Nachrichten über die EU und Meta sowie die angespannte Lage im Nahen Osten. Die EU startet ein Verfahren gegen Meta, der Zugang zur WhatsApp Business API wurde gesperrt. Im Nahen Osten droht einem britischen Tourist eine Gefängnisstrafe. Außerdem gibt es Angriffe auf Handelsschiffe. Die Internationale Energieagentur plant, Ölreserven freizugeben, um die Preise zu stabilisieren. Die Inflation in den USA bleibt bei 2,4 Prozent, während sie in Deutschland auf 1,9 Prozent gesunken ist. - https://bojacksanchez.com/kurz-und-klar/eu-gegen-meta-lage-im-nahen-osten]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:22</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[USA Ernährungsempfehlungen & Cyber-Spionage in den Niederlanden]]>
       </title>

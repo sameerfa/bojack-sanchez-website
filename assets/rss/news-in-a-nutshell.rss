@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[U.S. Military Strikes Iran & Tech Innovations in Job Recruiting]]>
+      </title>
+      <description>
+        <![CDATA[This episode examines the U.S. military's recent actions against Iran, leading to a spike in oil prices and tensions in the Middle East. We also discuss the financial implications of these geopolitical events, including a significant drop in the Dow Jones. Additionally, we cover exciting technological advancements, like Candyfloss AI's new recruiting platform and UC Santa Barbara's groundbreaking solar energy storage solution. Tune in for insights on how these developments interconnect and what they mean for the future. - https://bojacksanchez.com/news-in-a-nutshell/u-s-military-strikes-iran-tech-innovations-in-job-recruiting]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 12 Mar 2026 05:52:50 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-12T05-52-27-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-03-12T05-52-27/podcast.mp3" length="4670098" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[This episode examines the U.S. military's recent actions against Iran, leading to a spike in oil prices and tensions in the Middle East. We also discuss the financial implications of these geopolitical events, including a significant drop in the Dow Jones. Additionally, we cover exciting technological advancements, like Candyfloss AI's new recruiting platform and UC Santa Barbara's groundbreaking solar energy storage solution. Tune in for insights on how these developments interconnect and what they mean for the future. - https://bojacksanchez.com/news-in-a-nutshell/u-s-military-strikes-iran-tech-innovations-in-job-recruiting]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:04:51</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[U.S.-Iran Conflict Escalation & Challenges for African Startups]]>
       </title>
