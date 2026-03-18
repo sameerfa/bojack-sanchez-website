@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Iran-Israel Conflict Escalation & Nvidia's AI Breakthroughs]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we delve into the geopolitical tensions following the killing of Iranian leaders by Israeli forces, the humanitarian crisis in Lebanon, and the soaring oil prices affecting global markets. We also discuss the implications of U.S. foreign policy shifts and India's economic responses to the conflict. On a tech note, explore Nvidia's latest AI chips set to transform the industry. Gain insights into how these narratives interconnect and the potential implications for the future of global relations and technology. - https://bojacksanchez.com/news-in-a-nutshell/iran-israel-conflict-escalation-nvidia-s-ai-breakthroughs]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 18 Mar 2026 06:04:40 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-18T06-04-13-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-03-18T06-04-13/podcast.mp3" length="2982929" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we delve into the geopolitical tensions following the killing of Iranian leaders by Israeli forces, the humanitarian crisis in Lebanon, and the soaring oil prices affecting global markets. We also discuss the implications of U.S. foreign policy shifts and India's economic responses to the conflict. On a tech note, explore Nvidia's latest AI chips set to transform the industry. Gain insights into how these narratives interconnect and the potential implications for the future of global relations and technology. - https://bojacksanchez.com/news-in-a-nutshell/iran-israel-conflict-escalation-nvidia-s-ai-breakthroughs]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:03:06</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[U.S.-Israeli Military Operations & Market Reactions Amidst Iran Conflict]]>
       </title>
