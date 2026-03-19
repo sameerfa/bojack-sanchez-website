@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[Anthropic-Krise, Rekordtourismus in Italien und El Niño 2026]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge sprechen wir über den Konflikt zwischen Anthropic und der US-Regierung. Außerdem geht es um die Arbeitsbedingungen für Datenarbeiter:innen und den Rekordtourismus in Italien. Wir berichten auch über den Auftrag von XBP Global Holdings zur KI-Dokumentenbearbeitung. Zuletzt schauen wir auf die Rückkehr von El Niño und dessen mögliche Auswirkungen. Bleib dran für wichtige Informationen. - https://bojacksanchez.com/kurz-und-klar/anthropic-krise-rekordtourismus-in-italien-und-el-ni-o-2026]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 19 Mar 2026 05:59:34 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-19T05-59-24-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-03-19T05-59-24/podcastDE.mp3" length="2234640" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge sprechen wir über den Konflikt zwischen Anthropic und der US-Regierung. Außerdem geht es um die Arbeitsbedingungen für Datenarbeiter:innen und den Rekordtourismus in Italien. Wir berichten auch über den Auftrag von XBP Global Holdings zur KI-Dokumentenbearbeitung. Zuletzt schauen wir auf die Rückkehr von El Niño und dessen mögliche Auswirkungen. Bleib dran für wichtige Informationen. - https://bojacksanchez.com/kurz-und-klar/anthropic-krise-rekordtourismus-in-italien-und-el-ni-o-2026]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:19</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Trump kritisiert Deutschland & Ausbau erneuerbarer Energien gefordert]]>
       </title>
