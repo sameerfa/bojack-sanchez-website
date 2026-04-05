@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[Ricarda Lang, Spionage in Argentinien & steigende Dieselpreise]]>
+      </title>
+      <description>
+        <![CDATA[Heute sprechen wir über die Herausforderungen von Politikerin Ricarda Lang. Sie hat ein Problem mit digitaler Gewalt. Außerdem geht es um Spionagevorwürfe gegen Argentinien und die steigenden Dieselpreise in Deutschland. Wir berichten auch über ein erfolgreiches E-Auto-Pilotprojekt und die Artemis-2-Mission zum Mond. Hören Sie zu, um mehr über diese wichtigen Themen zu erfahren. - https://bojacksanchez.com/kurz-und-klar/ricarda-lang-spionage-in-argentinien-steigende-dieselpreise]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sun, 05 Apr 2026 05:59:53 GMT</pubDate>
+      <guid isPermaLink="false">2026-04-05T05-59-38-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-04-05T05-59-38/podcastDE.mp3" length="1731578" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Heute sprechen wir über die Herausforderungen von Politikerin Ricarda Lang. Sie hat ein Problem mit digitaler Gewalt. Außerdem geht es um Spionagevorwürfe gegen Argentinien und die steigenden Dieselpreise in Deutschland. Wir berichten auch über ein erfolgreiches E-Auto-Pilotprojekt und die Artemis-2-Mission zum Mond. Hören Sie zu, um mehr über diese wichtigen Themen zu erfahren. - https://bojacksanchez.com/kurz-und-klar/ricarda-lang-spionage-in-argentinien-steigende-dieselpreise]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:48</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Ricarda Langs Erfahrungen mit digitaler Gewalt & Ukraine-Hilfen]]>
       </title>
