@@ -4,42 +4,58 @@ title: "Home"
 description: "Bojack Sanchez - We are a small, independent podcast studio experimenting with AI-assisted storytelling and news."
 ---
 
-<div class="home-hero">
-  <p class="brand-description">
-    We are a small, independent podcast studio experimenting with AI-assisted storytelling and news.
-  </p>
-</div>
-
-<div class="shows-grid">
-  <a href="/news-in-a-nutshell/" class="show-card-link">
-    <article class="show-card" data-show="news-in-a-nutshell">
-      <div class="show-image-container">
-        <img class="show-image" src="" alt="News in a Nutshell" id="show-image-news" />
+<div class="page-home">
+  <section class="home-hero-monolith" aria-labelledby="home-display">
+    <div class="home-hero-inner">
+      <div class="home-hero-meta">
+        <span class="show-kinetic-pulse" aria-hidden="true"></span>
+        <span class="label-sm home-hero-status">STUDIO_ACTIVE</span>
+        <span class="label-sm home-hero-ref">REF: BOJACK_SANCHEZ_ROOT</span>
       </div>
-      <h2 class="show-title">
-        News in a Nutshell (EN)
-      </h2>
-      <p class="show-description">
-Short, focused news with context — not noise. News in a Nutshell is an English-language daily or near-daily news podcast that breaks down the most important global stories in under 8-10 minutes.
+      <p id="home-display" class="home-display">Bojack Sanchez</p>
+      <p class="brand-description home-lede">
+        We are a small, independent podcast studio experimenting with AI-assisted storytelling and news.
       </p>
-    </article>
-  </a>
+    </div>
+  </section>
 
-  <a href="/kurz-und-klar/" class="show-card-link">
-    <article class="show-card" data-show="kurz-und-klar">
-      <div class="show-image-container">
-        <img class="show-image" src="" alt="Kurz & Klar" id="show-image-kurz" />
-      </div>
-      <h2 class="show-title">
-        Kurz & Klar (DE)
-      </h2>
-      <p class="show-description">
-        Nachrichten auf Deutsch — einfach, verständlich, relevant.
+  <section class="home-shows" aria-labelledby="home-shows-heading">
+    <header class="home-shows-header">
+      <p class="label-sm home-shows-kicker" id="home-shows-heading">SEQUENCE_SHOWS</p>
+      <h2 class="home-shows-title">Active feeds</h2>
+    </header>
+    <div class="shows-grid">
+      <a href="/news-in-a-nutshell/" class="show-card-link">
+        <article class="show-card" data-show="news-in-a-nutshell">
+          <div class="show-image-container">
+            <img class="show-image" src="" alt="News in a Nutshell" id="show-image-news" />
+          </div>
+          <h2 class="show-title">
+            News in a Nutshell (EN)
+          </h2>
+          <p class="show-description">
+Short, focused news with context — not noise. News in a Nutshell is an English-language daily or near-daily news podcast that breaks down the most important global stories in under 8–10 minutes.
+          </p>
+        </article>
+      </a>
+
+      <a href="/kurz-und-klar/" class="show-card-link">
+        <article class="show-card" data-show="kurz-und-klar">
+          <div class="show-image-container">
+            <img class="show-image" src="" alt="Kurz & Klar" id="show-image-kurz" />
+          </div>
+          <h2 class="show-title">
+            Kurz & Klar (DE)
+          </h2>
+          <p class="show-description">
+            Nachrichten auf Deutsch — einfach, verständlich, relevant.
 
 Kurz & Klar ist die deutsche Version des News-Podcasts, bewusst gehalten auf B1-B2-Niveau.
-      </p>
-    </article>
-  </a>
+          </p>
+        </article>
+      </a>
+    </div>
+  </section>
 </div>
 
 <script>

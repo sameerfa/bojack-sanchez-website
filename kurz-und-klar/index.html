@@ -4,45 +4,108 @@ title: "Kurz & Klar"
 description: "Kurz & Klar ist die deutsche Version des News-Podcasts, bewusst gehalten auf B1-B2-Niveau."
 ---
 
-<main data-show="kurz-und-klar">
-  <div class="show-header">
-    <a href="/" class="back-link">
-      <i class="fas fa-arrow-left" aria-hidden="true"></i> Back to Home
-    </a>
-    <div class="show-title-container">
-      <div class="show-title-text">
-        <h1>Kurz & Klar</h1>
-        <p class="show-subtitle">Kurz & Klar ist die deutsche Version des News-Podcasts, bewusst gehalten auf B1-B2-Niveau.</p>
-      </div>
-      <img class="show-header-image" id="show-header-image" src="" alt="Kurz & Klar" style="display: none;" />
-    </div>
-  </div>
+<main data-show="kurz-und-klar" class="show-page" data-copy-link="Link kopieren" data-copied="Kopiert!">
+  <section class="show-hero" aria-labelledby="show-page-title">
+    <div class="show-hero-inner">
+      <a href="/" class="back-link">
+        <i class="fas fa-arrow-left" aria-hidden="true"></i> Zur Startseite
+      </a>
 
-  <div class="episodes-container">
-    <div id="episodes-list" class="episodes-list" role="list">
-      <div class="loading">Loading episodes...</div>
-      <div id="player-bar" class="player-bar" aria-label="Episode player" style="display: none;">
-    <button id="close-player-btn" class="btn-close-player" aria-label="Close player">
-      <i class="fas fa-times" aria-hidden="true"></i>
-    </button>
-    <div class="player-content">
-      <div class="player-info">
-        <p id="player-title" class="player-title"></p>
-        <p id="player-date" class="player-date"></p>
+      <div class="show-hero-meta">
+        <span class="show-kinetic-pulse" aria-hidden="true"></span>
+        <span class="label-sm show-status">FEED AKTIV</span>
+        <span class="label-sm show-ref-id">REF_ID: KURZ_UND_KLAR</span>
       </div>
-      <div class="player-controls">
-        <audio id="episode-audio" controls preload="metadata" aria-label="Episode audio player">
-          <p>Your browser doesn't support audio playback.</p>
-        </audio>
-        <button id="copy-link-btn" class="btn-copy-link" aria-label="Copy episode link">
-          <span class="btn-text">Copy Link</span>
-          <i class="fas fa-link btn-icon" aria-hidden="true"></i>
-        </button>
+
+      <div class="show-hero-grid">
+        <div class="show-title-container">
+          <div class="show-title-text">
+            <h1 id="show-page-title" class="show-page-title">Kurz &amp;<br />Klar</h1>
+            <p class="show-subtitle">Kurz &amp; Klar ist die deutsche Version des News-Podcasts, bewusst gehalten auf B1-B2-Niveau.</p>
+          </div>
+        </div>
+
+        <div class="show-hero-artwork">
+          <img class="show-header-image" id="show-header-image" src="" alt="Kurz &amp; Klar" style="display: none;" width="240" height="240" />
+        </div>
+
+        <div class="show-waveform" aria-hidden="true">
+            <span class="show-waveform-bar" style="--h: 28%"></span>
+            <span class="show-waveform-bar" style="--h: 52%"></span>
+            <span class="show-waveform-bar" style="--h: 38%"></span>
+            <span class="show-waveform-bar" style="--h: 72%"></span>
+            <span class="show-waveform-bar" style="--h: 45%"></span>
+            <span class="show-waveform-bar" style="--h: 100%"></span>
+            <span class="show-waveform-bar" style="--h: 62%"></span>
+            <span class="show-waveform-bar" style="--h: 33%"></span>
+            <span class="show-waveform-bar" style="--h: 88%"></span>
+            <span class="show-waveform-bar" style="--h: 48%"></span>
+            <span class="show-waveform-bar" style="--h: 92%"></span>
+            <span class="show-waveform-bar" style="--h: 36%"></span>
+            <span class="show-waveform-bar" style="--h: 78%"></span>
+            <span class="show-waveform-bar" style="--h: 22%"></span>
+            <span class="show-waveform-bar" style="--h: 58%"></span>
+            <span class="show-waveform-bar" style="--h: 95%"></span>
+            <span class="show-waveform-bar" style="--h: 41%"></span>
+            <span class="show-waveform-bar" style="--h: 66%"></span>
+            <span class="show-waveform-bar" style="--h: 29%"></span>
+            <span class="show-waveform-bar" style="--h: 84%"></span>
+            <span class="show-waveform-bar" style="--h: 54%"></span>
+            <span class="show-waveform-bar" style="--h: 31%"></span>
+            <span class="show-waveform-bar" style="--h: 70%"></span>
+            <span class="show-waveform-bar" style="--h: 46%"></span>
+        </div>
+
+        <aside class="show-hero-panel">
+          <p class="label-sm show-panel-label">SYSTEM_PARAMETER</p>
+          <dl class="show-param-grid">
+            <div class="show-param">
+              <dt class="label-sm">FORMAT</dt>
+              <dd>EPISODISCH</dd>
+            </div>
+            <div class="show-param">
+              <dt class="label-sm">KANAL</dt>
+              <dd>STEREO</dd>
+            </div>
+            <div class="show-param">
+              <dt class="label-sm">SPRACHE</dt>
+              <dd>DE</dd>
+            </div>
+            <div class="show-param">
+              <dt class="label-sm">ABTAST</dt>
+              <dd>48 KHZ</dd>
+            </div>
+          </dl>
+        </aside>
       </div>
     </div>
-    <div id="episode-sources" class="episode-sources" style="display: none;"></div>
+  </section>
+
+  <section class="show-archive">
+    <header class="show-archive-header">
+      <div class="show-archive-heading">
+        <p class="label-sm show-archive-kicker">SEQUENZ_PLAYLIST</p>
+        <h2 class="show-archive-title">Archiv</h2>
+      </div>
+      <dl class="show-archive-stats" aria-label="Archivzusammenfassung">
+        <div class="show-archive-stat">
+          <dt class="label-sm">STATUS</dt>
+          <dd>
+            <span class="show-kinetic-pulse" aria-hidden="true"></span>
+            BEREIT
+          </dd>
+        </div>
+        <div class="show-archive-stat">
+          <dt class="label-sm">EINTRÄGE</dt>
+          <dd id="archive-entry-count">--</dd>
+        </div>
+      </dl>
+    </header>
+
+    <div class="episodes-container">
+      <div id="episodes-list" class="episodes-list" role="list">
+        <div class="loading">Episoden werden geladen…</div>
       </div>
     </div>
-  </div>
+  </section>
 </main>
-

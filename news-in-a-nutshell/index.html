@@ -4,44 +4,108 @@ title: "News in a Nutshell"
 description: "Breaking down the biggest stories in English, twice a day"
 ---
 
-<main data-show="news-in-a-nutshell">
-  <div class="show-header">
-    <a href="/" class="back-link">
-      <i class="fas fa-arrow-left" aria-hidden="true"></i> Back to Home
-    </a>
-    <div class="show-title-container">
-      <div class="show-title-text">
-        <h1>News in a Nutshell</h1>
-        <p class="show-subtitle">A daily or near-daily news podcast that breaks down the most important global stories in 8–10 minutes</p>
-      </div>
-      <img class="show-header-image" id="show-header-image" src="" alt="News in a Nutshell" style="display: none;" />
-    </div>
-  </div>
+<main data-show="news-in-a-nutshell" class="show-page" data-copy-link="Copy Link" data-copied="Copied!">
+  <section class="show-hero" aria-labelledby="show-page-title">
+    <div class="show-hero-inner">
+      <a href="/" class="back-link">
+        <i class="fas fa-arrow-left" aria-hidden="true"></i> Back to Home
+      </a>
 
-  <div class="episodes-container">
-    <div id="episodes-list" class="episodes-list" role="list">
-      <div class="loading">Loading episodes...</div>
-      <div id="player-bar" class="player-bar" aria-label="Episode player" style="display: none;">
-    <button id="close-player-btn" class="btn-close-player" aria-label="Close player">
-      <i class="fas fa-times" aria-hidden="true"></i>
-    </button>
-    <div class="player-content">
-      <div class="player-info">
-        <p id="player-title" class="player-title"></p>
-        <p id="player-date" class="player-date"></p>
+      <div class="show-hero-meta">
+        <span class="show-kinetic-pulse" aria-hidden="true"></span>
+        <span class="label-sm show-status">LIVE FEED</span>
+        <span class="label-sm show-ref-id">REF_ID: NEWS_IN_A_NUTSHELL</span>
       </div>
-      <div class="player-controls">
-        <audio id="episode-audio" controls preload="metadata" aria-label="Episode audio player">
-          <p>Your browser doesn't support audio playback.</p>
-        </audio>
-        <button id="copy-link-btn" class="btn-copy-link" aria-label="Copy episode link">
-          <span class="btn-text">Copy Link</span>
-          <i class="fas fa-link btn-icon" aria-hidden="true"></i>
-        </button>
+
+      <div class="show-hero-grid">
+        <div class="show-title-container">
+          <div class="show-title-text">
+            <h1 id="show-page-title" class="show-page-title">News in a<br />Nutshell</h1>
+            <p class="show-subtitle">A daily or near-daily news podcast that breaks down the most important global stories in 8–10 minutes</p>
+          </div>
+        </div>
+
+        <div class="show-hero-artwork">
+          <img class="show-header-image" id="show-header-image" src="" alt="News in a Nutshell" style="display: none;" width="240" height="240" />
+        </div>
+
+        <div class="show-waveform" aria-hidden="true">
+            <span class="show-waveform-bar" style="--h: 30%"></span>
+            <span class="show-waveform-bar" style="--h: 45%"></span>
+            <span class="show-waveform-bar" style="--h: 60%"></span>
+            <span class="show-waveform-bar" style="--h: 25%"></span>
+            <span class="show-waveform-bar" style="--h: 80%"></span>
+            <span class="show-waveform-bar" style="--h: 100%"></span>
+            <span class="show-waveform-bar" style="--h: 70%"></span>
+            <span class="show-waveform-bar" style="--h: 40%"></span>
+            <span class="show-waveform-bar" style="--h: 85%"></span>
+            <span class="show-waveform-bar" style="--h: 55%"></span>
+            <span class="show-waveform-bar" style="--h: 90%"></span>
+            <span class="show-waveform-bar" style="--h: 35%"></span>
+            <span class="show-waveform-bar" style="--h: 75%"></span>
+            <span class="show-waveform-bar" style="--h: 20%"></span>
+            <span class="show-waveform-bar" style="--h: 50%"></span>
+            <span class="show-waveform-bar" style="--h: 65%"></span>
+            <span class="show-waveform-bar" style="--h: 40%"></span>
+            <span class="show-waveform-bar" style="--h: 95%"></span>
+            <span class="show-waveform-bar" style="--h: 45%"></span>
+            <span class="show-waveform-bar" style="--h: 60%"></span>
+            <span class="show-waveform-bar" style="--h: 25%"></span>
+            <span class="show-waveform-bar" style="--h: 75%"></span>
+            <span class="show-waveform-bar" style="--h: 30%"></span>
+            <span class="show-waveform-bar" style="--h: 55%"></span>
+        </div>
+
+        <aside class="show-hero-panel">
+          <p class="label-sm show-panel-label">SYSTEM_PARAMETER</p>
+          <dl class="show-param-grid">
+            <div class="show-param">
+              <dt class="label-sm">FORMAT</dt>
+              <dd>EPISODIC</dd>
+            </div>
+            <div class="show-param">
+              <dt class="label-sm">CHANNEL</dt>
+              <dd>STEREO</dd>
+            </div>
+            <div class="show-param">
+              <dt class="label-sm">LANGUAGE</dt>
+              <dd>EN</dd>
+            </div>
+            <div class="show-param">
+              <dt class="label-sm">SAMPLE</dt>
+              <dd>48 KHZ</dd>
+            </div>
+          </dl>
+        </aside>
       </div>
     </div>
-    <div id="episode-sources" class="episode-sources" style="display: none;"></div>
+  </section>
+
+  <section class="show-archive">
+    <header class="show-archive-header">
+      <div class="show-archive-heading">
+        <p class="label-sm show-archive-kicker">SEQUENCE_PLAYLIST</p>
+        <h2 class="show-archive-title">Archive Logs</h2>
+      </div>
+      <dl class="show-archive-stats" aria-label="Archive summary">
+        <div class="show-archive-stat">
+          <dt class="label-sm">STATUS</dt>
+          <dd>
+            <span class="show-kinetic-pulse" aria-hidden="true"></span>
+            READY
+          </dd>
+        </div>
+        <div class="show-archive-stat">
+          <dt class="label-sm">ENTRIES</dt>
+          <dd id="archive-entry-count">--</dd>
+        </div>
+      </dl>
+    </header>
+
+    <div class="episodes-container">
+      <div id="episodes-list" class="episodes-list" role="list">
+        <div class="loading">Loading episodes...</div>
       </div>
     </div>
-  </div>
+  </section>
 </main>

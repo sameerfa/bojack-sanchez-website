@@ -1,15 +1,15 @@
 /* Episode Sources Styling */
 .episode-sources {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 16px;
+  background: #1b1b1b;
+  border: none;
+  border-radius: 0;
   padding: 2rem;
   margin: 2rem 0;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(40px);
 }
 
 .episode-sources h4 {
-  color: var(--primary-color);
+  color: #ffffff;
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
   font-weight: 600;
@@ -19,11 +19,11 @@
 }
 
 .episode-sources h4 i {
-  color: var(--secondary-color);
+  color: #aef1cc;
 }
 
 .sources-intro {
-  color: var(--text-muted);
+  color: #b3b3b3;
   margin-bottom: 1.5rem;
   font-size: 0.95rem;
 }
@@ -35,18 +35,17 @@
 }
 
 .source-item {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 12px;
+  background: #0e0e0e;
+  border: none;
+  border-radius: 0;
   overflow: hidden;
   transition: all 0.3s ease;
 }
 
 .source-item:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: var(--primary-color);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  background: #2a2a2a;
+  transform: none;
+  box-shadow: none;
 }
 
 .source-link {
@@ -64,7 +63,7 @@
 }
 
 .source-title {
-  color: var(--text-primary);
+  color: #ffffff;
   font-weight: 500;
   line-height: 1.4;
   margin-bottom: 0.5rem;
@@ -72,37 +71,40 @@
 }
 
 .source-domain {
-  color: var(--secondary-color);
-  font-size: 0.85rem;
+  color: #aef1cc;
+  font-size: 0.6875rem;
   font-weight: 500;
-  text-transform: lowercase;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .source-link i {
-  color: var(--text-muted);
+  color: #8e8e8e;
   font-size: 0.9rem;
   margin-left: 1rem;
   transition: all 0.3s ease;
 }
 
 .source-item:hover .source-link i {
-  color: var(--primary-color);
-  transform: translateX(3px);
+  color: #aef1cc;
+  transform: none;
 }
 
 .sources-note {
-  color: var(--text-muted);
-  font-size: 0.85rem;
+  color: #8e8e8e;
+  font-size: 0.6875rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   margin: 0;
   padding-top: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .sources-note i {
-  color: var(--secondary-color);
+  color: #aef1cc;
   flex-shrink: 0;
 }
 

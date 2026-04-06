@@ -1,88 +1,97 @@
 ---
 layout: default
-title: "About"
-description: "Learn more about News in a Nutshell podcast and Bojack Sanchez"
+title: "About Us | Experimental AI Audio Studio"
+description: "Learn about Bojack Sanchez, an experimental AI studio creating podcasts and curated audio experiences, including News in a Nutshell and Kurz und Klar."
 ---
 
-<section class="page-header">
-    <div id="canvas-container"></div>
-    <div class="container">
-        <h1>About News in a Nutshell</h1>
-        <p>The story behind the podcast</p>
+<div class="page-home">
+    <section class="home-hero-monolith about-hero-monolith">
+    <div class="home-hero-inner">
+        <div class="home-hero-meta">
+        <span class="show-kinetic-pulse" aria-hidden="true"></span>
+        <span class="label-sm home-hero-status">PROFILE</span>
+        <span class="label-sm home-hero-ref">REF: BOJACK_SANCHEZ_ABOUT</span>
+        </div>
+        <h1 class="home-display">About Us</h1>
+        <p class="brand-description home-lede">Bojack Sanchez is an experimental AI studio that creates podcasts and curated audio experiences. Right now, its public work includes two bite-sized news shows: News in a Nutshell, a global news podcast in English, and Kurz und Klar, a regional German news podcast designed to help non-native speakers improve their German.</p>
     </div>
-</section>
+    </section>
 
-<section class="about-page">
+    <section class="about-page about-page-monolith">
     <div class="container">
         <div class="about-grid">
-            <div class="about-main">
-                <div class="about-block">
-                    <h2>The Mission</h2>
-                    <p>I've always wanted to stay updated with the news and share it in a way that's easy and engaging, but juggling that with a full-time job isn't easy. So, I built News in a Nutshell Podcast - a simple way to break down the biggest stories, twice a day.</p>
-                    <p>I source news from credible outlets, and AI helps edit and present it based on an algorithm I developed. It's my way of staying informed, and I hope it benefits you too.</p>
-                </div>
-
-                <div class="about-block">
-                    <h2>The Process</h2>
-                    <p>Every episode is carefully crafted using a unique algorithm that sources news from credible outlets worldwide. The AI assists in editing and presenting the content, but the editorial decisions and quality control remain firmly human.</p>
-                    <p>Each episode is designed to be consumable in under 2 minutes, perfect for your commute, workout, or coffee break.</p>
-                </div>
-
-                <div class="about-block">
-                    <h2>The Host</h2>
-                    <p>Hi, I'm Bojack Sanchez. I'm passionate about keeping people informed without overwhelming them. In our fast-paced world, I believe everyone deserves access to the news that matters, delivered in a format that respects your time.</p>
-                    <p>When I'm not working on the podcast, I'm exploring new technologies and finding better ways to process and present information.</p>
-                </div>
+        <div class="about-main">
+            <div class="about-block">
+            <h2 class="about-block-kicker label-sm">Intro</h2>
+            <p>Bojack Sanchez is the parent studio behind a small set of audio projects. The focus is on making useful listening experiences that are clear, concise, and easy to fit into everyday life.</p>
+            <p>The studio is AI-assisted, but not AI-only. Technology helps with editing and production support, while human judgment shapes what gets published and how it is presented.</p>
             </div>
 
-            <div class="about-sidebar">
-                <div class="stats-card">
-                    <h3>Podcast Stats</h3>
-                    <div class="stat-item">
-                        <strong id="about-total-episodes">--</strong>
-                        <span>Total Episodes</span>
-                    </div>
-                    <div class="stat-item">
-                        <strong>2x Daily</strong>
-                        <span>Publishing Schedule</span>
-                    </div>
-                    <div class="stat-item">
-                        <strong>~2 min</strong>
-                        <span>Average Length</span>
-                    </div>
-                    <div class="stat-item">
-                        <strong id="launch-date">2025</strong>
-                        <span>Launch Year</span>
-                    </div>
-                </div>
+            <div class="about-block">
+            <h2 class="about-block-kicker label-sm">What the studio publishes right now</h2>
+            <p>At the moment, Bojack Sanchez publishes two public projects. News in a Nutshell is a bite-sized global news podcast in English. Kurz und Klar is a bite-sized regional German news podcast made for non-native speakers who want relevant news in simpler, more accessible German.</p>
+            <p>Both shows are built around the same idea: helpful audio that respects your time and makes it easier to stay informed or keep learning without overwhelm.</p>
+            </div>
 
-                <div class="contact-card">
-                    <h3>Get in Touch</h3>
-                    <p>Have feedback or suggestions? I'd love to hear from you.</p>
-                    <a href="mailto:{{ site.email }}" class="btn btn-primary">
-                        <i class="fas fa-envelope"></i> Send Email
-                    </a>
-                </div>
+            <div class="about-block">
+            <h2 class="about-block-kicker label-sm">Why it exists</h2>
+            <p>There is a lot of audio and a lot of information, but not always a lot of clarity. Bojack Sanchez exists to create focused listening experiences that are easier to understand, easier to finish, and more useful in real life.</p>
+            <p>For the current news shows, that means helping people stay up to date quickly, especially when they do not have time for long episodes, long articles, or endless scrolling.</p>
+            </div>
 
-                <div class="subscribe-card">
-                    <h3>Subscribe Now</h3>
-                    <p>Never miss an episode. Subscribe on your favorite platform.</p>
-                    <div class="subscribe-buttons">
-                        <a href="https://open.spotify.com/show/56qcPE9A13bq7wrEberN23?si=fa5743975e0c41a2" class="btn btn-spotify" target="_blank">
-                            <i class="fab fa-spotify"></i> Spotify
-                        </a>
-                        <a href="https://podcasts.apple.com/us/podcast/news-in-a-nutshell/id1805652294" class="btn btn-apple" target="_blank">
-                            <i class="fab fa-apple"></i> Apple Podcasts
-                        </a>
-                        <a href="https://music.amazon.com/podcasts/7fdb3b7b-808c-4cbb-a9e0-8e10ea93e7f8/news-in-a-nutshell" class="btn btn-outline" target="_blank">
-                            <i class="fab fa-amazon"></i> Amazon Music
-                        </a>
-                        <a href="{{ site.rss_feed_url }}" class="btn btn-outline" target="_blank">
-                            <i class="fas fa-rss"></i> RSS Feed
-                        </a>
-                    </div>
-                </div>
+            <div class="about-block">
+            <h2 class="about-block-kicker label-sm">How it works</h2>
+            <p>The studio uses AI as a production tool, not as a replacement for editorial responsibility. AI can help with drafting, structuring, editing, and presentation so each piece is clearer and more efficient to produce.</p>
+            <p>Final judgment stays human-led. Source selection, quality control, and publishing decisions are reviewed carefully so the output stays useful, understandable, and trustworthy.</p>
+            </div>
+
+            <div class="about-block">
+            <h2 class="about-block-kicker label-sm">Current projects</h2>
+            <p><strong>News in a Nutshell</strong><br>A bite-sized global news podcast in English. It is made for listeners who want to stay up to date with current events quickly, without getting lost in noise or long formats.</p>
+            <p><strong>Kurz und Klar</strong><br>A bite-sized regional German news podcast for non-native speakers. It is designed to help listeners improve their German while following relevant local and regional news in a shorter, simpler format.</p>
+            </div>
+
+            <div class="about-block">
+            <h2 class="about-block-kicker label-sm">FAQ</h2>
+            <p><strong>What is Bojack Sanchez?</strong><br>Bojack Sanchez is an experimental AI studio that creates podcasts and curated audio experiences.</p>
+            <p><strong>What does the studio publish right now?</strong><br>Right now, the public projects are News in a Nutshell and Kurz und Klar.</p>
+            <p><strong>What is News in a Nutshell?</strong><br>News in a Nutshell is a bite-sized global news podcast in English for people who want quick, clear updates on current events.</p>
+            <p><strong>What is Kurz und Klar?</strong><br>Kurz und Klar is a bite-sized regional German news podcast designed to help non-native speakers improve their German while staying connected to relevant news.</p>
+            <p><strong>How is AI used?</strong><br>AI is used to support editing, structure, and production. Final review, quality control, and publishing decisions remain human-led.</p>
             </div>
         </div>
+
+        <div class="about-sidebar">
+            <div class="stats-card">
+            <h3 class="about-sidebar-title">Studio snapshot</h3>
+            <div class="stat-item">
+                <strong id="about-total-episodes">--</strong>
+                <span>Published episodes</span>
+            </div>
+            <div class="stat-item">
+                <strong>2</strong>
+                <span>Public projects</span>
+            </div>
+            <div class="stat-item">
+                <strong>EN + DE</strong>
+                <span>Languages</span>
+            </div>
+            <div class="stat-item">
+                <strong id="launch-date">2025</strong>
+                <span>Since</span>
+            </div>
+            </div>
+
+            <div class="contact-card">
+            <h3 class="about-sidebar-title">Get in touch</h3>
+            <p>Have feedback or suggestions? I'd love to hear from you.</p>
+            <a href="mailto:{{ site.email }}" class="btn btn-primary">
+                <i class="fas fa-envelope"></i> Send email
+            </a>
+            </div>
+
+        </div>
+        </div>
     </div>
-</section> 
+    </section>
+</div>
