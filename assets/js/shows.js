@@ -7,8 +7,11 @@ class ShowsManager {
     this.episodes = [];
     this.currentEpisode = null;
     this.isPlaying = false;
+    this.player = null;
     this.showSlug = null;
     this.rssSources = [];
+    this.activeSourceRequestId = 0;
+    this.pendingEpisodeSlug = null;
     this.init();
   }
 
@@ -94,9 +97,7 @@ class ShowsManager {
       this.loadShowImage(xmlDoc);
 
       this.renderEpisodes();
-      
-      // Check for deep link after episodes are loaded
-      this.checkDeepLink();
+      this.applyPendingEpisodeSelection();
     } catch (error) {
       console.error('Failed to load episodes:', error);
       container.innerHTML = '<div class="error">Failed to load episodes. Please try again later.</div>';
@@ -159,25 +160,24 @@ class ShowsManager {
     const episodeTimestamp = this.extractEpisodeTimestamp(audioUrl);
     const guid = getTextContent('guid') || Math.random().toString(36).substr(2, 9);
     const episodeId = `episode-${guid}`;
-    
-    // Generate URL slug from title (with fallback)
-    const slug = title.toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-')
-      .replace(/-$/, '') || `episode-${guid}`;
+    const canonicalUrl = this.extractCanonicalEpisodeUrl(item, description);
+    const canonicalSlug = this.extractSlugFromUrl(canonicalUrl);
+    const slug = canonicalSlug || this.slugify(title) || `episode-${guid}`;
 
     return {
       id: episodeId,
       title,
       slug,
+      canonicalSlug,
+      canonicalUrl,
       description,
       pubDate,
       formattedDate: this.formatDate(pubDate) || 'Date not available',
       duration: this.formatDuration(duration),
       audioUrl,
       episodeTimestamp,
-      guid
+      guid,
+      sources: null
     };
   }
 
@@ -185,6 +185,126 @@ class ShowsManager {
     if (!audioUrl) return null;
     const timestampMatch = audioUrl.match(/(\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2})/);
     return timestampMatch ? timestampMatch[1] : null;
+  }
+
+  slugify(value) {
+    if (!value) return '';
+
+    return value
+      .toString()
+      .trim()
+      .toLowerCase()
+      .replace(/ß/g, 'ss')
+      .replace(/æ/g, 'ae')
+      .replace(/œ/g, 'oe')
+      .replace(/ø/g, 'o')
+      .normalize('NFKD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/&/g, ' and ')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .replace(/-+/g, '-');
+  }
+
+  extractCanonicalEpisodeUrl(item, description = '') {
+    const candidateFields = [
+      description,
+      item.querySelector('itunes\\:summary')?.textContent || '',
+      item.querySelector('content\\:encoded')?.textContent || '',
+      item.querySelector('guid')?.textContent || '',
+      item.querySelector('link')?.textContent || ''
+    ];
+    const showPath = `/${this.showSlug}/`;
+
+    for (const field of candidateFields) {
+      const urls = field.match(/https?:\/\/[^\s<>"']+/g) || [];
+
+      for (const rawUrl of urls) {
+        const url = rawUrl.replace(/[)\],.;!?]+$/, '');
+
+        try {
+          const parsedUrl = new URL(url);
+          if (parsedUrl.pathname.includes(showPath)) {
+            return url;
+          }
+        } catch {
+          // Ignore malformed URLs embedded in feed content.
+        }
+      }
+    }
+
+    return '';
+  }
+
+  extractSlugFromUrl(value) {
+    if (!value) return '';
+
+    let path = value;
+
+    try {
+      path = new URL(value).pathname;
+    } catch {
+      path = value;
+    }
+
+    const parts = path.split('/').filter(Boolean);
+    if (parts.length === 0) {
+      return '';
+    }
+
+    if (parts[0] === this.showSlug && parts[1]) {
+      return decodeURIComponent(parts[1]);
+    }
+
+    return decodeURIComponent(parts[parts.length - 1]);
+  }
+
+  normalizeSlugCandidate(value, options = {}) {
+    const { fromTitle = false } = options;
+    if (!value) return '';
+
+    const candidate = fromTitle ? value : (this.extractSlugFromUrl(value) || value);
+    return this.slugify(candidate);
+  }
+
+  findEpisodeBySlug(slug) {
+    const normalizedSlug = this.normalizeSlugCandidate(slug);
+    if (!normalizedSlug) return null;
+
+    return this.episodes.find((episode) => {
+      const candidates = [
+        episode.slug,
+        episode.canonicalSlug,
+        episode.canonicalUrl,
+        episode.title
+      ];
+
+      return candidates.some((candidate, index) => (
+        this.normalizeSlugCandidate(candidate, { fromTitle: index === candidates.length - 1 }) === normalizedSlug
+      ));
+    }) || null;
+  }
+
+  getEpisodeSlugFromPath() {
+    const pathParts = window.location.pathname.split('/').filter(Boolean);
+    if (pathParts.length >= 2 && pathParts[0] === this.showSlug) {
+      return pathParts[1];
+    }
+
+    return null;
+  }
+
+  setPendingEpisodeSlug(slug) {
+    const normalizedSlug = this.normalizeSlugCandidate(slug);
+    this.pendingEpisodeSlug = normalizedSlug || null;
+  }
+
+  applyPendingEpisodeSelection() {
+    if (!this.pendingEpisodeSlug || this.episodes.length === 0) return;
+
+    if (this.findAndPlayEpisodeBySlug(this.pendingEpisodeSlug)) {
+      this.pendingEpisodeSlug = null;
+    }
   }
 
   formatDate(dateString) {
@@ -241,6 +361,66 @@ class ShowsManager {
     return this.showSlug === 'kurz-und-klar' ? 'Link kopieren' : 'Copy episode link';
   }
 
+  getSourcesHeading() {
+    return this.showSlug === 'kurz-und-klar' ? 'Quellen' : 'Sources';
+  }
+
+  getSourcesLoadingText() {
+    return this.showSlug === 'kurz-und-klar' ? 'Quellen werden geladen…' : 'Loading sources...';
+  }
+
+  getNowPlayingLabel() {
+    return this.showSlug === 'kurz-und-klar' ? 'Jetzt laeuft' : 'Now playing';
+  }
+
+  getSourcesUnavailableText() {
+    return this.showSlug === 'kurz-und-klar'
+      ? 'Quellen sind im Moment nicht erreichbar.'
+      : 'Sources are temporarily unavailable.';
+  }
+
+  getPlayerReadyLabel() {
+    return this.showSlug === 'kurz-und-klar' ? 'Bereit zum Hoeren' : 'Player ready';
+  }
+
+  getPlyrI18n() {
+    if (this.showSlug === 'kurz-und-klar') {
+      return {
+        restart: 'Neu starten',
+        rewind: '{seektime}s zurück',
+        play: 'Wiedergeben',
+        pause: 'Pausieren',
+        fastForward: '{seektime}s vor',
+        seek: 'Position',
+        seekLabel: '{currentTime} von {duration}',
+        played: 'Gespielt',
+        buffered: 'Geladen',
+        currentTime: 'Aktuelle Zeit',
+        duration: 'Dauer',
+        volume: 'Lautstärke',
+        mute: 'Stumm',
+        unmute: 'Ton an'
+      };
+    }
+
+    return {
+      restart: 'Restart',
+      rewind: 'Rewind {seektime}s',
+      play: 'Play',
+      pause: 'Pause',
+      fastForward: 'Forward {seektime}s',
+      seek: 'Seek',
+      seekLabel: '{currentTime} of {duration}',
+      played: 'Played',
+      buffered: 'Buffered',
+      currentTime: 'Current time',
+      duration: 'Duration',
+      volume: 'Volume',
+      mute: 'Mute',
+      unmute: 'Unmute'
+    };
+  }
+
   renderEpisodes() {
     const container = document.getElementById('episodes-list');
     if (!container) return;
@@ -279,7 +459,7 @@ class ShowsManager {
               ${episode.duration ? `<span class="episode-duration">${episode.duration}</span>` : ''}
             </div>
           </div>
-          ${isActive ? this.createPlayerMarkup() : ''}
+          ${isActive ? this.createPlayerMarkup(episode) : ''}
           <button class="btn-play" data-episode-id="${episode.id}" aria-label="${buttonLabel} ${this.escapeHtml(episode.title)}">
             <span class="play-text">${buttonLabel}</span>
             <i class="fas ${buttonIcon} play-icon" aria-hidden="true"></i>
@@ -294,8 +474,6 @@ class ShowsManager {
 
     if (this.currentEpisode) {
       this.setupPlayer();
-      this.updatePlayer();
-      this.loadSources();
       this.syncEpisodePlaybackUi();
     }
   }
@@ -337,6 +515,7 @@ class ShowsManager {
     const isSameEpisode = this.currentEpisode?.id === episodeId;
 
     if (!isSameEpisode) {
+      this.destroyPlayer();
       this.currentEpisode = episode;
       this.isPlaying = false;
       this.renderEpisodes();
@@ -371,17 +550,22 @@ class ShowsManager {
 
   async toggleEpisodePlayback(episodeId, episodeElement = null) {
     if (this.currentEpisode?.id !== episodeId) {
-      await this.selectEpisode(episodeId, episodeElement, { autoplay: true });
+      await this.selectEpisode(episodeId, episodeElement, { autoplay: false });
+      await this.loadSources();
+      await this.playCurrentAudio();
       return;
     }
 
-    const audioElement = document.getElementById('episode-audio');
+    const audioElement = this.getAudioElement();
     if (!audioElement) {
-      await this.selectEpisode(episodeId, episodeElement, { autoplay: true, scroll: false });
+      await this.selectEpisode(episodeId, episodeElement, { autoplay: false, scroll: false });
+      await this.loadSources();
+      await this.playCurrentAudio();
       return;
     }
 
     if (audioElement.paused) {
+      await this.loadSources();
       await this.playCurrentAudio();
     } else {
       audioElement.pause();
@@ -389,85 +573,140 @@ class ShowsManager {
   }
 
   updatePlayer() {
-    if (!this.currentEpisode) {
-      return;
-    }
+    if (!this.currentEpisode) return;
 
-    const sourcesContainer = document.getElementById('episode-sources');
-    if (sourcesContainer) {
-      sourcesContainer.style.display = 'none';
-    }
+    const audioElement = this.getAudioElement();
+    if (!audioElement) return;
 
-    const audioElement = document.getElementById('episode-audio');
-    if (audioElement) {
-      const nextSource = this.currentEpisode.audioUrl || '';
-      const currentSource = audioElement.getAttribute('src') || '';
+    const nextSource = this.currentEpisode.audioUrl || '';
+    const currentSource = audioElement.getAttribute('src') || audioElement.currentSrc || '';
 
-      if (currentSource !== nextSource) {
-        audioElement.src = nextSource;
-        audioElement.load();
-      }
+    if (nextSource && currentSource !== nextSource) {
+      audioElement.src = nextSource;
+      audioElement.load();
     }
   }
 
   async loadSources() {
     const sourcesContainer = document.getElementById('episode-sources');
     const activeEpisodeId = this.currentEpisode?.id;
-    
-    if (!this.currentEpisode) {
-      if (sourcesContainer) {
-        sourcesContainer.style.display = 'none';
+
+    if (!this.currentEpisode || !sourcesContainer) {
+      this.hideSources();
+      return;
+    }
+
+    if (Array.isArray(this.currentEpisode.sources)) {
+      if (this.currentEpisode.sources.length > 0) {
+        this.renderSources(this.currentEpisode.sources);
+        this.showSources();
+      } else {
+        this.hideSources();
       }
       return;
     }
-    
-    // Hide sources initially, will show if we successfully load them
-    if (sourcesContainer) {
-      sourcesContainer.style.display = 'none';
-    }
-    
+
     if (!this.currentEpisode.episodeTimestamp) {
+      this.hideSources();
       return;
     }
-    if (!sourcesContainer) return;
+
+    const requestId = ++this.activeSourceRequestId;
+    sourcesContainer.innerHTML = this.getSourcesLoadingMarkup();
+    this.showSources();
 
     try {
-      // Try to load sources from Backblaze B2 (still need proxy for external JSON)
       const jsonUrl = `https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/${this.showSlug}/${this.currentEpisode.episodeTimestamp}/assets/polished_script.json`;
-      const proxyUrl = 'https://api.allorigins.win/get?url=';
-      
-      const response = await fetch(`${proxyUrl}${encodeURIComponent(jsonUrl)}`);
-      
-      if (response.ok) {
-        const proxyData = await response.json();
-        
-        if (proxyData.contents) {
-          if (!this.currentEpisode || this.currentEpisode.id !== activeEpisodeId) {
-            return;
-          }
+      const sourceData = await this.fetchEpisodeSourceData(jsonUrl);
 
-          const sourceData = JSON.parse(proxyData.contents);
-          const sources = sourceData.sources || [];
-          
-          if (sources.length > 0) {
-            this.renderSources(sources);
-            sourcesContainer.removeAttribute('style');
-            sourcesContainer.style.display = 'block';
-            sourcesContainer.style.visibility = 'visible';
-            console.log('Sources displayed, count:', sources.length);
-          } else {
-            sourcesContainer.style.display = 'none';
-            console.log('No sources to display');
-          }
-        } else {
-          sourcesContainer.style.display = 'none';
-        }
+      if (!this.currentEpisode || this.currentEpisode.id !== activeEpisodeId || requestId !== this.activeSourceRequestId) {
+        return;
+      }
+
+      const sources = this.normalizeSources(sourceData.sources || []);
+      this.currentEpisode.sources = sources;
+
+      if (sources.length > 0) {
+        this.renderSources(sources);
+        this.showSources();
       } else {
-        sourcesContainer.style.display = 'none';
+        this.hideSources();
       }
     } catch (error) {
       console.warn('Could not load sources:', error);
-      sourcesContainer.style.display = 'none';
+      this.renderSourcesUnavailable();
+      this.showSources();
+    }
+  }
+
+  async fetchEpisodeSourceData(jsonUrl) {
+    const attempts = [
+      { label: 'allorigins-primary', url: this.buildAllOriginsGetUrl(jsonUrl), parser: 'allorigins', timeoutMs: 4000 },
+      { label: 'allorigins-retry', url: this.buildAllOriginsGetUrl(jsonUrl), parser: 'allorigins', timeoutMs: 6500 },
+      { label: 'direct-json', url: jsonUrl, parser: 'json', timeoutMs: 2500 }
+    ];
+    const errors = [];
+
+    for (const attempt of attempts) {
+      try {
+        return await this.fetchSourceAttempt(attempt);
+      } catch (error) {
+        console.warn(`Source fetch attempt failed (${attempt.label}):`, error);
+        errors.push(`${attempt.label}: ${error.message}`);
+      }
+    }
+
+    throw new Error(errors.join(' | ') || 'Unable to load sources');
+  }
+
+  buildAllOriginsGetUrl(targetUrl) {
+    const requestUrl = new URL('https://api.allorigins.win/get');
+    requestUrl.searchParams.set('url', targetUrl);
+    requestUrl.searchParams.set('_', `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`);
+    return requestUrl.toString();
+  }
+
+  async fetchSourceAttempt(attempt) {
+    const response = await this.fetchWithTimeout(attempt.url, {
+      method: 'GET',
+      cache: 'no-store',
+      headers: {
+        'Accept': 'application/json, text/plain, */*'
+      }
+    }, attempt.timeoutMs);
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    if (attempt.parser === 'json') {
+      return response.json();
+    }
+
+    const proxyData = await response.json();
+    if (!proxyData || typeof proxyData.contents !== 'string' || !proxyData.contents.trim()) {
+      throw new Error('Empty proxy payload');
+    }
+
+    return JSON.parse(proxyData.contents);
+  }
+
+  async fetchWithTimeout(url, options = {}, timeoutMs = 5000) {
+    const controller = new AbortController();
+    const timeoutId = window.setTimeout(() => controller.abort(new Error('Request timed out')), timeoutMs);
+
+    try {
+      return await fetch(url, {
+        ...options,
+        signal: controller.signal
+      });
+    } catch (error) {
+      if (error.name === 'AbortError') {
+        throw new Error(`Timed out after ${timeoutMs}ms`);
+      }
+      throw error;
+    } finally {
+      window.clearTimeout(timeoutId);
     }
   }
 
@@ -487,6 +726,7 @@ class ShowsManager {
             <div class="source-content">
               <div class="source-title">${this.escapeHtml(title)}</div>
               <div class="source-meta">
+                ${source.domain ? `<span class="source-domain">${this.escapeHtml(source.domain)}</span>` : ''}
                 ${category ? `<span class="source-category">${this.escapeHtml(category)}</span>` : ''}
                 ${country ? `<span class="source-country">${this.escapeHtml(country)}</span>` : ''}
               </div>
@@ -499,12 +739,88 @@ class ShowsManager {
 
     container.innerHTML = `
       <div class="sources-header">
-        <h4>Sources</h4>
+        <h4>${this.escapeHtml(this.getSourcesHeading())}</h4>
       </div>
       <div class="sources-list">
         ${sourcesHtml}
       </div>
     `;
+  }
+
+  renderSourcesUnavailable() {
+    const container = document.getElementById('episode-sources');
+    if (!container) return;
+
+    container.innerHTML = `
+      <div class="sources-loading">
+        <i class="fas fa-circle-exclamation" aria-hidden="true"></i>
+        <span>${this.escapeHtml(this.getSourcesUnavailableText())}</span>
+      </div>
+    `;
+  }
+
+  getSourcesLoadingMarkup() {
+    return `
+      <div class="sources-loading">
+        <i class="fas fa-spinner" aria-hidden="true"></i>
+        <span>${this.escapeHtml(this.getSourcesLoadingText())}</span>
+      </div>
+    `;
+  }
+
+  normalizeSources(sources) {
+    return sources
+      .map((source) => {
+        const url = source.url || '';
+        let domain = '';
+
+        if (url) {
+          try {
+            domain = new URL(url).hostname.replace(/^www\./, '');
+          } catch {
+            domain = '';
+          }
+        }
+
+        return {
+          ...source,
+          url,
+          domain
+        };
+      })
+      .filter((source) => source.url);
+  }
+
+  showSources() {
+    const container = document.getElementById('episode-sources');
+    if (!container) return;
+
+    container.hidden = false;
+    container.removeAttribute('aria-hidden');
+  }
+
+  hideSources() {
+    const container = document.getElementById('episode-sources');
+    if (!container) return;
+
+    container.hidden = true;
+    container.setAttribute('aria-hidden', 'true');
+  }
+
+  destroyPlayer() {
+    if (this.player && typeof this.player.destroy === 'function') {
+      try {
+        this.player.destroy();
+      } catch (error) {
+        console.warn('Could not clean up inline player:', error);
+      }
+    }
+
+    this.player = null;
+  }
+
+  getAudioElement() {
+    return this.player?.media || document.getElementById('episode-audio');
   }
 
   setupPlayer() {
@@ -519,11 +835,55 @@ class ShowsManager {
     }
 
     const audioElement = document.getElementById('episode-audio');
-    if (audioElement && !audioElement.dataset.bound) {
+    if (!audioElement) return;
+
+    if (this.player) {
+      this.destroyPlayer();
+    }
+
+    if (typeof Plyr !== 'undefined') {
+      this.player = new Plyr(audioElement, {
+        controls: [
+          'play',
+          'rewind',
+          'fast-forward',
+          'progress',
+          'current-time',
+          'duration',
+          'mute',
+          'volume'
+        ],
+        settings: [],
+        seekTime: 10,
+        volume: 0.7,
+        muted: false,
+        clickToPlay: true,
+        hideControls: false,
+        resetOnEnd: true,
+        keyboard: {
+          focused: true,
+          global: false
+        },
+        tooltips: {
+          controls: true,
+          seek: true
+        },
+        displayDuration: true,
+        invertTime: false,
+        toggleInvert: false,
+        i18n: this.getPlyrI18n()
+      });
+    } else {
+      audioElement.controls = true;
+      audioElement.volume = 0.7;
+    }
+
+    if (!audioElement.dataset.bound) {
       audioElement.dataset.bound = 'true';
       audioElement.addEventListener('play', () => {
         this.isPlaying = true;
         this.syncEpisodePlaybackUi();
+        this.loadSources();
       });
       audioElement.addEventListener('pause', () => {
         this.isPlaying = false;
@@ -534,6 +894,8 @@ class ShowsManager {
         this.syncEpisodePlaybackUi();
       });
     }
+
+    this.updatePlayer();
   }
   
   getCopyUi() {
@@ -544,28 +906,37 @@ class ShowsManager {
     };
   }
 
-  createPlayerMarkup() {
+  createPlayerMarkup(episode) {
     const ui = this.getCopyUi();
+    const playerStatus = this.isPlaying ? this.getNowPlayingLabel() : this.getPlayerReadyLabel();
+
     return `
       <div id="player-bar" class="player-bar" aria-label="Episode player">
-      <div class="player-content">
-        <div class="player-controls">
-          <audio id="episode-audio" controls preload="metadata" aria-label="${this.escapeHtml(this.getAudioLabel())}">
-            <p>Your browser doesn't support audio playback.</p>
-          </audio>
-          <button id="copy-link-btn" class="btn-copy-link" aria-label="${this.escapeHtml(this.getCopyAriaLabel())}">
-            <span class="btn-text">${ui.copyLink}</span>
-            <i class="fas fa-link btn-icon" aria-hidden="true"></i>  
-          </button>
+        <div class="player-content">
+          <div class="player-toolbar">
+            <span class="player-status label-sm">
+              <span class="episode-state-pulse" aria-hidden="true"></span>
+              <span class="player-status-text">${this.escapeHtml(playerStatus)}</span>
+            </span>
+            <button id="copy-link-btn" class="btn-copy-link" aria-label="${this.escapeHtml(this.getCopyAriaLabel())}">
+              <span class="btn-text">${ui.copyLink}</span>
+              <i class="fas fa-link btn-icon" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="player-controls">
+            <audio id="episode-audio" preload="metadata" playsinline aria-label="${this.escapeHtml(this.getAudioLabel())}">
+              <source src="${this.escapeHtml(episode.audioUrl || '')}" type="audio/mpeg">
+              <p>Your browser doesn't support audio playback.</p>
+            </audio>
+          </div>
         </div>
-      </div>
-      <div id="episode-sources" class="episode-sources" style="display: none;"></div>
+        <div id="episode-sources" class="episode-sources" hidden aria-hidden="true"></div>
       </div>
     `;
   }
 
   async playCurrentAudio() {
-    const audioElement = document.getElementById('episode-audio');
+    const audioElement = this.getAudioElement();
     if (!audioElement) return;
 
     try {
@@ -580,7 +951,7 @@ class ShowsManager {
   }
 
   syncEpisodePlaybackUi() {
-    const audioElement = document.getElementById('episode-audio');
+    const audioElement = this.getAudioElement();
     const isCurrentAudioPlaying = Boolean(
       this.currentEpisode &&
       audioElement &&
@@ -614,15 +985,29 @@ class ShowsManager {
         icon.className = `fas ${isPlaying ? 'fa-pause' : 'fa-play'} play-icon`;
       }
     });
+
+    const playerStatusText = document.querySelector('.player-status-text');
+    if (playerStatusText) {
+      playerStatusText.textContent = this.isPlaying ? this.getNowPlayingLabel() : this.getPlayerReadyLabel();
+    }
+
+    const main = document.querySelector('main[data-show]');
+    if (main) {
+      main.classList.toggle('is-playing', Boolean(this.isPlaying));
+      main.classList.toggle('has-active-episode', Boolean(this.currentEpisode));
+    }
+
+    document.body.classList.toggle('show-playback-active', Boolean(this.isPlaying));
   }
 
   closePlayer() {
-    const audioElement = document.getElementById('episode-audio');
+    const audioElement = this.getAudioElement();
 
     if (audioElement) {
       audioElement.pause();
     }
 
+    this.destroyPlayer();
     this.currentEpisode = null;
     this.isPlaying = false;
     this.renderEpisodes();
@@ -697,58 +1082,25 @@ class ShowsManager {
   }
 
   handleDeepLink() {
-    // Check for episode slug from sessionStorage (from 404 redirect)
     const storedSlug = sessionStorage.getItem('episodeSlug');
     if (storedSlug) {
-      console.log('Found stored episode slug from 404 redirect:', storedSlug);
       sessionStorage.removeItem('episodeSlug');
       sessionStorage.removeItem('showPath');
-      
-      // Wait for episodes to load, then find and play
-      const checkEpisode = () => {
-        if (this.episodes.length > 0) {
-          this.findAndPlayEpisodeBySlug(storedSlug);
-        } else {
-          setTimeout(checkEpisode, 100);
-        }
-      };
-      checkEpisode();
-      return;
+      this.setPendingEpisodeSlug(storedSlug);
+    } else {
+      this.setPendingEpisodeSlug(this.getEpisodeSlugFromPath());
     }
-    
-    // Check for episode slug in URL path
-    const pathParts = window.location.pathname.split('/').filter(p => p);
-    if (pathParts.length >= 2) {
-      const showSlug = pathParts[0];
-      const episodeSlug = pathParts[1];
-      
-      // Only process if it's the current show
-      if (showSlug === this.showSlug) {
-        // Wait for episodes to load, then find and play
-        const checkEpisode = () => {
-          if (this.episodes.length > 0) {
-            this.findAndPlayEpisodeBySlug(episodeSlug);
-          } else {
-            setTimeout(checkEpisode, 100);
-          }
-        };
-        checkEpisode();
-      }
-    }
-    
-    // Handle browser back/forward
+
     window.addEventListener('popstate', () => {
-      const pathParts = window.location.pathname.split('/').filter(p => p);
-      if (pathParts.length >= 2 && pathParts[0] === this.showSlug) {
-        const episodeSlug = pathParts[1];
-        this.findAndPlayEpisodeBySlug(episodeSlug);
+      const episodeSlug = this.getEpisodeSlugFromPath();
+      if (episodeSlug) {
+        this.setPendingEpisodeSlug(episodeSlug);
+        this.applyPendingEpisodeSelection();
       } else {
-        // Show page without episode - close player
         this.closePlayer();
       }
     });
-    
-    // Handle hash changes (legacy support)
+
     window.addEventListener('hashchange', () => {
       const hash = window.location.hash;
       if (hash) {
@@ -762,55 +1114,18 @@ class ShowsManager {
   }
 
   findAndPlayEpisodeBySlug(slug) {
-    const episode = this.episodes.find(ep => ep.slug === slug);
+    const episode = this.findEpisodeBySlug(slug);
     if (episode) {
-      const episodeElement = document.querySelector(`[data-episode-slug="${slug}"]`);
+      const episodeElement = document.querySelector(`[data-episode-slug="${episode.slug}"]`);
       this.selectEpisode(episode.id, episodeElement, {
         autoplay: false,
         updateUrl: false
       });
+      return true;
     }
-  }
 
-  checkDeepLink() {
-    // First check for stored slug from 404 redirect
-    const storedSlug = sessionStorage.getItem('episodeSlug');
-    if (storedSlug) {
-      console.log('checkDeepLink - Found stored episode slug:', storedSlug);
-      sessionStorage.removeItem('episodeSlug');
-      sessionStorage.removeItem('showPath');
-      
-      // Wait for episodes to load
-      const checkEpisode = () => {
-        if (this.episodes.length > 0) {
-          this.findAndPlayEpisodeBySlug(storedSlug);
-        } else {
-          setTimeout(checkEpisode, 100);
-        }
-      };
-      checkEpisode();
-      return;
-    }
-    
-    // Check for episode slug in URL path
-    const pathParts = window.location.pathname.split('/').filter(p => p);
-    if (pathParts.length >= 2) {
-      const showSlug = pathParts[0];
-      const episodeSlug = pathParts[1];
-      
-      // Only process if it's the current show
-      if (showSlug === this.showSlug) {
-        // Wait for episodes to load
-        const checkEpisode = () => {
-          if (this.episodes.length > 0) {
-            this.findAndPlayEpisodeBySlug(episodeSlug);
-          } else {
-            setTimeout(checkEpisode, 100);
-          }
-        };
-        checkEpisode();
-      }
-    }
+    console.warn('Episode not found for slug:', slug);
+    return false;
   }
 
   escapeHtml(text) {
@@ -878,4 +1193,3 @@ if (document.readyState === 'loading') {
 } else {
   new ShowsManager();
 }
-
