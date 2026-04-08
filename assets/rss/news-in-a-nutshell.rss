@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[NATO Tensions, US-Iran Ceasefire, and ASML's Future at Stake]]>
+      </title>
+      <description>
+        <![CDATA[This episode explores key global developments including NATO Secretary-General Mark Rutte's visit to Washington amid President Trump's NATO withdrawal threats and a new ceasefire with Iran. We also discuss ASML's stock decline due to the MATCH Act's export ban implications and how AI is reshaping the mortgage industry. Finally, Anthropic's cybersecurity initiative highlights the tensions between technological advancement and safety. Gain insights into how these stories intertwine and their potential impacts. - https://bojacksanchez.com/news-in-a-nutshell/nato-tensions-us-iran-ceasefire-and-asml-s-future-at-stake]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 08 Apr 2026 06:42:39 GMT</pubDate>
+      <guid isPermaLink="false">2026-04-08T06-25-46-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-04-08T06-25-46/podcast.mp3" length="4597121" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[This episode explores key global developments including NATO Secretary-General Mark Rutte's visit to Washington amid President Trump's NATO withdrawal threats and a new ceasefire with Iran. We also discuss ASML's stock decline due to the MATCH Act's export ban implications and how AI is reshaping the mortgage industry. Finally, Anthropic's cybersecurity initiative highlights the tensions between technological advancement and safety. Gain insights into how these stories intertwine and their potential impacts. - https://bojacksanchez.com/news-in-a-nutshell/nato-tensions-us-iran-ceasefire-and-asml-s-future-at-stake]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:04:47</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[US-Iran Tensions, Khamenei's Health, and JPMorgan's Blockchain Push]]>
       </title>
