@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[Ukraine's Defense Deal & NASA's Nuclear Spacecraft Plans]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we explore Ukraine's 4 billion euro defense agreement with Germany, aimed at boosting military capabilities against Russia. We discuss the implications of this deal amidst ongoing conflict and geopolitical shifts. Additionally, we cover the upcoming confirmation hearing for Kevin Warsh as Fed chair, the increasing significance of AI in healthcare highlighted by John Snow Labs' latest award, the semiconductor surge of ASML, and NASA's ambitious plans for a nuclear-powered spacecraft targeting Mars by 2028. Tune in for insights and analysis on these pivotal developments. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-s-defense-deal-nasa-s-nuclear-spacecraft-plans]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 15 Apr 2026 07:05:17 GMT</pubDate>
+      <guid isPermaLink="false">2026-04-15T06-38-17-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-04-15T06-38-17/podcast.mp3" length="5511496" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we explore Ukraine's 4 billion euro defense agreement with Germany, aimed at boosting military capabilities against Russia. We discuss the implications of this deal amidst ongoing conflict and geopolitical shifts. Additionally, we cover the upcoming confirmation hearing for Kevin Warsh as Fed chair, the increasing significance of AI in healthcare highlighted by John Snow Labs' latest award, the semiconductor surge of ASML, and NASA's ambitious plans for a nuclear-powered spacecraft targeting Mars by 2028. Tune in for insights and analysis on these pivotal developments. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-s-defense-deal-nasa-s-nuclear-spacecraft-plans]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:44</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Sudan Food Crisis, US-Iran Tensions, and AI Security Flaws]]>
       </title>
