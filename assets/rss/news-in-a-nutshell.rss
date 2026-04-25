@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[U.S.-China Tech Tensions & India's Stock Market Plunge]]>
+      </title>
+      <description>
+        <![CDATA[This episode delves into pressing stories, including the Trump administration's crackdown on Chinese AI firms and export control bills affecting global semiconductor supply chains. We also cover the turmoil in India's stock market, which has faced a 1,000-point drop amid geopolitical tensions. Additionally, we explore the implications of DeepSeek's new AI model and AIMPLAS’s IRION project aimed at enhancing the green hydrogen value chain. Join us as we unpack these interconnected issues shaping our global landscape. - https://bojacksanchez.com/news-in-a-nutshell/u-s-china-tech-tensions-india-s-stock-market-plunge]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sat, 25 Apr 2026 06:20:43 GMT</pubDate>
+      <guid isPermaLink="false">2026-04-25T06-20-13-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-04-25T06-20-13/podcast.mp3" length="6049022" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[This episode delves into pressing stories, including the Trump administration's crackdown on Chinese AI firms and export control bills affecting global semiconductor supply chains. We also cover the turmoil in India's stock market, which has faced a 1,000-point drop amid geopolitical tensions. Additionally, we explore the implications of DeepSeek's new AI model and AIMPLAS’s IRION project aimed at enhancing the green hydrogen value chain. Join us as we unpack these interconnected issues shaping our global landscape. - https://bojacksanchez.com/news-in-a-nutshell/u-s-china-tech-tensions-india-s-stock-market-plunge]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:06:18</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[US-China Semiconductor Tensions & Middle East Peace Talks]]>
       </title>
