@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[Fire-TV-Stick-Piraterie & US-Truppenabzug aus Deutschland]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge von Kurz & Klar geht es um die Fire-TV-Stick-Piraterie im Vereinigten Königreich, den geplanten Abzug von US-Truppen aus Deutschland und Änderungen bei der Witwenrente, die ab Juli 2026 gelten. Außerdem berichten wir über die steigenden Zinsen und die Fortschritte bei KI-Modellen von Redwood AI. Diese Themen zeigen, wie Politik und Wirtschaft unser Leben beeinflussen. - https://bojacksanchez.com/kurz-und-klar/fire-tv-stick-piraterie-us-truppenabzug-aus-deutschland]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sun, 03 May 2026 06:41:26 GMT</pubDate>
+      <guid isPermaLink="false">2026-05-03T06-41-17-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-05-03T06-41-17/podcastDE.mp3" length="2042612" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge von Kurz & Klar geht es um die Fire-TV-Stick-Piraterie im Vereinigten Königreich, den geplanten Abzug von US-Truppen aus Deutschland und Änderungen bei der Witwenrente, die ab Juli 2026 gelten. Außerdem berichten wir über die steigenden Zinsen und die Fortschritte bei KI-Modellen von Redwood AI. Diese Themen zeigen, wie Politik und Wirtschaft unser Leben beeinflussen. - https://bojacksanchez.com/kurz-und-klar/fire-tv-stick-piraterie-us-truppenabzug-aus-deutschland]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:07</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Drohnenangriff in Tuapse & Investitionen in Künstliche Intelligenz]]>
       </title>
