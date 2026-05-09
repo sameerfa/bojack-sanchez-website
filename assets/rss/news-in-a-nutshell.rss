@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[NATO Dynamics, Ukraine Drone Incidents & AI Innovations]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we explore significant global stories: NATO's shifting dynamics as European countries increase military spending, Ukraine's drone mishaps impacting relationships with neighbors, and the evolving economic landscape focusing on supply chain resilience. We also dive into the booming semiconductor market with ACM Research, OpenAI's latest voice model, and AI's transformative potential in gaming and content creation. Hear how these events are interconnected and what they mean for the future. - https://bojacksanchez.com/news-in-a-nutshell/nato-dynamics-ukraine-drone-incidents-ai-innovations]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sat, 09 May 2026 06:47:54 GMT</pubDate>
+      <guid isPermaLink="false">2026-05-09T06-46-44-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-05-09T06-46-44/podcast.mp3" length="6505201" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we explore significant global stories: NATO's shifting dynamics as European countries increase military spending, Ukraine's drone mishaps impacting relationships with neighbors, and the evolving economic landscape focusing on supply chain resilience. We also dive into the booming semiconductor market with ACM Research, OpenAI's latest voice model, and AI's transformative potential in gaming and content creation. Hear how these events are interconnected and what they mean for the future. - https://bojacksanchez.com/news-in-a-nutshell/nato-dynamics-ukraine-drone-incidents-ai-innovations]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:06:46</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Gaza Crisis, U.S.-Iran Tensions, and Renewable Tech Innovations]]>
       </title>

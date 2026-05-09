@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Bundesrat lehnt Entlastungsprämie ab & EU im KI-Wettlauf]]>
+      </title>
+      <description>
+        <![CDATA[Der Bundesrat hat die steuerfreie Entlastungsprämie abgelehnt, was Auswirkungen auf Beschäftigte hat. Die Bundesregierung verspricht stabile Krankenkassenbeiträge trotz Kritik. In Europa steigen die Energiepreise weiter, während die EU im globalen KI-Wettlauf hinterherhinkt. Diese Themen sind entscheidend für die wirtschaftliche Zukunft Deutschlands. - https://bojacksanchez.com/kurz-und-klar/bundesrat-lehnt-entlastungspr-mie-ab-eu-im-ki-wettlauf]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sat, 09 May 2026 06:48:38 GMT</pubDate>
+      <guid isPermaLink="false">2026-05-09T06-48-29-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-05-09T06-48-29/podcastDE.mp3" length="1518418" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Der Bundesrat hat die steuerfreie Entlastungsprämie abgelehnt, was Auswirkungen auf Beschäftigte hat. Die Bundesregierung verspricht stabile Krankenkassenbeiträge trotz Kritik. In Europa steigen die Energiepreise weiter, während die EU im globalen KI-Wettlauf hinterherhinkt. Diese Themen sind entscheidend für die wirtschaftliche Zukunft Deutschlands. - https://bojacksanchez.com/kurz-und-klar/bundesrat-lehnt-entlastungspr-mie-ab-eu-im-ki-wettlauf]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:34</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[EU-Verbot von Deepfakes & Barrierefreiheit im Bundestag]]>
       </title>
