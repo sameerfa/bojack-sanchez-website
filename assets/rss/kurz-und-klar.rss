@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[Eurovision Boykott, Sozialausgaben & Erdüberlastungstag]]>
+      </title>
+      <description>
+        <![CDATA[Im Podcast geht es um den Eurovision Song Contest 2026 und den Boykott von Ländern, die Israel nicht teilnehmen lassen wollen. CSU-Chef Söder fordert Einsparungen bei Sozialausgaben, da viele Senioren in Deutschland von Wohnarmut bedroht sind. Zudem werden KI-gesteuerte Preise im Einzelhandel diskutiert. Am 10. Mai 2026 erreichte Deutschland den Erdüberlastungstag, was die dringende Notwendigkeit für nachhaltige Energie zeigt. Wir beleuchten die Zusammenhänge dieser Themen. - https://bojacksanchez.com/kurz-und-klar/eurovision-boykott-sozialausgaben-erd-berlastungstag]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sun, 10 May 2026 06:46:03 GMT</pubDate>
+      <guid isPermaLink="false">2026-05-10T06-45-54-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-05-10T06-45-54/podcastDE.mp3" length="1799629" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Im Podcast geht es um den Eurovision Song Contest 2026 und den Boykott von Ländern, die Israel nicht teilnehmen lassen wollen. CSU-Chef Söder fordert Einsparungen bei Sozialausgaben, da viele Senioren in Deutschland von Wohnarmut bedroht sind. Zudem werden KI-gesteuerte Preise im Einzelhandel diskutiert. Am 10. Mai 2026 erreichte Deutschland den Erdüberlastungstag, was die dringende Notwendigkeit für nachhaltige Energie zeigt. Wir beleuchten die Zusammenhänge dieser Themen. - https://bojacksanchez.com/kurz-und-klar/eurovision-boykott-sozialausgaben-erd-berlastungstag]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:52</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Bundesrat lehnt Entlastungsprämie ab & EU im KI-Wettlauf]]>
       </title>
