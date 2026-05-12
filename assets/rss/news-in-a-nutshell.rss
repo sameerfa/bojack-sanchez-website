@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[Taiwan's Semiconductor Role & Trump’s China Visit Insight]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we explore Taiwan's pivotal role in the semiconductor industry amidst escalating US-China tensions, the implications of President Trump's historic visit to China, and the impact of export controls on NVIDIA. We also dive into the surge in natural gas prices affecting economies worldwide and discuss the alarming intersection of AI and cybersecurity, including the weaponization of AI in cybercrime. Gain unique insights into how these stories interconnect and what they mean for the future of global technology and economics. - https://bojacksanchez.com/news-in-a-nutshell/taiwan-s-semiconductor-role-trump-s-china-visit-insight]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 12 May 2026 07:12:39 GMT</pubDate>
+      <guid isPermaLink="false">2026-05-12T07-11-27-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-05-12T07-11-27/podcast.mp3" length="5598619" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we explore Taiwan's pivotal role in the semiconductor industry amidst escalating US-China tensions, the implications of President Trump's historic visit to China, and the impact of export controls on NVIDIA. We also dive into the surge in natural gas prices affecting economies worldwide and discuss the alarming intersection of AI and cybersecurity, including the weaponization of AI in cybercrime. Gain unique insights into how these stories interconnect and what they mean for the future of global technology and economics. - https://bojacksanchez.com/news-in-a-nutshell/taiwan-s-semiconductor-role-trump-s-china-visit-insight]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:49</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Sulfuric Acid Surge & AI Layoffs Impacting Markets]]>
       </title>
