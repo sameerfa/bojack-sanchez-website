@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[Gaza Ceasefire Stalemate & Nvidia's Tech Diplomacy with China]]>
+      </title>
+      <description>
+        <![CDATA[Today's episode covers the deadlocked ceasefire in Gaza, where over 72,724 Palestinians have been killed since October 2023, and the implications of Nvidia's CEO Jensen Huang's meeting with President Trump amid US-China tech tensions. We also discuss Nevada's shift of power supply from residences to data centers, Metaplanet's massive Q1 2026 loss alongside revenue growth, the rapid evolution of AI jobs, and an innovative zero-carbon coal fuel cell from China. Gain insights into the complexities of geopolitical dynamics and the future of energy strategies. - https://bojacksanchez.com/news-in-a-nutshell/gaza-ceasefire-stalemate-nvidia-s-tech-diplomacy-with-china]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 14 May 2026 07:18:48 GMT</pubDate>
+      <guid isPermaLink="false">2026-05-14T07-18-18-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-05-14T07-18-18/podcast.mp3" length="5678899" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Today's episode covers the deadlocked ceasefire in Gaza, where over 72,724 Palestinians have been killed since October 2023, and the implications of Nvidia's CEO Jensen Huang's meeting with President Trump amid US-China tech tensions. We also discuss Nevada's shift of power supply from residences to data centers, Metaplanet's massive Q1 2026 loss alongside revenue growth, the rapid evolution of AI jobs, and an innovative zero-carbon coal fuel cell from China. Gain insights into the complexities of geopolitical dynamics and the future of energy strategies. - https://bojacksanchez.com/news-in-a-nutshell/gaza-ceasefire-stalemate-nvidia-s-tech-diplomacy-with-china]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:54</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Huawei's Semiconductor Push & Xi-Trump Summit Insights]]>
       </title>
