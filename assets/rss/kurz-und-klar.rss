@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Iran-Konflikt, Hacker-Angriff auf TV Republika und Klimapolitik]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Episode behandeln wir den Iran-Konflikt und seine Auswirkungen auf die Ölpreise. Zudem berichten wir über einen Hacker-Angriff auf TV Republika, bei dem Identitäten missbraucht wurden. Außerdem schauen wir auf die Rückgabe von Windpark-Flächen durch TotalEnergies und die gescheiterte Klage von Elon Musk gegen OpenAI. Abschließend diskutieren wir die Mängel in der deutschen Klimapolitik. Hören Sie rein! - https://bojacksanchez.com/kurz-und-klar/iran-konflikt-hacker-angriff-auf-tv-republika-und-klimapolitik]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 19 May 2026 08:22:03 GMT</pubDate>
+      <guid isPermaLink="false">2026-05-19T08-21-54-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-05-19T08-21-54/podcastDE.mp3" length="1999651" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Episode behandeln wir den Iran-Konflikt und seine Auswirkungen auf die Ölpreise. Zudem berichten wir über einen Hacker-Angriff auf TV Republika, bei dem Identitäten missbraucht wurden. Außerdem schauen wir auf die Rückgabe von Windpark-Flächen durch TotalEnergies und die gescheiterte Klage von Elon Musk gegen OpenAI. Abschließend diskutieren wir die Mängel in der deutschen Klimapolitik. Hören Sie rein! - https://bojacksanchez.com/kurz-und-klar/iran-konflikt-hacker-angriff-auf-tv-republika-und-klimapolitik]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:04</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Deepfakes, Mietpreise in Stuttgart und die Energiekrise]]>
       </title>

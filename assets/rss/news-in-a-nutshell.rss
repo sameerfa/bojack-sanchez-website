@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Iran Proposals & Euroclear Sanctions Amid Global Market Volatility]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we discuss key global developments including Iranian Foreign Ministry Spokesman Esmaeil Baghaei's call for regional unity and a proposal to the US regarding sanctions and naval blockades. We also analyze Euroclear Bank's decision to keep $251 billion in Russian assets frozen despite a court ruling. Additionally, we explore the shift in market dynamics marked by the S&P 500's transition to positive gamma and a significant supply chain attack on the LiteLLM Python library. Finally, we highlight Blykalla's nuclear facility project in Sweden aimed at addressing power shortages. Join us as we unpack these critical issues shaping our world. - https://bojacksanchez.com/news-in-a-nutshell/iran-proposals-euroclear-sanctions-amid-global-market-volatility]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 19 May 2026 08:21:20 GMT</pubDate>
+      <guid isPermaLink="false">2026-05-19T08-20-58-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-05-19T08-20-58/podcast.mp3" length="5054239" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we discuss key global developments including Iranian Foreign Ministry Spokesman Esmaeil Baghaei's call for regional unity and a proposal to the US regarding sanctions and naval blockades. We also analyze Euroclear Bank's decision to keep $251 billion in Russian assets frozen despite a court ruling. Additionally, we explore the shift in market dynamics marked by the S&P 500's transition to positive gamma and a significant supply chain attack on the LiteLLM Python library. Finally, we highlight Blykalla's nuclear facility project in Sweden aimed at addressing power shortages. Join us as we unpack these critical issues shaping our world. - https://bojacksanchez.com/news-in-a-nutshell/iran-proposals-euroclear-sanctions-amid-global-market-volatility]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:15</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Ukraine Conflict, US-China Trade Deal, and Tech Sector Unrest]]>
       </title>
