@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[Mietrechtsreform, HateAid-Einreiseverbot und Cloud-Partnerschaft]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge geht es um die Mietrechtsreform in Deutschland, die private Vermieter betrifft. Wir sprechen über die Einreiseverbote für die Geschäftsführerinnen von HateAid und die Kritik der Gewerkschaft Verdi an Universitätskliniken. Zudem berichten wir über die Partnerschaft zwischen Thales und Google Cloud zur Entwicklung einer Cloud-Plattform. Abschließend zeigen wir, wie die Feuerverzinkungsindustrie ihre Emissionen senken kann. - https://bojacksanchez.com/kurz-und-klar/mietrechtsreform-hateaid-einreiseverbot-und-cloud-partnerschaft]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 22 May 2026 08:25:05 GMT</pubDate>
+      <guid isPermaLink="false">2026-05-22T08-24-57-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-05-22T08-24-57/podcastDE.mp3" length="1829180" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge geht es um die Mietrechtsreform in Deutschland, die private Vermieter betrifft. Wir sprechen über die Einreiseverbote für die Geschäftsführerinnen von HateAid und die Kritik der Gewerkschaft Verdi an Universitätskliniken. Zudem berichten wir über die Partnerschaft zwischen Thales und Google Cloud zur Entwicklung einer Cloud-Plattform. Abschließend zeigen wir, wie die Feuerverzinkungsindustrie ihre Emissionen senken kann. - https://bojacksanchez.com/kurz-und-klar/mietrechtsreform-hateaid-einreiseverbot-und-cloud-partnerschaft]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:54</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Sanktionen gegen HateAid & Energiekrise durch Iran-Konflikt]]>
       </title>
