@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[Ukraine Attack Casualties, Colombian Elite's Exodus, and U.S.-Iran Tensions]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we cover a range of significant stories. We start with the tragic attack in Ukraine, where 21 lives were lost in a college dormitory strike. Then, we shift to Colombia, where billionaires are considering relocating due to fears over President Gustavo Petro's policies. Next, tensions rise in U.S.-Iran relations as Trump hints at a nuclear deal, while ZKH Group reports impressive earnings amidst market instability. We also discuss Nvidia's reliance on the Chinese market and Google's controversial API access changes. Finally, we highlight a breakthrough in battery technology from the University of Limerick, potentially transforming energy storage solutions. Tune in for insights into these interconnected developments. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-attack-casualties-colombian-elite-s-exodus-and-u-s-iran-tensions]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sun, 24 May 2026 07:34:47 GMT</pubDate>
+      <guid isPermaLink="false">2026-05-24T07-34-20-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-05-24T07-34-20/podcast.mp3" length="5442177" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we cover a range of significant stories. We start with the tragic attack in Ukraine, where 21 lives were lost in a college dormitory strike. Then, we shift to Colombia, where billionaires are considering relocating due to fears over President Gustavo Petro's policies. Next, tensions rise in U.S.-Iran relations as Trump hints at a nuclear deal, while ZKH Group reports impressive earnings amidst market instability. We also discuss Nvidia's reliance on the Chinese market and Google's controversial API access changes. Finally, we highlight a breakthrough in battery technology from the University of Limerick, potentially transforming energy storage solutions. Tune in for insights into these interconnected developments. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-attack-casualties-colombian-elite-s-exodus-and-u-s-iran-tensions]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:40</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Iran Missile Threat, Ukraine Attack, and Tech Supply Chain Concerns]]>
       </title>
