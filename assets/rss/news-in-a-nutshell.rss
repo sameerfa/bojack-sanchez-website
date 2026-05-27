@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Ukraine Military Tensions, Tech Crackdowns & S&P 500 Valuations]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we explore significant stories shaping global dynamics, including Ukraine's ongoing military tensions highlighted by recent attacks, Taiwan's crackdown on AI chip smuggling to China, and the alarming S&P 500 CAPE ratio hitting a level not seen since the Great Depression. We also discuss Safe Pro Group's innovative use of AI in detecting landmines in Ukraine and the new developments in cryptocurrency with Coinbase's Base MCP, which enables AI interactions with wallets. Gain insights into the implications of these events on humanitarian efforts, market stability, and technological supremacy. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-military-tensions-tech-crackdowns-s-p-500-valuations]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 27 May 2026 08:35:43 GMT</pubDate>
+      <guid isPermaLink="false">2026-05-27T08-35-22-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-05-27T08-35-22/podcast.mp3" length="5182826" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we explore significant stories shaping global dynamics, including Ukraine's ongoing military tensions highlighted by recent attacks, Taiwan's crackdown on AI chip smuggling to China, and the alarming S&P 500 CAPE ratio hitting a level not seen since the Great Depression. We also discuss Safe Pro Group's innovative use of AI in detecting landmines in Ukraine and the new developments in cryptocurrency with Coinbase's Base MCP, which enables AI interactions with wallets. Gain insights into the implications of these events on humanitarian efforts, market stability, and technological supremacy. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-military-tensions-tech-crackdowns-s-p-500-valuations]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:23</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Ukraine Civilian Casualties, Middle East Tensions, and Wix Layoffs]]>
       </title>

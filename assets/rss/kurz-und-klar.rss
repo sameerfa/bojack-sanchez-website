@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Ukraine-Deutschland Gespräche & deutsche Wirtschaftsprobleme]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge geht es um die Gespräche zwischen der Ukraine und Deutschland. Wir berichten über die Protestmaßnahmen Deutschlands gegen Russland. Zudem beleuchten wir die wachsende Abhängigkeit von China und die Herausforderungen im deutschen Klimaschutz. Auch der Datenschutz und Cybersecurity spielen eine Rolle. Wir fassen die wichtigsten Themen für dich zusammen. - https://bojacksanchez.com/kurz-und-klar/ukraine-deutschland-gespr-che-deutsche-wirtschaftsprobleme]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 27 May 2026 08:36:26 GMT</pubDate>
+      <guid isPermaLink="false">2026-05-27T08-36-16-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-05-27T08-36-16/podcastDE.mp3" length="1513835" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge geht es um die Gespräche zwischen der Ukraine und Deutschland. Wir berichten über die Protestmaßnahmen Deutschlands gegen Russland. Zudem beleuchten wir die wachsende Abhängigkeit von China und die Herausforderungen im deutschen Klimaschutz. Auch der Datenschutz und Cybersecurity spielen eine Rolle. Wir fassen die wichtigsten Themen für dich zusammen. - https://bojacksanchez.com/kurz-und-klar/ukraine-deutschland-gespr-che-deutsche-wirtschaftsprobleme]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:34</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Medizinische Ungleichheit, Hundt unter Ermittlungen & KI-Einfluss auf den Jobmarkt]]>
       </title>
