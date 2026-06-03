@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[EU-Rückführungspolitik, Mieten in Deutschland & KI-Fortschritt]]>
+      </title>
+      <description>
+        <![CDATA[Heute berichten wir über das neue Entgelttransparenzgesetz der EU, das die Gehälter von Arbeitgebern offenlegt. Außerdem beleuchten wir die verschärfte Rückführungspolitik der EU für Migrant*innen. Zudem geht es um die hohen Mieten in Deutschland, die viele Haushalte belasten. Eine neue KI hat ein schwieriges mathematisches Problem gelöst, an dem Menschen gescheitert sind. Abschließend thematisieren wir den langsamen Ausbau der Stromnetze, der die Energiewende gefährden könnte. - https://bojacksanchez.com/kurz-und-klar/eu-r-ckf-hrungspolitik-mieten-in-deutschland-ki-fortschritt]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 03 Jun 2026 09:21:31 GMT</pubDate>
+      <guid isPermaLink="false">2026-06-03T09-21-22-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-06-03T09-21-22/podcastDE.mp3" length="1794662" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Heute berichten wir über das neue Entgelttransparenzgesetz der EU, das die Gehälter von Arbeitgebern offenlegt. Außerdem beleuchten wir die verschärfte Rückführungspolitik der EU für Migrant*innen. Zudem geht es um die hohen Mieten in Deutschland, die viele Haushalte belasten. Eine neue KI hat ein schwieriges mathematisches Problem gelöst, an dem Menschen gescheitert sind. Abschließend thematisieren wir den langsamen Ausbau der Stromnetze, der die Energiewende gefährden könnte. - https://bojacksanchez.com/kurz-und-klar/eu-r-ckf-hrungspolitik-mieten-in-deutschland-ki-fortschritt]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:52</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Streit um Netzausbau, BAföG-Reform & US-Schulden]]>
       </title>
