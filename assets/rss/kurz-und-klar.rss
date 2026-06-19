@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[USA-Iran Einigung & Mietpreise in Düsseldorf]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge von Kurz & Klar sprechen wir über die aktuelle Situation zwischen den USA und dem Iran, die steigenden Mieten in Düsseldorf und die Sorgen junger Menschen wegen Künstlicher Intelligenz. Außerdem informieren wir über Fortschritte beim Stromdrehkreuz HeideHub von Tennet. Bleiben Sie informiert über diese wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/usa-iran-einigung-mietpreise-in-d-sseldorf]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 19 Jun 2026 09:28:50 GMT</pubDate>
+      <guid isPermaLink="false">2026-06-19T09-28-41-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-06-19T09-28-41/podcastDE.mp3" length="1851308" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge von Kurz & Klar sprechen wir über die aktuelle Situation zwischen den USA und dem Iran, die steigenden Mieten in Düsseldorf und die Sorgen junger Menschen wegen Künstlicher Intelligenz. Außerdem informieren wir über Fortschritte beim Stromdrehkreuz HeideHub von Tennet. Bleiben Sie informiert über diese wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/usa-iran-einigung-mietpreise-in-d-sseldorf]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:55</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Ukraine-Konflikt, Marienhospital Stuttgart & KI-Risiken]]>
       </title>

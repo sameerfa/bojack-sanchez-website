@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[Ukraine Conflict Escalation & US-Iran Nuclear Talks]]>
+      </title>
+      <description>
+        <![CDATA[In today's episode, we delve into major global developments: Russia intensifies military operations in Ukraine, while troubling reports of abuse emerge from Gaza as a freed hostage speaks out. Diplomatic efforts between the US and Iran take center stage as they discuss a new peace memorandum on nuclear issues. Meanwhile, tech tensions rise as concerns over chip exports to China heat up, with significant stock market implications in South Korea. Plus, Adobe launches new AI tools for creative professionals. Tune in for crucial insights and analysis. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-conflict-escalation-us-iran-nuclear-talks]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 19 Jun 2026 09:28:06 GMT</pubDate>
+      <guid isPermaLink="false">2026-06-19T09-27-42-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-06-19T09-27-42/podcast.mp3" length="5198103" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In today's episode, we delve into major global developments: Russia intensifies military operations in Ukraine, while troubling reports of abuse emerge from Gaza as a freed hostage speaks out. Diplomatic efforts between the US and Iran take center stage as they discuss a new peace memorandum on nuclear issues. Meanwhile, tech tensions rise as concerns over chip exports to China heat up, with significant stock market implications in South Korea. Plus, Adobe launches new AI tools for creative professionals. Tune in for crucial insights and analysis. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-conflict-escalation-us-iran-nuclear-talks]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:24</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Russia-Ukraine War Update & G7 Critical Minerals Alliance]]>
       </title>
