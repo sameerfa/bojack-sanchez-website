@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[EU-Kontrollen für Amazon & Microsoft, Ukraine-Wiederaufbau]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge erfahren Sie, dass die EU Amazon Web Services und Microsoft strenger kontrollieren will. Außerdem wird die Wiederaufbaukonferenz für die Ukraine in Polen behandelt. Ein Urteil des Landgerichts München I besagt, dass Google für falsche KI-Zusammenfassungen haftet. Zudem gab es einen Spatenstich für ein neues Umspannwerk in Schleswig-Holstein. Diese Themen sind wichtig für die Datensicherheit und die Energieversorgung in Deutschland und Europa. - https://bojacksanchez.com/kurz-und-klar/eu-kontrollen-f-r-amazon-microsoft-ukraine-wiederaufbau]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 26 Jun 2026 08:12:25 GMT</pubDate>
+      <guid isPermaLink="false">2026-06-26T08-12-16-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-06-26T08-12-16/podcastDE.mp3" length="1511620" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge erfahren Sie, dass die EU Amazon Web Services und Microsoft strenger kontrollieren will. Außerdem wird die Wiederaufbaukonferenz für die Ukraine in Polen behandelt. Ein Urteil des Landgerichts München I besagt, dass Google für falsche KI-Zusammenfassungen haftet. Zudem gab es einen Spatenstich für ein neues Umspannwerk in Schleswig-Holstein. Diese Themen sind wichtig für die Datensicherheit und die Energieversorgung in Deutschland und Europa. - https://bojacksanchez.com/kurz-und-klar/eu-kontrollen-f-r-amazon-microsoft-ukraine-wiederaufbau]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:34</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Erdbeben in Venezuela, Kaufkraft in Bayern, Hitzewelle in Frankreich]]>
       </title>
