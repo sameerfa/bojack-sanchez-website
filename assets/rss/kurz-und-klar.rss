@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Neue Krankschreibungen, EU-Datenprobleme & steigende Energiekosten]]>
+      </title>
+      <description>
+        <![CDATA[Heute geht es um wichtige Themen aus der Politik, Wirtschaft und Technologie. Die neuen Regeln für Krankschreibungen könnten die Arztpraxen belasten. Ein Urteil des Supreme Court stellt den Datenaustausch zwischen der EU und den USA in Frage. Auch die steigenden Energiekosten durch die Hitzewelle in Deutschland und Frankreich sind ein großes Thema. Außerdem wird die Nutzung von Künstlicher Intelligenz vorgestellt. In Bayern gibt es Probleme beim Netzausbau der Solarenergie. Die Entwicklungen sind wichtig für unsere Gesellschaft. - https://bojacksanchez.com/kurz-und-klar/neue-krankschreibungen-eu-datenprobleme-steigende-energiekosten]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 03 Jul 2026 07:48:21 GMT</pubDate>
+      <guid isPermaLink="false">2026-07-03T07-48-11-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-07-03T07-48-11/podcastDE.mp3" length="2109211" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Heute geht es um wichtige Themen aus der Politik, Wirtschaft und Technologie. Die neuen Regeln für Krankschreibungen könnten die Arztpraxen belasten. Ein Urteil des Supreme Court stellt den Datenaustausch zwischen der EU und den USA in Frage. Auch die steigenden Energiekosten durch die Hitzewelle in Deutschland und Frankreich sind ein großes Thema. Außerdem wird die Nutzung von Künstlicher Intelligenz vorgestellt. In Bayern gibt es Probleme beim Netzausbau der Solarenergie. Die Entwicklungen sind wichtig für unsere Gesellschaft. - https://bojacksanchez.com/kurz-und-klar/neue-krankschreibungen-eu-datenprobleme-steigende-energiekosten]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:11</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[KI in Asylverfahren & Mietrechtsreform in Deutschland]]>
       </title>
