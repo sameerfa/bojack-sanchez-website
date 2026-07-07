@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Iran's Political Upheaval & New AI Model from Tencent]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we explore the aftermath of Ayatollah Khamenei's funeral, which drew over 2.2 million attendees in Tehran, highlighting regional discontent. We also discuss maritime tensions in the Strait of Hormuz, where 108 vessels crossed amidst escalating U.S.-Iran relations. The tech friction between the U.S. and China surfaces with ASML's EUV machine allegations. Additionally, we examine a dismal June jobs report showing just 57,000 new jobs added and a marked decline in labor force participation. Finally, Tencent's new AI model, Hy3, promises significant advancements in technology. Gain insights on how these complex stories interconnect and their implications for the future. - https://bojacksanchez.com/news-in-a-nutshell/iran-s-political-upheaval-new-ai-model-from-tencent]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 07 Jul 2026 08:01:47 GMT</pubDate>
+      <guid isPermaLink="false">2026-07-07T08-01-26-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-07-07T08-01-26/podcast.mp3" length="5647909" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we explore the aftermath of Ayatollah Khamenei's funeral, which drew over 2.2 million attendees in Tehran, highlighting regional discontent. We also discuss maritime tensions in the Strait of Hormuz, where 108 vessels crossed amidst escalating U.S.-Iran relations. The tech friction between the U.S. and China surfaces with ASML's EUV machine allegations. Additionally, we examine a dismal June jobs report showing just 57,000 new jobs added and a marked decline in labor force participation. Finally, Tencent's new AI model, Hy3, promises significant advancements in technology. Gain insights on how these complex stories interconnect and their implications for the future. - https://bojacksanchez.com/news-in-a-nutshell/iran-s-political-upheaval-new-ai-model-from-tencent]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:52</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[U.S. AI Chip Export Controls & Scotland's Retail Bonds]]>
       </title>
