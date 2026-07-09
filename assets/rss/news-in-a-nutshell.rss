@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[U.S.-Iran Tensions, Peak Energy's Battery Breakthrough, and Grok 4.5 Launch]]>
+      </title>
+      <description>
+        <![CDATA[In today’s episode, we discuss escalating tensions between the U.S. and Iran, triggered by military strikes and a notable end to the U.S.-Iran Memorandum of Understanding. We also examine Peak Energy's significant move towards commercial-scale sodium-ion battery production, with plans for a $1.1 billion factory in Sacramento. Additionally, we explore SpaceXAI's launch of Grok 4.5, a new AI model designed for coding tasks, and a breakthrough at Texas A&M University for producing graphene oxide from natural gas that may reshape battery manufacturing. Tune in for insights on how these developments could impact markets, energy security, and technological advancements. - https://bojacksanchez.com/news-in-a-nutshell/u-s-iran-tensions-peak-energy-s-battery-breakthrough-and-grok-4-5-launch]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 09 Jul 2026 08:05:25 GMT</pubDate>
+      <guid isPermaLink="false">2026-07-09T08-04-59-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-07-09T08-04-59/podcast.mp3" length="4997439" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In today’s episode, we discuss escalating tensions between the U.S. and Iran, triggered by military strikes and a notable end to the U.S.-Iran Memorandum of Understanding. We also examine Peak Energy's significant move towards commercial-scale sodium-ion battery production, with plans for a $1.1 billion factory in Sacramento. Additionally, we explore SpaceXAI's launch of Grok 4.5, a new AI model designed for coding tasks, and a breakthrough at Texas A&M University for producing graphene oxide from natural gas that may reshape battery manufacturing. Tune in for insights on how these developments could impact markets, energy security, and technological advancements. - https://bojacksanchez.com/news-in-a-nutshell/u-s-iran-tensions-peak-energy-s-battery-breakthrough-and-grok-4-5-launch]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:12</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Japan's Economic Struggles, US Foreign Policy Shifts, and Battery Breakthroughs]]>
       </title>
