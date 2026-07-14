@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[Cyberangriffe, EU-Sanktionen & Klimaschutz in Görlitz]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge berichten wir über aktuelle Themen wie Cyberangriffe auf europäische Infrastruktur, neue Sanktionen der EU und Großbritannien gegen Russland sowie einen ernsten Vorfall an einer Schule in Neuss. Außerdem schauen wir auf das Klimaschutzprojekt in Görlitz, das bis 2030 klimaneutral werden will. Hören Sie jetzt rein, um mehr zu erfahren. - https://bojacksanchez.com/kurz-und-klar/cyberangriffe-eu-sanktionen-klimaschutz-in-g-rlitz]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 14 Jul 2026 06:35:41 GMT</pubDate>
+      <guid isPermaLink="false">2026-07-14T06-35-31-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-07-14T06-35-31/podcastDE.mp3" length="2255308" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge berichten wir über aktuelle Themen wie Cyberangriffe auf europäische Infrastruktur, neue Sanktionen der EU und Großbritannien gegen Russland sowie einen ernsten Vorfall an einer Schule in Neuss. Außerdem schauen wir auf das Klimaschutzprojekt in Görlitz, das bis 2030 klimaneutral werden will. Hören Sie jetzt rein, um mehr zu erfahren. - https://bojacksanchez.com/kurz-und-klar/cyberangriffe-eu-sanktionen-klimaschutz-in-g-rlitz]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:20</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Anschlag in Leverkusen & Kaja Kallas in der Kritik]]>
       </title>
