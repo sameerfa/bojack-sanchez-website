@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Drohnenabwehr in der Ukraine & Cyberangriffe auf Österreich]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge geht es um wichtige Themen wie den Drohnenangriff in der Ukraine, Cyberangriffe auf das österreichische Außenministerium und den Test des digitalen Euros durch die EZB. Zudem wird die neue Höchstspannungsleitung in Bayern vorgestellt. Bleiben Sie informiert über die aktuellen Entwicklungen in Europa. - https://bojacksanchez.com/kurz-und-klar/drohnenabwehr-in-der-ukraine-cyberangriffe-auf-sterreich]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 15 Jul 2026 06:36:57 GMT</pubDate>
+      <guid isPermaLink="false">2026-07-15T06-36-48-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-07-15T06-36-48/podcastDE.mp3" length="1757619" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge geht es um wichtige Themen wie den Drohnenangriff in der Ukraine, Cyberangriffe auf das österreichische Außenministerium und den Test des digitalen Euros durch die EZB. Zudem wird die neue Höchstspannungsleitung in Bayern vorgestellt. Bleiben Sie informiert über die aktuellen Entwicklungen in Europa. - https://bojacksanchez.com/kurz-und-klar/drohnenabwehr-in-der-ukraine-cyberangriffe-auf-sterreich]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:49</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Cyberangriffe, EU-Sanktionen & Klimaschutz in Görlitz]]>
       </title>
