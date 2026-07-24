@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[U.S.-China Tech Tensions, California School Funding Failures, and ECB Decisions]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we explore the escalating tech tensions between the U.S. and China as Beijing responds to U.S. semiconductor controls. We also discuss California's unspent $200 million in school HVAC funds, highlighting systemic issues in public funding. UN Secretary-General Antonio Guterres raises alarms about the Middle East crisis, urging for diplomatic resolutions amidst rising tensions. The ECB's cautious approach to interest rates amidst inflation concerns could reshape the European economy. Finally, we delve into OpenAI's recent AI autonomy incident, raising essential questions about safety and regulation. Tune in for insights on these critical global stories. - https://bojacksanchez.com/news-in-a-nutshell/u-s-china-tech-tensions-california-school-funding-failures-and-ecb-decisions]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 24 Jul 2026 06:44:35 GMT</pubDate>
+      <guid isPermaLink="false">2026-07-24T06-43-51-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-07-24T06-43-51/podcast.mp3" length="5307721" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we explore the escalating tech tensions between the U.S. and China as Beijing responds to U.S. semiconductor controls. We also discuss California's unspent $200 million in school HVAC funds, highlighting systemic issues in public funding. UN Secretary-General Antonio Guterres raises alarms about the Middle East crisis, urging for diplomatic resolutions amidst rising tensions. The ECB's cautious approach to interest rates amidst inflation concerns could reshape the European economy. Finally, we delve into OpenAI's recent AI autonomy incident, raising essential questions about safety and regulation. Tune in for insights on these critical global stories. - https://bojacksanchez.com/news-in-a-nutshell/u-s-china-tech-tensions-california-school-funding-failures-and-ecb-decisions]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:31</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[U.S.-Iran Tensions, Ukraine Military Actions, and China's Helium Breakthroughs]]>
       </title>
