@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[Anschlag in Berlin & Sorgen um die Energiewende]]>
+      </title>
+      <description>
+        <![CDATA[Heute berichten wir über den Anschlag beim Christopher Street Day in Berlin, bei dem eine Frau starb. Wir sprechen auch über die Sorgen der Unternehmen wegen steigender Stromkosten im Rahmen der Energiewende. Zudem gibt es Neuigkeiten zu einer neuen Forschungsinfrastruktur, die die sozialwissenschaftliche Forschung stärken soll. Bleiben Sie informiert über diese wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/anschlag-in-berlin-sorgen-um-die-energiewende]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 28 Jul 2026 06:45:54 GMT</pubDate>
+      <guid isPermaLink="false">2026-07-28T06-45-46-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-07-28T06-45-46/podcastDE.mp3" length="1332956" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Heute berichten wir über den Anschlag beim Christopher Street Day in Berlin, bei dem eine Frau starb. Wir sprechen auch über die Sorgen der Unternehmen wegen steigender Stromkosten im Rahmen der Energiewende. Zudem gibt es Neuigkeiten zu einer neuen Forschungsinfrastruktur, die die sozialwissenschaftliche Forschung stärken soll. Bleiben Sie informiert über diese wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/anschlag-in-berlin-sorgen-um-die-energiewende]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:23</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Terroranschlag in Berlin & sinkende Ölpreise]]>
       </title>
