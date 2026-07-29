@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[CSD-Anschlag in Berlin & Proteste auf Mallorca]]>
+      </title>
+      <description>
+        <![CDATA[In diesem Podcast sprechen wir über wichtige Themen. Ein Terroranschlag in Berlin hat eine Frau getötet und viele verletzt. Das sorgt für Diskussionen über Sicherheit in Deutschland. Außerdem gibt es Proteste auf Mallorca gegen den Massentourismus. Die Einheimischen leiden unter hohen Preisen. Arbeitgeberpräsident Dulger warnt vor geringem Wirtschaftswachstum in Deutschland. Zudem arbeiten die Firmen Schwarz Digits und Zscaler an einer neuen Cloud-Sicherheitsplattform. Klimaforscher Rahmstorf wurde wegen Waldbränden evakuiert. Diese Themen sind momentan besonders wichtig. - https://bojacksanchez.com/kurz-und-klar/csd-anschlag-in-berlin-proteste-auf-mallorca]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 29 Jul 2026 06:58:01 GMT</pubDate>
+      <guid isPermaLink="false">2026-07-29T06-57-52-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-07-29T06-57-52/podcastDE.mp3" length="1810849" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In diesem Podcast sprechen wir über wichtige Themen. Ein Terroranschlag in Berlin hat eine Frau getötet und viele verletzt. Das sorgt für Diskussionen über Sicherheit in Deutschland. Außerdem gibt es Proteste auf Mallorca gegen den Massentourismus. Die Einheimischen leiden unter hohen Preisen. Arbeitgeberpräsident Dulger warnt vor geringem Wirtschaftswachstum in Deutschland. Zudem arbeiten die Firmen Schwarz Digits und Zscaler an einer neuen Cloud-Sicherheitsplattform. Klimaforscher Rahmstorf wurde wegen Waldbränden evakuiert. Diese Themen sind momentan besonders wichtig. - https://bojacksanchez.com/kurz-und-klar/csd-anschlag-in-berlin-proteste-auf-mallorca]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:53</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Anschlag in Berlin & Sorgen um die Energiewende]]>
       </title>
