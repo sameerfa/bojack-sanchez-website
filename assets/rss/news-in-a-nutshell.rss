@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[U.S. Robot Import Ban & Middle East Tensions Amid Tech Breakthroughs]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we explore the implications of the U.S. Federal Communications Commission's ban on foreign humanoid robots and power inverters, primarily targeting China, as geopolitical tensions rise. We also discuss the drone attack on the U.S.-owned gas tanker Energos Winter in Egypt, marking a first in the ongoing Middle East conflict. Moreover, we cover ChangXin Memory Technologies' landmark IPO, raising 57.9 billion yuan, and the $3.5 billion financing round for Moonshot AI, raising questions about data risks. Lastly, we reveal North Korean cyber threats linked to major open-source JavaScript packages, highlighting the critical need for cybersecurity. Tune in for insightful analysis and what these developments mean for the future. - https://bojacksanchez.com/news-in-a-nutshell/u-s-robot-import-ban-middle-east-tensions-amid-tech-breakthroughs]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 30 Jul 2026 06:54:37 GMT</pubDate>
+      <guid isPermaLink="false">2026-07-30T06-53-58-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-07-30T06-53-58/podcast.mp3" length="4993274" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we explore the implications of the U.S. Federal Communications Commission's ban on foreign humanoid robots and power inverters, primarily targeting China, as geopolitical tensions rise. We also discuss the drone attack on the U.S.-owned gas tanker Energos Winter in Egypt, marking a first in the ongoing Middle East conflict. Moreover, we cover ChangXin Memory Technologies' landmark IPO, raising 57.9 billion yuan, and the $3.5 billion financing round for Moonshot AI, raising questions about data risks. Lastly, we reveal North Korean cyber threats linked to major open-source JavaScript packages, highlighting the critical need for cybersecurity. Tune in for insightful analysis and what these developments mean for the future. - https://bojacksanchez.com/news-in-a-nutshell/u-s-robot-import-ban-middle-east-tensions-amid-tech-breakthroughs]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:12</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[U.S. Semiconductor Restrictions, Illinois Nuclear Energy Lift & CXMT IPO Surge]]>
       </title>
