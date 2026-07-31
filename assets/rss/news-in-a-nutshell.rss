@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[U.S. AI Export Controls, Zelensky's Visit & Energy Transition Challenges]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we delve into U.S. export controls on AI technology aimed at China and their potential global implications. We discuss President Zelensky's recent visit to Washington, where he addressed defense cooperation amid ongoing conflict in Ukraine. We also explore vulnerabilities in semiconductor policy exposed by Congressman Brian Mast, the logistical challenges of the energy transition, and a breakthrough in AI robotics by Google DeepMind. Gain insights into how these interconnected stories shape our technological and geopolitical landscape. - https://bojacksanchez.com/news-in-a-nutshell/u-s-ai-export-controls-zelensky-s-visit-energy-transition-challenges]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 31 Jul 2026 07:06:05 GMT</pubDate>
+      <guid isPermaLink="false">2026-07-31T07-05-20-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-07-31T07-05-20/podcast.mp3" length="5047620" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we delve into U.S. export controls on AI technology aimed at China and their potential global implications. We discuss President Zelensky's recent visit to Washington, where he addressed defense cooperation amid ongoing conflict in Ukraine. We also explore vulnerabilities in semiconductor policy exposed by Congressman Brian Mast, the logistical challenges of the energy transition, and a breakthrough in AI robotics by Google DeepMind. Gain insights into how these interconnected stories shape our technological and geopolitical landscape. - https://bojacksanchez.com/news-in-a-nutshell/u-s-ai-export-controls-zelensky-s-visit-energy-transition-challenges]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:15</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[U.S. Robot Import Ban & Middle East Tensions Amid Tech Breakthroughs]]>
       </title>
