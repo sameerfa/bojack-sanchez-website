@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[Palästinenser in Deutschland & Schusswaffenvorfall in Sewastopol]]>
+      </title>
+      <description>
+        <![CDATA[Wir berichten über die Lage palästinensischer Flüchtlinge in Deutschland und einen tödlichen Vorfall in Sewastopol. Außerdem geht es um die Strompreise in Deutschland und einen Cyberangriff auf britische Polizeidaten. Diese Themen zeigen aktuelle Herausforderungen in der Gesellschaft. - https://bojacksanchez.com/kurz-und-klar/pal-stinenser-in-deutschland-schusswaffenvorfall-in-sewastopol]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 05 Aug 2026 06:49:41 GMT</pubDate>
+      <guid isPermaLink="false">2026-08-05T06-49-32-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-08-05T06-49-32/podcastDE.mp3" length="1665823" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Wir berichten über die Lage palästinensischer Flüchtlinge in Deutschland und einen tödlichen Vorfall in Sewastopol. Außerdem geht es um die Strompreise in Deutschland und einen Cyberangriff auf britische Polizeidaten. Diese Themen zeigen aktuelle Herausforderungen in der Gesellschaft. - https://bojacksanchez.com/kurz-und-klar/pal-stinenser-in-deutschland-schusswaffenvorfall-in-sewastopol]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:44</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Mohamed Ibrahim, Stromausfall in Kuba & Probleme der Stahlindustrie]]>
       </title>
