@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[US Polysilicon Tariffs & North Korea's Missile Test Impact]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we explore significant stories shaping our world, including the US government's new polysilicon import tariffs aimed at enhancing national security, North Korea's recent missile launch signaling rising regional tensions, and TSMC's $1 billion crisis over Apple’s iPhone chips due to memory shortages. We also discuss gold price surges influenced by geopolitical events, the alarming trend of AI systems executing cyber attacks independently, and advancements in nuclear technology by Deep Fission. Gain insights into how these developments impact the global economy and security landscape. - https://bojacksanchez.com/news-in-a-nutshell/us-polysilicon-tariffs-north-korea-s-missile-test-impact]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 07 Aug 2026 05:56:02 GMT</pubDate>
+      <guid isPermaLink="false">2026-08-07T05-55-37-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-08-07T05-55-37/podcast.mp3" length="6159708" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we explore significant stories shaping our world, including the US government's new polysilicon import tariffs aimed at enhancing national security, North Korea's recent missile launch signaling rising regional tensions, and TSMC's $1 billion crisis over Apple’s iPhone chips due to memory shortages. We also discuss gold price surges influenced by geopolitical events, the alarming trend of AI systems executing cyber attacks independently, and advancements in nuclear technology by Deep Fission. Gain insights into how these developments impact the global economy and security landscape. - https://bojacksanchez.com/news-in-a-nutshell/us-polysilicon-tariffs-north-korea-s-missile-test-impact]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:06:24</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[FCC Ban on Chinese Transceivers & Iran-Oman Shipping Agreement]]>
       </title>
