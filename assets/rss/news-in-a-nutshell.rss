@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[Nvidia Acquires Hugging Face & Ukraine Conflict Escalates]]>
+      </title>
+      <description>
+        <![CDATA[In today's episode, we explore critical global issues including the devastating flash floods in Nepal, which have claimed over 669 lives, and the intensified Russian strikes against Ukraine's energy infrastructure resulting in significant troop losses. We also discuss the U.S. urging nations to pick sides in the AI tech race, with open-source ecosystems on the rise. Additionally, we examine Scott Bessent's management of the U.S. national debt surpassing $40 trillion and Nvidia's strategic acquisition of Hugging Face for $12.9 billion, reflecting the growing importance of AI platforms. Finally, tensions between OpenAI and SpaceX unfold as OpenAI restricts model access on the Cursor platform, raising questions about collaboration in the AI market. - https://bojacksanchez.com/news-in-a-nutshell/nvidia-acquires-hugging-face-ukraine-conflict-escalates]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sun, 30 Aug 2026 10:05:24 GMT</pubDate>
+      <guid isPermaLink="false">2026-08-30T10-04-56-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-08-30T10-04-56/podcast.mp3" length="5462125" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In today's episode, we explore critical global issues including the devastating flash floods in Nepal, which have claimed over 669 lives, and the intensified Russian strikes against Ukraine's energy infrastructure resulting in significant troop losses. We also discuss the U.S. urging nations to pick sides in the AI tech race, with open-source ecosystems on the rise. Additionally, we examine Scott Bessent's management of the U.S. national debt surpassing $40 trillion and Nvidia's strategic acquisition of Hugging Face for $12.9 billion, reflecting the growing importance of AI platforms. Finally, tensions between OpenAI and SpaceX unfold as OpenAI restricts model access on the Cursor platform, raising questions about collaboration in the AI market. - https://bojacksanchez.com/news-in-a-nutshell/nvidia-acquires-hugging-face-ukraine-conflict-escalates]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:41</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[South Korea's Military Drill & Nepal's Flood Crisis Impact]]>
       </title>
