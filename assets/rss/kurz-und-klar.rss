@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[Gesundheitsreform Merz, Cyberangriff in Berlin und Flutopfer in Nepal]]>
+      </title>
+      <description>
+        <![CDATA[Dieser Podcast behandelt die Gesundheitsreform von Kanzler Friedrich Merz, die von einer Kinderärztin als Bedrohung für Kinder bezeichnet wird. Außerdem warnte Merz vor einem möglichen Sieg der AfD in Sachsen-Anhalt. Zudem gibt es einen Bericht über KKR, das eine hohe Strafe zahlen muss. Traurige Nachrichten kommen aus Nepal, wo die Zahl der Flutopfer steigt. Hören Sie mehr über die aktuellen Entwicklungen in diesen Themen. - https://bojacksanchez.com/kurz-und-klar/gesundheitsreform-merz-cyberangriff-in-berlin-und-flutopfer-in-nepal]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Mon, 31 Aug 2026 10:58:22 GMT</pubDate>
+      <guid isPermaLink="false">2026-08-31T10-58-13-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-08-31T10-58-13/podcastDE.mp3" length="1940921" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Dieser Podcast behandelt die Gesundheitsreform von Kanzler Friedrich Merz, die von einer Kinderärztin als Bedrohung für Kinder bezeichnet wird. Außerdem warnte Merz vor einem möglichen Sieg der AfD in Sachsen-Anhalt. Zudem gibt es einen Bericht über KKR, das eine hohe Strafe zahlen muss. Traurige Nachrichten kommen aus Nepal, wo die Zahl der Flutopfer steigt. Hören Sie mehr über die aktuellen Entwicklungen in diesen Themen. - https://bojacksanchez.com/kurz-und-klar/gesundheitsreform-merz-cyberangriff-in-berlin-und-flutopfer-in-nepal]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:01</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Lars Klingbeil, Sturzflut in Nepal & steigende Gaspreise]]>
       </title>

@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[U.S.-Iran Tensions, Fed Rate Hike, and Ukraine Conflict Impact]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we explore key global developments including U.S. Treasury Secretary Scott Bessent's agenda at the G20 summit, escalating U.S.-Iran tensions, and alarming reports from Ukraine about military losses. We also discuss potential implications of the Federal Reserve's upcoming rate hike under Chair Kevin Warsh, as well as cybersecurity vulnerabilities highlighted by CISA. Tune in for insights on how these interconnected stories could shape economic stability and geopolitical dynamics moving forward. - https://bojacksanchez.com/news-in-a-nutshell/u-s-iran-tensions-fed-rate-hike-and-ukraine-conflict-impact]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Mon, 31 Aug 2026 10:57:38 GMT</pubDate>
+      <guid isPermaLink="false">2026-08-31T10-57-10-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-08-31T10-57-10/podcast.mp3" length="5617798" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we explore key global developments including U.S. Treasury Secretary Scott Bessent's agenda at the G20 summit, escalating U.S.-Iran tensions, and alarming reports from Ukraine about military losses. We also discuss potential implications of the Federal Reserve's upcoming rate hike under Chair Kevin Warsh, as well as cybersecurity vulnerabilities highlighted by CISA. Tune in for insights on how these interconnected stories could shape economic stability and geopolitical dynamics moving forward. - https://bojacksanchez.com/news-in-a-nutshell/u-s-iran-tensions-fed-rate-hike-and-ukraine-conflict-impact]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:51</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Nvidia Acquires Hugging Face & Ukraine Conflict Escalates]]>
       </title>
