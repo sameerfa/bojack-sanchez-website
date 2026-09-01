@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[Ukraine-Krieg & Cyberangriff auf Berlin]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge sprechen wir über die aktuellen Nachrichten. Im Ukraine-Krieg gab es Angriffe auf Kiew mit Todesopfern. Friedrich Merz macht mit seinen Äußerungen zu Ärzten Schlagzeilen. Ein Cyberangriff auf Berlin sorgt für Besorgnis. Außerdem warnt die Europäische Umweltagentur vor den Folgen des Klimawandels. Bleiben Sie informiert über wichtige Entwicklungen. - https://bojacksanchez.com/kurz-und-klar/ukraine-krieg-cyberangriff-auf-berlin]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 01 Sep 2026 09:35:00 GMT</pubDate>
+      <guid isPermaLink="false">2026-09-01T09-34-52-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-09-01T09-34-52/podcastDE.mp3" length="1443519" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge sprechen wir über die aktuellen Nachrichten. Im Ukraine-Krieg gab es Angriffe auf Kiew mit Todesopfern. Friedrich Merz macht mit seinen Äußerungen zu Ärzten Schlagzeilen. Ein Cyberangriff auf Berlin sorgt für Besorgnis. Außerdem warnt die Europäische Umweltagentur vor den Folgen des Klimawandels. Bleiben Sie informiert über wichtige Entwicklungen. - https://bojacksanchez.com/kurz-und-klar/ukraine-krieg-cyberangriff-auf-berlin]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:30</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Gesundheitsreform Merz, Cyberangriff in Berlin und Flutopfer in Nepal]]>
       </title>
