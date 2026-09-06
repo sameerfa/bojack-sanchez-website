@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Datenleck in Berlin, Vodafone vs. 1&1 und erneuerbare Energien]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Episode geht es um ein großes Datenleck in Berlin, den Streit zwischen Vodafone und 1&1 sowie den aktuellen Stand der erneuerbaren Energien in Deutschland. Eine Hackergruppe hat geheime Daten veröffentlicht, was die nationale Sicherheit gefährdet. Vodafone hat im Streit mit 1&1 verloren und das Bundeskartellamt kann jetzt entscheiden. Außerdem wird die Fortschritte der Bundesregierung bei erneuerbaren Energien beleuchtet, wo die Ziele bisher nicht erreicht wurden. Lernen Sie mehr über diese wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/datenleck-in-berlin-vodafone-vs-1-1-und-erneuerbare-energien]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sun, 06 Sep 2026 08:41:47 GMT</pubDate>
+      <guid isPermaLink="false">2026-09-06T08-41-38-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-09-06T08-41-38/podcastDE.mp3" length="1557000" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Episode geht es um ein großes Datenleck in Berlin, den Streit zwischen Vodafone und 1&1 sowie den aktuellen Stand der erneuerbaren Energien in Deutschland. Eine Hackergruppe hat geheime Daten veröffentlicht, was die nationale Sicherheit gefährdet. Vodafone hat im Streit mit 1&1 verloren und das Bundeskartellamt kann jetzt entscheiden. Außerdem wird die Fortschritte der Bundesregierung bei erneuerbaren Energien beleuchtet, wo die Ziele bisher nicht erreicht wurden. Lernen Sie mehr über diese wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/datenleck-in-berlin-vodafone-vs-1-1-und-erneuerbare-energien]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:37</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Ukraine-Krieg, Thüringer Politik & Anleihenmarkt in Japan]]>
       </title>
