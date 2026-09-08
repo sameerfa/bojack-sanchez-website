@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[Cyberangriff auf Berlin & Ukrainekrieg]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge sprechen wir über einen schweren Cyberangriff auf die Berliner Verwaltung und die neuen Angriffe Russlands auf Kyjiw. Außerdem schauen wir uns die steigenden Dieselpreise an, die aktuell bei 2,29 Euro pro Liter liegen. Die Sicherheit digitaler Daten und die wirtschaftlichen Auswirkungen sind wichtige Themen, die wir hier behandeln. - https://bojacksanchez.com/kurz-und-klar/cyberangriff-auf-berlin-ukrainekrieg]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 08 Sep 2026 09:12:29 GMT</pubDate>
+      <guid isPermaLink="false">2026-09-08T09-12-20-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-09-08T09-12-20/podcastDE.mp3" length="1531431" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge sprechen wir über einen schweren Cyberangriff auf die Berliner Verwaltung und die neuen Angriffe Russlands auf Kyjiw. Außerdem schauen wir uns die steigenden Dieselpreise an, die aktuell bei 2,29 Euro pro Liter liegen. Die Sicherheit digitaler Daten und die wirtschaftlichen Auswirkungen sind wichtige Themen, die wir hier behandeln. - https://bojacksanchez.com/kurz-und-klar/cyberangriff-auf-berlin-ukrainekrieg]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:35</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Cyberangriff in Berlin, AfD-Wahl und VW-Stellenabbau]]>
       </title>
