@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[Mietenkrise, Bundestag und Ölpreisschock in Deutschland]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge von Kurz & Klar geht es um die Mietenkrise in Deutschland, die Generaldebatte im Bundestag mit Bundeskanzler Merz und einen Ölpreisschock, der die Märkte beeinflusst. Wir berichten auch über einen Cyberangriff auf die Berliner Verwaltung und die Ergebnisse der Pisa-Studie 2025. Achten Sie auf die Entwicklungen in diesen wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/mietenkrise-bundestag-und-lpreisschock-in-deutschland]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 09 Sep 2026 09:09:07 GMT</pubDate>
+      <guid isPermaLink="false">2026-09-09T09-08-59-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-09-09T09-08-59/podcastDE.mp3" length="1972305" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge von Kurz & Klar geht es um die Mietenkrise in Deutschland, die Generaldebatte im Bundestag mit Bundeskanzler Merz und einen Ölpreisschock, der die Märkte beeinflusst. Wir berichten auch über einen Cyberangriff auf die Berliner Verwaltung und die Ergebnisse der Pisa-Studie 2025. Achten Sie auf die Entwicklungen in diesen wichtigen Themen. - https://bojacksanchez.com/kurz-und-klar/mietenkrise-bundestag-und-lpreisschock-in-deutschland]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:03</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Cyberangriff auf Berlin & Ukrainekrieg]]>
       </title>
