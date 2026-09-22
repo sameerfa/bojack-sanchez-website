@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[CDU-Wahlniederlagen & steigende Heizkosten in Deutschland]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Episode berichten wir über die CDU-Wahlniederlagen und ihre Auswirkungen auf die politische Stabilität in Deutschland. Außerdem informieren wir über die steigenden Heizkosten, die viele Haushalte belasten. Weiterhin geht es um die Situation in der Ukraine, wo bei Luftangriffen mehrere Menschen getötet wurden. Schließlich berichten wir über den Hackerangriff auf die Ludwig-Maximilians-Universität, bei dem zahlreiche Studentendaten betroffen sein könnten. - https://bojacksanchez.com/kurz-und-klar/cdu-wahlniederlagen-steigende-heizkosten-in-deutschland]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 22 Sep 2026 09:37:32 GMT</pubDate>
+      <guid isPermaLink="false">2026-09-22T09-37-22-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-09-22T09-37-22/podcastDE.mp3" length="1686730" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Episode berichten wir über die CDU-Wahlniederlagen und ihre Auswirkungen auf die politische Stabilität in Deutschland. Außerdem informieren wir über die steigenden Heizkosten, die viele Haushalte belasten. Weiterhin geht es um die Situation in der Ukraine, wo bei Luftangriffen mehrere Menschen getötet wurden. Schließlich berichten wir über den Hackerangriff auf die Ludwig-Maximilians-Universität, bei dem zahlreiche Studentendaten betroffen sein könnten. - https://bojacksanchez.com/kurz-und-klar/cdu-wahlniederlagen-steigende-heizkosten-in-deutschland]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:45</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Duma-Wahl in Russland & Hackerangriff auf LMU München]]>
       </title>
