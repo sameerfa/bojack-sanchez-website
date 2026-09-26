@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[Ukraine-Krieg, Cyberbedrohungen & Film "Von Scham und Geld"]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge berichten wir über die aktuellen Ereignisse im Ukraine-Krieg. In Kiew gab es tödliche Drohnenangriffe. Wir informieren auch über Kiteworks, das vor Cyberangriffen warnt. Zudem stellen wir den Film "Von Scham und Geld" von Visar Morina vor, der soziale Themen im Kosovo behandelt. Die Lage in der Ukraine und im Cyberbereich bleibt angespannt. Hören Sie rein! - https://bojacksanchez.com/kurz-und-klar/ukraine-krieg-cyberbedrohungen-film-von-scham-und-geld]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sat, 26 Sep 2026 09:34:20 GMT</pubDate>
+      <guid isPermaLink="false">2026-09-26T09-34-13-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-09-26T09-34-13/podcastDE.mp3" length="1514601" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge berichten wir über die aktuellen Ereignisse im Ukraine-Krieg. In Kiew gab es tödliche Drohnenangriffe. Wir informieren auch über Kiteworks, das vor Cyberangriffen warnt. Zudem stellen wir den Film "Von Scham und Geld" von Visar Morina vor, der soziale Themen im Kosovo behandelt. Die Lage in der Ukraine und im Cyberbereich bleibt angespannt. Hören Sie rein! - https://bojacksanchez.com/kurz-und-klar/ukraine-krieg-cyberbedrohungen-film-von-scham-und-geld]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:34</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Ukraine-Krieg, US-Diesel-Exportstopp & neue EU-KI-Regeln]]>
       </title>

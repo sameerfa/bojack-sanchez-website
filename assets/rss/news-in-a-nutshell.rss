@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[Ukraine Conflict Escalates, Iran's Military Claims, and Tech Governance Moves]]>
+      </title>
+      <description>
+        <![CDATA[In this episode, we delve into the escalating conflict in Ukraine with Russian drone strikes leading to casualties. We'll discuss Iran's serious accusations against the U.S. and Israel regarding military actions causing thousands of deaths. France's military deployment to protect Saudi oil interests in response to Houthi threats is also on the table, alongside the Dutch government's intervention in Nexperia, a semiconductor company facing governance issues. Plus, SpaceXAI's massive investment in AI infrastructure and its implications for the energy sector. Join us for insights into how these stories reflect broader geopolitical trends and the challenges of maintaining global stability. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-conflict-escalates-iran-s-military-claims-and-tech-governance-moves]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sat, 26 Sep 2026 09:33:45 GMT</pubDate>
+      <guid isPermaLink="false">2026-09-26T09-33-21-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-09-26T09-33-21/podcast.mp3" length="5276632" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In this episode, we delve into the escalating conflict in Ukraine with Russian drone strikes leading to casualties. We'll discuss Iran's serious accusations against the U.S. and Israel regarding military actions causing thousands of deaths. France's military deployment to protect Saudi oil interests in response to Houthi threats is also on the table, alongside the Dutch government's intervention in Nexperia, a semiconductor company facing governance issues. Plus, SpaceXAI's massive investment in AI infrastructure and its implications for the energy sector. Join us for insights into how these stories reflect broader geopolitical trends and the challenges of maintaining global stability. - https://bojacksanchez.com/news-in-a-nutshell/ukraine-conflict-escalates-iran-s-military-claims-and-tech-governance-moves]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:29</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Myanmar's Crisis, U.S.-China AI Talks, and Taiwan's Trade Boom]]>
       </title>
