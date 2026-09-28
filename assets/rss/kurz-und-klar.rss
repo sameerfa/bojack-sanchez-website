@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Ukraine-Krieg, Wahlen in Berlin & neue Cyberattacke]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge gehen wir auf die aktuelle Lage im Ukraine-Krieg ein. Das ukrainische Militär greift russische Ölanlagen an. Außerdem warnen Politiker in Berlin vor einer Koalition mit der Linken nach den Wahlen. Zudem gibt es Berichte über eine neue Cyberattacke, die ukrainische Nutzer betrifft. Schließlich informieren wir über den Bau des höchsten Windrads der Welt in Brandenburg. - https://bojacksanchez.com/kurz-und-klar/ukraine-krieg-wahlen-in-berlin-neue-cyberattacke]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Mon, 28 Sep 2026 11:04:07 GMT</pubDate>
+      <guid isPermaLink="false">2026-09-28T11-03-57-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-09-28T11-03-57/podcastDE.mp3" length="1461993" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge gehen wir auf die aktuelle Lage im Ukraine-Krieg ein. Das ukrainische Militär greift russische Ölanlagen an. Außerdem warnen Politiker in Berlin vor einer Koalition mit der Linken nach den Wahlen. Zudem gibt es Berichte über eine neue Cyberattacke, die ukrainische Nutzer betrifft. Schließlich informieren wir über den Bau des höchsten Windrads der Welt in Brandenburg. - https://bojacksanchez.com/kurz-und-klar/ukraine-krieg-wahlen-in-berlin-neue-cyberattacke]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:31</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[USA-Iran-Konflikt, Pflegereform & Gesundheitsrisiken durch Alkohol]]>
       </title>
