@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[Merz unterstützt Ukraine, Russland attackiert Odessa, Galeria insolvent]]>
+      </title>
+      <description>
+        <![CDATA[Friedrich Merz besucht die Ukraine und betont die deutsche Unterstützung. Russland greift Odessa an, was die Sicherheit in Europa bedroht. Der Kaufhauskonzern Galeria meldet erneut Insolvenz an, betroffen sind viele Mitarbeiter. Die Situation bleibt angespannt. - https://bojacksanchez.com/kurz-und-klar/merz-unterst-tzt-ukraine-russland-attackiert-odessa-galeria-insolvent]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Mon, 05 Oct 2026 11:40:58 GMT</pubDate>
+      <guid isPermaLink="false">2026-10-05T11-40-49-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-10-05T11-40-49/podcastDE.mp3" length="1343249" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Friedrich Merz besucht die Ukraine und betont die deutsche Unterstützung. Russland greift Odessa an, was die Sicherheit in Europa bedroht. Der Kaufhauskonzern Galeria meldet erneut Insolvenz an, betroffen sind viele Mitarbeiter. Die Situation bleibt angespannt. - https://bojacksanchez.com/kurz-und-klar/merz-unterst-tzt-ukraine-russland-attackiert-odessa-galeria-insolvent]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:23</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Drohnenangriff in der Ukraine & Huthi-Angriff auf Aramco]]>
       </title>
