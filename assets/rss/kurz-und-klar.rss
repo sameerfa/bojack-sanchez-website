@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[Migrantenhilfe in Marokko & Ukraine-Krieg]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge sprechen wir über die Situation von Migrantinnen in Marokko und die aktuellen Entwicklungen im Ukraine-Krieg. Wir berichten über die Schließung der Nidec-Produktion in Deutschland sowie die Warnungen von KI-Entwicklern vor Superintelligenz. Zudem thematisieren wir die alarmierenden Zahlen zu psychischen Erkrankungen in Hamburg und deren Auswirkungen auf die Gesellschaft. - https://bojacksanchez.com/kurz-und-klar/migrantenhilfe-in-marokko-ukraine-krieg]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sat, 10 Oct 2026 10:52:32 GMT</pubDate>
+      <guid isPermaLink="false">2026-10-10T10-52-22-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-10-10T10-52-22/podcastDE.mp3" length="1935446" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge sprechen wir über die Situation von Migrantinnen in Marokko und die aktuellen Entwicklungen im Ukraine-Krieg. Wir berichten über die Schließung der Nidec-Produktion in Deutschland sowie die Warnungen von KI-Entwicklern vor Superintelligenz. Zudem thematisieren wir die alarmierenden Zahlen zu psychischen Erkrankungen in Hamburg und deren Auswirkungen auf die Gesellschaft. - https://bojacksanchez.com/kurz-und-klar/migrantenhilfe-in-marokko-ukraine-krieg]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:00</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Rentenreform 2027, Deutsche Telekom unter Druck, KI-Warnungen]]>
       </title>
