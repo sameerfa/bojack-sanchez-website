@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[BASF lehnt Evonik-Übernahme ab & Cyberangriff in Frankreich]]>
+      </title>
+      <description>
+        <![CDATA[Aktuelle Themen in der Politik und Wirtschaft: BASF und Evonik stehen im Fokus, da das Übernahmeangebot abgelehnt wurde. In der Türkei wurde Halk TV von der Polizei gestürmt. Ein Cyberangriff in Frankreich hat Kühlsysteme in Supermärkten lahmgelegt, was die Verwundbarkeit kritischer Infrastrukturen zeigt. Außerdem wird die Zukunft der Energieversorgung in Deutschland diskutiert, da Fachleute über notwendige Anpassungen der Stromnetze sprechen. - https://bojacksanchez.com/kurz-und-klar/basf-lehnt-evonik-bernahme-ab-cyberangriff-in-frankreich]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 15 Oct 2026 09:26:43 GMT</pubDate>
+      <guid isPermaLink="false">2026-10-15T09-26-33-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-10-15T09-26-33/podcastDE.mp3" length="1704376" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Aktuelle Themen in der Politik und Wirtschaft: BASF und Evonik stehen im Fokus, da das Übernahmeangebot abgelehnt wurde. In der Türkei wurde Halk TV von der Polizei gestürmt. Ein Cyberangriff in Frankreich hat Kühlsysteme in Supermärkten lahmgelegt, was die Verwundbarkeit kritischer Infrastrukturen zeigt. Außerdem wird die Zukunft der Energieversorgung in Deutschland diskutiert, da Fachleute über notwendige Anpassungen der Stromnetze sprechen. - https://bojacksanchez.com/kurz-und-klar/basf-lehnt-evonik-bernahme-ab-cyberangriff-in-frankreich]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:46</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Iran-Drohungen und Rentenreform unter Druck]]>
       </title>
