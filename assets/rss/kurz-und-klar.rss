@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Energiepolitik in Deutschland, Antisemitismus in den USA]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Episode sprechen wir über die aktuelle Energiepolitik in Deutschland, die Forderungen der AfD und die Reaktionen auf Antisemitismus in den USA. Außerdem geht es um die Gewinnprognose von TotalEnergies und einen Hackerangriff auf den Fehmarnbelttunnel. Wir betrachten auch, wie die Freie Universität Berlin die Resilienz der Bevölkerung in Krisen fördern möchte. - https://bojacksanchez.com/kurz-und-klar/energiepolitik-in-deutschland-antisemitismus-in-den-usa]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 16 Oct 2026 09:15:39 GMT</pubDate>
+      <guid isPermaLink="false">2026-10-16T09-15-32-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-10-16T09-15-32/podcastDE.mp3" length="1472358" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Episode sprechen wir über die aktuelle Energiepolitik in Deutschland, die Forderungen der AfD und die Reaktionen auf Antisemitismus in den USA. Außerdem geht es um die Gewinnprognose von TotalEnergies und einen Hackerangriff auf den Fehmarnbelttunnel. Wir betrachten auch, wie die Freie Universität Berlin die Resilienz der Bevölkerung in Krisen fördern möchte. - https://bojacksanchez.com/kurz-und-klar/energiepolitik-in-deutschland-antisemitismus-in-den-usa]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:31</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[BASF lehnt Evonik-Übernahme ab & Cyberangriff in Frankreich]]>
       </title>
