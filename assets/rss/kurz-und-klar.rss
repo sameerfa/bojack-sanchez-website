@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[Ukraine-Krieg, Argentinien-Krise & PHP-Sicherheitslücke]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge berichten wir über die aktuellen Ereignisse im Ukraine-Krieg. Bei russischen Angriffen sind Menschen gestorben. Außerdem steht Argentinien vor einer Zahlungsbilanzkrise. Es gibt Sorgen um die Stabilität der Regierung. Zudem warnen Experten vor einer Sicherheitslücke in der Programmiersprache PHP, die viele Webseiten betrifft. Zuletzt schauen wir auf die steigende Kapazität von Batteriespeichern in Deutschland, die für die Energiewende wichtig ist. - https://bojacksanchez.com/kurz-und-klar/ukraine-krieg-argentinien-krise-php-sicherheitsl-cke]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 22 Oct 2026 09:57:22 GMT</pubDate>
+      <guid isPermaLink="false">2026-10-22T09-57-13-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-10-22T09-57-13/podcastDE.mp3" length="1453251" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge berichten wir über die aktuellen Ereignisse im Ukraine-Krieg. Bei russischen Angriffen sind Menschen gestorben. Außerdem steht Argentinien vor einer Zahlungsbilanzkrise. Es gibt Sorgen um die Stabilität der Regierung. Zudem warnen Experten vor einer Sicherheitslücke in der Programmiersprache PHP, die viele Webseiten betrifft. Zuletzt schauen wir auf die steigende Kapazität von Batteriespeichern in Deutschland, die für die Energiewende wichtig ist. - https://bojacksanchez.com/kurz-und-klar/ukraine-krieg-argentinien-krise-php-sicherheitsl-cke]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:30</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[AfD E-Mail-Leak & Ukraine-Konflikt mit Trump und Putin]]>
       </title>

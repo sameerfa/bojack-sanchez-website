@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[China's Rare-Earth Controls, U.S. Policy Shift on Ukraine, and Tesla's Earnings]]>
+      </title>
+      <description>
+        <![CDATA[This episode delves into significant global developments, including China's strict export controls on yttrium affecting Japan's industries, potential shifts in U.S. support for Ukraine under President Trump, and the UK property market's preparation for impending interest rate hikes. We also examine Tesla's latest earnings report, revealing declining revenues and increased scrutiny, alongside a critical cybersecurity vulnerability in PHP. Gain insights into how these stories intertwine and their implications for global markets and security. - https://bojacksanchez.com/news-in-a-nutshell/china-s-rare-earth-controls-u-s-policy-shift-on-ukraine-and-tesla-s-earnings]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Thu, 22 Oct 2026 09:56:42 GMT</pubDate>
+      <guid isPermaLink="false">2026-10-22T09-50-32-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-10-22T09-50-32/podcast.mp3" length="5776454" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[This episode delves into significant global developments, including China's strict export controls on yttrium affecting Japan's industries, potential shifts in U.S. support for Ukraine under President Trump, and the UK property market's preparation for impending interest rate hikes. We also examine Tesla's latest earnings report, revealing declining revenues and increased scrutiny, alongside a critical cybersecurity vulnerability in PHP. Gain insights into how these stories intertwine and their implications for global markets and security. - https://bojacksanchez.com/news-in-a-nutshell/china-s-rare-earth-controls-u-s-policy-shift-on-ukraine-and-tesla-s-earnings]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:06:00</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[UK Military Aid to Saudi Arabia & US Sanctions on Chinese Tech Firms]]>
       </title>
