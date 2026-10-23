@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[Wahlen in Serbien, Katherina Reiche und Stromnetzausbau in Deutschland]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Folge von Kurz & Klar geht es um die Wahlen in Serbien. Staatschef Aleksandar Vučić hat ernsthafte Opposition. In Deutschland steht Wirtschaftsministerin Katherina Reiche unter Druck wegen der Gasspeicher. Außerdem gibt es Verzögerungen beim Stromnetzausbau. Zudem steigen die Hackerangriffe nach einer Sicherheitslücke. Schließlich wird der Ausbau von Batteriespeichern in Deutschland immer wichtiger. - https://bojacksanchez.com/kurz-und-klar/wahlen-in-serbien-katherina-reiche-und-stromnetzausbau-in-deutschland]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Fri, 23 Oct 2026 09:44:53 GMT</pubDate>
+      <guid isPermaLink="false">2026-10-23T09-44-42-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-10-23T09-44-42/podcastDE.mp3" length="1765803" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Folge von Kurz & Klar geht es um die Wahlen in Serbien. Staatschef Aleksandar Vučić hat ernsthafte Opposition. In Deutschland steht Wirtschaftsministerin Katherina Reiche unter Druck wegen der Gasspeicher. Außerdem gibt es Verzögerungen beim Stromnetzausbau. Zudem steigen die Hackerangriffe nach einer Sicherheitslücke. Schließlich wird der Ausbau von Batteriespeichern in Deutschland immer wichtiger. - https://bojacksanchez.com/kurz-und-klar/wahlen-in-serbien-katherina-reiche-und-stromnetzausbau-in-deutschland]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:50</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Ukraine-Krieg, Argentinien-Krise & PHP-Sicherheitslücke]]>
       </title>
