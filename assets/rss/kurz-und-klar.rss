@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+      <title>
+        <![CDATA[Proteste in Europa, Ukraine-Krieg und Immobilienzinsen]]>
+      </title>
+      <description>
+        <![CDATA[Heute geht es um wichtige Themen: In Europa gab es große Proteste für bessere Lebensbedingungen. Der Ukraine-Krieg könnte eskalieren, warnt General Kujat. Die Immobilienzinsen in Deutschland sind sehr hoch. Außerdem berichten wir über die Grafikkartenkrise und einen Wohnungsbrand in Detmold. Bleiben Sie informiert über diese aktuellen Themen. - https://bojacksanchez.com/kurz-und-klar/proteste-in-europa-ukraine-krieg-und-immobilienzinsen]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Sun, 25 Oct 2026 09:18:40 GMT</pubDate>
+      <guid isPermaLink="false">2026-10-25T09-18-29-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-10-25T09-18-29/podcastDE.mp3" length="2092871" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Heute geht es um wichtige Themen: In Europa gab es große Proteste für bessere Lebensbedingungen. Der Ukraine-Krieg könnte eskalieren, warnt General Kujat. Die Immobilienzinsen in Deutschland sind sehr hoch. Außerdem berichten wir über die Grafikkartenkrise und einen Wohnungsbrand in Detmold. Bleiben Sie informiert über diese aktuellen Themen. - https://bojacksanchez.com/kurz-und-klar/proteste-in-europa-ukraine-krieg-und-immobilienzinsen]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:10</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Mordfall in Hamburg, Starlink für die Ukraine, AT&T-Aktie fällt]]>
       </title>
