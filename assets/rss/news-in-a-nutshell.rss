@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+      <title>
+        <![CDATA[Gaza Airstrikes, Netanyahu's Election, and AI Risks: Key Global Stories]]>
+      </title>
+      <description>
+        <![CDATA[Explore today’s pressing stories, including the tragic airstrike in Gaza that killed three Palestinians, the implications for Benjamin Netanyahu as Israel votes amid political turmoil, and a war crimes complaint against an Israeli reservist. We also cover Anthropic's IPO and the warning signs in China's AI market, plus a call for better AI safety governance. Gain insights on accountability and the crucial balance between tech innovation and ethical considerations. - https://bojacksanchez.com/news-in-a-nutshell/gaza-airstrikes-netanyahu-s-election-and-ai-risks-key-global-stories]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 27 Oct 2026 10:39:47 GMT</pubDate>
+      <guid isPermaLink="false">2026-10-27T10-10-15-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-10-27T10-10-15/podcast.mp3" length="4556395" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Explore today’s pressing stories, including the tragic airstrike in Gaza that killed three Palestinians, the implications for Benjamin Netanyahu as Israel votes amid political turmoil, and a war crimes complaint against an Israeli reservist. We also cover Anthropic's IPO and the warning signs in China's AI market, plus a call for better AI safety governance. Gain insights on accountability and the crucial balance between tech innovation and ethical considerations. - https://bojacksanchez.com/news-in-a-nutshell/gaza-airstrikes-netanyahu-s-election-and-ai-risks-key-global-stories]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:04:44</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Israel's Election Impact, U.S.-China Investment Restrictions, and Iran Tensions]]>
       </title>
