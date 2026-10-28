@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <item>
+      <title>
+        <![CDATA[Mietproteste in Spanien & Cybersicherheit bei KI-Anbietern]]>
+      </title>
+      <description>
+        <![CDATA[Wir berichten über die aktuellen Mietproteste in Spanien, die durch eine Zwangsräumung ausgelöst wurden. Die Regierung steht unter Druck, Gesetze zur Mietregulierung zu erlassen. In der Ukraine gibt es Bedenken zur wirtschaftlichen Abhängigkeit von Russland. Stuttgart verliert Einwohner und es bleibt unklar, wie die Stadt reagieren wird. Zudem warnt die Präsidentin des BSI vor unzureichender Cybersicherheit bei KI-Anbietern. Schließlich schauen wir auf die Herausforderungen der Energiewende in Deutschland. - https://bojacksanchez.com/kurz-und-klar/mietproteste-in-spanien-cybersicherheit-bei-ki-anbietern]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Wed, 28 Oct 2026 10:52:28 GMT</pubDate>
+      <guid isPermaLink="false">2026-10-28T10-52-19-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-10-28T10-52-19/podcastDE.mp3" length="2192501" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[Wir berichten über die aktuellen Mietproteste in Spanien, die durch eine Zwangsräumung ausgelöst wurden. Die Regierung steht unter Druck, Gesetze zur Mietregulierung zu erlassen. In der Ukraine gibt es Bedenken zur wirtschaftlichen Abhängigkeit von Russland. Stuttgart verliert Einwohner und es bleibt unklar, wie die Stadt reagieren wird. Zudem warnt die Präsidentin des BSI vor unzureichender Cybersicherheit bei KI-Anbietern. Schließlich schauen wir auf die Herausforderungen der Energiewende in Deutschland. - https://bojacksanchez.com/kurz-und-klar/mietproteste-in-spanien-cybersicherheit-bei-ki-anbietern]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:02:16</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Razzia Casa Kuà & Waffenruhe in der Ukraine]]>
       </title>
