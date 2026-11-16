@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[Soziale Ungerechtigkeit in Deutschland & Masern-Rückkehr in den USA]]>
+      </title>
+      <description>
+        <![CDATA[In dieser Episode geht es um soziale Ungerechtigkeit in Deutschland, die Forderung nach Selbstzahler-Terminen im Gesundheitswesen und die Rückkehr der Masern in den USA. Wir diskutieren die Auswirkungen auf die Gesellschaft und die Herausforderungen für die Politik. Bleiben Sie informiert über wichtige Themen. - https://bojacksanchez.com/kurz-und-klar/soziale-ungerechtigkeit-in-deutschland-masern-r-ckkehr-in-den-usa]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Mon, 16 Nov 2026 13:00:19 GMT</pubDate>
+      <guid isPermaLink="false">2026-11-16T13-00-10-kurz-und-klar-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/2026-11-16T13-00-10/podcastDE.mp3" length="1702717" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In dieser Episode geht es um soziale Ungerechtigkeit in Deutschland, die Forderung nach Selbstzahler-Terminen im Gesundheitswesen und die Rückkehr der Masern in den USA. Wir diskutieren die Auswirkungen auf die Gesellschaft und die Herausforderungen für die Politik. Bleiben Sie informiert über wichtige Themen. - https://bojacksanchez.com/kurz-und-klar/soziale-ungerechtigkeit-in-deutschland-masern-r-ckkehr-in-den-usa]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:01:46</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/kurz-und-klar/kurz-und-klar.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Fabian-Fall, Teilhabe von Menschen mit Behinderung & Nvidia-Chip-Affäre]]>
       </title>
