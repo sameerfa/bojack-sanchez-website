@@ -25,7 +25,26 @@
     </image>
     <atom:link href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell.rss" rel="self" type="application/rss+xml"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <item>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <item>
+      <title>
+        <![CDATA[Geopolitical Tensions, U.S. Energy Policies, and AI Safety Concerns]]>
+      </title>
+      <description>
+        <![CDATA[In today's episode, we analyze key stories impacting the globe, including Gary Quinlan's urgent call for national resilience in Australia, escalating tensions in the Strait of Hormuz following attacks on tankers, and a coalition of states suing the Trump administration over coal and gas restrictions. We also cover the U.S. tightening semiconductor export controls affecting Nvidia and rising concerns within Anthropic and OpenAI about advanced AI model safety. With insights on how these issues interconnect, listeners will gain a deeper understanding of the implications for global governance and technology innovation. - https://bojacksanchez.com/news-in-a-nutshell/geopolitical-tensions-u-s-energy-policies-and-ai-safety-concerns]]>
+      </description>
+      <link>https://bojacksanchez.com/</link>
+      <pubDate>Tue, 24 Nov 2026 15:03:38 GMT</pubDate>
+      <guid isPermaLink="false">2026-11-24T15-03-10-news-in-a-nutshell-podcast</guid>
+      <enclosure url="https://op3.dev/e/f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/2026-11-24T15-03-10/podcast.mp3" length="5238907" type="audio/mpeg"/>
+      <itunes:summary>
+        <![CDATA[In today's episode, we analyze key stories impacting the globe, including Gary Quinlan's urgent call for national resilience in Australia, escalating tensions in the Strait of Hormuz following attacks on tankers, and a coalition of states suing the Trump administration over coal and gas restrictions. We also cover the U.S. tightening semiconductor export controls affecting Nvidia and rising concerns within Anthropic and OpenAI about advanced AI model safety. With insights on how these issues interconnect, listeners will gain a deeper understanding of the implications for global governance and technology innovation. - https://bojacksanchez.com/news-in-a-nutshell/geopolitical-tensions-u-s-energy-policies-and-ai-safety-concerns]]>
+      </itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>00:05:27</itunes:duration>
+      <itunes:image href="https://f003.backblazeb2.com/file/bojack-sanchez-podcasts/news-in-a-nutshell/news-in-a-nutshell.jpg"/>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
       <title>
         <![CDATA[Gaza Ceasefire, U.S.-Netherlands Semiconductor Tensions, and European Security Costs]]>
       </title>
